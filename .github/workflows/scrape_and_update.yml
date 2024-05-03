@@ -1,0 +1,37 @@
+name: Scrape Movie Data and Update GitHub Pages
+
+on:
+  schedule:
+    - cron: '0 12 * * 3'  # Run every Wednesday at noon
+  workflow_dispatch:
+
+jobs:
+  scrape_and_update:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.9'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r scraper/requirements.txt
+
+    - name: Run scraper
+      run: python scraper/scraper.py
+
+    - name: Commit and push if changes
+      run: |
+        git config --global user.email "you@example.com"
+        git config --global user.name "Your Name"
+        git add docs/data.json
+        git commit -m "Update data.json with new movie data" || echo "No changes to commit"
+        git push
+
+    - name: Trigger GitHub Pages rebuild
+      run: echo 'Trigger GitHub Pages rebuild'

@@ -4,6 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from imdb import IMDb
+import json  # Import the JSON module
 
 
 def convert_showcase_duration_to_minutes(duration_str):
@@ -164,6 +165,11 @@ class MovieScraper:
     def close(self):
         self.driver.quit()
 
+    def save_data_to_json(self, data):
+        """Saves the scraped data to a JSON file."""
+        with open('docs/data.json', 'w') as jsonfile:  # Make sure the 'docs' folder exists
+            json.dump(data, jsonfile, indent=4)
+
 
 if __name__ == "__main__":
     scraper = MovieScraper(chromedriver_path='/usr/local/bin/chromedriver')
@@ -178,4 +184,5 @@ if __name__ == "__main__":
         all_movies_details.append(movie_details)  # Append movie details regardless of showtimes
         print(movie_details)  # Print details of each movie
 
+    scraper.save_data_to_json(all_movies_details)
     scraper.close()
