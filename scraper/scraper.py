@@ -167,7 +167,7 @@ class MovieScraper:
 
     def save_data_to_json(self, data):
         """Saves the scraped data to a JSON file."""
-        with open('docs/data.json', 'w') as jsonfile:  # Make sure the 'docs' folder exists
+        with open('../docs/data.json', 'w') as jsonfile:  # Make sure the 'docs' folder exists
             json.dump(data, jsonfile, indent=4)
 
 
