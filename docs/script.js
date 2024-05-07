@@ -239,7 +239,13 @@ const setFullHeightVariable = () => {
 };
 
 // Listen for resize events
-window.addEventListener('resize', setFullHeightVariable);
+let resizeTimeout;
+
+// Listen for resize events
+window.addEventListener('resize', () => {
+    clearTimeout(resizeTimeout);
+    resizeTimeout = setTimeout(setFullHeightVariable, 150);
+});
 
 // Call the function initially on page load
 window.addEventListener('load', setFullHeightVariable);
