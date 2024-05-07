@@ -101,7 +101,15 @@ div#day-links a:first-of-type {
 }
 
 .format:not(:last-of-type) {
-    margin-bottom: 18px;
+    margin-bottom: 6px;
+}
+
+.format a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+    width: 50px;
 }
 
 .format a:not(:last-of-type) {
@@ -155,6 +163,6 @@ div#day-links a:first-of-type {
     }
 
     .format:not(:last-of-type) {
-        margin-bottom: 18px;
+        margin-bottom: 6px;
     }
 }
