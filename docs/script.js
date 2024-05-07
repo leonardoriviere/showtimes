@@ -74,11 +74,15 @@ function displayMoviesByDate(data) {
 
             let imdbLink = document.createElement('a');
             imdbLink.href = movie.imdb_url;
-            if (movie.metascore !== 'N/A') {
+
+            if (movie.imdb_rating !== 'N/A' && movie.metascore !== 'N/A') {
                 imdbLink.textContent = 'IMDb ' + movie.imdb_rating + ' / ' + movie.metascore;
-            } else {
+            } else if (movie.imdb_rating !== 'N/A') {
                 imdbLink.textContent = 'IMDb ' + movie.imdb_rating;
+            } else {
+                imdbLink.textContent = 'IMDb';
             }
+
             movieLinks.appendChild(imdbLink);
 
             infoDiv.appendChild(movieLinks);
