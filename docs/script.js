@@ -41,49 +41,66 @@ function displayMoviesByDate(data) {
 
         // Iterate over movies for this date
         data[date].forEach(movie => {
-
-            // parent div
+            // Parent div
             let movieDiv = document.createElement('div');
             movieDiv.className = 'movie';
 
-            // first child div
+            // First child div
             let firstChildDiv = document.createElement('div');
 
+            // Image of the movie
             let img = document.createElement('img');
             img.src = movie.poster_url;
-            let imageUrl = document.createElement('a');
-            imageUrl.href = movie.href;
-            imageUrl.appendChild(img);
-            firstChildDiv.appendChild(imageUrl);
+            firstChildDiv.appendChild(img);
 
-            let imdbRating = document.createElement('a');
-            imdbRating.href = movie.imdb_url;
-            imdbRating.textContent = movie.imdb_rating;
-            firstChildDiv.appendChild(imdbRating);
+            let infoDiv = document.createElement('div');
 
-            let metascore = document.createElement('label');
-            metascore.textContent = movie.metascore;
-            firstChildDiv.appendChild(metascore);
+            function toTitleCase(str) {
+                return str.replace(/\w\S*/g, function(txt) {
+                    return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+                });
+            }
 
-            movieDiv.appendChild(firstChildDiv);
-
-            // second child div
-            let secondChildDiv = document.createElement('div');
-
-            let originalTitle = document.createElement('h1');
-            originalTitle.textContent = movie.original_title;
-            secondChildDiv.appendChild(originalTitle);
+            let movieTitle = document.createElement('h1');
+            movieTitle.textContent = toTitleCase(movie.title);
+            infoDiv.appendChild(movieTitle);
 
             let duration = document.createElement('div');
             duration.textContent = movie.duration;
-            secondChildDiv.appendChild(duration);
+            infoDiv.appendChild(duration);
 
-            let showtimes = document.createElement('div');
-            showtimes.textContent = JSON.stringify(movie.showtimes[date]);
-            secondChildDiv.appendChild(showtimes);
+            let movieLinks = document.createElement('div');
 
-            movieDiv.appendChild(secondChildDiv);
+            let movieLink = document.createElement('a');
+            movieLink.href = movie.href;
+            movieLink.textContent = 'Entradas';
+            movieLinks.appendChild(movieLink);
 
+            let imdbLink = document.createElement('a');
+            imdbLink.href = movie.imdb_url;
+            imdbLink.textContent = 'Imdb';
+            movieLinks.appendChild(imdbLink);
+
+            infoDiv.appendChild(movieLinks);
+
+            let scores = document.createElement('div');
+
+            let imdbScore = document.createElement('div');
+            imdbScore.textContent = 'Imdb score: ' + movie.imdb_rating;
+            scores.appendChild(imdbScore);
+
+            let metascore = document.createElement('div');
+            metascore.textContent = 'Metascore: ' + movie.metascore;
+            scores.appendChild(metascore);
+
+            infoDiv.appendChild(scores);
+            firstChildDiv.appendChild(infoDiv);
+            movieDiv.appendChild(firstChildDiv);
+
+            // second child div
+            let showtimesDiv = document.createElement('div');
+            showtimesDiv.textContent = JSON.stringify(movie.showtimes[date]);
+            movieDiv.appendChild(showtimesDiv);
             movieList.appendChild(movieDiv);
         });
 
@@ -136,12 +153,18 @@ function createDayLinks(data) {
             const milisecInMinute = 60000;
             const date = new Date(utcDate.getTime() + utcDate.getTimezoneOffset() * milisecInMinute);
 
-            const dayPart = date.toLocaleDateString('en-US', { weekday: 'short' });
-            const datePart = date.toLocaleDateString('en-US', { month: 'numeric', day: 'numeric' });
-            const dayName = `${dayPart} ${datePart}`;
+            // Function to remove accents from a string
+            function removeAccents(str) {
+                return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+            }
+
+            const dayPart = removeAccents(date.toLocaleDateString('es-ES', { weekday: 'short' }));
+            const datePart = date.toLocaleDateString('es-ES', { day: 'numeric', month: 'numeric' });
+
+            const dayName = `${dayPart.charAt(0).toUpperCase() + dayPart.slice(1)} ${datePart}`;
 
             const isToday = date.getTime() === today.getTime();
-            const displayText = (isToday) ? 'Today' : dayName;
+            const displayText = (isToday) ? 'Hoy' : dayName;
 
             const link = document.createElement('a');
             link.href = '#';
