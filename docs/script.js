@@ -68,38 +68,45 @@ function displayMoviesByDate(data) {
             let duration = document.createElement('div');
             duration.textContent = movie.duration;
             infoDiv.appendChild(duration);
+            infoDiv.className = 'movie-info';
 
             let movieLinks = document.createElement('div');
 
-            let movieLink = document.createElement('a');
-            movieLink.href = movie.href;
-            movieLink.textContent = 'Entradas';
-            movieLinks.appendChild(movieLink);
-
             let imdbLink = document.createElement('a');
             imdbLink.href = movie.imdb_url;
-            imdbLink.textContent = 'Imdb';
+            if (movie.metascore !== 'N/A') {
+                imdbLink.textContent = 'IMDb ' + movie.imdb_rating + ' / ' + movie.metascore;
+            } else {
+                imdbLink.textContent = 'IMDb ' + movie.imdb_rating;
+            }
             movieLinks.appendChild(imdbLink);
 
             infoDiv.appendChild(movieLinks);
 
-            let scores = document.createElement('div');
-
-            let imdbScore = document.createElement('div');
-            imdbScore.textContent = 'Imdb score: ' + movie.imdb_rating;
-            scores.appendChild(imdbScore);
-
-            let metascore = document.createElement('div');
-            metascore.textContent = 'Metascore: ' + movie.metascore;
-            scores.appendChild(metascore);
-
-            infoDiv.appendChild(scores);
             firstChildDiv.appendChild(infoDiv);
             movieDiv.appendChild(firstChildDiv);
 
             // second child div
             let showtimesDiv = document.createElement('div');
-            showtimesDiv.textContent = JSON.stringify(movie.showtimes[date]);
+            showtimesDiv.className = 'showtimes';
+            Object.entries(movie.showtimes[date]).forEach(([format, times]) => {
+                let formatDiv = document.createElement('div');
+                let formatNameDiv = document.createElement('div');
+                formatNameDiv.textContent = format;
+                formatDiv.appendChild(formatNameDiv);
+                formatDiv.className = 'format';
+
+                let timesDiv = document.createElement('div');
+                times.forEach(time => {
+                    let timeLink = document.createElement('a');
+                    timeLink.href = movie.href;
+                    timeLink.textContent = time;
+                    timesDiv.appendChild(timeLink);
+                });
+
+                formatDiv.appendChild(timesDiv);
+                showtimesDiv.appendChild(formatDiv);
+            });
             movieDiv.appendChild(showtimesDiv);
             movieList.appendChild(movieDiv);
         });
@@ -221,3 +228,14 @@ fetch('data.json')
   })
   .catch(error => console.error('Error loading the movie data:', error));
 
+// Function to set the full height variable
+const setFullHeightVariable = () => {
+  let vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+};
+
+// Listen for resize events
+window.addEventListener('resize', setFullHeightVariable);
+
+// Call the function initially on page load
+window.addEventListener('load', setFullHeightVariable);
