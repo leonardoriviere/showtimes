@@ -85,6 +85,8 @@ function displayMoviesByDate(data) {
 
             let imdbLink = document.createElement('a');
             imdbLink.href = movie.imdb_url;
+            imdbLink.target = "_blank";
+            imdbLink.rel = "noopener noreferrer";
 
             if (movie.imdb_rating !== 'N/A' && movie.metascore !== 'N/A') {
                 imdbLink.textContent = 'IMDb ' + movie.imdb_rating + ' / ' + movie.metascore;
@@ -116,6 +118,8 @@ function displayMoviesByDate(data) {
                     let timeLink = document.createElement('a');
                     timeLink.href = movie.href;
                     timeLink.textContent = time;
+                    timeLink.target = "_blank";
+                    timeLink.rel = "noopener noreferrer";
                     timesDiv.appendChild(timeLink);
                 });
 
@@ -233,7 +237,17 @@ function showMoviesForDay(selectedDay) {
     });
 
     const moviesContainer = document.querySelector('#movies');
+
+    // Disabling scroll
+    moviesContainer.style.overflow = 'hidden';
+
+    // Apply scrollTop
     moviesContainer.scrollTop = 0;
+
+    // Enabling the scroll
+    setTimeout(() => {
+        moviesContainer.style.overflow = 'auto';
+    }, 100);
 }
 
 // Assuming `organizedData` is your data object from the previous example
