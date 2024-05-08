@@ -65,8 +65,19 @@ function displayMoviesByDate(data) {
             movieTitle.textContent = toTitleCase(movie.title);
             infoDiv.appendChild(movieTitle);
 
+            function convertDuration(duration) {
+              // Extract the duration in minutes
+              const minutes = parseInt(duration.split(' ')[0]);
+
+              // Calculate hours and remaining minutes
+              const hours = Math.floor(minutes / 60);
+              const remainingMinutes = minutes % 60;
+
+              return `${hours}h ${remainingMinutes}min`;
+            }
+
             let duration = document.createElement('div');
-            duration.textContent = movie.duration;
+            duration.textContent = convertDuration(movie.duration);
             infoDiv.appendChild(duration);
             infoDiv.className = 'movie-info';
 
