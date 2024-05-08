@@ -231,6 +231,9 @@ function showMoviesForDay(selectedDay) {
             daySection.style.display = 'none';
         }
     });
+
+    const moviesContainer = document.querySelector('#movies');
+    moviesContainer.scrollTop = 0;
 }
 
 // Assuming `organizedData` is your data object from the previous example
