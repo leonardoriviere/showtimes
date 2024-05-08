@@ -115,7 +115,7 @@
             }
         },
         "imdb_url": "https://www.imdb.com/title/tt11389872/",
-        "imdb_rating": "N/A",
+        "imdb_rating": "7.5",
         "metascore": "N/A",
         "imdb_duration": "2h 25m"
     },
@@ -153,15 +153,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i3314.jpg",
         "duration": "135 minutos.",
         "showing_days": [
-            "2024-05-07",
             "2024-05-08"
         ],
         "showtimes": {
-            "2024-05-07": {
-                "2D-Subtitulado": [
-                    "19:30"
-                ]
-            },
             "2024-05-08": {
                 "2D-Subtitulado": [
                     "16:40",
@@ -401,15 +395,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i3326.jpg",
         "duration": "104 minutos.",
         "showing_days": [
-            "2024-05-07",
             "2024-05-08"
         ],
         "showtimes": {
-            "2024-05-07": {
-                "2D-Subtitulado": [
-                    "22:30"
-                ]
-            },
             "2024-05-08": {
                 "2D-Subtitulado": [
                     "22:30"
@@ -428,7 +416,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i3324.jpg",
         "duration": "101 minutos.",
         "showing_days": [
-            "2024-05-07",
             "2024-05-08",
             "2024-05-09",
             "2024-05-10",
@@ -439,18 +426,8 @@
             "2024-05-15"
         ],
         "showtimes": {
-            "2024-05-07": {
-                "2D-Doblada": [
-                    "19:00",
-                    "21:30"
-                ],
-                "3D-Doblada": [
-                    "19:20"
-                ]
-            },
             "2024-05-08": {
                 "2D-Doblada": [
-                    "14:10",
                     "15:10",
                     "16:30",
                     "17:35",
@@ -458,7 +435,6 @@
                     "21:30"
                 ],
                 "3D-Doblada": [
-                    "14:35",
                     "17:00",
                     "19:20"
                 ]
@@ -563,7 +539,7 @@
             }
         },
         "imdb_url": "https://www.imdb.com/title/tt5779228/",
-        "imdb_rating": "6.3",
+        "imdb_rating": "6.2",
         "metascore": "N/A",
         "imdb_duration": "1h 41m"
     },
@@ -574,7 +550,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i3294.jpg",
         "duration": "130 minutos.",
         "showing_days": [
-            "2024-05-07",
             "2024-05-08",
             "2024-05-09",
             "2024-05-10",
@@ -585,15 +560,8 @@
             "2024-05-15"
         ],
         "showtimes": {
-            "2024-05-07": {
-                "2D-Subtitulado": [
-                    "19:40",
-                    "22:25"
-                ]
-            },
             "2024-05-08": {
                 "2D-Subtitulado": [
-                    "14:05",
                     "16:50",
                     "19:40",
                     "22:25"
@@ -658,29 +626,8 @@
         },
         "imdb_url": "https://www.imdb.com/title/tt16426418/",
         "imdb_rating": "7.8",
-        "metascore": "83",
+        "metascore": "82",
         "imdb_duration": "2h 11m"
-    },
-    {
-        "title": "El viaje so\u00f1ado",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=3302&house_id=3206",
-        "original_title": "TWO TICKETS TO GREECE",
-        "poster_url": "https://static.voyalcine.net/Uploads/i3302.jpg",
-        "duration": "110 minutos.",
-        "showing_days": [
-            "2024-05-08"
-        ],
-        "showtimes": {
-            "2024-05-08": {
-                "2D-Subtitulado": [
-                    "14:00"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt18671246/",
-        "imdb_rating": "6.1",
-        "metascore": "52",
-        "imdb_duration": "1h 50m"
     },
     {
         "title": "Profesi\u00f3n peligro",
@@ -689,7 +636,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i3285.jpg",
         "duration": "126 minutos.",
         "showing_days": [
-            "2024-05-07",
             "2024-05-08",
             "2024-05-09",
             "2024-05-10",
@@ -700,17 +646,8 @@
             "2024-05-15"
         ],
         "showtimes": {
-            "2024-05-07": {
-                "2D-Subtitulado": [
-                    "19:30",
-                    "19:50",
-                    "22:15",
-                    "22:35"
-                ]
-            },
             "2024-05-08": {
                 "2D-Subtitulado": [
-                    "14:00",
                     "16:45",
                     "19:30",
                     "19:50",
@@ -786,15 +723,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i3265.jpg",
         "duration": "111 minutos.",
         "showing_days": [
-            "2024-05-07",
             "2024-05-08"
         ],
         "showtimes": {
-            "2024-05-07": {
-                "2D-Subtitulado": [
-                    "19:55"
-                ]
-            },
             "2024-05-08": {
                 "2D-Subtitulado": [
                     "19:55"
@@ -816,7 +747,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i3252.jpg",
         "duration": "109 minutos.",
         "showing_days": [
-            "2024-05-07",
             "2024-05-08",
             "2024-05-09",
             "2024-05-10",
@@ -827,15 +757,8 @@
             "2024-05-15"
         ],
         "showtimes": {
-            "2024-05-07": {
-                "2D-Subtitulado": [
-                    "19:05",
-                    "22:00"
-                ]
-            },
             "2024-05-08": {
                 "2D-Subtitulado": [
-                    "14:15",
                     "16:40",
                     "19:05",
                     "22:00"
@@ -960,7 +883,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i3229.jpg",
         "duration": "123 minutos.",
         "showing_days": [
-            "2024-05-07",
             "2024-05-08",
             "2024-05-09",
             "2024-05-10",
@@ -971,12 +893,6 @@
             "2024-05-15"
         ],
         "showtimes": {
-            "2024-05-07": {
-                "2D-Subtitulado": [
-                    "19:25",
-                    "22:05"
-                ]
-            },
             "2024-05-08": {
                 "2D-Subtitulado": [
                     "19:25",
@@ -1052,7 +968,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i3202.jpg",
         "duration": "120 minutos.",
         "showing_days": [
-            "2024-05-07",
             "2024-05-08",
             "2024-05-09",
             "2024-05-10",
@@ -1063,11 +978,6 @@
             "2024-05-15"
         ],
         "showtimes": {
-            "2024-05-07": {
-                "2D-Subtitulado": [
-                    "22:40"
-                ]
-            },
             "2024-05-08": {
                 "2D-Subtitulado": [
                     "22:40"
@@ -1121,18 +1031,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i3149.jpg",
         "duration": "115 minutos.",
         "showing_days": [
-            "2024-05-07",
             "2024-05-08"
         ],
         "showtimes": {
-            "2024-05-07": {
-                "2D-Subtitulado": [
-                    "22:10"
-                ],
-                "2D-Doblada": [
-                    "19:15"
-                ]
-            },
             "2024-05-08": {
                 "2D-Subtitulado": [
                     "22:10"
@@ -1166,7 +1067,6 @@
         "showtimes": {
             "2024-05-08": {
                 "2D-Doblada": [
-                    "14:40",
                     "17:05"
                 ]
             },
@@ -1225,15 +1125,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i3040.jpg",
         "duration": "166 minutos.",
         "showing_days": [
-            "2024-05-07",
             "2024-05-08"
         ],
         "showtimes": {
-            "2024-05-07": {
-                "2D-Subtitulado": [
-                    "21:55"
-                ]
-            },
             "2024-05-08": {
                 "2D-Subtitulado": [
                     "21:55"
