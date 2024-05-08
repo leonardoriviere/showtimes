@@ -1,10 +1,13 @@
 from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from imdb import IMDb
 import json  # Import the JSON module
+import os
+from pathlib import Path
 
 
 def convert_showcase_duration_to_minutes(duration_str):
@@ -28,8 +31,13 @@ def convert_imdb_duration_to_minutes(duration_str):
 class MovieScraper:
     def __init__(self, chromedriver_path):
         chrome_options = webdriver.ChromeOptions()
-        service = Service(chromedriver_path)
-        self.driver = webdriver.Chrome(service=service, options=chrome_options)
+        chrome_options.add_argument(
+            'user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36')
+        chrome_options.add_argument("--headless")  # Run headless
+        chrome_options.add_argument("--disable-gpu")  # Disable GPU acceleration (for headless)
+        chrome_options.add_argument("--no-sandbox")  # Bypass OS security model
+        chrome_options.add_argument("--disable-dev-shm-usage")  # Overcome limited resource problems
+        self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
 
     def scrape_movie_data(self, base_url):
         self.driver.get(base_url)
@@ -96,10 +104,19 @@ class MovieScraper:
         imdb_info = {'imdb_rating': 'N/A', 'metascore': 'N/A', 'imdb_duration': 'N/A'}
 
         try:
-            # Attempt to find the IMDb duration on the page
-            imdb_duration_str = self.driver.find_element(By.CSS_SELECTOR,
-                                                         '[data-testid="hero__pageTitle"] ~ ul[role="presentation"] > '
-                                                         'li:last-of-type').text
+            # Wait explicitly for the element to load
+            WebDriverWait(self.driver, 10).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, '[data-testid="hero__pageTitle"]'))
+            )
+            # Try finding the IMDb duration
+            try:
+                imdb_duration_str = self.driver.find_element(
+                    By.CSS_SELECTOR, '[data-testid="hero__pageTitle"] ~ ul[role="presentation"] > li:last-of-type'
+                ).text
+            except Exception:
+                print(f"IMDb Duration Element Not Found for URL: {imdb_url}")
+                return imdb_info
+
             imdb_duration_minutes = convert_imdb_duration_to_minutes(imdb_duration_str)
 
             # Convert Showcase duration to minutes for comparison
@@ -111,7 +128,7 @@ class MovieScraper:
                 try:
                     imdb_rating = self.driver.find_element(By.CSS_SELECTOR,
                                                            'div[data-testid="hero-rating-bar__aggregate-rating__score'
-                                                           '"] > span').text
+                                                           '"] > span:first-of-type').get_attribute('innerHTML')
                     imdb_info['imdb_rating'] = imdb_rating
                 except Exception:
                     pass  # IMDb rating remains "N/A" if not found
@@ -167,7 +184,10 @@ class MovieScraper:
 
     def save_data_to_json(self, data):
         """Saves the scraped data to a JSON file."""
-        with open('../docs/data.json', 'w') as jsonfile:  # Make sure the 'docs' folder exists
+        base_dir = Path(__file__).resolve().parent  # Get the directory of the current script
+        json_path = base_dir / ".." / "docs" / "data.json"  # Construct the dynamic path to data.json
+
+        with open(json_path, 'w') as jsonfile:
             json.dump(data, jsonfile, indent=4)
 
 
