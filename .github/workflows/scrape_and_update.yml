@@ -2,8 +2,10 @@ name: Scrape and Update Data
 
 on:
   schedule:
-    # Schedule this to run every Wednesday at noon
-    - cron: '0 12 * * 3'
+    # Schedule this to run at 6 PM (GMT-3) on Tuesdays
+    - cron: '0 21 * * 2'
+    # Schedule this to run at 10 AM (GMT-3) on Wednesdays
+    - cron: '0 13 * * 3'
   workflow_dispatch:  # Allows triggering manually as well
 
 jobs:
