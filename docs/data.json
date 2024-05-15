@@ -1,32 +1,5 @@
 [
     {
-        "title": "TRANSFORMERS: 40TH ANNIVERSARY EVENT",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=3228&house_id=3206",
-        "original_title": "TRANSFORMERS: 40TH ANNIVERSARY EVENT",
-        "poster_url": "https://static.voyalcine.net/Uploads/i3228.jpg",
-        "duration": "96 minutos.",
-        "showing_days": [
-            "2024-05-15",
-            "2024-05-18"
-        ],
-        "showtimes": {
-            "2024-05-15": {
-                "2D-Doblada": [
-                    "19:45"
-                ]
-            },
-            "2024-05-18": {
-                "2D-Doblada": [
-                    "15:00"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt19690362/",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "2021"
-    },
-    {
         "title": "Furiosa: de la saga Mad Max",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=3392&house_id=3206",
         "original_title": "FURIOSA: A MAD MAX SAGA",
@@ -93,9 +66,36 @@
             }
         },
         "imdb_url": "https://www.imdb.com/title/tt12037194/",
-        "imdb_rating": "N/A",
+        "imdb_rating": "8.7",
         "metascore": "N/A",
         "imdb_duration": "2h 28m"
+    },
+    {
+        "title": "TRANSFORMERS: 40TH ANNIVERSARY EVENT",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=3228&house_id=3206",
+        "original_title": "TRANSFORMERS: 40TH ANNIVERSARY EVENT",
+        "poster_url": "https://static.voyalcine.net/Uploads/i3228.jpg",
+        "duration": "96 minutos.",
+        "showing_days": [
+            "2024-05-15",
+            "2024-05-18"
+        ],
+        "showtimes": {
+            "2024-05-15": {
+                "2D-Doblada": [
+                    "19:45"
+                ]
+            },
+            "2024-05-18": {
+                "2D-Doblada": [
+                    "15:00"
+                ]
+            }
+        },
+        "imdb_url": "https://www.imdb.com/title/tt19690362/",
+        "imdb_rating": "N/A",
+        "metascore": "N/A",
+        "imdb_duration": "2021"
     },
     {
         "title": "Lo mejor est\u00e1 por venir",
@@ -493,15 +493,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i3352b.jpg",
         "duration": "113 minutos.",
         "showing_days": [
-            "2024-05-14",
             "2024-05-15"
         ],
         "showtimes": {
-            "2024-05-14": {
-                "2D-Subtitulado": [
-                    "22:20"
-                ]
-            },
             "2024-05-15": {
                 "2D-Subtitulado": [
                     "14:20",
@@ -521,7 +515,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i3270.jpg",
         "duration": "145 minutos.",
         "showing_days": [
-            "2024-05-14",
             "2024-05-15",
             "2024-05-16",
             "2024-05-17",
@@ -532,18 +525,6 @@
             "2024-05-22"
         ],
         "showtimes": {
-            "2024-05-14": {
-                "2D-Subtitulado": [
-                    "18:30",
-                    "19:35",
-                    "21:40",
-                    "22:00",
-                    "22:40"
-                ],
-                "2D-Doblada": [
-                    "18:55"
-                ]
-            },
             "2024-05-15": {
                 "2D-Subtitulado": [
                     "16:30",
@@ -669,15 +650,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i3351.jpg",
         "duration": "125 minutos.",
         "showing_days": [
-            "2024-05-14",
             "2024-05-15"
         ],
         "showtimes": {
-            "2024-05-14": {
-                "2D-Subtitulado": [
-                    "19:20"
-                ]
-            },
             "2024-05-15": {
                 "2D-Subtitulado": [
                     "19:20"
@@ -699,16 +674,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i3350.jpg",
         "duration": "132 minutos.",
         "showing_days": [
-            "2024-05-14",
             "2024-05-15"
         ],
         "showtimes": {
-            "2024-05-14": {
-                "2D-Subtitulado": [
-                    "19:45",
-                    "22:35"
-                ]
-            },
             "2024-05-15": {
                 "2D-Subtitulado": [
                     "14:05",
@@ -730,7 +698,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i3324.jpg",
         "duration": "101 minutos.",
         "showing_days": [
-            "2024-05-14",
             "2024-05-15",
             "2024-05-16",
             "2024-05-17",
@@ -741,13 +708,6 @@
             "2024-05-22"
         ],
         "showtimes": {
-            "2024-05-14": {
-                "2D-Doblada": [
-                    "19:15",
-                    "19:50",
-                    "21:50"
-                ]
-            },
             "2024-05-15": {
                 "2D-Doblada": [
                     "14:15",
@@ -852,7 +812,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i3294.jpg",
         "duration": "130 minutos.",
         "showing_days": [
-            "2024-05-14",
             "2024-05-15",
             "2024-05-16",
             "2024-05-17",
@@ -863,12 +822,6 @@
             "2024-05-22"
         ],
         "showtimes": {
-            "2024-05-14": {
-                "2D-Subtitulado": [
-                    "19:40",
-                    "22:30"
-                ]
-            },
             "2024-05-15": {
                 "2D-Subtitulado": [
                     "14:05",
@@ -946,7 +899,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i3285.jpg",
         "duration": "126 minutos.",
         "showing_days": [
-            "2024-05-14",
             "2024-05-15",
             "2024-05-16",
             "2024-05-17",
@@ -957,12 +909,6 @@
             "2024-05-22"
         ],
         "showtimes": {
-            "2024-05-14": {
-                "2D-Subtitulado": [
-                    "19:30",
-                    "22:25"
-                ]
-            },
             "2024-05-15": {
                 "2D-Subtitulado": [
                     "14:00",
@@ -1031,7 +977,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i3252.jpg",
         "duration": "109 minutos.",
         "showing_days": [
-            "2024-05-14",
             "2024-05-15",
             "2024-05-16",
             "2024-05-17",
@@ -1042,11 +987,6 @@
             "2024-05-22"
         ],
         "showtimes": {
-            "2024-05-14": {
-                "2D-Subtitulado": [
-                    "22:15"
-                ]
-            },
             "2024-05-15": {
                 "2D-Subtitulado": [
                     "17:00",
@@ -1122,15 +1062,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i3229.jpg",
         "duration": "123 minutos.",
         "showing_days": [
-            "2024-05-14",
             "2024-05-15"
         ],
         "showtimes": {
-            "2024-05-14": {
-                "2D-Subtitulado": [
-                    "19:25"
-                ]
-            },
             "2024-05-15": {
                 "2D-Subtitulado": [
                     "19:25"
@@ -1149,15 +1083,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i3202.jpg",
         "duration": "120 minutos.",
         "showing_days": [
-            "2024-05-14",
             "2024-05-15"
         ],
         "showtimes": {
-            "2024-05-14": {
-                "2D-Subtitulado": [
-                    "22:10"
-                ]
-            },
             "2024-05-15": {
                 "2D-Subtitulado": [
                     "22:10"
