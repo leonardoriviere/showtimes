@@ -38,7 +38,7 @@ class MovieScraper:
         chrome_options.add_argument("--no-sandbox")  # Bypass OS security model
         chrome_options.add_argument("--disable-dev-shm-usage")  # Overcome limited resource problems
         self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
-        self.driver.set_page_load_timeout(30)
+        self.driver.set_page_load_timeout(600000)
 
     def scrape_movie_data(self, base_url):
         self.driver.get(base_url)
