@@ -83,20 +83,22 @@ function displayMoviesByDate(data) {
 
             let movieLinks = document.createElement('div');
 
-            let imdbLink = document.createElement('a');
-            imdbLink.href = movie.imdb_url;
-            imdbLink.target = "_blank";
-            imdbLink.rel = "noopener noreferrer";
+            if (movie.imdb_url.startsWith('https://www.imdb.com/title/tt')) {
+                let imdbLink = document.createElement('a');
+                imdbLink.href = movie.imdb_url;
+                imdbLink.target = "_blank";
+                imdbLink.rel = "noopener noreferrer";
 
-            if (movie.imdb_rating !== 'N/A' && movie.metascore !== 'N/A') {
-                imdbLink.textContent = 'IMDb ' + movie.imdb_rating + ' / ' + movie.metascore;
-            } else if (movie.imdb_rating !== 'N/A') {
-                imdbLink.textContent = 'IMDb ' + movie.imdb_rating;
-            } else {
-                imdbLink.textContent = 'IMDb';
+                if (movie.imdb_rating !== 'N/A' && movie.metascore !== 'N/A') {
+                    imdbLink.textContent = 'IMDb ' + movie.imdb_rating + ' / ' + movie.metascore;
+                } else if (movie.imdb_rating !== 'N/A') {
+                    imdbLink.textContent = 'IMDb ' + movie.imdb_rating;
+                } else {
+                    imdbLink.textContent = 'IMDb';
+                }
+
+                movieLinks.appendChild(imdbLink);
             }
-
-            movieLinks.appendChild(imdbLink);
 
             infoDiv.appendChild(movieLinks);
 
