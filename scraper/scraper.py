@@ -101,6 +101,9 @@ class MovieScraper:
             return "IMDb URL not found"
 
     def scrape_imdb_info(self, imdb_url, showcase_duration):
+        if not imdb_url.startswith('https://www.imdb.com/title/tt'):
+            print(f"Invalid IMDb URL: {imdb_url}")
+            return {'imdb_rating': 'N/A', 'metascore': 'N/A', 'imdb_duration': 'N/A'}
         self.driver.get(imdb_url)
         imdb_info = {'imdb_rating': 'N/A', 'metascore': 'N/A', 'imdb_duration': 'N/A'}
 
