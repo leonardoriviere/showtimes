@@ -158,7 +158,7 @@ class MovieScraper:
             date = day_selector.get_attribute('value')  # Adjust attribute name as necessary
 
             # Click the day selector to load the showtimes for that day
-            day_selector.click()
+            self.driver.execute_script("arguments[0].click();", day_selector)
 
             # Wait for the showtimes to be loaded. Adjust the wait condition as needed.
             WebDriverWait(self.driver, 10).until(
