@@ -1,137 +1,304 @@
 [
     {
-        "title": "El lago de los cisnes",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=3894&house_id=3206",
-        "original_title": "SWAN LAKE",
-        "poster_url": "https://static.voyalcine.net/Uploads/i3894.jpg",
-        "duration": "145 minutos.",
+        "title": "Stop making sense",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4011&house_id=3206",
+        "original_title": "STOP MAKING SENSE",
+        "poster_url": "https://static.voyalcine.net/Uploads/i4011.jpg",
+        "duration": "88 minutos.",
         "showing_days": [
-            "2024-11-10"
+            "2024-11-21",
+            "2024-11-25",
+            "2024-11-26"
         ],
         "showtimes": {
-            "2024-11-10": {
+            "2024-11-21": {
                 "2D-Subtitulado": [
-                    "17:00"
+                    "20:00"
+                ]
+            },
+            "2024-11-25": {
+                "2D-Subtitulado": [
+                    "20:00"
+                ]
+            },
+            "2024-11-26": {
+                "2D-Subtitulado": [
+                    "20:00"
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/title/tt32986839/",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "2h 25m"
+        "imdb_url": "https://www.imdb.com/title/tt0088178/",
+        "imdb_rating": "8.7",
+        "metascore": "94",
+        "imdb_duration": "1h 28m"
     },
     {
-        "title": "Gladiador 2",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=3975&house_id=3206",
-        "original_title": "GLADIATOR II",
-        "poster_url": "https://static.voyalcine.net/Uploads/i3975.jpg",
-        "duration": "148 minutos.",
+        "title": "Wicked",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4026&house_id=3206",
+        "original_title": "WICKED",
+        "poster_url": "https://static.voyalcine.net/Uploads/i4026.jpg",
+        "duration": "160 minutos.",
         "showing_days": [
-            "2024-11-14",
-            "2024-11-15",
-            "2024-11-16",
-            "2024-11-17",
-            "2024-11-18",
-            "2024-11-19",
-            "2024-11-20"
+            "2024-11-21",
+            "2024-11-22",
+            "2024-11-23",
+            "2024-11-24",
+            "2024-11-25",
+            "2024-11-26",
+            "2024-11-27"
         ],
         "showtimes": {
-            "2024-11-14": {
+            "2024-11-21": {
                 "2D-Subtitulado": [
-                    "14:00",
-                    "15:30",
-                    "16:20",
-                    "17:05",
-                    "18:35",
-                    "19:25",
-                    "20:10",
-                    "21:40",
+                    "15:50",
+                    "19:10",
                     "22:30"
+                ],
+                "2D-Doblada": [
+                    "15:00",
+                    "18:20",
+                    "21:40"
+                ],
+                "3D-Doblada": [
+                    "15:30",
+                    "18:50"
                 ]
             },
-            "2024-11-15": {
+            "2024-11-22": {
                 "2D-Subtitulado": [
-                    "14:00",
-                    "15:30",
-                    "16:20",
-                    "17:05",
-                    "18:35",
-                    "19:25",
-                    "20:10",
-                    "21:40",
+                    "15:50",
+                    "19:10",
                     "22:30"
+                ],
+                "2D-Doblada": [
+                    "15:00",
+                    "18:20",
+                    "21:40"
+                ],
+                "3D-Doblada": [
+                    "15:30",
+                    "18:50"
                 ]
             },
-            "2024-11-16": {
+            "2024-11-23": {
                 "2D-Subtitulado": [
-                    "14:00",
-                    "15:30",
-                    "16:20",
-                    "17:05",
-                    "18:35",
-                    "19:25",
-                    "20:10",
-                    "21:40",
+                    "15:50",
+                    "19:10",
                     "22:30"
+                ],
+                "2D-Doblada": [
+                    "15:00",
+                    "18:20",
+                    "21:40"
+                ],
+                "3D-Doblada": [
+                    "15:30",
+                    "18:50"
                 ]
             },
-            "2024-11-17": {
+            "2024-11-24": {
                 "2D-Subtitulado": [
-                    "14:00",
-                    "15:30",
-                    "16:20",
-                    "17:05",
-                    "18:35",
-                    "19:25",
-                    "20:10",
-                    "21:40",
+                    "15:50",
+                    "19:10",
                     "22:30"
+                ],
+                "2D-Doblada": [
+                    "15:00",
+                    "18:20",
+                    "21:40"
+                ],
+                "3D-Doblada": [
+                    "15:30",
+                    "18:50"
                 ]
             },
-            "2024-11-18": {
+            "2024-11-25": {
                 "2D-Subtitulado": [
-                    "14:00",
-                    "15:30",
-                    "16:20",
-                    "17:05",
-                    "18:35",
-                    "19:25",
-                    "20:10",
-                    "21:40",
+                    "15:50",
+                    "19:10",
                     "22:30"
+                ],
+                "2D-Doblada": [
+                    "15:00",
+                    "18:20",
+                    "21:40"
+                ],
+                "3D-Doblada": [
+                    "15:30",
+                    "18:50"
                 ]
             },
-            "2024-11-19": {
+            "2024-11-26": {
                 "2D-Subtitulado": [
-                    "14:00",
-                    "15:30",
-                    "16:20",
-                    "17:05",
-                    "18:35",
-                    "19:25",
-                    "20:10",
-                    "21:40",
+                    "15:50",
+                    "19:10",
                     "22:30"
+                ],
+                "2D-Doblada": [
+                    "15:00",
+                    "18:20",
+                    "21:40"
+                ],
+                "3D-Doblada": [
+                    "15:30",
+                    "18:50"
                 ]
             },
-            "2024-11-20": {
+            "2024-11-27": {
                 "2D-Subtitulado": [
-                    "14:00",
-                    "15:30",
-                    "16:20",
-                    "17:05",
-                    "18:35",
-                    "19:25",
-                    "20:10",
-                    "21:40",
+                    "15:50",
+                    "19:10",
                     "22:30"
+                ],
+                "2D-Doblada": [
+                    "15:00",
+                    "18:20",
+                    "21:40"
+                ],
+                "3D-Doblada": [
+                    "15:30",
+                    "18:50"
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/title/tt9218128/",
-        "imdb_rating": "8.1",
+        "imdb_url": "https://www.imdb.com/title/tt1262426/",
+        "imdb_rating": "N/A",
         "metascore": "N/A",
-        "imdb_duration": "2h 28m"
+        "imdb_duration": "2h 40m"
+    },
+    {
+        "title": "Moana 2",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4025&house_id=3206",
+        "original_title": "MOANA 2",
+        "poster_url": "https://static.voyalcine.net/Uploads/i4025.jpg",
+        "duration": "100 minutos.",
+        "showing_days": [
+            "2024-11-28",
+            "2024-11-29",
+            "2024-11-30",
+            "2024-12-01",
+            "2024-12-02",
+            "2024-12-03",
+            "2024-12-04"
+        ],
+        "showtimes": {
+            "2024-11-28": {
+                "2D-Subtitulado": [
+                    "21:40"
+                ],
+                "2D-Doblada": [
+                    "14:20",
+                    "16:40",
+                    "19:00",
+                    "21:20"
+                ],
+                "3D-Doblada": [
+                    "14:40",
+                    "17:00",
+                    "19:20"
+                ]
+            },
+            "2024-11-29": {
+                "2D-Subtitulado": [
+                    "21:40"
+                ],
+                "2D-Doblada": [
+                    "14:20",
+                    "16:40",
+                    "19:00",
+                    "21:20"
+                ],
+                "3D-Doblada": [
+                    "14:40",
+                    "17:00",
+                    "19:20"
+                ]
+            },
+            "2024-11-30": {
+                "2D-Subtitulado": [
+                    "21:40"
+                ],
+                "2D-Doblada": [
+                    "14:20",
+                    "16:40",
+                    "19:00",
+                    "21:20"
+                ],
+                "3D-Doblada": [
+                    "14:40",
+                    "17:00",
+                    "19:20"
+                ]
+            },
+            "2024-12-01": {
+                "2D-Subtitulado": [
+                    "21:40"
+                ],
+                "2D-Doblada": [
+                    "14:20",
+                    "16:40",
+                    "19:00",
+                    "21:20"
+                ],
+                "3D-Doblada": [
+                    "14:40",
+                    "17:00",
+                    "19:20"
+                ]
+            },
+            "2024-12-02": {
+                "2D-Subtitulado": [
+                    "21:40"
+                ],
+                "2D-Doblada": [
+                    "14:20",
+                    "16:40",
+                    "19:00",
+                    "21:20"
+                ],
+                "3D-Doblada": [
+                    "14:40",
+                    "17:00",
+                    "19:20"
+                ]
+            },
+            "2024-12-03": {
+                "2D-Subtitulado": [
+                    "21:40"
+                ],
+                "2D-Doblada": [
+                    "14:20",
+                    "16:40",
+                    "19:00",
+                    "21:20"
+                ],
+                "3D-Doblada": [
+                    "14:40",
+                    "17:00",
+                    "19:20"
+                ]
+            },
+            "2024-12-04": {
+                "2D-Subtitulado": [
+                    "21:40"
+                ],
+                "2D-Doblada": [
+                    "14:20",
+                    "16:40",
+                    "19:00",
+                    "21:20"
+                ],
+                "3D-Doblada": [
+                    "14:40",
+                    "17:00",
+                    "19:20"
+                ]
+            }
+        },
+        "imdb_url": "https://www.imdb.com/title/tt13622970/",
+        "imdb_rating": "N/A",
+        "metascore": "N/A",
+        "imdb_duration": "1h 40m"
     },
     {
         "title": "Laufey\u00b4s a night at the symphony: Hollywood Bowl",
@@ -161,108 +328,432 @@
         "imdb_duration": "2024"
     },
     {
+        "title": "Daft Punk & Leiji Matsumoto: Interstella 5555",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4017&house_id=3206",
+        "original_title": "DAFT PUNK & LEIJI MATSUMOTO: INTERSTELLA 5555",
+        "poster_url": "https://static.voyalcine.net/Uploads/i4017.jpg",
+        "duration": "93 minutos.",
+        "showing_days": [
+            "2024-12-12",
+            "2024-12-13",
+            "2024-12-15"
+        ],
+        "showtimes": {
+            "2024-12-12": {
+                "2D-Subtitulado": [
+                    "20:00"
+                ]
+            },
+            "2024-12-13": {
+                "2D-Subtitulado": [
+                    "20:00"
+                ]
+            },
+            "2024-12-15": {
+                "2D-Subtitulado": [
+                    "20:00"
+                ]
+            }
+        },
+        "imdb_url": "https://www.imdb.com/title/tt0368667/",
+        "imdb_rating": "N/A",
+        "metascore": "N/A",
+        "imdb_duration": "1h 8m"
+    },
+    {
+        "title": "Gladiador 2",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=3975&house_id=3206",
+        "original_title": "GLADIATOR II",
+        "poster_url": "https://static.voyalcine.net/Uploads/i3975.jpg",
+        "duration": "148 minutos.",
+        "showing_days": [
+            "2024-11-15",
+            "2024-11-16",
+            "2024-11-17",
+            "2024-11-18",
+            "2024-11-19",
+            "2024-11-20"
+        ],
+        "showtimes": {
+            "2024-11-15": {
+                "2D-Subtitulado": [
+                    "14:00",
+                    "15:30",
+                    "16:20",
+                    "17:05",
+                    "18:35",
+                    "19:10",
+                    "19:25",
+                    "19:40",
+                    "20:10",
+                    "21:20",
+                    "21:40",
+                    "22:15",
+                    "22:30"
+                ],
+                "2D-Doblada": [
+                    "16:05"
+                ]
+            },
+            "2024-11-16": {
+                "2D-Subtitulado": [
+                    "14:00",
+                    "15:30",
+                    "16:20",
+                    "17:05",
+                    "18:35",
+                    "19:10",
+                    "19:25",
+                    "19:40",
+                    "20:10",
+                    "21:20",
+                    "21:40",
+                    "22:15",
+                    "22:30"
+                ],
+                "2D-Doblada": [
+                    "16:05"
+                ]
+            },
+            "2024-11-17": {
+                "2D-Subtitulado": [
+                    "14:00",
+                    "15:30",
+                    "16:20",
+                    "17:05",
+                    "18:35",
+                    "19:10",
+                    "19:25",
+                    "19:40",
+                    "20:10",
+                    "21:20",
+                    "21:40",
+                    "22:15",
+                    "22:30"
+                ],
+                "2D-Doblada": [
+                    "16:05"
+                ]
+            },
+            "2024-11-18": {
+                "2D-Subtitulado": [
+                    "14:00",
+                    "15:30",
+                    "16:20",
+                    "17:05",
+                    "18:35",
+                    "19:10",
+                    "19:25",
+                    "19:40",
+                    "20:10",
+                    "21:20",
+                    "21:40",
+                    "22:15",
+                    "22:30"
+                ],
+                "2D-Doblada": [
+                    "16:05"
+                ]
+            },
+            "2024-11-19": {
+                "2D-Subtitulado": [
+                    "14:00",
+                    "15:30",
+                    "16:20",
+                    "17:05",
+                    "18:35",
+                    "19:10",
+                    "19:25",
+                    "19:40",
+                    "20:10",
+                    "21:20",
+                    "21:40",
+                    "22:15",
+                    "22:30"
+                ],
+                "2D-Doblada": [
+                    "16:05"
+                ]
+            },
+            "2024-11-20": {
+                "2D-Subtitulado": [
+                    "14:00",
+                    "15:30",
+                    "16:20",
+                    "17:05",
+                    "18:35",
+                    "19:10",
+                    "19:25",
+                    "19:40",
+                    "20:10",
+                    "21:20",
+                    "21:40",
+                    "22:15",
+                    "22:30"
+                ],
+                "2D-Doblada": [
+                    "16:05"
+                ]
+            }
+        },
+        "imdb_url": "https://www.imdb.com/title/tt9218128/",
+        "imdb_rating": "7.1",
+        "metascore": "66",
+        "imdb_duration": "2h 28m"
+    },
+    {
+        "title": "Golpe de suerte en Par\u00eds",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4019&house_id=3206",
+        "original_title": "COUP DE CHANCE",
+        "poster_url": "https://static.voyalcine.net/Uploads/i4019.jpg",
+        "duration": "96 minutos.",
+        "showing_days": [
+            "2024-11-15",
+            "2024-11-16",
+            "2024-11-17",
+            "2024-11-18",
+            "2024-11-19",
+            "2024-11-20"
+        ],
+        "showtimes": {
+            "2024-11-15": {
+                "2D-Subtitulado": [
+                    "15:10",
+                    "17:30",
+                    "19:50"
+                ]
+            },
+            "2024-11-16": {
+                "2D-Subtitulado": [
+                    "15:10",
+                    "17:30",
+                    "19:50"
+                ]
+            },
+            "2024-11-17": {
+                "2D-Subtitulado": [
+                    "15:10",
+                    "17:30",
+                    "19:50"
+                ]
+            },
+            "2024-11-18": {
+                "2D-Subtitulado": [
+                    "15:10",
+                    "17:30",
+                    "19:50"
+                ]
+            },
+            "2024-11-19": {
+                "2D-Subtitulado": [
+                    "15:10",
+                    "17:30",
+                    "19:50"
+                ]
+            },
+            "2024-11-20": {
+                "2D-Subtitulado": [
+                    "15:10",
+                    "17:30",
+                    "19:50"
+                ]
+            }
+        },
+        "imdb_url": "https://www.imdb.com/title/tt15140278/",
+        "imdb_rating": "N/A",
+        "metascore": "N/A",
+        "imdb_duration": "1h 33m"
+    },
+    {
+        "title": "Niko: la aventura de las narices fr\u00edas",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4020&house_id=3206",
+        "original_title": "NIKO: BEYOND THE NORTHERN LIGHTS",
+        "poster_url": "https://static.voyalcine.net/Uploads/i4020.jpg",
+        "duration": "86 minutos.",
+        "showing_days": [
+            "2024-11-15",
+            "2024-11-16",
+            "2024-11-17",
+            "2024-11-18",
+            "2024-11-19",
+            "2024-11-20"
+        ],
+        "showtimes": {
+            "2024-11-15": {
+                "2D-Doblada": [
+                    "15:00",
+                    "17:15"
+                ]
+            },
+            "2024-11-16": {
+                "2D-Doblada": [
+                    "15:00",
+                    "17:15"
+                ]
+            },
+            "2024-11-17": {
+                "2D-Doblada": [
+                    "15:00",
+                    "17:15"
+                ]
+            },
+            "2024-11-18": {
+                "2D-Doblada": [
+                    "15:00",
+                    "17:15"
+                ]
+            },
+            "2024-11-19": {
+                "2D-Doblada": [
+                    "15:00",
+                    "17:15"
+                ]
+            },
+            "2024-11-20": {
+                "2D-Doblada": [
+                    "15:00",
+                    "17:15"
+                ]
+            }
+        },
+        "imdb_url": "https://www.imdb.com/title/tt14813816/",
+        "imdb_rating": "7.2",
+        "metascore": "N/A",
+        "imdb_duration": "1h 26m"
+    },
+    {
+        "title": "Un panda en \u00c1frica",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4021&house_id=3206",
+        "original_title": "PANDA BEAR IN AFRICA",
+        "poster_url": "https://static.voyalcine.net/Uploads/i4021.jpg",
+        "duration": "84 minutos.",
+        "showing_days": [
+            "2024-11-15",
+            "2024-11-16",
+            "2024-11-17",
+            "2024-11-18",
+            "2024-11-19",
+            "2024-11-20"
+        ],
+        "showtimes": {
+            "2024-11-15": {
+                "2D-Doblada": [
+                    "14:15"
+                ]
+            },
+            "2024-11-16": {
+                "2D-Doblada": [
+                    "14:15"
+                ]
+            },
+            "2024-11-17": {
+                "2D-Doblada": [
+                    "14:15"
+                ]
+            },
+            "2024-11-18": {
+                "2D-Doblada": [
+                    "14:15"
+                ]
+            },
+            "2024-11-19": {
+                "2D-Doblada": [
+                    "14:15"
+                ]
+            },
+            "2024-11-20": {
+                "2D-Doblada": [
+                    "14:15"
+                ]
+            }
+        },
+        "imdb_url": "https://www.imdb.com/title/tt13616980/",
+        "imdb_rating": "5.5",
+        "metascore": "N/A",
+        "imdb_duration": "1h 24m"
+    },
+    {
+        "title": "El lago de los cisnes",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=3894&house_id=3206",
+        "original_title": "SWAN LAKE",
+        "poster_url": "https://static.voyalcine.net/Uploads/i3894.jpg",
+        "duration": "145 minutos.",
+        "showing_days": [
+            "2024-11-22"
+        ],
+        "showtimes": {
+            "2024-11-22": {
+                "2D-Subtitulado": [
+                    "19:15"
+                ]
+            }
+        },
+        "imdb_url": "https://www.imdb.com/title/tt32986839/",
+        "imdb_rating": "7.3",
+        "metascore": "N/A",
+        "imdb_duration": "2h 25m"
+    },
+    {
         "title": "C\u00f3digo: traje rojo",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=3974&house_id=3206",
         "original_title": "RED ONE",
         "poster_url": "https://static.voyalcine.net/Uploads/i3974.jpg",
         "duration": "124 minutos.",
         "showing_days": [
-            "2024-11-07",
-            "2024-11-08",
-            "2024-11-09",
-            "2024-11-10",
-            "2024-11-11",
-            "2024-11-12",
-            "2024-11-13"
+            "2024-11-15",
+            "2024-11-16",
+            "2024-11-17",
+            "2024-11-18",
+            "2024-11-19",
+            "2024-11-20"
         ],
         "showtimes": {
-            "2024-11-07": {
-                "2D-Subtitulado": [
-                    "22:15"
-                ],
+            "2024-11-15": {
                 "2D-Doblada": [
-                    "14:00",
-                    "14:30",
-                    "17:00",
-                    "17:30",
-                    "19:35"
+                    "14:10",
+                    "16:55",
+                    "19:45"
                 ]
             },
-            "2024-11-08": {
-                "2D-Subtitulado": [
-                    "22:15"
-                ],
+            "2024-11-16": {
                 "2D-Doblada": [
-                    "14:00",
-                    "14:30",
-                    "17:00",
-                    "17:30",
-                    "19:35"
+                    "14:10",
+                    "16:55",
+                    "19:45"
                 ]
             },
-            "2024-11-09": {
-                "2D-Subtitulado": [
-                    "22:15"
-                ],
+            "2024-11-17": {
                 "2D-Doblada": [
-                    "14:00",
-                    "14:30",
-                    "17:00",
-                    "17:30",
-                    "19:35"
+                    "14:10",
+                    "16:55",
+                    "19:45"
                 ]
             },
-            "2024-11-10": {
-                "2D-Subtitulado": [
-                    "22:15"
-                ],
+            "2024-11-18": {
                 "2D-Doblada": [
-                    "14:00",
-                    "14:30",
-                    "17:30",
-                    "19:35"
+                    "14:10",
+                    "16:55",
+                    "19:45"
                 ]
             },
-            "2024-11-11": {
-                "2D-Subtitulado": [
-                    "22:15"
-                ],
+            "2024-11-19": {
                 "2D-Doblada": [
-                    "14:00",
-                    "14:30",
-                    "17:00",
-                    "17:30",
-                    "19:35"
+                    "14:10",
+                    "16:55",
+                    "19:45"
                 ]
             },
-            "2024-11-12": {
-                "2D-Subtitulado": [
-                    "22:15"
-                ],
+            "2024-11-20": {
                 "2D-Doblada": [
-                    "14:00",
-                    "14:30",
-                    "17:00",
-                    "17:30",
-                    "19:35"
-                ]
-            },
-            "2024-11-13": {
-                "2D-Subtitulado": [
-                    "22:15"
-                ],
-                "2D-Doblada": [
-                    "14:00",
-                    "14:30",
-                    "17:00",
-                    "17:30",
-                    "19:35"
+                    "14:10",
+                    "16:55",
+                    "19:45"
                 ]
             }
         },
         "imdb_url": "https://www.imdb.com/title/tt14948432/",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
+        "imdb_rating": "7.0",
+        "metascore": "35",
         "imdb_duration": "2h 3m"
     },
     {
@@ -272,83 +763,60 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i3992.jpg",
         "duration": "107 minutos.",
         "showing_days": [
-            "2024-11-07",
-            "2024-11-08",
-            "2024-11-09",
-            "2024-11-10",
-            "2024-11-11",
-            "2024-11-12",
-            "2024-11-13"
+            "2024-11-15",
+            "2024-11-16",
+            "2024-11-17",
+            "2024-11-18",
+            "2024-11-19",
+            "2024-11-20"
         ],
         "showtimes": {
-            "2024-11-07": {
+            "2024-11-15": {
                 "2D-Subtitulado": [
-                    "14:35",
-                    "17:05",
+                    "14:30",
+                    "17:00",
                     "19:30",
-                    "19:55",
-                    "21:45",
-                    "22:20"
+                    "22:00"
                 ]
             },
-            "2024-11-08": {
+            "2024-11-16": {
                 "2D-Subtitulado": [
-                    "14:35",
-                    "17:05",
+                    "14:30",
+                    "17:00",
                     "19:30",
-                    "19:55",
-                    "21:45",
-                    "22:20"
+                    "22:00"
                 ]
             },
-            "2024-11-09": {
+            "2024-11-17": {
                 "2D-Subtitulado": [
-                    "14:35",
-                    "17:05",
+                    "14:30",
+                    "17:00",
                     "19:30",
-                    "19:55",
-                    "21:45",
-                    "22:20"
+                    "22:00"
                 ]
             },
-            "2024-11-10": {
+            "2024-11-18": {
                 "2D-Subtitulado": [
-                    "14:35",
-                    "17:05",
+                    "14:30",
+                    "17:00",
                     "19:30",
-                    "19:55",
-                    "21:45",
-                    "22:20"
+                    "22:00"
                 ]
             },
-            "2024-11-11": {
+            "2024-11-19": {
                 "2D-Subtitulado": [
-                    "14:35",
-                    "17:05",
+                    "14:30",
+                    "17:00",
                     "19:30",
-                    "19:55",
-                    "21:45",
-                    "22:20"
+                    "22:00"
                 ]
             },
-            "2024-11-12": {
+            "2024-11-20": {
                 "2D-Subtitulado": [
-                    "14:35",
-                    "17:05",
+                    "14:30",
+                    "17:00",
                     "19:30",
-                    "19:55",
-                    "21:45",
-                    "22:20"
-                ]
-            },
-            "2024-11-13": {
-                "2D-Subtitulado": [
-                    "14:35",
-                    "17:05",
-                    "19:30",
-                    "19:55",
-                    "21:45",
-                    "22:20"
+                    "22:00"
                 ]
             }
         },
@@ -364,160 +832,49 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i3993.jpg",
         "duration": "75 minutos.",
         "showing_days": [
-            "2024-11-07",
-            "2024-11-08",
-            "2024-11-09",
-            "2024-11-10",
-            "2024-11-11",
-            "2024-11-12",
-            "2024-11-13"
+            "2024-11-15",
+            "2024-11-16",
+            "2024-11-17",
+            "2024-11-18",
+            "2024-11-19",
+            "2024-11-20"
         ],
         "showtimes": {
-            "2024-11-07": {
+            "2024-11-15": {
                 "2D-Castellano": [
-                    "14:10",
-                    "18:15",
-                    "20:05"
+                    "14:05"
                 ]
             },
-            "2024-11-08": {
+            "2024-11-16": {
                 "2D-Castellano": [
-                    "14:10",
-                    "18:15",
-                    "20:05"
+                    "14:05"
                 ]
             },
-            "2024-11-09": {
+            "2024-11-17": {
                 "2D-Castellano": [
-                    "14:10",
-                    "18:15",
-                    "20:05"
+                    "14:05"
                 ]
             },
-            "2024-11-10": {
+            "2024-11-18": {
                 "2D-Castellano": [
-                    "14:10",
-                    "18:15",
-                    "20:05"
+                    "14:05"
                 ]
             },
-            "2024-11-11": {
+            "2024-11-19": {
                 "2D-Castellano": [
-                    "14:10",
-                    "18:15",
-                    "20:05"
+                    "14:05"
                 ]
             },
-            "2024-11-12": {
+            "2024-11-20": {
                 "2D-Castellano": [
-                    "14:10",
-                    "18:15",
-                    "20:05"
-                ]
-            },
-            "2024-11-13": {
-                "2D-Castellano": [
-                    "14:10",
-                    "18:15",
-                    "20:05"
+                    "14:05"
                 ]
             }
         },
         "imdb_url": "https://www.imdb.com/title/tt25030744/",
-        "imdb_rating": "6.7",
+        "imdb_rating": "6.8",
         "metascore": "N/A",
         "imdb_duration": "1h 13m"
-    },
-    {
-        "title": "No te sueltes",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=3994&house_id=3206",
-        "original_title": "NEVER LET GO",
-        "poster_url": "https://static.voyalcine.net/Uploads/i3994.jpg",
-        "duration": "102 minutos.",
-        "showing_days": [
-            "2024-11-07",
-            "2024-11-08",
-            "2024-11-09",
-            "2024-11-10",
-            "2024-11-11",
-            "2024-11-12",
-            "2024-11-13"
-        ],
-        "showtimes": {
-            "2024-11-07": {
-                "2D-Subtitulado": [
-                    "20:10",
-                    "22:30"
-                ]
-            },
-            "2024-11-08": {
-                "2D-Subtitulado": [
-                    "20:10",
-                    "22:30"
-                ]
-            },
-            "2024-11-09": {
-                "2D-Subtitulado": [
-                    "20:10",
-                    "22:30"
-                ]
-            },
-            "2024-11-10": {
-                "2D-Subtitulado": [
-                    "20:10",
-                    "22:30"
-                ]
-            },
-            "2024-11-11": {
-                "2D-Subtitulado": [
-                    "20:10",
-                    "22:30"
-                ]
-            },
-            "2024-11-12": {
-                "2D-Subtitulado": [
-                    "20:10",
-                    "22:30"
-                ]
-            },
-            "2024-11-13": {
-                "2D-Subtitulado": [
-                    "20:10",
-                    "22:30"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt14415204/",
-        "imdb_rating": "5.5",
-        "metascore": "55",
-        "imdb_duration": "1h 41m"
-    },
-    {
-        "title": "Norita",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=3999&house_id=3206",
-        "original_title": "NORITA",
-        "poster_url": "https://static.voyalcine.net/Uploads/i3999.jpg",
-        "duration": "90 minutos.",
-        "showing_days": [
-            "2024-11-07",
-            "2024-11-11"
-        ],
-        "showtimes": {
-            "2024-11-07": {
-                "2D-Castellano": [
-                    "19:40"
-                ]
-            },
-            "2024-11-11": {
-                "2D-Castellano": [
-                    "19:40"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt28028830/",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "N/A"
     },
     {
         "title": "La habitaci\u00f3n de al lado",
@@ -526,68 +883,47 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i3965.jpg",
         "duration": "107 minutos.",
         "showing_days": [
-            "2024-11-06",
-            "2024-11-07",
-            "2024-11-08",
-            "2024-11-09",
-            "2024-11-10",
-            "2024-11-11",
-            "2024-11-12"
+            "2024-11-15",
+            "2024-11-16",
+            "2024-11-17",
+            "2024-11-18",
+            "2024-11-19",
+            "2024-11-20"
         ],
         "showtimes": {
-            "2024-11-06": {
+            "2024-11-15": {
                 "2D-Subtitulado": [
-                    "14:45",
-                    "17:15",
-                    "19:40",
-                    "22:05"
-                ]
-            },
-            "2024-11-07": {
-                "2D-Subtitulado": [
-                    "14:45",
-                    "17:15",
-                    "19:40",
+                    "17:10",
                     "22:10"
                 ]
             },
-            "2024-11-08": {
+            "2024-11-16": {
                 "2D-Subtitulado": [
-                    "14:45",
-                    "17:15",
-                    "19:40",
+                    "17:10",
                     "22:10"
                 ]
             },
-            "2024-11-09": {
+            "2024-11-17": {
                 "2D-Subtitulado": [
-                    "14:45",
-                    "17:15",
-                    "19:40",
+                    "17:10",
                     "22:10"
                 ]
             },
-            "2024-11-10": {
+            "2024-11-18": {
                 "2D-Subtitulado": [
-                    "14:45",
-                    "17:15",
-                    "19:40",
+                    "17:10",
                     "22:10"
                 ]
             },
-            "2024-11-11": {
+            "2024-11-19": {
                 "2D-Subtitulado": [
-                    "14:45",
-                    "17:15",
-                    "19:40",
+                    "17:10",
                     "22:10"
                 ]
             },
-            "2024-11-12": {
+            "2024-11-20": {
                 "2D-Subtitulado": [
-                    "14:45",
-                    "17:15",
-                    "19:40",
+                    "17:10",
                     "22:10"
                 ]
             }
@@ -598,174 +934,55 @@
         "imdb_duration": "1h 47m"
     },
     {
-        "title": "Sim\u00f3n de la monta\u00f1a",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=3966&house_id=3206",
-        "original_title": "SIMON DE LA MONTA\u00d1A",
-        "poster_url": "https://static.voyalcine.net/Uploads/i3966.jpg",
-        "duration": "96 minutos.",
-        "showing_days": [
-            "2024-11-06"
-        ],
-        "showtimes": {
-            "2024-11-06": {
-                "2D-Castellano": [
-                    "14:10",
-                    "22:10"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt32119337/",
-        "imdb_rating": "6.8",
-        "metascore": "N/A",
-        "imdb_duration": "1h 36m"
-    },
-    {
         "title": "Terrifier 3: payaso siniestro",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=3964&house_id=3206",
         "original_title": "TERRIFIER 3",
         "poster_url": "https://static.voyalcine.net/Uploads/i3964.jpg",
         "duration": "125 minutos.",
         "showing_days": [
-            "2024-11-06",
-            "2024-11-07",
-            "2024-11-08",
-            "2024-11-09",
-            "2024-11-10",
-            "2024-11-11",
-            "2024-11-12"
+            "2024-11-15",
+            "2024-11-16",
+            "2024-11-17",
+            "2024-11-18",
+            "2024-11-19",
+            "2024-11-20"
         ],
         "showtimes": {
-            "2024-11-06": {
-                "2D-Subtitulado": [
-                    "16:55",
-                    "19:55",
-                    "22:40"
-                ],
-                "2D-Doblada": [
-                    "14:10"
-                ]
-            },
-            "2024-11-07": {
+            "2024-11-15": {
                 "2D-Subtitulado": [
                     "22:40"
                 ]
             },
-            "2024-11-08": {
+            "2024-11-16": {
                 "2D-Subtitulado": [
                     "22:40"
                 ]
             },
-            "2024-11-09": {
+            "2024-11-17": {
                 "2D-Subtitulado": [
                     "22:40"
                 ]
             },
-            "2024-11-10": {
+            "2024-11-18": {
                 "2D-Subtitulado": [
                     "22:40"
                 ]
             },
-            "2024-11-11": {
+            "2024-11-19": {
                 "2D-Subtitulado": [
                     "22:40"
                 ]
             },
-            "2024-11-12": {
+            "2024-11-20": {
                 "2D-Subtitulado": [
                     "22:40"
                 ]
             }
         },
         "imdb_url": "https://www.imdb.com/title/tt27911000/",
-        "imdb_rating": "6.6",
+        "imdb_rating": "6.5",
         "metascore": "61",
         "imdb_duration": "2h 5m"
-    },
-    {
-        "title": "El aprendiz",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=3948&house_id=3206",
-        "original_title": "THE APPRENTICE",
-        "poster_url": "https://static.voyalcine.net/Uploads/i3948.jpg",
-        "duration": "122 minutos.",
-        "showing_days": [
-            "2024-11-06"
-        ],
-        "showtimes": {
-            "2024-11-06": {
-                "2D-Subtitulado": [
-                    "14:00",
-                    "19:15"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt8368368/",
-        "imdb_rating": "7.2",
-        "metascore": "64",
-        "imdb_duration": "2h 2m"
-    },
-    {
-        "title": "La leyenda del drag\u00f3n",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=3949&house_id=3206",
-        "original_title": "DRAGONKEEPER",
-        "poster_url": "https://static.voyalcine.net/Uploads/i3949.jpg",
-        "duration": "97 minutos.",
-        "showing_days": [
-            "2024-11-06",
-            "2024-11-07",
-            "2024-11-08",
-            "2024-11-09",
-            "2024-11-10",
-            "2024-11-11",
-            "2024-11-12"
-        ],
-        "showtimes": {
-            "2024-11-06": {
-                "2D-Doblada": [
-                    "14:50",
-                    "17:10"
-                ]
-            },
-            "2024-11-07": {
-                "2D-Doblada": [
-                    "14:05",
-                    "17:20"
-                ]
-            },
-            "2024-11-08": {
-                "2D-Doblada": [
-                    "14:05",
-                    "17:20"
-                ]
-            },
-            "2024-11-09": {
-                "2D-Doblada": [
-                    "14:05",
-                    "17:20"
-                ]
-            },
-            "2024-11-10": {
-                "2D-Doblada": [
-                    "14:05",
-                    "17:20"
-                ]
-            },
-            "2024-11-11": {
-                "2D-Doblada": [
-                    "14:05",
-                    "17:20"
-                ]
-            },
-            "2024-11-12": {
-                "2D-Doblada": [
-                    "14:05",
-                    "17:20"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt7093904/",
-        "imdb_rating": "5.7",
-        "metascore": "N/A",
-        "imdb_duration": "1h 38m"
     },
     {
         "title": "Venom: el \u00faltimo baile",
@@ -774,91 +991,60 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i3893.jpg",
         "duration": "110 minutos.",
         "showing_days": [
-            "2024-11-06",
-            "2024-11-07",
-            "2024-11-08",
-            "2024-11-09",
-            "2024-11-10",
-            "2024-11-11",
-            "2024-11-12"
+            "2024-11-15",
+            "2024-11-16",
+            "2024-11-17",
+            "2024-11-18",
+            "2024-11-19",
+            "2024-11-20"
         ],
         "showtimes": {
-            "2024-11-06": {
+            "2024-11-15": {
                 "2D-Subtitulado": [
-                    "15:00",
-                    "17:30",
-                    "20:00",
-                    "22:30"
-                ],
-                "2D-Doblada": [
-                    "14:30",
-                    "17:00",
-                    "19:30",
-                    "22:00"
-                ]
-            },
-            "2024-11-07": {
-                "2D-Subtitulado": [
-                    "20:00",
                     "22:35"
                 ],
                 "2D-Doblada": [
-                    "14:50",
-                    "17:25"
+                    "14:35"
                 ]
             },
-            "2024-11-08": {
+            "2024-11-16": {
                 "2D-Subtitulado": [
-                    "20:00",
                     "22:35"
                 ],
                 "2D-Doblada": [
-                    "14:50",
-                    "17:25",
-                    "19:40"
+                    "14:35"
                 ]
             },
-            "2024-11-09": {
+            "2024-11-17": {
                 "2D-Subtitulado": [
-                    "20:00",
                     "22:35"
                 ],
                 "2D-Doblada": [
-                    "14:50",
-                    "17:25",
-                    "19:40"
+                    "14:35"
                 ]
             },
-            "2024-11-10": {
+            "2024-11-18": {
                 "2D-Subtitulado": [
-                    "20:00",
                     "22:35"
                 ],
                 "2D-Doblada": [
-                    "14:50",
-                    "17:25",
-                    "19:40"
+                    "14:35"
                 ]
             },
-            "2024-11-11": {
+            "2024-11-19": {
                 "2D-Subtitulado": [
-                    "20:00",
                     "22:35"
                 ],
                 "2D-Doblada": [
-                    "14:50",
-                    "17:25"
+                    "14:35"
                 ]
             },
-            "2024-11-12": {
+            "2024-11-20": {
                 "2D-Subtitulado": [
-                    "20:00",
                     "22:35"
                 ],
                 "2D-Doblada": [
-                    "14:50",
-                    "17:25",
-                    "19:40"
+                    "14:35"
                 ]
             }
         },
@@ -868,162 +1054,60 @@
         "imdb_duration": "1h 50m"
     },
     {
-        "title": "Sonr\u00ede 2",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=3876&house_id=3206",
-        "original_title": "SMILE 2",
-        "poster_url": "https://static.voyalcine.net/Uploads/i3876.jpg",
-        "duration": "128 minutos.",
-        "showing_days": [
-            "2024-11-06",
-            "2024-11-07",
-            "2024-11-08",
-            "2024-11-09",
-            "2024-11-10",
-            "2024-11-11",
-            "2024-11-12"
-        ],
-        "showtimes": {
-            "2024-11-06": {
-                "2D-Subtitulado": [
-                    "14:05",
-                    "16:50",
-                    "19:35",
-                    "22:20"
-                ]
-            },
-            "2024-11-07": {
-                "2D-Subtitulado": [
-                    "14:00",
-                    "16:45",
-                    "22:00"
-                ]
-            },
-            "2024-11-08": {
-                "2D-Subtitulado": [
-                    "14:00",
-                    "16:45",
-                    "22:00"
-                ]
-            },
-            "2024-11-09": {
-                "2D-Subtitulado": [
-                    "14:00",
-                    "16:45",
-                    "22:00"
-                ]
-            },
-            "2024-11-10": {
-                "2D-Subtitulado": [
-                    "14:00",
-                    "16:45",
-                    "22:00"
-                ]
-            },
-            "2024-11-11": {
-                "2D-Subtitulado": [
-                    "14:00",
-                    "16:45",
-                    "22:00"
-                ]
-            },
-            "2024-11-12": {
-                "2D-Subtitulado": [
-                    "14:00",
-                    "16:45",
-                    "22:00"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt29268110/",
-        "imdb_rating": "7.2",
-        "metascore": "66",
-        "imdb_duration": "2h 7m"
-    },
-    {
-        "title": "Guas\u00f3n 2: folie a deux",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=3787&house_id=3206",
-        "original_title": "GUASON 2: FOLIE A DEUX",
-        "poster_url": "https://static.voyalcine.net/Uploads/i3787.jpg",
-        "duration": "138 minutos.",
-        "showing_days": [
-            "2024-11-06"
-        ],
-        "showtimes": {
-            "2024-11-06": {
-                "2D-Subtitulado": [
-                    "19:25",
-                    "22:35"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt11315808/",
-        "imdb_rating": "5.3",
-        "metascore": "45",
-        "imdb_duration": "2h 18m"
-    },
-    {
         "title": "Robot salvaje",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=3842&house_id=3206",
         "original_title": "WILD ROBOT",
         "poster_url": "https://static.voyalcine.net/Uploads/i3842.jpg",
         "duration": "102 minutos.",
         "showing_days": [
-            "2024-11-06",
-            "2024-11-07",
-            "2024-11-08",
-            "2024-11-09",
-            "2024-11-10",
-            "2024-11-11",
-            "2024-11-12"
+            "2024-11-15",
+            "2024-11-16",
+            "2024-11-17",
+            "2024-11-18",
+            "2024-11-19",
+            "2024-11-20"
         ],
         "showtimes": {
-            "2024-11-06": {
+            "2024-11-15": {
                 "2D-Doblada": [
                     "14:20",
                     "16:40",
-                    "19:05"
+                    "19:00"
                 ]
             },
-            "2024-11-07": {
+            "2024-11-16": {
                 "2D-Doblada": [
                     "14:20",
                     "16:40",
-                    "19:05"
+                    "19:00"
                 ]
             },
-            "2024-11-08": {
+            "2024-11-17": {
                 "2D-Doblada": [
                     "14:20",
                     "16:40",
-                    "19:05"
+                    "19:00"
                 ]
             },
-            "2024-11-09": {
+            "2024-11-18": {
                 "2D-Doblada": [
                     "14:20",
                     "16:40",
-                    "19:05"
+                    "19:00"
                 ]
             },
-            "2024-11-10": {
+            "2024-11-19": {
                 "2D-Doblada": [
                     "14:20",
                     "16:40",
-                    "19:05"
+                    "19:00"
                 ]
             },
-            "2024-11-11": {
+            "2024-11-20": {
                 "2D-Doblada": [
                     "14:20",
                     "16:40",
-                    "19:05"
-                ]
-            },
-            "2024-11-12": {
-                "2D-Doblada": [
-                    "14:20",
-                    "16:40",
-                    "19:05"
+                    "19:00"
                 ]
             }
         },
@@ -1033,133 +1117,53 @@
         "imdb_duration": "1h 42m"
     },
     {
-        "title": "El jockey",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=3837&house_id=3206",
-        "original_title": "EL JOCKEY",
-        "poster_url": "https://static.voyalcine.net/Uploads/i3837.jpg",
-        "duration": "93 minutos.",
-        "showing_days": [
-            "2024-11-06",
-            "2024-11-07",
-            "2024-11-08",
-            "2024-11-09",
-            "2024-11-10",
-            "2024-11-11",
-            "2024-11-12"
-        ],
-        "showtimes": {
-            "2024-11-06": {
-                "2D-Castellano": [
-                    "14:35",
-                    "17:05",
-                    "19:45",
-                    "22:15"
-                ]
-            },
-            "2024-11-07": {
-                "2D-Castellano": [
-                    "16:05",
-                    "22:05"
-                ]
-            },
-            "2024-11-08": {
-                "2D-Castellano": [
-                    "16:05",
-                    "22:05"
-                ]
-            },
-            "2024-11-09": {
-                "2D-Castellano": [
-                    "16:05",
-                    "22:05"
-                ]
-            },
-            "2024-11-10": {
-                "2D-Castellano": [
-                    "16:05",
-                    "22:05"
-                ]
-            },
-            "2024-11-11": {
-                "2D-Castellano": [
-                    "16:05",
-                    "22:05"
-                ]
-            },
-            "2024-11-12": {
-                "2D-Castellano": [
-                    "16:05",
-                    "22:05"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt28231777/",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "1h 36m"
-    },
-    {
         "title": "La sustancia",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=3805&house_id=3206",
         "original_title": "THE SUBSTANCE",
         "poster_url": "https://static.voyalcine.net/Uploads/i3805.jpg",
         "duration": "140 minutos.",
         "showing_days": [
-            "2024-11-06",
-            "2024-11-07",
-            "2024-11-08",
-            "2024-11-09",
-            "2024-11-10",
-            "2024-11-11",
-            "2024-11-12"
+            "2024-11-15",
+            "2024-11-16",
+            "2024-11-17",
+            "2024-11-18",
+            "2024-11-19",
+            "2024-11-20"
         ],
         "showtimes": {
-            "2024-11-06": {
+            "2024-11-15": {
                 "2D-Subtitulado": [
-                    "16:25",
-                    "19:25",
+                    "19:20",
                     "22:25"
                 ]
             },
-            "2024-11-07": {
+            "2024-11-16": {
                 "2D-Subtitulado": [
-                    "16:25",
-                    "19:25",
+                    "19:20",
                     "22:25"
                 ]
             },
-            "2024-11-08": {
+            "2024-11-17": {
                 "2D-Subtitulado": [
-                    "16:25",
-                    "19:25",
+                    "19:20",
                     "22:25"
                 ]
             },
-            "2024-11-09": {
+            "2024-11-18": {
                 "2D-Subtitulado": [
-                    "16:25",
-                    "19:25",
+                    "19:20",
                     "22:25"
                 ]
             },
-            "2024-11-10": {
+            "2024-11-19": {
                 "2D-Subtitulado": [
-                    "16:25",
-                    "19:25",
+                    "19:20",
                     "22:25"
                 ]
             },
-            "2024-11-11": {
+            "2024-11-20": {
                 "2D-Subtitulado": [
-                    "16:25",
-                    "19:25",
-                    "22:25"
-                ]
-            },
-            "2024-11-12": {
-                "2D-Subtitulado": [
-                    "16:25",
-                    "19:25",
+                    "19:20",
                     "22:25"
                 ]
             }
@@ -1168,83 +1172,5 @@
         "imdb_rating": "7.5",
         "metascore": "78",
         "imdb_duration": "2h 21m"
-    },
-    {
-        "title": "No hables con extra\u00f1os",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=3784&house_id=3206",
-        "original_title": "SPEAK NO EVIL",
-        "poster_url": "https://static.voyalcine.net/Uploads/i3784.jpg",
-        "duration": "110 minutos.",
-        "showing_days": [
-            "2024-11-06"
-        ],
-        "showtimes": {
-            "2024-11-06": {
-                "2D-Subtitulado": [
-                    "21:45"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt27534307/",
-        "imdb_rating": "6.9",
-        "metascore": "66",
-        "imdb_duration": "1h 50m"
-    },
-    {
-        "title": "BEETLEJUICE BEETLEJUICE",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=3709&house_id=3206",
-        "original_title": "BEETLEJUICE BEETLEJUICE",
-        "poster_url": "https://static.voyalcine.net/Uploads/i3709.jpg",
-        "duration": "105 minutos.",
-        "showing_days": [
-            "2024-11-06",
-            "2024-11-07",
-            "2024-11-08",
-            "2024-11-09",
-            "2024-11-10",
-            "2024-11-11",
-            "2024-11-12"
-        ],
-        "showtimes": {
-            "2024-11-06": {
-                "2D-Doblada": [
-                    "16:45"
-                ]
-            },
-            "2024-11-07": {
-                "2D-Doblada": [
-                    "14:40"
-                ]
-            },
-            "2024-11-08": {
-                "2D-Doblada": [
-                    "14:40"
-                ]
-            },
-            "2024-11-09": {
-                "2D-Doblada": [
-                    "14:40"
-                ]
-            },
-            "2024-11-10": {
-                "2D-Doblada": [
-                    "14:40"
-                ]
-            },
-            "2024-11-11": {
-                "2D-Doblada": [
-                    "14:40"
-                ]
-            },
-            "2024-11-12": {
-                "2D-Doblada": [
-                    "14:40"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt2049403/",
-        "imdb_rating": "6.8",
-        "metascore": "62",
-        "imdb_duration": "1h 45m"
     }
 ]
