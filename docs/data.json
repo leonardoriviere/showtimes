@@ -1,5 +1,185 @@
 [
     {
+        "title": "Hans Zimmer & Friends: Diamond in the desert",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4258&house_id=3206",
+        "original_title": "HANS ZIMMER & FRIENDS: DIAMOND IN THE DESERT",
+        "poster_url": "https://static.voyalcine.net/Uploads/i4258.jpg",
+        "duration": "158 minutos.",
+        "showing_days": [
+            "2025-03-20",
+            "2025-03-23"
+        ],
+        "showtimes": {
+            "2025-03-20": {
+                "2D-Subtitulado": [
+                    "19:15"
+                ]
+            },
+            "2025-03-23": {
+                "2D-Subtitulado": [
+                    "14:00"
+                ]
+            }
+        },
+        "imdb_url": "https://www.imdb.com/title/tt35616060/",
+        "imdb_rating": "N/A",
+        "metascore": "N/A",
+        "imdb_duration": "2h 38m"
+    },
+    {
+        "title": "BAEKHYUN: Lonsdaleite [dot] - K Pop",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4271&house_id=3206",
+        "original_title": "BAEKHYUN: Lonsdaleite [dot] - K Pop",
+        "poster_url": "https://static.voyalcine.net/Uploads/i4271.jpg",
+        "duration": "90 minutos.",
+        "showing_days": [
+            "2025-02-20",
+            "2025-02-22"
+        ],
+        "showtimes": {
+            "2025-02-20": {
+                "2D-Subtitulado": [
+                    "20:05"
+                ]
+            },
+            "2025-02-22": {
+                "2D-Subtitulado": [
+                    "14:30"
+                ]
+            }
+        },
+        "imdb_url": "https://www.imdb.com/title/tt34811749/",
+        "imdb_rating": "N/A",
+        "metascore": "N/A",
+        "imdb_duration": "1h 30m"
+    },
+    {
+        "title": "Diario de una pasi\u00f3n",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4287&house_id=3206",
+        "original_title": "THE NOTEBOOK",
+        "poster_url": "https://static.voyalcine.net/Uploads/i4287.jpg",
+        "duration": "124 minutos.",
+        "showing_days": [
+            "2025-02-21"
+        ],
+        "showtimes": {
+            "2025-02-21": {
+                "2D-Subtitulado": [
+                    "19:35"
+                ]
+            }
+        },
+        "imdb_url": "https://www.imdb.com/title/tt0332280/",
+        "imdb_rating": "7.8",
+        "metascore": "53",
+        "imdb_duration": "2h 3m"
+    },
+    {
+        "title": "Attack on titan: el ataque final",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4288&house_id=3206",
+        "original_title": "ATTACK ON TITAN: THE LAST ATTACK",
+        "poster_url": "https://static.voyalcine.net/Uploads/i4288.jpg",
+        "duration": "145 minutos.",
+        "showing_days": [
+            "2025-02-27",
+            "2025-02-28",
+            "2025-03-01",
+            "2025-03-02",
+            "2025-03-03",
+            "2025-03-04",
+            "2025-03-05"
+        ],
+        "showtimes": {
+            "2025-02-27": {
+                "2D-Subtitulado": [
+                    "19:25"
+                ],
+                "2D-Doblada": [
+                    "16:20"
+                ]
+            },
+            "2025-02-28": {
+                "2D-Subtitulado": [
+                    "19:25"
+                ],
+                "2D-Doblada": [
+                    "16:20"
+                ]
+            },
+            "2025-03-01": {
+                "2D-Subtitulado": [
+                    "19:25"
+                ],
+                "2D-Doblada": [
+                    "16:20"
+                ]
+            },
+            "2025-03-02": {
+                "2D-Subtitulado": [
+                    "19:25"
+                ],
+                "2D-Doblada": [
+                    "16:20"
+                ]
+            },
+            "2025-03-03": {
+                "2D-Subtitulado": [
+                    "19:25"
+                ],
+                "2D-Doblada": [
+                    "16:20"
+                ]
+            },
+            "2025-03-04": {
+                "2D-Subtitulado": [
+                    "19:25"
+                ],
+                "2D-Doblada": [
+                    "16:20"
+                ]
+            },
+            "2025-03-05": {
+                "2D-Subtitulado": [
+                    "19:25"
+                ],
+                "2D-Doblada": [
+                    "16:20"
+                ]
+            }
+        },
+        "imdb_url": "https://www.imdb.com/title/tt2560140/",
+        "imdb_rating": "N/A",
+        "metascore": "N/A",
+        "imdb_duration": "24m"
+    },
+    {
+        "title": "Imagine Dragons: Live From The Hollywood Bowl",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4281&house_id=3206",
+        "original_title": "Imagine Dragons: Live From The Hollywood Bowl",
+        "poster_url": "https://static.voyalcine.net/Uploads/i4281.jpg",
+        "duration": "130 minutos.",
+        "showing_days": [
+            "2025-03-26",
+            "2025-03-29"
+        ],
+        "showtimes": {
+            "2025-03-26": {
+                "2D-Subtitulado": [
+                    "19:50"
+                ]
+            },
+            "2025-03-29": {
+                "2D-Subtitulado": [
+                    "21:50"
+                ]
+            }
+        },
+        "imdb_url": "https://www.imdb.com/title/tt35669601/",
+        "imdb_rating": "N/A",
+        "metascore": "N/A",
+        "imdb_duration": "2h 15m"
+    },
+    {
         "title": "Capit\u00e1n Am\u00e9rica: Un nuevo mundo",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4243&house_id=3206",
         "original_title": "CAPTAIN AMERICA: BRAVE NEW WORLD",
@@ -220,7 +400,7 @@
             }
         },
         "imdb_url": "https://www.imdb.com/title/tt14513804/",
-        "imdb_rating": "N/A",
+        "imdb_rating": "5.9",
         "metascore": "N/A",
         "imdb_duration": "1h 58m"
     },
@@ -298,147 +478,9 @@
             }
         },
         "imdb_url": "https://www.imdb.com/title/tt32063050/",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
+        "imdb_rating": "7.1",
+        "metascore": "71",
         "imdb_duration": "2h 4m"
-    },
-    {
-        "title": "Hans Zimmer & Friends: Diamond in the desert",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4258&house_id=3206",
-        "original_title": "HANS ZIMMER & FRIENDS: DIAMOND IN THE DESERT",
-        "poster_url": "https://static.voyalcine.net/Uploads/i4258.jpg",
-        "duration": "158 minutos.",
-        "showing_days": [
-            "2025-03-20",
-            "2025-03-23"
-        ],
-        "showtimes": {
-            "2025-03-20": {
-                "2D-Subtitulado": [
-                    "19:15"
-                ]
-            },
-            "2025-03-23": {
-                "2D-Subtitulado": [
-                    "14:00"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt35616060/",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "2h 38m"
-    },
-    {
-        "title": "BAEKHYUN: Lonsdaleite [dot] - K Pop",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4271&house_id=3206",
-        "original_title": "BAEKHYUN: Lonsdaleite [dot] - K Pop",
-        "poster_url": "https://static.voyalcine.net/Uploads/i4271.jpg",
-        "duration": "90 minutos.",
-        "showing_days": [
-            "2025-02-20",
-            "2025-02-22"
-        ],
-        "showtimes": {
-            "2025-02-20": {
-                "2D-Subtitulado": [
-                    "20:05"
-                ]
-            },
-            "2025-02-22": {
-                "2D-Subtitulado": [
-                    "14:30"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt34811749/",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "1h 30m"
-    },
-    {
-        "title": "Imagine Dragons: Live From The Hollywood Bowl",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4281&house_id=3206",
-        "original_title": "Imagine Dragons: Live From The Hollywood Bowl",
-        "poster_url": "https://static.voyalcine.net/Uploads/i4281.jpg",
-        "duration": "130 minutos.",
-        "showing_days": [
-            "2025-03-26",
-            "2025-03-29"
-        ],
-        "showtimes": {
-            "2025-03-26": {
-                "2D-Subtitulado": [
-                    "19:50"
-                ]
-            },
-            "2025-03-29": {
-                "2D-Subtitulado": [
-                    "21:50"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt35669601/",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "2h 15m"
-    },
-    {
-        "title": "Acaba con ellos",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4256&house_id=3206",
-        "original_title": "BRING THEM DOWN",
-        "poster_url": "https://static.voyalcine.net/Uploads/i4256.jpg",
-        "duration": "105 minutos.",
-        "showing_days": [
-            "2025-02-11",
-            "2025-02-12"
-        ],
-        "showtimes": {
-            "2025-02-11": {
-                "2D-Subtitulado": [
-                    "22:00"
-                ]
-            },
-            "2025-02-12": {
-                "2D-Subtitulado": [
-                    "15:00",
-                    "22:00"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt14186876/",
-        "imdb_rating": "6.9",
-        "metascore": "61",
-        "imdb_duration": "1h 46m"
-    },
-    {
-        "title": "Amenaza en el aire",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4265&house_id=3206",
-        "original_title": "FLIGHT RISK",
-        "poster_url": "https://static.voyalcine.net/Uploads/i4265.jpg",
-        "duration": "91 minutos.",
-        "showing_days": [
-            "2025-02-11",
-            "2025-02-12"
-        ],
-        "showtimes": {
-            "2025-02-11": {
-                "2D-Subtitulado": [
-                    "22:15"
-                ]
-            },
-            "2025-02-12": {
-                "2D-Subtitulado": [
-                    "14:10",
-                    "18:10",
-                    "22:15"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt10078772/",
-        "imdb_rating": "5.5",
-        "metascore": "38",
-        "imdb_duration": "1h 31m"
     },
     {
         "title": "El brutalista",
@@ -447,8 +489,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4253.jpg",
         "duration": "215 minutos.",
         "showing_days": [
-            "2025-02-11",
-            "2025-02-12",
             "2025-02-13",
             "2025-02-14",
             "2025-02-15",
@@ -458,20 +498,6 @@
             "2025-02-19"
         ],
         "showtimes": {
-            "2025-02-11": {
-                "2D-Subtitulado": [
-                    "20:00",
-                    "21:25"
-                ]
-            },
-            "2025-02-12": {
-                "2D-Subtitulado": [
-                    "15:30",
-                    "18:15",
-                    "20:00",
-                    "21:25"
-                ]
-            },
             "2025-02-13": {
                 "2D-Subtitulado": [
                     "13:55",
@@ -523,37 +549,9 @@
             }
         },
         "imdb_url": "https://www.imdb.com/title/tt8999762/",
-        "imdb_rating": "8.0",
+        "imdb_rating": "7.9",
         "metascore": "90",
         "imdb_duration": "3h 34m"
-    },
-    {
-        "title": "El segundo acto",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4266&house_id=3206",
-        "original_title": "LE DEUXIEME ACTE",
-        "poster_url": "https://static.voyalcine.net/Uploads/i4266.jpg",
-        "duration": "80 minutos.",
-        "showing_days": [
-            "2025-02-11",
-            "2025-02-12"
-        ],
-        "showtimes": {
-            "2025-02-11": {
-                "2D-Subtitulado": [
-                    "20:15"
-                ]
-            },
-            "2025-02-12": {
-                "2D-Subtitulado": [
-                    "16:15",
-                    "20:15"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt30784256/",
-        "imdb_rating": "6.4",
-        "metascore": "57",
-        "imdb_duration": "1h 20m"
     },
     {
         "title": "Las aventuras de Dogman",
@@ -562,7 +560,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4254.jpg",
         "duration": "95 minutos.",
         "showing_days": [
-            "2025-02-12",
             "2025-02-13",
             "2025-02-14",
             "2025-02-15",
@@ -572,12 +569,6 @@
             "2025-02-19"
         ],
         "showtimes": {
-            "2025-02-12": {
-                "2D-Doblada": [
-                    "15:10",
-                    "17:30"
-                ]
-            },
             "2025-02-13": {
                 "2D-Doblada": [
                     "14:00"
@@ -626,8 +617,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4219.jpg",
         "duration": "98 minutos.",
         "showing_days": [
-            "2025-02-11",
-            "2025-02-12",
             "2025-02-13",
             "2025-02-14",
             "2025-02-15",
@@ -637,19 +626,6 @@
             "2025-02-19"
         ],
         "showtimes": {
-            "2025-02-11": {
-                "2D-Subtitulado": [
-                    "19:55",
-                    "22:10"
-                ]
-            },
-            "2025-02-12": {
-                "2D-Subtitulado": [
-                    "14:20",
-                    "19:55",
-                    "22:10"
-                ]
-            },
             "2025-02-13": {
                 "2D-Subtitulado": [
                     "22:30"
@@ -698,8 +674,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4227.jpg",
         "duration": "117 minutos.",
         "showing_days": [
-            "2025-02-11",
-            "2025-02-12",
             "2025-02-13",
             "2025-02-14",
             "2025-02-15",
@@ -709,20 +683,6 @@
             "2025-02-19"
         ],
         "showtimes": {
-            "2025-02-11": {
-                "2D-Subtitulado": [
-                    "19:25",
-                    "22:05"
-                ]
-            },
-            "2025-02-12": {
-                "2D-Subtitulado": [
-                    "14:15",
-                    "16:50",
-                    "19:25",
-                    "22:05"
-                ]
-            },
             "2025-02-13": {
                 "2D-Subtitulado": [
                     "16:40",
@@ -772,35 +732,12 @@
         "imdb_duration": "2h"
     },
     {
-        "title": "El maravilloso mago de Oz: Parte I",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4228&house_id=3206",
-        "original_title": "THE WIZARD OF THE EMERALD CITY",
-        "poster_url": "https://static.voyalcine.net/Uploads/i4228.jpg",
-        "duration": "105 minutos.",
-        "showing_days": [
-            "2025-02-12"
-        ],
-        "showtimes": {
-            "2025-02-12": {
-                "2D-Doblada": [
-                    "14:55"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt24218194/",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "2h"
-    },
-    {
         "title": "Un completo desconocido",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4220&house_id=3206",
         "original_title": "A COMPLETE UNKOWN",
         "poster_url": "https://static.voyalcine.net/Uploads/i4220.jpg",
         "duration": "140 minutos.",
         "showing_days": [
-            "2025-02-11",
-            "2025-02-12",
             "2025-02-13",
             "2025-02-14",
             "2025-02-15",
@@ -810,19 +747,6 @@
             "2025-02-19"
         ],
         "showtimes": {
-            "2025-02-11": {
-                "2D-Subtitulado": [
-                    "19:35",
-                    "22:30"
-                ]
-            },
-            "2025-02-12": {
-                "2D-Subtitulado": [
-                    "16:35",
-                    "19:35",
-                    "22:30"
-                ]
-            },
             "2025-02-13": {
                 "2D-Subtitulado": [
                     "19:20",
@@ -878,8 +802,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4201.jpg",
         "duration": "90 minutos.",
         "showing_days": [
-            "2025-02-11",
-            "2025-02-12",
             "2025-02-13",
             "2025-02-14",
             "2025-02-15",
@@ -889,17 +811,6 @@
             "2025-02-19"
         ],
         "showtimes": {
-            "2025-02-11": {
-                "2D-Subtitulado": [
-                    "19:40"
-                ]
-            },
-            "2025-02-12": {
-                "2D-Subtitulado": [
-                    "17:25",
-                    "19:40"
-                ]
-            },
             "2025-02-13": {
                 "2D-Subtitulado": [
                     "19:05"
@@ -942,41 +853,12 @@
         "imdb_duration": "1h 30m"
     },
     {
-        "title": "Anora",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4183&house_id=3206",
-        "original_title": "ANORA",
-        "poster_url": "https://static.voyalcine.net/Uploads/i4183.jpg",
-        "duration": "139 minutos.",
-        "showing_days": [
-            "2025-02-11",
-            "2025-02-12"
-        ],
-        "showtimes": {
-            "2025-02-11": {
-                "2D-Subtitulado": [
-                    "22:25"
-                ]
-            },
-            "2025-02-12": {
-                "2D-Subtitulado": [
-                    "15:15",
-                    "22:25"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt28607951/",
-        "imdb_rating": "7.8",
-        "metascore": "91",
-        "imdb_duration": "2h 19m"
-    },
-    {
         "title": "Paddington en Per\u00fa",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4181&house_id=3206",
         "original_title": "PADDINGTON IN PERU",
         "poster_url": "https://static.voyalcine.net/Uploads/i4181.jpg",
         "duration": "107 minutos.",
         "showing_days": [
-            "2025-02-12",
             "2025-02-13",
             "2025-02-14",
             "2025-02-15",
@@ -986,11 +868,6 @@
             "2025-02-19"
         ],
         "showtimes": {
-            "2025-02-12": {
-                "2D-Doblada": [
-                    "17:20"
-                ]
-            },
             "2025-02-13": {
                 "2D-Doblada": [
                     "14:20"
@@ -1029,35 +906,8 @@
         },
         "imdb_url": "https://www.imdb.com/title/tt5822536/",
         "imdb_rating": "6.8",
-        "metascore": "61",
+        "metascore": "64",
         "imdb_duration": "1h 46m"
-    },
-    {
-        "title": "Interstelar",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4126&house_id=3206",
-        "original_title": "INTERSTELLAR",
-        "poster_url": "https://static.voyalcine.net/Uploads/i4126.jpg",
-        "duration": "168 minutos.",
-        "showing_days": [
-            "2025-02-11",
-            "2025-02-12"
-        ],
-        "showtimes": {
-            "2025-02-11": {
-                "2D-Subtitulado": [
-                    "21:55"
-                ]
-            },
-            "2025-02-12": {
-                "2D-Subtitulado": [
-                    "21:55"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt0816692/",
-        "imdb_rating": "8.7",
-        "metascore": "74",
-        "imdb_duration": "2h 49m"
     },
     {
         "title": "Nosferatu",
@@ -1066,8 +916,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4142.jpg",
         "duration": "132 minutos.",
         "showing_days": [
-            "2025-02-11",
-            "2025-02-12",
             "2025-02-13",
             "2025-02-14",
             "2025-02-15",
@@ -1077,18 +925,6 @@
             "2025-02-19"
         ],
         "showtimes": {
-            "2025-02-11": {
-                "2D-Subtitulado": [
-                    "19:45",
-                    "22:35"
-                ]
-            },
-            "2025-02-12": {
-                "2D-Subtitulado": [
-                    "19:45",
-                    "22:35"
-                ]
-            },
             "2025-02-13": {
                 "2D-Subtitulado": [
                     "21:50"
@@ -1137,8 +973,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4127.jpg",
         "duration": "110 minutos.",
         "showing_days": [
-            "2025-02-11",
-            "2025-02-12",
             "2025-02-13",
             "2025-02-14",
             "2025-02-15",
@@ -1148,18 +982,6 @@
             "2025-02-19"
         ],
         "showtimes": {
-            "2025-02-11": {
-                "2D-Doblada": [
-                    "19:00"
-                ]
-            },
-            "2025-02-12": {
-                "2D-Doblada": [
-                    "14:00",
-                    "16:30",
-                    "19:00"
-                ]
-            },
             "2025-02-13": {
                 "2D-Doblada": [
                     "14:05",
@@ -1215,8 +1037,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4094.jpg",
         "duration": "118 minutos.",
         "showing_days": [
-            "2025-02-11",
-            "2025-02-12",
             "2025-02-13",
             "2025-02-14",
             "2025-02-15",
@@ -1226,18 +1046,6 @@
             "2025-02-19"
         ],
         "showtimes": {
-            "2025-02-11": {
-                "2D-Doblada": [
-                    "19:15"
-                ]
-            },
-            "2025-02-12": {
-                "2D-Doblada": [
-                    "14:05",
-                    "16:40",
-                    "19:15"
-                ]
-            },
             "2025-02-13": {
                 "2D-Doblada": [
                     "13:55",
