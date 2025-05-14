@@ -595,7 +595,6 @@
         "showtimes": {
             "2025-05-14": {
                 "2D-Subtitulado": [
-                    "14:05",
                     "18:10",
                     "22:25"
                 ]
@@ -649,8 +648,6 @@
                     "22:10"
                 ],
                 "2D-Doblada": [
-                    "14:40",
-                    "15:10",
                     "17:05",
                     "17:30",
                     "19:25"
@@ -766,27 +763,6 @@
         "imdb_duration": "1h 28m"
     },
     {
-        "title": "Sneaks, un par con suerte",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4530&house_id=3206",
-        "original_title": "SNEAKS",
-        "poster_url": "https://static.voyalcine.net/Uploads/i4530.jpg",
-        "duration": "92 minutos.",
-        "showing_days": [
-            "2025-05-14"
-        ],
-        "showtimes": {
-            "2025-05-14": {
-                "2D-Doblada": [
-                    "14:10"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt9254940/",
-        "imdb_rating": "3.7",
-        "metascore": "42",
-        "imdb_duration": "1h 33m"
-    },
-    {
         "title": "Thunderbolts*",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4481&house_id=3206",
         "original_title": "THUNDERBOLTS*",
@@ -804,7 +780,6 @@
         "showtimes": {
             "2025-05-14": {
                 "2D-Subtitulado": [
-                    "14:00",
                     "16:45",
                     "19:30",
                     "20:00",
@@ -812,7 +787,6 @@
                     "22:45"
                 ],
                 "2D-Doblada": [
-                    "14:30",
                     "16:30",
                     "17:15",
                     "19:15",
@@ -823,7 +797,6 @@
                     "22:30"
                 ],
                 "3D-Doblada": [
-                    "14:15",
                     "17:00"
                 ]
             },
@@ -1022,7 +995,6 @@
         "showtimes": {
             "2025-05-14": {
                 "2D-Castellano": [
-                    "14:50",
                     "17:10",
                     "19:35",
                     "20:05",
@@ -1158,7 +1130,6 @@
         "showtimes": {
             "2025-05-14": {
                 "2D-Doblada": [
-                    "14:25",
                     "16:50",
                     "19:20"
                 ]
@@ -1218,20 +1189,15 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4351.jpg",
         "duration": "106 minutos.",
         "showing_days": [
-            "2025-05-14",
             "2025-05-15",
             "2025-05-16",
             "2025-05-17",
             "2025-05-18",
             "2025-05-19",
-            "2025-05-20"
+            "2025-05-20",
+            "2025-05-21"
         ],
         "showtimes": {
-            "2025-05-14": {
-                "2D-Doblada": [
-                    "14:45"
-                ]
-            },
             "2025-05-15": {
                 "2D-Doblada": [
                     "14:05"
@@ -1258,6 +1224,11 @@
                 ]
             },
             "2025-05-20": {
+                "2D-Doblada": [
+                    "14:05"
+                ]
+            },
+            "2025-05-21": {
                 "2D-Doblada": [
                     "14:05"
                 ]
