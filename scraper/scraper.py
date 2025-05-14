@@ -5,10 +5,12 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from imdb import IMDb
-import json  # Import the JSON module
+import json
 import os
 from pathlib import Path
-
+import logging
+import argparse
+from datetime import datetime
 
 def convert_showcase_duration_to_minutes(duration_str):
     """Converts a duration string from '170 minutos' to an integer representing total minutes."""
@@ -29,7 +31,10 @@ def convert_imdb_duration_to_minutes(duration_str):
 
 
 class MovieScraper:
-    def __init__(self, chromedriver_path):
+    def __init__(self, chromedriver_path=None):
+        # Configure logging
+        self.logger = logging.getLogger(__name__)
+
         chrome_options = webdriver.ChromeOptions()
         chrome_options.add_argument(
             'user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36')
@@ -37,8 +42,22 @@ class MovieScraper:
         chrome_options.add_argument("--disable-gpu")  # Disable GPU acceleration (for headless)
         chrome_options.add_argument("--no-sandbox")  # Bypass OS security model
         chrome_options.add_argument("--disable-dev-shm-usage")  # Overcome limited resource problems
-        self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
-        self.driver.set_page_load_timeout(600000)
+
+        # Initialize WebDriver
+        try:
+            self.logger.info("Initializing WebDriver...")
+            if chromedriver_path:
+                self.logger.info(f"Using ChromeDriver from path: {chromedriver_path}")
+                service = Service(executable_path=chromedriver_path)
+            else:
+                self.logger.info("Using ChromeDriver managed by ChromeDriverManager.")
+                service = Service(ChromeDriverManager().install())
+            self.driver = webdriver.Chrome(service=service, options=chrome_options)
+            self.driver.set_page_load_timeout(600000)
+            self.logger.info("WebDriver initialized successfully.")
+        except Exception as e:
+            self.logger.error(f"Error initializing WebDriver: {e}")
+            raise
 
     def scrape_movie_data(self, base_url):
         self.driver.get(base_url)
@@ -102,7 +121,7 @@ class MovieScraper:
 
     def scrape_imdb_info(self, imdb_url, showcase_duration):
         if not imdb_url.startswith('https://www.imdb.com/title/tt'):
-            print(f"Invalid IMDb URL: {imdb_url}")
+            self.logger.error(f"Invalid IMDb URL: {imdb_url}")
             return {'imdb_rating': 'N/A', 'metascore': 'N/A', 'imdb_duration': 'N/A'}
         self.driver.get(imdb_url)
         imdb_info = {'imdb_rating': 'N/A', 'metascore': 'N/A', 'imdb_duration': 'N/A'}
@@ -118,7 +137,7 @@ class MovieScraper:
                     By.CSS_SELECTOR, '[data-testid="hero__pageTitle"] ~ ul[role="presentation"] > li:last-of-type'
                 ).text
             except Exception:
-                print(f"IMDb Duration Element Not Found for URL: {imdb_url}")
+                self.logger.error(f"IMDb Duration Element Not Found for URL: {imdb_url}")
                 return imdb_info
 
             imdb_duration_minutes = convert_imdb_duration_to_minutes(imdb_duration_str)
@@ -145,7 +164,7 @@ class MovieScraper:
 
             imdb_info['imdb_duration'] = imdb_duration_str  # Keep the original IMDb duration string for reference
         except Exception as e:
-            print(f"Error scraping IMDb info: {e}")
+            self.logger.error(f"Error scraping IMDb info: {e}")
 
         return imdb_info
 
@@ -196,7 +215,18 @@ class MovieScraper:
 
 
 if __name__ == "__main__":
-    scraper = MovieScraper(chromedriver_path='/usr/local/bin/chromedriver')
+    # Argument parser setup
+    parser = argparse.ArgumentParser(description='Scrape movie showtimes.')
+    parser.add_argument('--chromedriver-path', type=str, help='Path to the ChromeDriver executable')
+    args = parser.parse_args()
+
+    # Configure logging
+    logging.basicConfig(level=logging.INFO,
+                        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+                        filename='scraper.log',
+                        filemode='a')
+
+    scraper = MovieScraper(chromedriver_path=args.chromedriver_path)
     base_url = 'https://www.todoshowcase.com/'
     movie_hrefs = scraper.scrape_movie_data(base_url)
 
