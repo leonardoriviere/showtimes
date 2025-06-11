@@ -185,7 +185,7 @@
             }
         },
         "imdb_url": "https://www.imdb.com/title/tt26743210/",
-        "imdb_rating": "8.2",
+        "imdb_rating": "8.1",
         "metascore": "N/A",
         "imdb_duration": "2h 5m"
     },
@@ -323,7 +323,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4603.jpg",
         "duration": "125 minutos.",
         "showing_days": [
-            "2025-06-10",
             "2025-06-11",
             "2025-06-12",
             "2025-06-13",
@@ -334,13 +333,6 @@
             "2025-06-18"
         ],
         "showtimes": {
-            "2025-06-10": {
-                "2D-Subtitulado": [
-                    "19:30",
-                    "22:15",
-                    "22:35"
-                ]
-            },
             "2025-06-11": {
                 "2D-Subtitulado": [
                     "14:00",
@@ -403,7 +395,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4623.jpg",
         "duration": "102 minutos.",
         "showing_days": [
-            "2025-06-10",
             "2025-06-11",
             "2025-06-12",
             "2025-06-13",
@@ -414,12 +405,6 @@
             "2025-06-18"
         ],
         "showtimes": {
-            "2025-06-10": {
-                "2D-Subtitulado": [
-                    "19:55",
-                    "22:20"
-                ]
-            },
             "2025-06-11": {
                 "2D-Subtitulado": [
                     "14:55",
@@ -574,7 +559,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4569.jpg",
         "duration": "169 minutos.",
         "showing_days": [
-            "2025-06-10",
             "2025-06-11",
             "2025-06-12",
             "2025-06-13",
@@ -585,14 +569,6 @@
             "2025-06-18"
         ],
         "showtimes": {
-            "2025-06-10": {
-                "2D-Subtitulado": [
-                    "18:30",
-                    "19:00",
-                    "22:10",
-                    "22:30"
-                ]
-            },
             "2025-06-11": {
                 "2D-Subtitulado": [
                     "15:25",
@@ -664,7 +640,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4568.jpg",
         "duration": "108 minutos.",
         "showing_days": [
-            "2025-06-10",
             "2025-06-11",
             "2025-06-12",
             "2025-06-13",
@@ -675,22 +650,6 @@
             "2025-06-18"
         ],
         "showtimes": {
-            "2025-06-10": {
-                "2D-Subtitulado": [
-                    "20:00",
-                    "22:25"
-                ],
-                "2D-Doblada": [
-                    "19:05",
-                    "19:40",
-                    "21:40",
-                    "22:05"
-                ],
-                "3D-Doblada": [
-                    "19:20",
-                    "20:15"
-                ]
-            },
             "2025-06-11": {
                 "2D-Subtitulado": [
                     "20:00",
@@ -869,7 +828,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4542.jpg",
         "duration": "110 minutos.",
         "showing_days": [
-            "2025-06-10",
             "2025-06-11",
             "2025-06-12",
             "2025-06-13",
@@ -880,12 +838,6 @@
             "2025-06-18"
         ],
         "showtimes": {
-            "2025-06-10": {
-                "2D-Subtitulado": [
-                    "19:25",
-                    "22:00"
-                ]
-            },
             "2025-06-11": {
                 "2D-Subtitulado": [
                     "14:15",
@@ -951,15 +903,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4481.jpg",
         "duration": "126 minutos.",
         "showing_days": [
-            "2025-06-10",
             "2025-06-11"
         ],
         "showtimes": {
-            "2025-06-10": {
-                "2D-Subtitulado": [
-                    "21:55"
-                ]
-            },
             "2025-06-11": {
                 "2D-Subtitulado": [
                     "21:55"
@@ -967,7 +913,7 @@
             }
         },
         "imdb_url": "https://www.imdb.com/title/tt20969586/",
-        "imdb_rating": "7.6",
+        "imdb_rating": "7.5",
         "metascore": "68",
         "imdb_duration": "2h 7m"
     }
