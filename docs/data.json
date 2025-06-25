@@ -17,7 +17,7 @@
             }
         },
         "imdb_url": "https://www.imdb.com/title/tt36590404/",
-        "imdb_rating": "8.9",
+        "imdb_rating": "8.3",
         "metascore": "N/A",
         "imdb_duration": "55m"
     },
@@ -518,7 +518,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4631.jpg",
         "duration": "98 minutos.",
         "showing_days": [
-            "2025-06-24",
             "2025-06-25",
             "2025-06-26",
             "2025-06-27",
@@ -529,16 +528,6 @@
             "2025-07-02"
         ],
         "showtimes": {
-            "2025-06-24": {
-                "2D-Doblada": [
-                    "19:15",
-                    "19:55",
-                    "21:35"
-                ],
-                "3D-Doblada": [
-                    "19:35"
-                ]
-            },
             "2025-06-25": {
                 "2D-Doblada": [
                     "14:20",
@@ -647,7 +636,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4637b.jpg",
         "duration": "115 minutos.",
         "showing_days": [
-            "2025-06-24",
             "2025-06-25",
             "2025-06-26",
             "2025-06-27",
@@ -658,12 +646,6 @@
             "2025-07-02"
         ],
         "showtimes": {
-            "2025-06-24": {
-                "2D-Subtitulado": [
-                    "19:50",
-                    "22:25"
-                ]
-            },
             "2025-06-25": {
                 "2D-Subtitulado": [
                     "19:50",
@@ -725,7 +707,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4599.jpg",
         "duration": "125 minutos.",
         "showing_days": [
-            "2025-06-24",
             "2025-06-25",
             "2025-06-26",
             "2025-06-27",
@@ -736,19 +717,6 @@
             "2025-07-02"
         ],
         "showtimes": {
-            "2025-06-24": {
-                "2D-Subtitulado": [
-                    "22:15"
-                ],
-                "2D-Doblada": [
-                    "19:20",
-                    "19:40",
-                    "22:00"
-                ],
-                "3D-Doblada": [
-                    "20:00"
-                ]
-            },
             "2025-06-25": {
                 "2D-Subtitulado": [
                     "22:15"
@@ -878,10 +846,10 @@
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/title/tt29514983/",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "15m"
+        "imdb_url": "https://www.imdb.com/title/tt26743210/",
+        "imdb_rating": "8.1",
+        "metascore": "61",
+        "imdb_duration": "2h 5m"
     },
     {
         "title": "Bailarina",
@@ -890,15 +858,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4603.jpg",
         "duration": "125 minutos.",
         "showing_days": [
-            "2025-06-24",
             "2025-06-25"
         ],
         "showtimes": {
-            "2025-06-24": {
-                "2D-Subtitulado": [
-                    "22:20"
-                ]
-            },
             "2025-06-25": {
                 "2D-Subtitulado": [
                     "22:35"
@@ -917,7 +879,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4623.jpg",
         "duration": "102 minutos.",
         "showing_days": [
-            "2025-06-24",
             "2025-06-25",
             "2025-06-26",
             "2025-06-27",
@@ -928,12 +889,6 @@
             "2025-07-02"
         ],
         "showtimes": {
-            "2025-06-24": {
-                "2D-Subtitulado": [
-                    "20:15",
-                    "22:35"
-                ]
-            },
             "2025-06-25": {
                 "2D-Subtitulado": [
                     "20:15"
@@ -987,7 +942,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4569.jpg",
         "duration": "169 minutos.",
         "showing_days": [
-            "2025-06-24",
             "2025-06-25",
             "2025-06-26",
             "2025-06-27",
@@ -998,12 +952,6 @@
             "2025-07-02"
         ],
         "showtimes": {
-            "2025-06-24": {
-                "2D-Subtitulado": [
-                    "19:05",
-                    "22:30"
-                ]
-            },
             "2025-06-25": {
                 "2D-Subtitulado": [
                     "15:30",
@@ -1047,10 +995,10 @@
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/title/tt9603208/",
-        "imdb_rating": "7.4",
-        "metascore": "67",
-        "imdb_duration": "2h 49m"
+        "imdb_url": "https://www.imdb.com/title/tt34752066/",
+        "imdb_rating": "N/A",
+        "metascore": "N/A",
+        "imdb_duration": "2h 53m"
     },
     {
         "title": "Lilo & Stitch",
@@ -1059,7 +1007,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4568.jpg",
         "duration": "108 minutos.",
         "showing_days": [
-            "2025-06-24",
             "2025-06-25",
             "2025-06-26",
             "2025-06-27",
@@ -1070,15 +1017,6 @@
             "2025-07-02"
         ],
         "showtimes": {
-            "2025-06-24": {
-                "2D-Subtitulado": [
-                    "21:55"
-                ],
-                "2D-Doblada": [
-                    "19:00",
-                    "21:30"
-                ]
-            },
             "2025-06-25": {
                 "2D-Subtitulado": [
                     "21:55"
@@ -1174,15 +1112,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4542.jpg",
         "duration": "110 minutos.",
         "showing_days": [
-            "2025-06-24",
             "2025-06-25"
         ],
         "showtimes": {
-            "2025-06-24": {
-                "2D-Subtitulado": [
-                    "22:40"
-                ]
-            },
             "2025-06-25": {
                 "2D-Subtitulado": [
                     "22:40"
