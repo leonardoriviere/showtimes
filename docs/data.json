@@ -151,10 +151,12 @@
                 "2D-Subtitulado": [
                     "16:20",
                     "19:40",
+                    "21:35",
                     "22:30"
                 ],
                 "2D-Doblada": [
                     "14:00",
+                    "15:30",
                     "16:35",
                     "19:10",
                     "22:00"
@@ -169,7 +171,7 @@
             }
         },
         "imdb_url": "https://www.imdb.com/title/tt31036941/",
-        "imdb_rating": "N/A",
+        "imdb_rating": "6.4",
         "metascore": "N/A",
         "imdb_duration": "2h 14m"
     },
@@ -333,27 +335,6 @@
         "imdb_duration": "1h 31m"
     },
     {
-        "title": "ATEEZ World Tour",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4657&house_id=3206",
-        "original_title": "ATEEZ WORLD TOUR",
-        "poster_url": "https://static.voyalcine.net/Uploads/i4657.jpg",
-        "duration": "125 minutos.",
-        "showing_days": [
-            "2025-07-01"
-        ],
-        "showtimes": {
-            "2025-07-01": {
-                "2D-Subtitulado": [
-                    "19:20"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt35571591/",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "4h 28m"
-    },
-    {
         "title": "La venganza",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4656&house_id=3206",
         "original_title": "VOGTERAKA",
@@ -381,26 +362,16 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4606.jpg",
         "duration": "155 minutos.",
         "showing_days": [
-            "2025-07-01",
             "2025-07-02",
             "2025-07-03",
             "2025-07-04",
             "2025-07-05",
             "2025-07-06",
             "2025-07-07",
-            "2025-07-08"
+            "2025-07-08",
+            "2025-07-09"
         ],
         "showtimes": {
-            "2025-07-01": {
-                "2D-Subtitulado": [
-                    "18:35",
-                    "19:00",
-                    "19:25",
-                    "21:40",
-                    "22:10",
-                    "22:35"
-                ]
-            },
             "2025-07-02": {
                 "2D-Subtitulado": [
                     "15:45",
@@ -484,6 +455,17 @@
                     "22:10",
                     "22:40"
                 ]
+            },
+            "2025-07-09": {
+                "2D-Subtitulado": [
+                    "15:45",
+                    "16:10",
+                    "18:30",
+                    "19:00",
+                    "19:20",
+                    "21:50",
+                    "22:10"
+                ]
             }
         },
         "imdb_url": "https://www.imdb.com/title/tt16311594/",
@@ -498,16 +480,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4655.jpg",
         "duration": "120 minutos.",
         "showing_days": [
-            "2025-07-01",
             "2025-07-02"
         ],
         "showtimes": {
-            "2025-07-01": {
-                "2D-Subtitulado": [
-                    "19:50",
-                    "22:30"
-                ]
-            },
             "2025-07-02": {
                 "2D-Subtitulado": [
                     "14:10",
@@ -518,10 +493,10 @@
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/title/tt26342662/",
-        "imdb_rating": "6.3",
-        "metascore": "55",
-        "imdb_duration": "2h"
+        "imdb_url": "https://www.imdb.com/title/tt33339162/",
+        "imdb_rating": "N/A",
+        "metascore": "N/A",
+        "imdb_duration": "13m"
     },
     {
         "title": "Elio",
@@ -530,21 +505,16 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4631.jpg",
         "duration": "98 minutos.",
         "showing_days": [
-            "2025-07-01",
             "2025-07-02",
             "2025-07-03",
             "2025-07-04",
             "2025-07-05",
             "2025-07-06",
             "2025-07-07",
-            "2025-07-08"
+            "2025-07-08",
+            "2025-07-09"
         ],
         "showtimes": {
-            "2025-07-01": {
-                "2D-Doblada": [
-                    "19:15"
-                ]
-            },
             "2025-07-02": {
                 "2D-Doblada": [
                     "13:50",
@@ -615,6 +585,16 @@
                 "3D-Doblada": [
                     "14:15"
                 ]
+            },
+            "2025-07-09": {
+                "2D-Doblada": [
+                    "14:40",
+                    "17:00",
+                    "19:20"
+                ],
+                "3D-Doblada": [
+                    "14:15"
+                ]
             }
         },
         "imdb_url": "https://www.imdb.com/title/tt4900148/",
@@ -629,22 +609,16 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4637b.jpg",
         "duration": "115 minutos.",
         "showing_days": [
-            "2025-07-01",
             "2025-07-02",
             "2025-07-03",
             "2025-07-04",
             "2025-07-05",
             "2025-07-06",
             "2025-07-07",
-            "2025-07-08"
+            "2025-07-08",
+            "2025-07-09"
         ],
         "showtimes": {
-            "2025-07-01": {
-                "2D-Subtitulado": [
-                    "19:30",
-                    "22:40"
-                ]
-            },
             "2025-07-02": {
                 "2D-Subtitulado": [
                     "16:35",
@@ -685,6 +659,11 @@
                     "19:45",
                     "22:25"
                 ]
+            },
+            "2025-07-09": {
+                "2D-Subtitulado": [
+                    "22:35"
+                ]
             }
         },
         "imdb_url": "https://www.imdb.com/title/tt10548174/",
@@ -699,25 +678,16 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4599.jpg",
         "duration": "125 minutos.",
         "showing_days": [
-            "2025-07-01",
             "2025-07-02",
             "2025-07-03",
             "2025-07-04",
             "2025-07-05",
             "2025-07-06",
             "2025-07-07",
-            "2025-07-08"
+            "2025-07-08",
+            "2025-07-09"
         ],
         "showtimes": {
-            "2025-07-01": {
-                "2D-Subtitulado": [
-                    "19:40",
-                    "22:25"
-                ],
-                "2D-Doblada": [
-                    "22:00"
-                ]
-            },
             "2025-07-02": {
                 "2D-Subtitulado": [
                     "19:40",
@@ -823,12 +793,27 @@
                     "14:10",
                     "16:55"
                 ]
+            },
+            "2025-07-09": {
+                "2D-Subtitulado": [
+                    "19:35",
+                    "22:25"
+                ],
+                "2D-Doblada": [
+                    "13:50",
+                    "16:30",
+                    "19:15"
+                ],
+                "3D-Doblada": [
+                    "14:10",
+                    "16:55"
+                ]
             }
         },
-        "imdb_url": "https://www.imdb.com/title/tt26743210/",
-        "imdb_rating": "8.1",
-        "metascore": "61",
-        "imdb_duration": "2h 5m"
+        "imdb_url": "https://www.imdb.com/title/tt29514983/",
+        "imdb_rating": "N/A",
+        "metascore": "N/A",
+        "imdb_duration": "15m"
     },
     {
         "title": "El esquema fenicio",
@@ -837,21 +822,16 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4623.jpg",
         "duration": "102 minutos.",
         "showing_days": [
-            "2025-07-01",
             "2025-07-02",
             "2025-07-03",
             "2025-07-04",
             "2025-07-05",
             "2025-07-06",
             "2025-07-07",
-            "2025-07-08"
+            "2025-07-08",
+            "2025-07-09"
         ],
         "showtimes": {
-            "2025-07-01": {
-                "2D-Subtitulado": [
-                    "21:55"
-                ]
-            },
             "2025-07-02": {
                 "2D-Subtitulado": [
                     "21:55"
@@ -886,6 +866,11 @@
                 "2D-Subtitulado": [
                     "13:55"
                 ]
+            },
+            "2025-07-09": {
+                "2D-Subtitulado": [
+                    "13:55"
+                ]
             }
         },
         "imdb_url": "https://www.imdb.com/title/tt30840798/",
@@ -900,22 +885,16 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4569.jpg",
         "duration": "169 minutos.",
         "showing_days": [
-            "2025-07-01",
             "2025-07-02",
             "2025-07-03",
             "2025-07-04",
             "2025-07-05",
             "2025-07-06",
             "2025-07-07",
-            "2025-07-08"
+            "2025-07-08",
+            "2025-07-09"
         ],
         "showtimes": {
-            "2025-07-01": {
-                "2D-Subtitulado": [
-                    "19:10",
-                    "22:05"
-                ]
-            },
             "2025-07-02": {
                 "2D-Subtitulado": [
                     "19:10"
@@ -950,6 +929,11 @@
                 "2D-Subtitulado": [
                     "22:05"
                 ]
+            },
+            "2025-07-09": {
+                "2D-Subtitulado": [
+                    "22:05"
+                ]
             }
         },
         "imdb_url": "https://www.imdb.com/title/tt9603208/",
@@ -964,22 +948,16 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4568.jpg",
         "duration": "108 minutos.",
         "showing_days": [
-            "2025-07-01",
             "2025-07-02",
             "2025-07-03",
             "2025-07-04",
             "2025-07-05",
             "2025-07-06",
             "2025-07-07",
-            "2025-07-08"
+            "2025-07-08",
+            "2025-07-09"
         ],
         "showtimes": {
-            "2025-07-01": {
-                "2D-Doblada": [
-                    "19:05",
-                    "21:35"
-                ]
-            },
             "2025-07-02": {
                 "2D-Doblada": [
                     "14:00",
@@ -1030,6 +1008,12 @@
                     "13:45",
                     "14:45",
                     "17:15"
+                ]
+            },
+            "2025-07-09": {
+                "2D-Doblada": [
+                    "14:20",
+                    "16:45"
                 ]
             }
         },
