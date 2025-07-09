@@ -1,5 +1,65 @@
 [
     {
+        "title": "Roger Waters this is not a drill: live from Prague",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4630&house_id=3206",
+        "original_title": "ROGER WATERS THIS IS NOT A DRILL: LIVE FROM PRAGUE",
+        "poster_url": "https://static.voyalcine.net/Uploads/i4630.jpg",
+        "duration": "145 minutos.",
+        "showing_days": [
+            "2025-07-23",
+            "2025-07-27"
+        ],
+        "showtimes": {
+            "2025-07-23": {
+                "2D-Subtitulado": [
+                    "21:30"
+                ]
+            },
+            "2025-07-27": {
+                "2D-Subtitulado": [
+                    "21:30"
+                ]
+            }
+        },
+        "imdb_url": "https://www.imdb.com/title/tt27712304/",
+        "imdb_rating": "N/A",
+        "metascore": "N/A",
+        "imdb_duration": "2h 45m"
+    },
+    {
+        "title": "BTS Army: Forever we are young",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4673&house_id=3206",
+        "original_title": "BTS ARMY: FOREVER WE ARE YOUNG",
+        "poster_url": "https://static.voyalcine.net/Uploads/i4673.jpg",
+        "duration": "96 minutos.",
+        "showing_days": [
+            "2025-07-30",
+            "2025-08-02",
+            "2025-08-03"
+        ],
+        "showtimes": {
+            "2025-07-30": {
+                "2D-Subtitulado": [
+                    "14:45"
+                ]
+            },
+            "2025-08-02": {
+                "2D-Subtitulado": [
+                    "14:45"
+                ]
+            },
+            "2025-08-03": {
+                "2D-Subtitulado": [
+                    "14:45"
+                ]
+            }
+        },
+        "imdb_url": "https://www.imdb.com/title/tt35522480/",
+        "imdb_rating": "N/A",
+        "metascore": "N/A",
+        "imdb_duration": "1h 31m"
+    },
+    {
         "title": "Superman",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4662&house_id=3206",
         "original_title": "SUPERMAN",
@@ -179,68 +239,8 @@
         },
         "imdb_url": "https://www.imdb.com/title/tt5950044/",
         "imdb_rating": "N/A",
-        "metascore": "N/A",
+        "metascore": "71",
         "imdb_duration": "2h 9m"
-    },
-    {
-        "title": "Roger Waters this is not a drill: live from Prague",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4630&house_id=3206",
-        "original_title": "ROGER WATERS THIS IS NOT A DRILL: LIVE FROM PRAGUE",
-        "poster_url": "https://static.voyalcine.net/Uploads/i4630.jpg",
-        "duration": "145 minutos.",
-        "showing_days": [
-            "2025-07-23",
-            "2025-07-27"
-        ],
-        "showtimes": {
-            "2025-07-23": {
-                "2D-Subtitulado": [
-                    "21:30"
-                ]
-            },
-            "2025-07-27": {
-                "2D-Subtitulado": [
-                    "21:30"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt27712304/",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "2h 45m"
-    },
-    {
-        "title": "BTS Army: Forever we are young",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4673&house_id=3206",
-        "original_title": "BTS ARMY: FOREVER WE ARE YOUNG",
-        "poster_url": "https://static.voyalcine.net/Uploads/i4673.jpg",
-        "duration": "96 minutos.",
-        "showing_days": [
-            "2025-07-30",
-            "2025-08-02",
-            "2025-08-03"
-        ],
-        "showtimes": {
-            "2025-07-30": {
-                "2D-Subtitulado": [
-                    "14:45"
-                ]
-            },
-            "2025-08-02": {
-                "2D-Subtitulado": [
-                    "14:45"
-                ]
-            },
-            "2025-08-03": {
-                "2D-Subtitulado": [
-                    "14:45"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt35522480/",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "1h 31m"
     },
     {
         "title": "Lecciones de un ping\u00fcino",
@@ -370,7 +370,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4645.jpg",
         "duration": "134 minutos.",
         "showing_days": [
-            "2025-07-08",
             "2025-07-09",
             "2025-07-10",
             "2025-07-11",
@@ -381,23 +380,6 @@
             "2025-07-16"
         ],
         "showtimes": {
-            "2025-07-08": {
-                "2D-Subtitulado": [
-                    "19:40",
-                    "21:35",
-                    "22:30"
-                ],
-                "2D-Doblada": [
-                    "19:10",
-                    "22:00"
-                ],
-                "3D-Subtitulado": [
-                    "22:15"
-                ],
-                "3D-Doblada": [
-                    "19:25"
-                ]
-            },
             "2025-07-09": {
                 "2D-Subtitulado": [
                     "16:20",
@@ -570,8 +552,8 @@
         },
         "imdb_url": "https://www.imdb.com/title/tt31036941/",
         "imdb_rating": "6.3",
-        "metascore": "52",
-        "imdb_duration": "2h 14m"
+        "metascore": "50",
+        "imdb_duration": "2h 13m"
     },
     {
         "title": "F1 La pel\u00edcula",
@@ -580,7 +562,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4606.jpg",
         "duration": "155 minutos.",
         "showing_days": [
-            "2025-07-08",
             "2025-07-09",
             "2025-07-10",
             "2025-07-11",
@@ -591,16 +572,6 @@
             "2025-07-16"
         ],
         "showtimes": {
-            "2025-07-08": {
-                "2D-Subtitulado": [
-                    "18:30",
-                    "19:00",
-                    "19:30",
-                    "21:50",
-                    "22:10",
-                    "22:40"
-                ]
-            },
             "2025-07-09": {
                 "2D-Subtitulado": [
                     "15:45",
@@ -696,7 +667,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4631.jpg",
         "duration": "98 minutos.",
         "showing_days": [
-            "2025-07-08",
             "2025-07-09",
             "2025-07-10",
             "2025-07-11",
@@ -707,11 +677,6 @@
             "2025-07-16"
         ],
         "showtimes": {
-            "2025-07-08": {
-                "2D-Doblada": [
-                    "19:20"
-                ]
-            },
             "2025-07-09": {
                 "2D-Doblada": [
                     "14:40",
@@ -777,7 +742,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4637b.jpg",
         "duration": "115 minutos.",
         "showing_days": [
-            "2025-07-08",
             "2025-07-09",
             "2025-07-10",
             "2025-07-11",
@@ -787,12 +751,6 @@
             "2025-07-16"
         ],
         "showtimes": {
-            "2025-07-08": {
-                "2D-Subtitulado": [
-                    "19:45",
-                    "22:25"
-                ]
-            },
             "2025-07-09": {
                 "2D-Subtitulado": [
                     "22:35"
@@ -841,7 +799,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4599.jpg",
         "duration": "125 minutos.",
         "showing_days": [
-            "2025-07-08",
             "2025-07-09",
             "2025-07-10",
             "2025-07-11",
@@ -852,15 +809,6 @@
             "2025-07-16"
         ],
         "showtimes": {
-            "2025-07-08": {
-                "2D-Subtitulado": [
-                    "19:35",
-                    "22:20"
-                ],
-                "2D-Doblada": [
-                    "19:15"
-                ]
-            },
             "2025-07-09": {
                 "2D-Subtitulado": [
                     "19:35",
@@ -980,15 +928,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4569.jpg",
         "duration": "169 minutos.",
         "showing_days": [
-            "2025-07-08",
             "2025-07-09"
         ],
         "showtimes": {
-            "2025-07-08": {
-                "2D-Subtitulado": [
-                    "22:05"
-                ]
-            },
             "2025-07-09": {
                 "2D-Subtitulado": [
                     "22:05"
