@@ -342,16 +342,10 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4731.jpg",
         "duration": "125 minutos.",
         "showing_days": [
-            "2025-08-12",
             "2025-08-15",
             "2025-08-19"
         ],
         "showtimes": {
-            "2025-08-12": {
-                "2D-Subtitulado": [
-                    "19:40"
-                ]
-            },
             "2025-08-15": {
                 "2D-Subtitulado": [
                     "19:50"
@@ -375,7 +369,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4733.jpg",
         "duration": "128 minutos.",
         "showing_days": [
-            "2025-08-12",
             "2025-08-13",
             "2025-08-14",
             "2025-08-15",
@@ -386,13 +379,6 @@
             "2025-08-20"
         ],
         "showtimes": {
-            "2025-08-12": {
-                "2D-Subtitulado": [
-                    "19:30",
-                    "21:50",
-                    "22:10"
-                ]
-            },
             "2025-08-13": {
                 "2D-Subtitulado": [
                     "14:00",
@@ -484,7 +470,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4748.jpg",
         "duration": "111 minutos.",
         "showing_days": [
-            "2025-08-12",
             "2025-08-13",
             "2025-08-14",
             "2025-08-15",
@@ -495,15 +480,6 @@
             "2025-08-20"
         ],
         "showtimes": {
-            "2025-08-12": {
-                "2D-Subtitulado": [
-                    "19:40",
-                    "22:05"
-                ],
-                "2D-Doblada": [
-                    "19:15"
-                ]
-            },
             "2025-08-13": {
                 "2D-Subtitulado": [
                     "17:15",
@@ -604,7 +580,7 @@
         },
         "imdb_url": "https://www.imdb.com/title/tt31956415/",
         "imdb_rating": "7.0",
-        "metascore": "61",
+        "metascore": "60",
         "imdb_duration": "1h 50m"
     },
     {
@@ -614,7 +590,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4719.jpg",
         "duration": "85 minutos.",
         "showing_days": [
-            "2025-08-12",
             "2025-08-13",
             "2025-08-14",
             "2025-08-15",
@@ -625,11 +600,6 @@
             "2025-08-20"
         ],
         "showtimes": {
-            "2025-08-12": {
-                "2D-Subtitulado": [
-                    "22:00"
-                ]
-            },
             "2025-08-13": {
                 "2D-Subtitulado": [
                     "14:05",
@@ -684,7 +654,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4718.jpg",
         "duration": "117 minutos.",
         "showing_days": [
-            "2025-08-12",
             "2025-08-13",
             "2025-08-14",
             "2025-08-15",
@@ -695,12 +664,6 @@
             "2025-08-20"
         ],
         "showtimes": {
-            "2025-08-12": {
-                "2D-Subtitulado": [
-                    "19:45",
-                    "22:15"
-                ]
-            },
             "2025-08-13": {
                 "2D-Subtitulado": [
                     "14:25",
@@ -771,15 +734,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4721.jpg",
         "duration": "102 minutos.",
         "showing_days": [
-            "2025-08-12",
             "2025-08-13"
         ],
         "showtimes": {
-            "2025-08-12": {
-                "2D-Subtitulado": [
-                    "20:05"
-                ]
-            },
             "2025-08-13": {
                 "2D-Subtitulado": [
                     "20:05"
@@ -798,15 +755,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4720.jpg",
         "duration": "98 minutos.",
         "showing_days": [
-            "2025-08-12",
             "2025-08-13"
         ],
         "showtimes": {
-            "2025-08-12": {
-                "2D-Subtitulado": [
-                    "22:25"
-                ]
-            },
             "2025-08-13": {
                 "2D-Subtitulado": [
                     "22:25"
@@ -825,7 +776,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4682.jpg",
         "duration": "115 minutos.",
         "showing_days": [
-            "2025-08-12",
             "2025-08-13",
             "2025-08-14",
             "2025-08-15",
@@ -836,15 +786,6 @@
             "2025-08-20"
         ],
         "showtimes": {
-            "2025-08-12": {
-                "2D-Subtitulado": [
-                    "20:00",
-                    "22:30"
-                ],
-                "2D-Doblada": [
-                    "19:20"
-                ]
-            },
             "2025-08-13": {
                 "2D-Subtitulado": [
                     "14:50",
@@ -939,7 +880,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4711.jpg",
         "duration": "105 minutos.",
         "showing_days": [
-            "2025-08-12",
             "2025-08-13",
             "2025-08-14",
             "2025-08-15",
@@ -950,11 +890,6 @@
             "2025-08-20"
         ],
         "showtimes": {
-            "2025-08-12": {
-                "2D-Doblada": [
-                    "19:10"
-                ]
-            },
             "2025-08-13": {
                 "2D-Doblada": [
                     "14:10",
@@ -1010,7 +945,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4662.jpg",
         "duration": "130 minutos.",
         "showing_days": [
-            "2025-08-12",
             "2025-08-13",
             "2025-08-14",
             "2025-08-15",
@@ -1021,11 +955,6 @@
             "2025-08-20"
         ],
         "showtimes": {
-            "2025-08-12": {
-                "2D-Subtitulado": [
-                    "22:20"
-                ]
-            },
             "2025-08-13": {
                 "2D-Subtitulado": [
                     "17:15",
@@ -1084,15 +1013,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4645.jpg",
         "duration": "134 minutos.",
         "showing_days": [
-            "2025-08-12",
             "2025-08-13"
         ],
         "showtimes": {
-            "2025-08-12": {
-                "2D-Subtitulado": [
-                    "21:45"
-                ]
-            },
             "2025-08-13": {
                 "2D-Subtitulado": [
                     "21:45"
@@ -1111,7 +1034,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4606.jpg",
         "duration": "155 minutos.",
         "showing_days": [
-            "2025-08-12",
             "2025-08-13",
             "2025-08-14",
             "2025-08-15",
@@ -1122,12 +1044,6 @@
             "2025-08-20"
         ],
         "showtimes": {
-            "2025-08-12": {
-                "2D-Subtitulado": [
-                    "19:25",
-                    "22:35"
-                ]
-            },
             "2025-08-13": {
                 "2D-Subtitulado": [
                     "16:10",
@@ -1192,9 +1108,9 @@
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/title/tt26743210/",
-        "imdb_rating": "7.9",
-        "metascore": "61",
-        "imdb_duration": "2h 5m"
+        "imdb_url": "https://www.imdb.com/title/tt29514983/",
+        "imdb_rating": "N/A",
+        "metascore": "N/A",
+        "imdb_duration": "15m"
     }
 ]
