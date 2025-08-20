@@ -1,26 +1,5 @@
 [
     {
-        "title": "Yungblud. Are you ready, boy?",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4705&house_id=3206",
-        "original_title": "YUNGBLUD. ARE YOU READY, BOY?",
-        "poster_url": "https://static.voyalcine.net/Uploads/i4705.jpg",
-        "duration": "120 minutos.",
-        "showing_days": [
-            "2025-08-20"
-        ],
-        "showtimes": {
-            "2025-08-20": {
-                "2D-Subtitulado": [
-                    "19:50"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt37542725/",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "1h 59m"
-    },
-    {
         "title": "El conjuro",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4768&house_id=3206",
         "original_title": "THE CONJURING",
@@ -199,6 +178,27 @@
         "imdb_duration": "24m"
     },
     {
+        "title": "Yungblud. Are you ready, boy?",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4705&house_id=3206",
+        "original_title": "YUNGBLUD. ARE YOU READY, BOY?",
+        "poster_url": "https://static.voyalcine.net/Uploads/i4705.jpg",
+        "duration": "120 minutos.",
+        "showing_days": [
+            "2025-08-20"
+        ],
+        "showtimes": {
+            "2025-08-20": {
+                "2D-Subtitulado": [
+                    "19:50"
+                ]
+            }
+        },
+        "imdb_url": "https://www.imdb.com/title/tt37542725/",
+        "imdb_rating": "N/A",
+        "metascore": "N/A",
+        "imdb_duration": "1h 59m"
+    },
+    {
         "title": "Haz que regrese",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4786&house_id=3206",
         "original_title": "BRING HER BACK",
@@ -331,7 +331,7 @@
                 "2D-Subtitulado": [
                     "14:15",
                     "16:45",
-                    "19:25"
+                    "19:20"
                 ]
             },
             "2025-08-27": {
@@ -432,15 +432,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4761.jpg",
         "duration": "129 minutos.",
         "showing_days": [
-            "2025-08-19",
             "2025-08-20"
         ],
         "showtimes": {
-            "2025-08-19": {
-                "2D-Subtitulado": [
-                    "22:25"
-                ]
-            },
             "2025-08-20": {
                 "2D-Subtitulado": [
                     "16:35",
@@ -460,7 +454,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4732.jpg",
         "duration": "98 minutos.",
         "showing_days": [
-            "2025-08-19",
             "2025-08-20",
             "2025-08-21",
             "2025-08-22",
@@ -471,18 +464,6 @@
             "2025-08-27"
         ],
         "showtimes": {
-            "2025-08-19": {
-                "2D-Castellano": [
-                    "19:20",
-                    "19:40",
-                    "20:00",
-                    "20:20",
-                    "21:40",
-                    "22:00",
-                    "22:20",
-                    "22:40"
-                ]
-            },
             "2025-08-20": {
                 "2D-Castellano": [
                     "15:00",
@@ -599,7 +580,6 @@
                     "17:20",
                     "17:40",
                     "18:00",
-                    "19:20",
                     "19:40",
                     "20:00",
                     "20:20",
@@ -655,34 +635,12 @@
         "imdb_duration": "23m"
     },
     {
-        "title": "El viaje de Chihiro",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4731&house_id=3206",
-        "original_title": "SPIRITED AWAY",
-        "poster_url": "https://static.voyalcine.net/Uploads/i4731.jpg",
-        "duration": "125 minutos.",
-        "showing_days": [
-            "2025-08-19"
-        ],
-        "showtimes": {
-            "2025-08-19": {
-                "2D-Subtitulado": [
-                    "19:15"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt0245429/",
-        "imdb_rating": "8.6",
-        "metascore": "96",
-        "imdb_duration": "2h 4m"
-    },
-    {
         "title": "La hora de la desaparici\u00f3n",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4733&house_id=3206",
         "original_title": "WEAPONS",
         "poster_url": "https://static.voyalcine.net/Uploads/i4733.jpg",
         "duration": "128 minutos.",
         "showing_days": [
-            "2025-08-19",
             "2025-08-20",
             "2025-08-21",
             "2025-08-22",
@@ -693,13 +651,6 @@
             "2025-08-27"
         ],
         "showtimes": {
-            "2025-08-19": {
-                "2D-Subtitulado": [
-                    "19:35",
-                    "22:05",
-                    "22:30"
-                ]
-            },
             "2025-08-20": {
                 "2D-Subtitulado": [
                     "14:00",
@@ -779,7 +730,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4748.jpg",
         "duration": "111 minutos.",
         "showing_days": [
-            "2025-08-19",
             "2025-08-20",
             "2025-08-21",
             "2025-08-22",
@@ -790,12 +740,6 @@
             "2025-08-27"
         ],
         "showtimes": {
-            "2025-08-19": {
-                "2D-Subtitulado": [
-                    "19:45",
-                    "22:15"
-                ]
-            },
             "2025-08-20": {
                 "2D-Subtitulado": [
                     "14:45",
@@ -921,10 +865,10 @@
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/title/tt0095705/",
-        "imdb_rating": "7.6",
-        "metascore": "76",
-        "imdb_duration": "1h 25m"
+        "imdb_url": "https://www.imdb.com/title/tt11890272/",
+        "imdb_rating": "N/A",
+        "metascore": "N/A",
+        "imdb_duration": "Episode aired Sep 28, 2016"
     },
     {
         "title": "Amores materialistas",
@@ -933,7 +877,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4718.jpg",
         "duration": "117 minutos.",
         "showing_days": [
-            "2025-08-19",
             "2025-08-20",
             "2025-08-21",
             "2025-08-22",
@@ -944,12 +887,6 @@
             "2025-08-27"
         ],
         "showtimes": {
-            "2025-08-19": {
-                "2D-Subtitulado": [
-                    "19:30",
-                    "22:10"
-                ]
-            },
             "2025-08-20": {
                 "2D-Subtitulado": [
                     "16:55",
@@ -1005,7 +942,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4682.jpg",
         "duration": "115 minutos.",
         "showing_days": [
-            "2025-08-19",
             "2025-08-20",
             "2025-08-21",
             "2025-08-22",
@@ -1016,12 +952,6 @@
             "2025-08-27"
         ],
         "showtimes": {
-            "2025-08-19": {
-                "2D-Subtitulado": [
-                    "19:55",
-                    "22:35"
-                ]
-            },
             "2025-08-20": {
                 "2D-Subtitulado": [
                     "22:35"
@@ -1184,15 +1114,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4606.jpg",
         "duration": "155 minutos.",
         "showing_days": [
-            "2025-08-19",
             "2025-08-20"
         ],
         "showtimes": {
-            "2025-08-19": {
-                "2D-Subtitulado": [
-                    "19:05"
-                ]
-            },
             "2025-08-20": {
                 "2D-Subtitulado": [
                     "19:05"
