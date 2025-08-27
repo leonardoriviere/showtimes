@@ -315,27 +315,6 @@
         "imdb_duration": "2h 30m"
     },
     {
-        "title": "El conjuro 3: el diablo me oblig\u00f3 a hacerlo",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4770&house_id=3206",
-        "original_title": "THE CONJURING: THE DEVIL MADE ME DO IT",
-        "poster_url": "https://static.voyalcine.net/Uploads/i4770.jpg",
-        "duration": "112 minutos.",
-        "showing_days": [
-            "2025-08-26"
-        ],
-        "showtimes": {
-            "2025-08-26": {
-                "2D-Subtitulado": [
-                    "22:05"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt7069210/",
-        "imdb_rating": "6.3",
-        "metascore": "53",
-        "imdb_duration": "1h 52m"
-    },
-    {
         "title": "Los Roses",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4819&house_id=3206",
         "original_title": "THE ROSES",
@@ -410,7 +389,7 @@
         },
         "imdb_url": "https://www.imdb.com/title/tt31973693/",
         "imdb_rating": "N/A",
-        "metascore": "N/A",
+        "metascore": "59",
         "imdb_duration": "1h 45m"
     },
     {
@@ -677,10 +656,10 @@
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/title/tt1415244/",
+        "imdb_url": "https://www.imdb.com/title/tt0177971/",
         "imdb_rating": "N/A",
         "metascore": "N/A",
-        "imdb_duration": "4h"
+        "imdb_duration": "2h 10m"
     },
     {
         "title": "Underground",
@@ -731,7 +710,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4786.jpg",
         "duration": "104 minutos.",
         "showing_days": [
-            "2025-08-26",
             "2025-08-27",
             "2025-08-28",
             "2025-08-29",
@@ -742,12 +720,6 @@
             "2025-09-03"
         ],
         "showtimes": {
-            "2025-08-26": {
-                "2D-Subtitulado": [
-                    "19:55",
-                    "22:35"
-                ]
-            },
             "2025-08-27": {
                 "2D-Subtitulado": [
                     "14:55",
@@ -804,7 +776,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4787.jpg",
         "duration": "110 minutos.",
         "showing_days": [
-            "2025-08-26",
             "2025-08-27",
             "2025-08-28",
             "2025-08-29",
@@ -815,11 +786,6 @@
             "2025-09-03"
         ],
         "showtimes": {
-            "2025-08-26": {
-                "2D-Subtitulado": [
-                    "19:20"
-                ]
-            },
             "2025-08-27": {
                 "2D-Subtitulado": [
                     "14:15",
@@ -875,16 +841,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4788.jpg",
         "duration": "89 minutos.",
         "showing_days": [
-            "2025-08-26",
             "2025-08-27"
         ],
         "showtimes": {
-            "2025-08-26": {
-                "2D-Subtitulado": [
-                    "20:20",
-                    "22:25"
-                ]
-            },
             "2025-08-27": {
                 "2D-Subtitulado": [
                     "14:00",
@@ -906,7 +865,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4732.jpg",
         "duration": "98 minutos.",
         "showing_days": [
-            "2025-08-26",
             "2025-08-27",
             "2025-08-28",
             "2025-08-29",
@@ -917,17 +875,6 @@
             "2025-09-03"
         ],
         "showtimes": {
-            "2025-08-26": {
-                "2D-Castellano": [
-                    "19:40",
-                    "20:00",
-                    "20:20",
-                    "21:40",
-                    "22:00",
-                    "22:20",
-                    "22:40"
-                ]
-            },
             "2025-08-27": {
                 "2D-Castellano": [
                     "15:00",
@@ -1084,7 +1031,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4733.jpg",
         "duration": "128 minutos.",
         "showing_days": [
-            "2025-08-26",
             "2025-08-27",
             "2025-08-28",
             "2025-08-29",
@@ -1095,12 +1041,6 @@
             "2025-09-03"
         ],
         "showtimes": {
-            "2025-08-26": {
-                "2D-Subtitulado": [
-                    "19:35",
-                    "22:30"
-                ]
-            },
             "2025-08-27": {
                 "2D-Subtitulado": [
                     "14:05",
@@ -1171,7 +1111,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4748.jpg",
         "duration": "111 minutos.",
         "showing_days": [
-            "2025-08-26",
             "2025-08-27",
             "2025-08-28",
             "2025-08-29",
@@ -1182,13 +1121,6 @@
             "2025-09-03"
         ],
         "showtimes": {
-            "2025-08-26": {
-                "2D-Subtitulado": [
-                    "18:00",
-                    "19:45",
-                    "22:15"
-                ]
-            },
             "2025-08-27": {
                 "2D-Subtitulado": [
                     "14:45",
@@ -1299,15 +1231,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4718.jpg",
         "duration": "117 minutos.",
         "showing_days": [
-            "2025-08-26",
             "2025-08-27"
         ],
         "showtimes": {
-            "2025-08-26": {
-                "2D-Subtitulado": [
-                    "19:30"
-                ]
-            },
             "2025-08-27": {
                 "2D-Subtitulado": [
                     "19:30"
@@ -1326,7 +1252,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4682.jpg",
         "duration": "115 minutos.",
         "showing_days": [
-            "2025-08-26",
             "2025-08-27",
             "2025-08-28",
             "2025-08-29",
@@ -1337,11 +1262,6 @@
             "2025-09-03"
         ],
         "showtimes": {
-            "2025-08-26": {
-                "2D-Subtitulado": [
-                    "22:10"
-                ]
-            },
             "2025-08-27": {
                 "2D-Subtitulado": [
                     "22:10"
