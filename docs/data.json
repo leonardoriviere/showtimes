@@ -1,32 +1,5 @@
 [
     {
-        "title": "David Gilmour live at the Circus Maximus, Rome",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4747&house_id=3206",
-        "original_title": "DAVID GILMOUR LIVE AT THE CIRCUS MAXIMUS, ROME",
-        "poster_url": "https://static.voyalcine.net/Uploads/i4747.jpg",
-        "duration": "150 minutos.",
-        "showing_days": [
-            "2025-09-17",
-            "2025-09-21"
-        ],
-        "showtimes": {
-            "2025-09-17": {
-                "2D-Subtitulado": [
-                    "19:30"
-                ]
-            },
-            "2025-09-21": {
-                "2D-Subtitulado": [
-                    "19:30"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt37731277/",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "2h 30m"
-    },
-    {
         "title": "Una velada con Dua Lipa",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4873&house_id=3206",
         "original_title": "AN EVENING WITH DUA LIPA",
@@ -162,7 +135,7 @@
         "imdb_url": "https://www.imdb.com/title/tt0059742/",
         "imdb_rating": "8.1",
         "metascore": "63",
-        "imdb_duration": "2h 52m"
+        "imdb_duration": "2h 54m"
     },
     {
         "title": "BTS 2016 Live The Most Beautiful Moment: Epilogue",
@@ -354,6 +327,33 @@
         "imdb_duration": "1h 35m"
     },
     {
+        "title": "David Gilmour live at the Circus Maximus, Rome",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4747&house_id=3206",
+        "original_title": "DAVID GILMOUR LIVE AT THE CIRCUS MAXIMUS, ROME",
+        "poster_url": "https://static.voyalcine.net/Uploads/i4747.jpg",
+        "duration": "150 minutos.",
+        "showing_days": [
+            "2025-09-17",
+            "2025-09-21"
+        ],
+        "showtimes": {
+            "2025-09-17": {
+                "2D-Subtitulado": [
+                    "19:30"
+                ]
+            },
+            "2025-09-21": {
+                "2D-Subtitulado": [
+                    "19:30"
+                ]
+            }
+        },
+        "imdb_url": "https://www.imdb.com/title/tt37731277/",
+        "imdb_rating": "N/A",
+        "metascore": "N/A",
+        "imdb_duration": "2h 30m"
+    },
+    {
         "title": "Pap\u00e1 X 2",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4878&house_id=3206",
         "original_title": "PAPA X 2",
@@ -426,10 +426,10 @@
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/title/tt34003022/",
+        "imdb_url": "https://www.imdb.com/title/tt22098702/",
         "imdb_rating": "N/A",
         "metascore": "N/A",
-        "imdb_duration": "15m"
+        "imdb_duration": "2017\u20132020"
     },
     {
         "title": "La luz que imaginamos",
@@ -595,7 +595,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4766.jpg",
         "duration": "155 minutos.",
         "showing_days": [
-            "2025-09-16",
             "2025-09-17",
             "2025-09-18",
             "2025-09-19",
@@ -606,13 +605,6 @@
             "2025-09-24"
         ],
         "showtimes": {
-            "2025-09-16": {
-                "2D-Subtitulado": [
-                    "19:00",
-                    "19:20",
-                    "22:35"
-                ]
-            },
             "2025-09-17": {
                 "2D-Subtitulado": [
                     "16:10",
@@ -703,10 +695,10 @@
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/title/tt32820897/",
-        "imdb_rating": "8.7",
+        "imdb_url": "https://www.imdb.com/title/tt9335498/",
+        "imdb_rating": "N/A",
         "metascore": "N/A",
-        "imdb_duration": "2h 35m"
+        "imdb_duration": "24m"
     },
     {
         "title": "El cuadro robado",
@@ -715,7 +707,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4855.jpg",
         "duration": "91 minutos.",
         "showing_days": [
-            "2025-09-16",
             "2025-09-17",
             "2025-09-18",
             "2025-09-19",
@@ -726,11 +717,6 @@
             "2025-09-24"
         ],
         "showtimes": {
-            "2025-09-16": {
-                "2D-Subtitulado": [
-                    "19:50"
-                ]
-            },
             "2025-09-17": {
                 "2D-Subtitulado": [
                     "14:05",
@@ -785,15 +771,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4856.jpg",
         "duration": "88 minutos.",
         "showing_days": [
-            "2025-09-16",
             "2025-09-17"
         ],
         "showtimes": {
-            "2025-09-16": {
-                "2D-Castellano": [
-                    "21:55"
-                ]
-            },
             "2025-09-17": {
                 "2D-Castellano": [
                     "14:20",
@@ -813,7 +793,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4853.jpg",
         "duration": "102 minutos.",
         "showing_days": [
-            "2025-09-16",
             "2025-09-17",
             "2025-09-18",
             "2025-09-19",
@@ -824,12 +803,6 @@
             "2025-09-24"
         ],
         "showtimes": {
-            "2025-09-16": {
-                "2D-Subtitulado": [
-                    "19:35",
-                    "22:25"
-                ]
-            },
             "2025-09-17": {
                 "2D-Subtitulado": [
                     "14:35",
@@ -919,7 +892,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4800.jpg",
         "duration": "135 minutos.",
         "showing_days": [
-            "2025-09-16",
             "2025-09-17",
             "2025-09-18",
             "2025-09-19",
@@ -930,17 +902,6 @@
             "2025-09-24"
         ],
         "showtimes": {
-            "2025-09-16": {
-                "2D-Subtitulado": [
-                    "19:45",
-                    "22:00",
-                    "22:40"
-                ],
-                "2D-Doblada": [
-                    "19:25",
-                    "22:20"
-                ]
-            },
             "2025-09-17": {
                 "2D-Subtitulado": [
                     "14:00",
@@ -1059,7 +1020,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4819.jpg",
         "duration": "105 minutos.",
         "showing_days": [
-            "2025-09-16",
             "2025-09-17",
             "2025-09-18",
             "2025-09-19",
@@ -1069,11 +1029,6 @@
             "2025-09-24"
         ],
         "showtimes": {
-            "2025-09-16": {
-                "2D-Subtitulado": [
-                    "19:15"
-                ]
-            },
             "2025-09-17": {
                 "2D-Subtitulado": [
                     "19:15"
@@ -1185,7 +1140,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4732.jpg",
         "duration": "98 minutos.",
         "showing_days": [
-            "2025-09-16",
             "2025-09-17",
             "2025-09-18",
             "2025-09-19",
@@ -1196,14 +1150,6 @@
             "2025-09-24"
         ],
         "showtimes": {
-            "2025-09-16": {
-                "2D-Castellano": [
-                    "19:40",
-                    "20:15",
-                    "22:05",
-                    "22:30"
-                ]
-            },
             "2025-09-17": {
                 "2D-Castellano": [
                     "15:00",
@@ -1282,7 +1228,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4733.jpg",
         "duration": "128 minutos.",
         "showing_days": [
-            "2025-09-16",
             "2025-09-17",
             "2025-09-18",
             "2025-09-19",
@@ -1292,11 +1237,6 @@
             "2025-09-23"
         ],
         "showtimes": {
-            "2025-09-16": {
-                "2D-Subtitulado": [
-                    "21:50"
-                ]
-            },
             "2025-09-17": {
                 "2D-Subtitulado": [
                     "21:50"
@@ -1345,7 +1285,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4748.jpg",
         "duration": "111 minutos.",
         "showing_days": [
-            "2025-09-16",
             "2025-09-17",
             "2025-09-18",
             "2025-09-19",
@@ -1356,11 +1295,6 @@
             "2025-09-24"
         ],
         "showtimes": {
-            "2025-09-16": {
-                "2D-Subtitulado": [
-                    "22:15"
-                ]
-            },
             "2025-09-17": {
                 "2D-Subtitulado": [
                     "22:15"
@@ -1459,7 +1393,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4850.jpg",
         "duration": "81 minutos.",
         "showing_days": [
-            "2025-09-16",
             "2025-09-17",
             "2025-09-18",
             "2025-09-19",
@@ -1469,11 +1402,6 @@
             "2025-09-23"
         ],
         "showtimes": {
-            "2025-09-16": {
-                "2D-Subtitulado": [
-                    "20:00"
-                ]
-            },
             "2025-09-17": {
                 "2D-Doblada": [
                     "14:10",
