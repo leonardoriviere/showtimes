@@ -1,32 +1,5 @@
 [
     {
-        "title": "BTS 2016 Live The Most Beautiful Moment: Epilogue",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4807&house_id=3206",
-        "original_title": "BTS 2016 Live The Most Beautiful Moment: Epilogue",
-        "poster_url": "https://static.voyalcine.net/Uploads/i4807.jpg",
-        "duration": "102 minutos.",
-        "showing_days": [
-            "2025-09-24",
-            "2025-09-28"
-        ],
-        "showtimes": {
-            "2025-09-24": {
-                "2D-Subtitulado": [
-                    "18:00"
-                ]
-            },
-            "2025-09-28": {
-                "2D-Subtitulado": [
-                    "14:30"
-                ]
-            }
-        },
-        "imdb_url": "IMDb URL not found",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "N/A"
-    },
-    {
         "title": "BTS 2017 THE WINGS TOUR THE FINAL Remastered",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4808&house_id=3206",
         "original_title": "BTS 2017 THE WINGS TOUR THE FINAL Remastered",
@@ -197,10 +170,10 @@
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/title/tt30758890/",
+        "imdb_url": "https://www.imdb.com/title/tt29891638/",
         "imdb_rating": "N/A",
         "metascore": "N/A",
-        "imdb_duration": "2021"
+        "imdb_duration": "2h 54m"
     },
     {
         "title": "Hamilton",
@@ -396,25 +369,31 @@
         "imdb_duration": "1h 35m"
     },
     {
-        "title": "La Novicia Rebelde 60\u00b0 aniversario",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4836&house_id=3206",
-        "original_title": "The Sound of Music 60th Anniversary",
-        "poster_url": "https://static.voyalcine.net/Uploads/i4836.jpg",
-        "duration": "174 minutos.",
+        "title": "BTS 2016 Live The Most Beautiful Moment: Epilogue",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4807&house_id=3206",
+        "original_title": "BTS 2016 Live The Most Beautiful Moment: Epilogue",
+        "poster_url": "https://static.voyalcine.net/Uploads/i4807.jpg",
+        "duration": "102 minutos.",
         "showing_days": [
-            "2025-09-23"
+            "2025-09-24",
+            "2025-09-28"
         ],
         "showtimes": {
-            "2025-09-23": {
+            "2025-09-24": {
                 "2D-Subtitulado": [
-                    "19:00"
+                    "18:00"
+                ]
+            },
+            "2025-09-28": {
+                "2D-Subtitulado": [
+                    "14:30"
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/title/tt0059742/",
-        "imdb_rating": "8.1",
-        "metascore": "63",
-        "imdb_duration": "2h 54m"
+        "imdb_url": "IMDb URL not found",
+        "imdb_rating": "N/A",
+        "metascore": "N/A",
+        "imdb_duration": "N/A"
     },
     {
         "title": "IT (2017) + Bonus IT: Bienvenidos a Derry",
@@ -511,7 +490,7 @@
             }
         },
         "imdb_url": "https://www.imdb.com/title/tt32214143/",
-        "imdb_rating": "6.1",
+        "imdb_rating": "6.2",
         "metascore": "N/A",
         "imdb_duration": "1h 38m"
     },
@@ -643,7 +622,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4876.jpg",
         "duration": "108 minutos.",
         "showing_days": [
-            "2025-09-23",
             "2025-09-24",
             "2025-09-25",
             "2025-09-26",
@@ -654,12 +632,6 @@
             "2025-10-01"
         ],
         "showtimes": {
-            "2025-09-23": {
-                "2D-Castellano": [
-                    "20:00",
-                    "22:25"
-                ]
-            },
             "2025-09-24": {
                 "2D-Castellano": [
                     "14:15",
@@ -730,7 +702,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4882.jpg",
         "duration": "109 minutos.",
         "showing_days": [
-            "2025-09-23",
             "2025-09-24",
             "2025-09-25",
             "2025-09-26",
@@ -741,12 +712,6 @@
             "2025-10-01"
         ],
         "showtimes": {
-            "2025-09-23": {
-                "2D-Subtitulado": [
-                    "19:40",
-                    "22:15"
-                ]
-            },
             "2025-09-24": {
                 "2D-Subtitulado": [
                     "14:30",
@@ -809,15 +774,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4879.jpg",
         "duration": "118 minutos.",
         "showing_days": [
-            "2025-09-23",
             "2025-09-24"
         ],
         "showtimes": {
-            "2025-09-23": {
-                "2D-Subtitulado": [
-                    "19:15"
-                ]
-            },
             "2025-09-24": {
                 "2D-Subtitulado": [
                     "19:15"
@@ -836,7 +795,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4878.jpg",
         "duration": "105 minutos.",
         "showing_days": [
-            "2025-09-23",
             "2025-09-24",
             "2025-09-25",
             "2025-09-26",
@@ -847,12 +805,6 @@
             "2025-10-01"
         ],
         "showtimes": {
-            "2025-09-23": {
-                "2D-Castellano": [
-                    "19:35",
-                    "22:00"
-                ]
-            },
             "2025-09-24": {
                 "2D-Castellano": [
                     "14:40",
@@ -897,10 +849,10 @@
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/title/tt22098702/",
-        "imdb_rating": "N/A",
+        "imdb_url": "https://www.imdb.com/title/tt33728446/",
+        "imdb_rating": "4.7",
         "metascore": "N/A",
-        "imdb_duration": "2017\u20132020"
+        "imdb_duration": "1h 45m"
     },
     {
         "title": "Demon Slayer: Kimetsu no Yaiba Castillo Infinito",
@@ -909,7 +861,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4766.jpg",
         "duration": "155 minutos.",
         "showing_days": [
-            "2025-09-23",
             "2025-09-24",
             "2025-09-25",
             "2025-09-26",
@@ -920,12 +871,6 @@
             "2025-10-01"
         ],
         "showtimes": {
-            "2025-09-23": {
-                "2D-Subtitulado": [
-                    "19:20",
-                    "22:35"
-                ]
-            },
             "2025-09-24": {
                 "2D-Subtitulado": [
                     "15:40",
@@ -1001,10 +946,10 @@
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/title/tt9335498/",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "24m"
+        "imdb_url": "https://www.imdb.com/title/tt32820897/",
+        "imdb_rating": "8.6",
+        "metascore": "69",
+        "imdb_duration": "2h 35m"
     },
     {
         "title": "El cuadro robado",
@@ -1013,15 +958,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4855.jpg",
         "duration": "91 minutos.",
         "showing_days": [
-            "2025-09-23",
             "2025-09-24"
         ],
         "showtimes": {
-            "2025-09-23": {
-                "2D-Subtitulado": [
-                    "20:05"
-                ]
-            },
             "2025-09-24": {
                 "2D-Subtitulado": [
                     "20:05"
@@ -1040,7 +979,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4853.jpg",
         "duration": "102 minutos.",
         "showing_days": [
-            "2025-09-23",
             "2025-09-24",
             "2025-09-25",
             "2025-09-26",
@@ -1051,11 +989,6 @@
             "2025-10-01"
         ],
         "showtimes": {
-            "2025-09-23": {
-                "2D-Subtitulado": [
-                    "22:25"
-                ]
-            },
             "2025-09-24": {
                 "2D-Subtitulado": [
                     "14:05",
@@ -1111,7 +1044,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4800.jpg",
         "duration": "135 minutos.",
         "showing_days": [
-            "2025-09-23",
             "2025-09-24",
             "2025-09-25",
             "2025-09-26",
@@ -1122,16 +1054,6 @@
             "2025-10-01"
         ],
         "showtimes": {
-            "2025-09-23": {
-                "2D-Subtitulado": [
-                    "19:45",
-                    "22:40"
-                ],
-                "2D-Doblada": [
-                    "19:25",
-                    "22:20"
-                ]
-            },
             "2025-09-24": {
                 "2D-Subtitulado": [
                     "14:00",
@@ -1242,15 +1164,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4819.jpg",
         "duration": "105 minutos.",
         "showing_days": [
-            "2025-09-23",
             "2025-09-24"
         ],
         "showtimes": {
-            "2025-09-23": {
-                "2D-Subtitulado": [
-                    "19:10"
-                ]
-            },
             "2025-09-24": {
                 "2D-Subtitulado": [
                     "19:10"
@@ -1290,7 +1206,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4732.jpg",
         "duration": "98 minutos.",
         "showing_days": [
-            "2025-09-23",
             "2025-09-24",
             "2025-09-25",
             "2025-09-26",
@@ -1301,11 +1216,6 @@
             "2025-10-01"
         ],
         "showtimes": {
-            "2025-09-23": {
-                "2D-Castellano": [
-                    "22:30"
-                ]
-            },
             "2025-09-24": {
                 "2D-Castellano": [
                     "15:05",
@@ -1375,34 +1285,12 @@
         "imdb_duration": "1h 50m"
     },
     {
-        "title": "La hora de la desaparici\u00f3n",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4733&house_id=3206",
-        "original_title": "WEAPONS",
-        "poster_url": "https://static.voyalcine.net/Uploads/i4733.jpg",
-        "duration": "128 minutos.",
-        "showing_days": [
-            "2025-09-23"
-        ],
-        "showtimes": {
-            "2025-09-23": {
-                "2D-Subtitulado": [
-                    "21:55"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt26581740/",
-        "imdb_rating": "7.6",
-        "metascore": "81",
-        "imdb_duration": "2h 8m"
-    },
-    {
         "title": "Otro viernes de locos",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4748&house_id=3206",
         "original_title": "FREAKIER FRIDAY",
         "poster_url": "https://static.voyalcine.net/Uploads/i4748.jpg",
         "duration": "111 minutos.",
         "showing_days": [
-            "2025-09-23",
             "2025-09-24",
             "2025-09-25",
             "2025-09-26",
@@ -1413,11 +1301,6 @@
             "2025-10-01"
         ],
         "showtimes": {
-            "2025-09-23": {
-                "2D-Subtitulado": [
-                    "22:10"
-                ]
-            },
             "2025-09-24": {
                 "2D-Subtitulado": [
                     "22:10"
