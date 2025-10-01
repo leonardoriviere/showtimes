@@ -561,10 +561,10 @@
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/title/tt0108037/",
-        "imdb_rating": "N/A",
+        "imdb_url": "https://www.imdb.com/title/tt1264904/",
+        "imdb_rating": "7.1",
         "metascore": "N/A",
-        "imdb_duration": "1h 41m"
+        "imdb_duration": "1h 31m"
     },
     {
         "title": "Miss carb\u00f3n",
@@ -727,7 +727,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4911.jpg",
         "duration": "109 minutos.",
         "showing_days": [
-            "2025-09-30",
             "2025-10-01",
             "2025-10-02",
             "2025-10-03",
@@ -738,11 +737,6 @@
             "2025-10-08"
         ],
         "showtimes": {
-            "2025-09-30": {
-                "2D-Subtitulado": [
-                    "22:10"
-                ]
-            },
             "2025-10-01": {
                 "2D-Subtitulado": [
                     "17:00",
@@ -797,7 +791,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4900.jpg",
         "duration": "169 minutos.",
         "showing_days": [
-            "2025-09-30",
             "2025-10-01",
             "2025-10-02",
             "2025-10-03",
@@ -808,11 +801,6 @@
             "2025-10-08"
         ],
         "showtimes": {
-            "2025-09-30": {
-                "2D-Subtitulado": [
-                    "21:30"
-                ]
-            },
             "2025-10-01": {
                 "2D-Subtitulado": [
                     "21:30"
@@ -866,7 +854,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4910.jpg",
         "duration": "99 minutos.",
         "showing_days": [
-            "2025-09-30",
             "2025-10-01",
             "2025-10-02",
             "2025-10-03",
@@ -877,11 +864,6 @@
             "2025-10-08"
         ],
         "showtimes": {
-            "2025-09-30": {
-                "2D-Doblada": [
-                    "19:05"
-                ]
-            },
             "2025-10-01": {
                 "2D-Doblada": [
                     "14:15",
@@ -954,10 +936,10 @@
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/title/tt30758890/",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "2021"
+        "imdb_url": "https://www.imdb.com/title/tt1798188/",
+        "imdb_rating": "7.4",
+        "metascore": "71",
+        "imdb_duration": "1h 31m"
     },
     {
         "title": "La gran ambici\u00f3n",
@@ -966,15 +948,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4913.jpg",
         "duration": "123 minutos.",
         "showing_days": [
-            "2025-09-30",
             "2025-10-01"
         ],
         "showtimes": {
-            "2025-09-30": {
-                "2D-Subtitulado": [
-                    "19:30"
-                ]
-            },
             "2025-10-01": {
                 "2D-Subtitulado": [
                     "19:30"
@@ -993,7 +969,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4898.jpg",
         "duration": "162 minutos.",
         "showing_days": [
-            "2025-09-30",
             "2025-10-01",
             "2025-10-02",
             "2025-10-03",
@@ -1004,14 +979,6 @@
             "2025-10-08"
         ],
         "showtimes": {
-            "2025-09-30": {
-                "2D-Subtitulado": [
-                    "19:00",
-                    "19:20",
-                    "22:15",
-                    "22:35"
-                ]
-            },
             "2025-10-01": {
                 "2D-Subtitulado": [
                     "15:30",
@@ -1091,7 +1058,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4876.jpg",
         "duration": "108 minutos.",
         "showing_days": [
-            "2025-09-30",
             "2025-10-01",
             "2025-10-02",
             "2025-10-03",
@@ -1102,12 +1068,6 @@
             "2025-10-08"
         ],
         "showtimes": {
-            "2025-09-30": {
-                "2D-Castellano": [
-                    "20:00",
-                    "22:25"
-                ]
-            },
             "2025-10-01": {
                 "2D-Castellano": [
                     "17:30",
@@ -1177,15 +1137,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4882.jpg",
         "duration": "109 minutos.",
         "showing_days": [
-            "2025-09-30",
             "2025-10-01"
         ],
         "showtimes": {
-            "2025-09-30": {
-                "2D-Subtitulado": [
-                    "19:35"
-                ]
-            },
             "2025-10-01": {
                 "2D-Subtitulado": [
                     "14:25",
@@ -1214,10 +1168,10 @@
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/title/tt33728446/",
-        "imdb_rating": "4.2",
+        "imdb_url": "https://www.imdb.com/title/tt22098702/",
+        "imdb_rating": "N/A",
         "metascore": "N/A",
-        "imdb_duration": "1h 45m"
+        "imdb_duration": "2017\u20132020"
     },
     {
         "title": "Demon Slayer: Kimetsu no Yaiba Castillo Infinito",
@@ -1226,7 +1180,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4766.jpg",
         "duration": "155 minutos.",
         "showing_days": [
-            "2025-09-30",
             "2025-10-01",
             "2025-10-02",
             "2025-10-03",
@@ -1237,12 +1190,6 @@
             "2025-10-08"
         ],
         "showtimes": {
-            "2025-09-30": {
-                "2D-Subtitulado": [
-                    "19:10",
-                    "22:20"
-                ]
-            },
             "2025-10-01": {
                 "2D-Subtitulado": [
                     "19:10",
@@ -1300,15 +1247,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4853.jpg",
         "duration": "102 minutos.",
         "showing_days": [
-            "2025-09-30",
             "2025-10-01"
         ],
         "showtimes": {
-            "2025-09-30": {
-                "2D-Subtitulado": [
-                    "22:30"
-                ]
-            },
             "2025-10-01": {
                 "2D-Subtitulado": [
                     "22:30"
@@ -1327,7 +1268,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4800.jpg",
         "duration": "135 minutos.",
         "showing_days": [
-            "2025-09-30",
             "2025-10-01",
             "2025-10-02",
             "2025-10-03",
@@ -1338,15 +1278,6 @@
             "2025-10-08"
         ],
         "showtimes": {
-            "2025-09-30": {
-                "2D-Subtitulado": [
-                    "19:45",
-                    "22:40"
-                ],
-                "2D-Doblada": [
-                    "19:25"
-                ]
-            },
             "2025-10-01": {
                 "2D-Subtitulado": [
                     "14:00",
@@ -1500,7 +1431,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4732.jpg",
         "duration": "98 minutos.",
         "showing_days": [
-            "2025-09-30",
             "2025-10-01",
             "2025-10-02",
             "2025-10-03",
@@ -1511,12 +1441,6 @@
             "2025-10-08"
         ],
         "showtimes": {
-            "2025-09-30": {
-                "2D-Castellano": [
-                    "19:55",
-                    "22:30"
-                ]
-            },
             "2025-10-01": {
                 "2D-Castellano": [
                     "15:05",
@@ -1619,7 +1543,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4748.jpg",
         "duration": "111 minutos.",
         "showing_days": [
-            "2025-09-30",
             "2025-10-01",
             "2025-10-02",
             "2025-10-03",
@@ -1630,11 +1553,6 @@
             "2025-10-08"
         ],
         "showtimes": {
-            "2025-09-30": {
-                "2D-Subtitulado": [
-                    "22:05"
-                ]
-            },
             "2025-10-01": {
                 "2D-Subtitulado": [
                     "22:05"
@@ -1985,10 +1903,10 @@
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/title/tt26743210/",
-        "imdb_rating": "7.8",
-        "metascore": "61",
-        "imdb_duration": "2h 5m"
+        "imdb_url": "https://www.imdb.com/title/tt29514983/",
+        "imdb_rating": "N/A",
+        "metascore": "N/A",
+        "imdb_duration": "15m"
     },
     {
         "title": "Misi\u00f3n Imposible: la sentencia final",
