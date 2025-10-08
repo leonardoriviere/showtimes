@@ -19,6 +19,57 @@ function reorganizeDataByDate(movies) {
     return sortedDataByDate;
 }
 
+const STORAGE_KEY = 'dismissedMovies';
+
+let organizedDataCache = {};
+
+function makeMovieId(date, movie) {
+    return `${date}|${movie.title}|${movie.href}`;
+}
+
+function getDismissedMovies() {
+    try {
+        const stored = sessionStorage.getItem(STORAGE_KEY);
+        return stored ? JSON.parse(stored) : [];
+    } catch (error) {
+        console.error('Error reading dismissed movies from sessionStorage:', error);
+        return [];
+    }
+}
+
+function saveDismissedMovies(movies) {
+    try {
+        sessionStorage.setItem(STORAGE_KEY, JSON.stringify(movies));
+    } catch (error) {
+        console.error('Error saving dismissed movies to sessionStorage:', error);
+    }
+}
+
+function dismissMovie(movieId) {
+    const dismissed = getDismissedMovies();
+    if (!dismissed.includes(movieId)) {
+        dismissed.push(movieId);
+        saveDismissedMovies(dismissed);
+    }
+}
+
+function filterDismissedMovies(data) {
+    const dismissedSet = new Set(getDismissedMovies());
+    const filteredEntries = Object.entries(data)
+        .map(([date, movies]) => {
+            const availableMovies = movies.filter(movie => !dismissedSet.has(makeMovieId(date, movie)));
+            return [date, availableMovies];
+        })
+        .filter(([, movies]) => movies.length > 0);
+
+    return Object.fromEntries(filteredEntries);
+}
+
+function getCurrentSelectedDay() {
+    const selectedLink = document.querySelector('#day-links a.selected');
+    return selectedLink ? selectedLink.getAttribute('data-day') : null;
+}
+
 function displayMoviesByDate(data) {
     const container = document.getElementById('movies');
     if (!container) {
@@ -29,8 +80,15 @@ function displayMoviesByDate(data) {
     // Clear existing content
     container.innerHTML = '';
 
+    const availableDates = [];
+
     // Iterate over each date in the data
     Object.keys(data).forEach(date => {
+        const moviesForDate = data[date];
+        if (!moviesForDate || moviesForDate.length === 0) {
+            return;
+        }
+
         // Create a section for each date
         const dateSection = document.createElement('div');
         dateSection.setAttribute('value', date);
@@ -40,10 +98,26 @@ function displayMoviesByDate(data) {
         movieList.className = 'movie-list';
 
         // Iterate over movies for this date
-        data[date].forEach(movie => {
+        moviesForDate.forEach(movie => {
+            const movieId = makeMovieId(date, movie);
+
             // Parent div
             let movieDiv = document.createElement('div');
             movieDiv.className = 'movie';
+            movieDiv.setAttribute('data-movie-id', movieId);
+
+            const removeButton = document.createElement('button');
+            removeButton.type = 'button';
+            removeButton.className = 'remove-button';
+            removeButton.setAttribute('aria-label', 'Remove movie');
+            removeButton.innerHTML = '&times;';
+            removeButton.addEventListener('click', (event) => {
+                event.preventDefault();
+                event.stopPropagation();
+                dismissMovie(movieId);
+                renderApp(getCurrentSelectedDay());
+            });
+            movieDiv.appendChild(removeButton);
 
             // First child div
             let firstChildDiv = document.createElement('div');
@@ -132,26 +206,43 @@ function displayMoviesByDate(data) {
             movieList.appendChild(movieDiv);
         });
 
-        dateSection.appendChild(movieList);
-        container.appendChild(dateSection);
+        if (movieList.children.length > 0) {
+            dateSection.appendChild(movieList);
+            container.appendChild(dateSection);
+            availableDates.push(date);
+        }
     });
+
+    if (!availableDates.length) {
+        const emptyState = document.createElement('p');
+        emptyState.className = 'empty-state';
+        emptyState.textContent = 'No movies to show right now. Refresh the page to restore the list.';
+        container.appendChild(emptyState);
+    }
+
+    return availableDates;
 }
 
-function createDayLinks(data) {
+function createDayLinks(data, preferredDay, orderedDates) {
     const linksContainer = document.getElementById('day-links');
     if (!linksContainer) {
         console.error('Day links container not found!');
         return;
     }
     linksContainer.innerHTML = ''; // Clear previous links
+
+    const days = orderedDates && orderedDates.length ? orderedDates : Object.keys(data);
+    if (!days.length) {
+        return;
+    }
+
     const today = new Date();
     today.setHours(0, 0, 0, 0); // Normalize today's date
-    console.log(today);
 
     let futureDates = [];
     let pastDates = [];
 
-    Object.keys(data).forEach(day => {
+    days.forEach(day => {
         const utcDate = new Date(day);
         // Normalize the UTC date
         const milisecInMinute = 60000;
@@ -169,9 +260,27 @@ function createDayLinks(data) {
     futureDates = futureDates.sort((a, b) => new Date(a) - new Date(b));
     pastDates = pastDates.sort((a, b) => new Date(a) - new Date(b));
 
+    const normalizedPreferred = preferredDay && days.includes(preferredDay) ? preferredDay : null;
+    const todayMatch = futureDates.find(day => {
+        const utcDate = new Date(day);
+        const milisecInMinute = 60000;
+        const localDate = new Date(utcDate.getTime() + utcDate.getTimezoneOffset() * milisecInMinute);
+        localDate.setHours(0, 0, 0, 0);
+        return localDate.getTime() === today.getTime();
+    });
+
+    const defaultDay = normalizedPreferred
+        || todayMatch
+        || (futureDates.length ? futureDates[0] : null)
+        || (pastDates.length ? pastDates[pastDates.length - 1] : null);
+
+    let dayToSelect = null;
+
     // Call the function to create links for both types of dates and add the separator in between
     createLinks(futureDates);
-    addSeparator();
+    if (futureDates.length && pastDates.length) {
+        addSeparator();
+    }
     createLinks(pastDates);
 
     // Function to create links for a given set of dates
@@ -199,9 +308,8 @@ function createDayLinks(data) {
             link.setAttribute('data-day', day);
             link.textContent = displayText;
 
-            if (isToday) {
-                link.classList.add('selected');
-                showMoviesForDay(day);
+            if (day === defaultDay && !dayToSelect) {
+                dayToSelect = link;
             }
 
             link.addEventListener('click', (event) => {
@@ -223,6 +331,11 @@ function createDayLinks(data) {
     function addSeparator() {
         const separator = document.createElement('hr');
         linksContainer.appendChild(separator);
+    }
+
+    if (dayToSelect) {
+        dayToSelect.classList.add('selected');
+        showMoviesForDay(dayToSelect.getAttribute('data-day'));
     }
 }
 
@@ -256,11 +369,16 @@ function showMoviesForDay(selectedDay) {
 fetch('data.json')
   .then(response => response.json())
   .then(data => {
-    const organizedData = reorganizeDataByDate(data);
-    displayMoviesByDate(organizedData); // Call the function to display the movies
-    createDayLinks(organizedData); // Call to create day links
+    organizedDataCache = reorganizeDataByDate(data);
+    renderApp();
   })
   .catch(error => console.error('Error loading the movie data:', error));
+
+function renderApp(preferredDay) {
+    const filteredData = filterDismissedMovies(organizedDataCache);
+    const availableDates = displayMoviesByDate(filteredData);
+    createDayLinks(filteredData, preferredDay, availableDates);
+}
 
 // Function to set the full height variable
 const setFullHeightVariable = () => {

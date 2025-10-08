@@ -78,6 +78,7 @@ div#day-links a:first-of-type {
     padding: 18px;
     color: #222;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    position: relative;
 }
 
 .movie > div {
@@ -142,6 +143,41 @@ div#day-links a:first-of-type {
     width: 50%;
     flex-shrink: 0;
     max-width: 220px;
+}
+
+.remove-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    color: #555;
+    font-size: 20px;
+    line-height: 1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.remove-button:hover,
+.remove-button:focus {
+    background-color: #f5f5f5;
+    color: #222;
+    outline: none;
+}
+
+.empty-state {
+    margin: 40px auto;
+    max-width: 600px;
+    text-align: center;
+    color: #666;
+    font-size: 18px;
+    line-height: 1.4;
 }
 
 @media (max-width: 1250px) {
