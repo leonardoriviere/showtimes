@@ -115,7 +115,7 @@ function displayMoviesByDate(data) {
                 event.preventDefault();
                 event.stopPropagation();
                 dismissMovie(movieId);
-                renderApp(getCurrentSelectedDay());
+                renderApp(getCurrentSelectedDay(), { preserveScrollPosition: true });
             });
             movieDiv.appendChild(removeButton);
 
@@ -223,7 +223,8 @@ function displayMoviesByDate(data) {
     return availableDates;
 }
 
-function createDayLinks(data, preferredDay, orderedDates) {
+function createDayLinks(data, preferredDay, orderedDates, options = {}) {
+    const { preserveScrollPosition = false } = options;
     const linksContainer = document.getElementById('day-links');
     if (!linksContainer) {
         console.error('Day links container not found!');
@@ -335,11 +336,12 @@ function createDayLinks(data, preferredDay, orderedDates) {
 
     if (dayToSelect) {
         dayToSelect.classList.add('selected');
-        showMoviesForDay(dayToSelect.getAttribute('data-day'));
+        showMoviesForDay(dayToSelect.getAttribute('data-day'), { preserveScrollPosition });
     }
 }
 
-function showMoviesForDay(selectedDay) {
+function showMoviesForDay(selectedDay, options = {}) {
+    const { preserveScrollPosition = false } = options;
     // Find all day sections
     const allDays = document.querySelectorAll('#movies > div');
     allDays.forEach(daySection => {
@@ -352,6 +354,11 @@ function showMoviesForDay(selectedDay) {
     });
 
     const moviesContainer = document.querySelector('#movies');
+
+    if (preserveScrollPosition) {
+        moviesContainer.style.overflow = 'auto';
+        return;
+    }
 
     // Disabling scroll
     moviesContainer.style.overflow = 'hidden';
@@ -374,10 +381,11 @@ fetch('data.json')
   })
   .catch(error => console.error('Error loading the movie data:', error));
 
-function renderApp(preferredDay) {
+function renderApp(preferredDay, options = {}) {
+    const { preserveScrollPosition = false } = options;
     const filteredData = filterDismissedMovies(organizedDataCache);
     const availableDates = displayMoviesByDate(filteredData);
-    createDayLinks(filteredData, preferredDay, availableDates);
+    createDayLinks(filteredData, preferredDay, availableDates, { preserveScrollPosition });
 }
 
 // Function to set the full height variable
