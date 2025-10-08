@@ -81,6 +81,12 @@ function displayMoviesByDate(data) {
     container.innerHTML = '';
 
     const availableDates = [];
+    const normalizeString = (value) =>
+        (value || '')
+            .toString()
+            .normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, '')
+            .toLowerCase();
 
     // Iterate over each date in the data
     Object.keys(data).forEach(date => {
@@ -92,10 +98,48 @@ function displayMoviesByDate(data) {
         // Create a section for each date
         const dateSection = document.createElement('div');
         dateSection.setAttribute('value', date);
+        dateSection.className = 'day-section';
+
+        const filterContainer = document.createElement('div');
+        filterContainer.className = 'day-filter';
+
+        const filterId = `filter-${date.replace(/[^a-z0-9]/gi, '-')}`;
+        const filterInput = document.createElement('input');
+        filterInput.type = 'search';
+        filterInput.id = filterId;
+        filterInput.placeholder = 'Filtrar películas';
+        filterInput.autocomplete = 'off';
+        filterInput.spellcheck = false;
+        filterInput.setAttribute('aria-label', 'Filtrar películas');
+
+        filterContainer.appendChild(filterInput);
+
+        const noResultsMessage = document.createElement('p');
+        noResultsMessage.className = 'day-no-results';
+        noResultsMessage.textContent = 'No hay películas que coincidan con tu búsqueda.';
 
         // Container for movies
         const movieList = document.createElement('div');
         movieList.className = 'movie-list';
+
+        const applyFilter = () => {
+            const query = normalizeString(filterInput.value);
+            let visibleMovies = 0;
+
+            movieList.querySelectorAll('.movie').forEach(movieCard => {
+                const title = movieCard.dataset.normalizedTitle || '';
+                if (!query || title.includes(query)) {
+                    movieCard.style.display = '';
+                    visibleMovies += 1;
+                } else {
+                    movieCard.style.display = 'none';
+                }
+            });
+
+            noResultsMessage.style.display = visibleMovies ? 'none' : 'block';
+        };
+
+        filterInput.addEventListener('input', applyFilter);
 
         // Iterate over movies for this date
         moviesForDate.forEach(movie => {
@@ -105,6 +149,7 @@ function displayMoviesByDate(data) {
             let movieDiv = document.createElement('div');
             movieDiv.className = 'movie';
             movieDiv.setAttribute('data-movie-id', movieId);
+            movieDiv.dataset.normalizedTitle = normalizeString(movie.title);
 
             const removeButton = document.createElement('button');
             removeButton.type = 'button';
@@ -207,9 +252,13 @@ function displayMoviesByDate(data) {
         });
 
         if (movieList.children.length > 0) {
+            dateSection.appendChild(filterContainer);
+            dateSection.appendChild(noResultsMessage);
             dateSection.appendChild(movieList);
             container.appendChild(dateSection);
             availableDates.push(date);
+
+            applyFilter();
         }
     });
 
