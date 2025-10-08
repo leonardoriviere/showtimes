@@ -46,6 +46,48 @@ div#movies {
     padding: 15px;
 }
 
+.day-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.day-filter {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+
+.day-filter input {
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    max-width: 420px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.08);
+}
+
+@media (max-width: 600px) {
+    .day-filter input {
+        width: 100%;
+        max-width: none;
+    }
+}
+
+.day-filter input:focus {
+    outline: none;
+    border-color: #888;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.05);
+}
+
+.day-no-results {
+    margin: 0 0 16px;
+    color: #666;
+    font-style: italic;
+    display: none;
+}
+
 div#day-links {
     display: flex;
     max-width: 100vw;
