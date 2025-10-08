@@ -199,7 +199,7 @@
         },
         "imdb_url": "https://www.imdb.com/title/tt6604188/",
         "imdb_rating": "N/A",
-        "metascore": "N/A",
+        "metascore": "49",
         "imdb_duration": "1h 59m"
     },
     {
@@ -224,8 +224,8 @@
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/title/tt38234465/",
-        "imdb_rating": "6.7",
+        "imdb_url": "https://www.imdb.com/title/tt38048622/",
+        "imdb_rating": "7.0",
         "metascore": "N/A",
         "imdb_duration": "1h 33m"
     },
@@ -465,27 +465,6 @@
         "imdb_rating": "N/A",
         "metascore": "N/A",
         "imdb_duration": "1h 35m"
-    },
-    {
-        "title": "Amores perros",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4933&house_id=3206",
-        "original_title": "AMORES PERROS",
-        "poster_url": "https://static.voyalcine.net/Uploads/i4933.jpg",
-        "duration": "154 minutos.",
-        "showing_days": [
-            "2025-10-07"
-        ],
-        "showtimes": {
-            "2025-10-07": {
-                "2D-Castellano": [
-                    "22:05"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt0245712/",
-        "imdb_rating": "8.0",
-        "metascore": "83",
-        "imdb_duration": "2h 34m"
     },
     {
         "title": "Cacer\u00eda de brujas",
@@ -759,7 +738,7 @@
         },
         "imdb_url": "https://www.imdb.com/title/tt11214558/",
         "imdb_rating": "7.0",
-        "metascore": "64",
+        "metascore": "65",
         "imdb_duration": "2h 3m"
     },
     {
@@ -939,21 +918,42 @@
         "imdb_duration": "1h 26m"
     },
     {
+        "title": "Kygo: back at the bowl",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4995&house_id=3206",
+        "original_title": "KYGO: BACK AT THE BOWL",
+        "poster_url": "https://static.voyalcine.net/Uploads/i4995.jpg",
+        "duration": "100 minutos.",
+        "showing_days": [
+            "2025-10-12",
+            "2025-10-14"
+        ],
+        "showtimes": {
+            "2025-10-12": {
+                "2D-Subtitulado": [
+                    "22:10"
+                ]
+            },
+            "2025-10-14": {
+                "2D-Subtitulado": [
+                    "22:30"
+                ]
+            }
+        },
+        "imdb_url": "https://www.imdb.com/title/tt36958014/",
+        "imdb_rating": "7.9",
+        "metascore": "N/A",
+        "imdb_duration": "1h 40m"
+    },
+    {
         "title": "Animales peligrosos",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4944&house_id=3206",
         "original_title": "DANGEROUS ANIMALS",
         "poster_url": "https://static.voyalcine.net/Uploads/i4944.jpg",
         "duration": "98 minutos.",
         "showing_days": [
-            "2025-10-07",
             "2025-10-08"
         ],
         "showtimes": {
-            "2025-10-07": {
-                "2D-Subtitulado": [
-                    "22:40"
-                ]
-            },
             "2025-10-08": {
                 "2D-Subtitulado": [
                     "14:30",
@@ -994,15 +994,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4930.jpg",
         "duration": "92 minutos.",
         "showing_days": [
-            "2025-10-07",
             "2025-10-08"
         ],
         "showtimes": {
-            "2025-10-07": {
-                "2D-Subtitulado": [
-                    "19:40"
-                ]
-            },
             "2025-10-08": {
                 "2D-Subtitulado": [
                     "19:40"
@@ -1021,15 +1015,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4927.jpg",
         "duration": "96 minutos.",
         "showing_days": [
-            "2025-10-07",
             "2025-10-08"
         ],
         "showtimes": {
-            "2025-10-07": {
-                "2D-Subtitulado": [
-                    "22:35"
-                ]
-            },
             "2025-10-08": {
                 "2D-Subtitulado": [
                     "14:10",
@@ -1049,15 +1037,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4931.jpg",
         "duration": "93 minutos.",
         "showing_days": [
-            "2025-10-07",
             "2025-10-08"
         ],
         "showtimes": {
-            "2025-10-07": {
-                "2D-Castellano": [
-                    "20:15"
-                ]
-            },
             "2025-10-08": {
                 "2D-Castellano": [
                     "20:15"
@@ -1076,15 +1058,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4928.jpg",
         "duration": "143 minutos.",
         "showing_days": [
-            "2025-10-07",
             "2025-10-08"
         ],
         "showtimes": {
-            "2025-10-07": {
-                "2D-Subtitulado": [
-                    "19:20"
-                ]
-            },
             "2025-10-08": {
                 "2D-Subtitulado": [
                     "19:20"
@@ -1106,7 +1082,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4911.jpg",
         "duration": "109 minutos.",
         "showing_days": [
-            "2025-10-07",
             "2025-10-08",
             "2025-10-09",
             "2025-10-10",
@@ -1117,11 +1092,6 @@
             "2025-10-15"
         ],
         "showtimes": {
-            "2025-10-07": {
-                "2D-Subtitulado": [
-                    "22:20"
-                ]
-            },
             "2025-10-08": {
                 "2D-Subtitulado": [
                     "22:20"
@@ -1175,16 +1145,10 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4900.jpg",
         "duration": "169 minutos.",
         "showing_days": [
-            "2025-10-07",
             "2025-10-08",
             "2025-10-12"
         ],
         "showtimes": {
-            "2025-10-07": {
-                "2D-Subtitulado": [
-                    "19:00"
-                ]
-            },
             "2025-10-08": {
                 "2D-Subtitulado": [
                     "19:00"
@@ -1272,7 +1236,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4898.jpg",
         "duration": "162 minutos.",
         "showing_days": [
-            "2025-10-07",
             "2025-10-08",
             "2025-10-09",
             "2025-10-10",
@@ -1283,13 +1246,6 @@
             "2025-10-15"
         ],
         "showtimes": {
-            "2025-10-07": {
-                "2D-Subtitulado": [
-                    "19:10",
-                    "21:55",
-                    "22:30"
-                ]
-            },
             "2025-10-08": {
                 "2D-Subtitulado": [
                     "15:45",
@@ -1372,7 +1328,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4876.jpg",
         "duration": "108 minutos.",
         "showing_days": [
-            "2025-10-07",
             "2025-10-08",
             "2025-10-09",
             "2025-10-10",
@@ -1383,12 +1338,6 @@
             "2025-10-15"
         ],
         "showtimes": {
-            "2025-10-07": {
-                "2D-Castellano": [
-                    "20:00",
-                    "22:25"
-                ]
-            },
             "2025-10-08": {
                 "2D-Castellano": [
                     "15:05",
@@ -1521,7 +1470,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4800.jpg",
         "duration": "135 minutos.",
         "showing_days": [
-            "2025-10-07",
             "2025-10-08",
             "2025-10-09",
             "2025-10-10",
@@ -1532,11 +1480,6 @@
             "2025-10-15"
         ],
         "showtimes": {
-            "2025-10-07": {
-                "2D-Subtitulado": [
-                    "22:10"
-                ]
-            },
             "2025-10-08": {
                 "2D-Subtitulado": [
                     "22:10"
@@ -1614,15 +1557,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4732.jpg",
         "duration": "98 minutos.",
         "showing_days": [
-            "2025-10-07",
             "2025-10-08"
         ],
         "showtimes": {
-            "2025-10-07": {
-                "2D-Castellano": [
-                    "19:50"
-                ]
-            },
             "2025-10-08": {
                 "2D-Castellano": [
                     "14:25",
@@ -1741,48 +1678,6 @@
         "imdb_duration": "2h 9m"
     },
     {
-        "title": "F1 La pel\u00edcula",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4606&house_id=3206",
-        "original_title": "F1 THE MOVIE",
-        "poster_url": "https://static.voyalcine.net/Uploads/i4606.jpg",
-        "duration": "155 minutos.",
-        "showing_days": [
-            "2025-10-07"
-        ],
-        "showtimes": {
-            "2025-10-07": {
-                "2D-Subtitulado": [
-                    "22:15"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt16311594/",
-        "imdb_rating": "7.7",
-        "metascore": "68",
-        "imdb_duration": "2h 35m"
-    },
-    {
-        "title": "Exterminio: la evoluci\u00f3n",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4637&house_id=3206",
-        "original_title": "28 YEARS LATER",
-        "poster_url": "https://static.voyalcine.net/Uploads/i4637b.jpg",
-        "duration": "115 minutos.",
-        "showing_days": [
-            "2025-10-07"
-        ],
-        "showtimes": {
-            "2025-10-07": {
-                "2D-Subtitulado": [
-                    "19:35"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt10548174/",
-        "imdb_rating": "6.6",
-        "metascore": "77",
-        "imdb_duration": "1h 55m"
-    },
-    {
         "title": "C\u00f3mo entrenar a tu drag\u00f3n",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4599&house_id=3206",
         "original_title": "HOW TO TRAIN YOUR DRAGON",
@@ -1846,27 +1741,6 @@
         "imdb_duration": "1h 48m"
     },
     {
-        "title": "Mazel Tov",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4471&house_id=3206",
-        "original_title": "MAZEL TOV",
-        "poster_url": "https://static.voyalcine.net/Uploads/i4471.jpg",
-        "duration": "97 minutos.",
-        "showing_days": [
-            "2025-10-07"
-        ],
-        "showtimes": {
-            "2025-10-07": {
-                "2D-Castellano": [
-                    "19:30"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt35727965/",
-        "imdb_rating": "6.1",
-        "metascore": "N/A",
-        "imdb_duration": "1h 37m"
-    },
-    {
         "title": "Una pel\u00edcula de Minecraft",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4374&house_id=3206",
         "original_title": "MINECRAFT",
@@ -1894,16 +1768,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i1675b.jpg",
         "duration": "192 minutos.",
         "showing_days": [
-            "2025-10-07",
             "2025-10-08"
         ],
         "showtimes": {
-            "2025-10-07": {
-                "3D-HFR Subtitulada": [
-                    "18:00",
-                    "22:00"
-                ]
-            },
             "2025-10-08": {
                 "3D-HFR Doblada": [
                     "14:05"
