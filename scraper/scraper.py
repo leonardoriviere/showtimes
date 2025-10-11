@@ -11,6 +11,58 @@ from pathlib import Path
 import logging
 import argparse
 from datetime import datetime
+import re
+import unicodedata
+
+
+WORD_PATTERN = re.compile(r"([^\W\d_]+(?:['’][^\W\d_]+)*)", re.UNICODE)
+
+
+def _strip_accents(text: str) -> str:
+    """Remove diacritics from a piece of text."""
+    normalized = unicodedata.normalize("NFKD", text)
+    return "".join(char for char in normalized if not unicodedata.combining(char))
+
+
+def _capitalize_word(word: str) -> str:
+    """Capitalize the first alphabetical character in a word."""
+    for index, char in enumerate(word):
+        if char.isalpha():
+            return word[:index] + char.upper() + word[index + 1:]
+    return word
+
+
+def _normalize_word(token: str) -> str:
+    """Normalize an individual token that represents a word."""
+    if token.isupper() and len(token) > 1:
+        # Preserve acronyms such as IMAX or BTS.
+        return token
+
+    letters = [(index, char) for index, char in enumerate(token) if char.isalpha()]
+    candidate = token
+
+    if letters:
+        has_internal_uppercase = any(char.isupper() for _, char in letters[1:])
+
+        # If there are uppercase letters beyond the first alphabetical character
+        # the word was likely scraped with inconsistent casing (e.g. "ÁNgelo").
+        # Strip accents so the normalized capitalization does not keep stray
+        # diacritics in these situations.
+        if has_internal_uppercase:
+            candidate = _strip_accents(candidate)
+
+    candidate = candidate.lower()
+    return _capitalize_word(candidate)
+
+
+def normalize_movie_title(title: str) -> str:
+    """Normalize movie titles by fixing inconsistent casing automatically."""
+
+    def replace(match: re.Match) -> str:
+        return _normalize_word(match.group(0))
+
+    stripped = title.strip()
+    return WORD_PATTERN.sub(replace, stripped)
 
 def convert_showcase_duration_to_minutes(duration_str):
     """Converts a duration string from '170 minutos' to an integer representing total minutes."""
@@ -75,6 +127,7 @@ class MovieScraper:
             EC.presence_of_element_located((By.CSS_SELECTOR, '.op_format'))
         )
         title = self.driver.find_element(By.CSS_SELECTOR, '.movie-info-box .name > strong').text
+        title = normalize_movie_title(title)
         poster_url = self.driver.find_element(By.CSS_SELECTOR, '.movie-side-info-box figure > img').get_attribute('src')
         original_title = self.driver.find_element(By.CSS_SELECTOR, '.movie-side-info-box ul > li:first-of-type').text
         original_title = original_title.replace('Título Original: ', '')  # Remove the prefix
