@@ -402,27 +402,6 @@
         "imdb_duration": "3h"
     },
     {
-        "title": "Kygo: Back At The Bowl",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4995&house_id=3206",
-        "original_title": "KYGO: BACK AT THE BOWL",
-        "poster_url": "https://static.voyalcine.net/Uploads/i4995.jpg",
-        "duration": "100 minutos.",
-        "showing_days": [
-            "2025-10-14"
-        ],
-        "showtimes": {
-            "2025-10-14": {
-                "2D-Subtitulado": [
-                    "22:30"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt36958014/",
-        "imdb_rating": "7.6",
-        "metascore": "N/A",
-        "imdb_duration": "1h 40m"
-    },
-    {
         "title": "La Tortuga Roja",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4976&house_id=3206",
         "original_title": "RED TURTLE",
@@ -546,7 +525,7 @@
             }
         },
         "imdb_url": "https://www.imdb.com/title/tt26720001/",
-        "imdb_rating": "6.9",
+        "imdb_rating": "7.0",
         "metascore": "N/A",
         "imdb_duration": "1h 29m"
     },
@@ -713,7 +692,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4971.jpg",
         "duration": "140 minutos.",
         "showing_days": [
-            "2025-10-14",
             "2025-10-15",
             "2025-10-16",
             "2025-10-17",
@@ -724,12 +702,6 @@
             "2025-10-22"
         ],
         "showtimes": {
-            "2025-10-14": {
-                "2D-Subtitulado": [
-                    "19:10",
-                    "22:20"
-                ]
-            },
             "2025-10-15": {
                 "2D-Subtitulado": [
                     "16:10",
@@ -789,7 +761,7 @@
         },
         "imdb_url": "https://www.imdb.com/title/tt32159989/",
         "imdb_rating": "6.1",
-        "metascore": "51",
+        "metascore": "50",
         "imdb_duration": "2h 19m"
     },
     {
@@ -863,7 +835,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4972.jpg",
         "duration": "124 minutos.",
         "showing_days": [
-            "2025-10-14",
             "2025-10-15",
             "2025-10-16",
             "2025-10-17",
@@ -874,12 +845,6 @@
             "2025-10-22"
         ],
         "showtimes": {
-            "2025-10-14": {
-                "2D-Subtitulado": [
-                    "19:25",
-                    "22:05"
-                ]
-            },
             "2025-10-15": {
                 "2D-Subtitulado": [
                     "14:05",
@@ -958,15 +923,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4975.jpg",
         "duration": "110 minutos.",
         "showing_days": [
-            "2025-10-14",
             "2025-10-15"
         ],
         "showtimes": {
-            "2025-10-14": {
-                "2D-Subtitulado": [
-                    "22:30"
-                ]
-            },
             "2025-10-15": {
                 "2D-Subtitulado": [
                     "22:30"
@@ -985,15 +944,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4974.jpg",
         "duration": "123 minutos.",
         "showing_days": [
-            "2025-10-14",
             "2025-10-15"
         ],
         "showtimes": {
-            "2025-10-14": {
-                "2D-Subtitulado": [
-                    "19:45"
-                ]
-            },
             "2025-10-15": {
                 "2D-Subtitulado": [
                     "16:55",
@@ -1013,7 +966,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4920.jpg",
         "duration": "119 minutos.",
         "showing_days": [
-            "2025-10-14",
             "2025-10-15",
             "2025-10-16",
             "2025-10-17",
@@ -1024,20 +976,6 @@
             "2025-10-22"
         ],
         "showtimes": {
-            "2025-10-14": {
-                "2D-Subtitulado": [
-                    "19:40",
-                    "22:15"
-                ],
-                "2D-Doblada": [
-                    "19:20",
-                    "21:55"
-                ],
-                "3D-Subtitulado": [
-                    "20:00",
-                    "22:35"
-                ]
-            },
             "2025-10-15": {
                 "2D-Subtitulado": [
                     "14:10",
@@ -1170,7 +1108,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4911.jpg",
         "duration": "109 minutos.",
         "showing_days": [
-            "2025-10-14",
             "2025-10-15",
             "2025-10-16",
             "2025-10-17",
@@ -1181,11 +1118,6 @@
             "2025-10-22"
         ],
         "showtimes": {
-            "2025-10-14": {
-                "2D-Subtitulado": [
-                    "20:15"
-                ]
-            },
             "2025-10-15": {
                 "2D-Subtitulado": [
                     "20:15"
@@ -1296,7 +1228,7 @@
             }
         },
         "imdb_url": "https://www.imdb.com/title/tt32214143/",
-        "imdb_rating": "5.8",
+        "imdb_rating": "5.7",
         "metascore": "N/A",
         "imdb_duration": "1h 38m"
     },
@@ -1307,7 +1239,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4898.jpg",
         "duration": "162 minutos.",
         "showing_days": [
-            "2025-10-14",
             "2025-10-15",
             "2025-10-16",
             "2025-10-17",
@@ -1318,13 +1249,6 @@
             "2025-10-22"
         ],
         "showtimes": {
-            "2025-10-14": {
-                "2D-Subtitulado": [
-                    "18:50",
-                    "19:15",
-                    "22:10"
-                ]
-            },
             "2025-10-15": {
                 "2D-Subtitulado": [
                     "16:00",
@@ -1408,7 +1332,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4876.jpg",
         "duration": "108 minutos.",
         "showing_days": [
-            "2025-10-14",
             "2025-10-15",
             "2025-10-16",
             "2025-10-17",
@@ -1419,12 +1342,6 @@
             "2025-10-22"
         ],
         "showtimes": {
-            "2025-10-14": {
-                "2D-Castellano": [
-                    "19:55",
-                    "22:25"
-                ]
-            },
             "2025-10-15": {
                 "2D-Castellano": [
                     "14:40",
@@ -1497,10 +1414,10 @@
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/title/tt9335498/",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "24m"
+        "imdb_url": "https://www.imdb.com/title/tt32820897/",
+        "imdb_rating": "8.5",
+        "metascore": "67",
+        "imdb_duration": "2h 35m"
     },
     {
         "title": "El Conjuro 4: \u00daltimos Ritos",
@@ -1509,7 +1426,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4800.jpg",
         "duration": "135 minutos.",
         "showing_days": [
-            "2025-10-14",
             "2025-10-15",
             "2025-10-16",
             "2025-10-17",
@@ -1520,11 +1436,6 @@
             "2025-10-22"
         ],
         "showtimes": {
-            "2025-10-14": {
-                "2D-Subtitulado": [
-                    "22:40"
-                ]
-            },
             "2025-10-15": {
                 "2D-Subtitulado": [
                     "22:40"
