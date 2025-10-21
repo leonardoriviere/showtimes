@@ -1,221 +1,5 @@
 [
     {
-        "title": "Tel\u00e9fono Negro 2",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4960&house_id=3206",
-        "original_title": "THE BLACK PHONE 2",
-        "poster_url": "https://static.voyalcine.net/Uploads/i4960.jpg",
-        "duration": "114 minutos.",
-        "showing_days": [
-            "2025-10-16",
-            "2025-10-17",
-            "2025-10-18",
-            "2025-10-19",
-            "2025-10-20",
-            "2025-10-21",
-            "2025-10-22"
-        ],
-        "showtimes": {
-            "2025-10-16": {
-                "2D-Subtitulado": [
-                    "14:45",
-                    "17:20",
-                    "19:35",
-                    "20:00",
-                    "22:10",
-                    "22:35"
-                ],
-                "2D-Doblada": [
-                    "14:25",
-                    "17:00"
-                ]
-            },
-            "2025-10-17": {
-                "2D-Subtitulado": [
-                    "14:45",
-                    "17:20",
-                    "19:35",
-                    "20:00",
-                    "22:10",
-                    "22:35"
-                ],
-                "2D-Doblada": [
-                    "14:25",
-                    "17:00"
-                ]
-            },
-            "2025-10-18": {
-                "2D-Subtitulado": [
-                    "14:45",
-                    "17:20",
-                    "19:35",
-                    "20:00",
-                    "22:10",
-                    "22:35"
-                ],
-                "2D-Doblada": [
-                    "14:25",
-                    "17:00"
-                ]
-            },
-            "2025-10-19": {
-                "2D-Subtitulado": [
-                    "14:45",
-                    "17:20",
-                    "19:35",
-                    "20:00",
-                    "22:10",
-                    "22:35"
-                ],
-                "2D-Doblada": [
-                    "14:25",
-                    "17:00"
-                ]
-            },
-            "2025-10-20": {
-                "2D-Subtitulado": [
-                    "14:45",
-                    "17:20",
-                    "19:35",
-                    "20:00",
-                    "22:10",
-                    "22:35"
-                ],
-                "2D-Doblada": [
-                    "14:25",
-                    "17:00"
-                ]
-            },
-            "2025-10-21": {
-                "2D-Subtitulado": [
-                    "14:45",
-                    "17:20",
-                    "19:35",
-                    "20:00",
-                    "22:10",
-                    "22:35"
-                ],
-                "2D-Doblada": [
-                    "14:25",
-                    "17:00"
-                ]
-            },
-            "2025-10-22": {
-                "2D-Subtitulado": [
-                    "14:45",
-                    "17:20",
-                    "19:35",
-                    "20:00",
-                    "22:10",
-                    "22:35"
-                ],
-                "2D-Doblada": [
-                    "14:25",
-                    "17:00"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt27778474/",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "18m"
-    },
-    {
-        "title": "La Princesa Mononoke",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5000&house_id=3206",
-        "original_title": "PRINCESS MONONOKE",
-        "poster_url": "https://static.voyalcine.net/Uploads/i5000.jpg",
-        "duration": "134 minutos.",
-        "showing_days": [
-            "2025-10-16",
-            "2025-10-17",
-            "2025-10-18",
-            "2025-10-19",
-            "2025-10-20",
-            "2025-10-21",
-            "2025-10-22"
-        ],
-        "showtimes": {
-            "2025-10-16": {
-                "2D-Subtitulado": [
-                    "19:25"
-                ]
-            },
-            "2025-10-17": {
-                "2D-Subtitulado": [
-                    "19:25"
-                ]
-            },
-            "2025-10-18": {
-                "2D-Subtitulado": [
-                    "16:30"
-                ]
-            },
-            "2025-10-19": {
-                "2D-Subtitulado": [
-                    "16:30"
-                ]
-            },
-            "2025-10-20": {
-                "2D-Subtitulado": [
-                    "19:25"
-                ]
-            },
-            "2025-10-21": {
-                "2D-Subtitulado": [
-                    "19:25"
-                ]
-            },
-            "2025-10-22": {
-                "2D-Subtitulado": [
-                    "19:25"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt0119698/",
-        "imdb_rating": "8.3",
-        "metascore": "78",
-        "imdb_duration": "2h 13m"
-    },
-    {
-        "title": "El Mago De Oz (1939)",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5001&house_id=3206",
-        "original_title": "THE WIZARD OF OZ",
-        "poster_url": "https://static.voyalcine.net/Uploads/i5001.jpg",
-        "duration": "101 minutos.",
-        "showing_days": [
-            "2025-10-16",
-            "2025-10-18",
-            "2025-10-19",
-            "2025-10-21"
-        ],
-        "showtimes": {
-            "2025-10-16": {
-                "2D-Subtitulado": [
-                    "19:55"
-                ]
-            },
-            "2025-10-18": {
-                "2D-Doblada": [
-                    "14:10"
-                ]
-            },
-            "2025-10-19": {
-                "2D-Subtitulado": [
-                    "14:10"
-                ]
-            },
-            "2025-10-21": {
-                "2D-Subtitulado": [
-                    "19:55"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt0032138/",
-        "imdb_rating": "8.1",
-        "metascore": "92",
-        "imdb_duration": "1h 42m"
-    },
-    {
         "title": "Mitski: The Land",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4871&house_id=3206",
         "original_title": "Mitski: The Land",
@@ -244,13 +28,23 @@
         "duration": "105 minutos.",
         "showing_days": [
             "2025-10-23",
+            "2025-10-24",
             "2025-10-25",
-            "2025-10-26"
+            "2025-10-26",
+            "2025-10-27",
+            "2025-10-28",
+            "2025-10-29"
         ],
         "showtimes": {
             "2025-10-23": {
                 "2D-Doblada": [
+                    "16:50",
                     "19:15"
+                ]
+            },
+            "2025-10-24": {
+                "2D-Doblada": [
+                    "16:50"
                 ]
             },
             "2025-10-25": {
@@ -259,6 +53,21 @@
                 ]
             },
             "2025-10-26": {
+                "2D-Doblada": [
+                    "16:50"
+                ]
+            },
+            "2025-10-27": {
+                "2D-Doblada": [
+                    "16:50"
+                ]
+            },
+            "2025-10-28": {
+                "2D-Doblada": [
+                    "16:50"
+                ]
+            },
+            "2025-10-29": {
                 "2D-Doblada": [
                     "16:50"
                 ]
@@ -287,7 +96,9 @@
         "showtimes": {
             "2025-10-23": {
                 "2D-Subtitulado": [
-                    "19:45"
+                    "15:05",
+                    "19:45",
+                    "22:05"
                 ],
                 "3D-Doblada": [
                     "17:25"
@@ -295,7 +106,9 @@
             },
             "2025-10-24": {
                 "2D-Subtitulado": [
-                    "19:45"
+                    "15:05",
+                    "19:45",
+                    "22:05"
                 ],
                 "3D-Doblada": [
                     "17:25"
@@ -303,7 +116,9 @@
             },
             "2025-10-25": {
                 "2D-Subtitulado": [
-                    "19:45"
+                    "15:05",
+                    "19:45",
+                    "22:05"
                 ],
                 "3D-Doblada": [
                     "17:25"
@@ -311,7 +126,9 @@
             },
             "2025-10-26": {
                 "2D-Subtitulado": [
-                    "19:45"
+                    "15:05",
+                    "19:45",
+                    "22:05"
                 ],
                 "3D-Doblada": [
                     "17:25"
@@ -319,7 +136,9 @@
             },
             "2025-10-27": {
                 "2D-Subtitulado": [
-                    "19:45"
+                    "15:05",
+                    "19:45",
+                    "22:05"
                 ],
                 "3D-Doblada": [
                     "17:25"
@@ -327,7 +146,9 @@
             },
             "2025-10-28": {
                 "2D-Subtitulado": [
-                    "19:45"
+                    "15:05",
+                    "19:45",
+                    "22:05"
                 ],
                 "3D-Doblada": [
                     "17:25"
@@ -335,7 +156,9 @@
             },
             "2025-10-29": {
                 "2D-Subtitulado": [
-                    "19:45"
+                    "15:05",
+                    "19:45",
+                    "22:05"
                 ],
                 "3D-Doblada": [
                     "17:25"
@@ -402,54 +225,414 @@
         "imdb_duration": "3h"
     },
     {
+        "title": "Springsteen: M\u00fasica De Ninguna Parte",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5019&house_id=3206",
+        "original_title": "SPRINGSTEEN: DELIVER ME FROM NOWHERE",
+        "poster_url": "https://static.voyalcine.net/Uploads/i5019.jpg",
+        "duration": "119 minutos.",
+        "showing_days": [
+            "2025-10-23",
+            "2025-10-24",
+            "2025-10-25",
+            "2025-10-26",
+            "2025-10-27",
+            "2025-10-28",
+            "2025-10-29"
+        ],
+        "showtimes": {
+            "2025-10-23": {
+                "2D-Subtitulado": [
+                    "14:30",
+                    "17:05",
+                    "19:40",
+                    "22:15"
+                ]
+            },
+            "2025-10-24": {
+                "2D-Subtitulado": [
+                    "14:30",
+                    "17:05",
+                    "19:40",
+                    "22:15"
+                ]
+            },
+            "2025-10-25": {
+                "2D-Subtitulado": [
+                    "14:30",
+                    "17:05",
+                    "19:40",
+                    "22:15"
+                ]
+            },
+            "2025-10-26": {
+                "2D-Subtitulado": [
+                    "14:30",
+                    "17:05",
+                    "19:40",
+                    "22:15"
+                ]
+            },
+            "2025-10-27": {
+                "2D-Subtitulado": [
+                    "14:30",
+                    "17:05",
+                    "19:40",
+                    "22:15"
+                ]
+            },
+            "2025-10-28": {
+                "2D-Subtitulado": [
+                    "14:30",
+                    "17:05",
+                    "19:40",
+                    "22:15"
+                ]
+            },
+            "2025-10-29": {
+                "2D-Subtitulado": [
+                    "14:30",
+                    "17:05",
+                    "19:40",
+                    "22:15"
+                ]
+            }
+        },
+        "imdb_url": "https://www.imdb.com/title/tt31923069/",
+        "imdb_rating": "5.6",
+        "metascore": "65",
+        "imdb_duration": "2h"
+    },
+    {
+        "title": "A Pesar De T\u00ed",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5020&house_id=3206",
+        "original_title": "REGRETTING YOU",
+        "poster_url": "https://static.voyalcine.net/Uploads/i5020.jpg",
+        "duration": "116 minutos.",
+        "showing_days": [
+            "2025-10-23",
+            "2025-10-24",
+            "2025-10-25",
+            "2025-10-26",
+            "2025-10-27",
+            "2025-10-28",
+            "2025-10-29"
+        ],
+        "showtimes": {
+            "2025-10-23": {
+                "2D-Subtitulado": [
+                    "14:15",
+                    "16:55",
+                    "19:25",
+                    "22:00"
+                ]
+            },
+            "2025-10-24": {
+                "2D-Subtitulado": [
+                    "14:15",
+                    "16:55",
+                    "19:25",
+                    "22:00"
+                ]
+            },
+            "2025-10-25": {
+                "2D-Subtitulado": [
+                    "14:15",
+                    "16:55",
+                    "19:25",
+                    "22:00"
+                ]
+            },
+            "2025-10-26": {
+                "2D-Subtitulado": [
+                    "14:15",
+                    "16:55",
+                    "19:25",
+                    "22:00"
+                ]
+            },
+            "2025-10-27": {
+                "2D-Subtitulado": [
+                    "14:15",
+                    "16:55",
+                    "19:25",
+                    "22:00"
+                ]
+            },
+            "2025-10-28": {
+                "2D-Subtitulado": [
+                    "14:15",
+                    "16:55",
+                    "19:25",
+                    "22:00"
+                ]
+            },
+            "2025-10-29": {
+                "2D-Subtitulado": [
+                    "14:15",
+                    "16:55",
+                    "19:25",
+                    "22:00"
+                ]
+            }
+        },
+        "imdb_url": "https://www.imdb.com/title/tt33088452/",
+        "imdb_rating": "N/A",
+        "metascore": "N/A",
+        "imdb_duration": "1h 57m"
+    },
+    {
+        "title": "El Padre Del A\u00f1o",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5022&house_id=3206",
+        "original_title": "GOODRICH",
+        "poster_url": "https://static.voyalcine.net/Uploads/i5022.jpg",
+        "duration": "111 minutos.",
+        "showing_days": [
+            "2025-10-23",
+            "2025-10-24",
+            "2025-10-25",
+            "2025-10-26",
+            "2025-10-27",
+            "2025-10-28",
+            "2025-10-29"
+        ],
+        "showtimes": {
+            "2025-10-23": {
+                "2D-Subtitulado": [
+                    "14:50",
+                    "19:20",
+                    "21:55"
+                ]
+            },
+            "2025-10-24": {
+                "2D-Subtitulado": [
+                    "14:50",
+                    "19:20",
+                    "21:55"
+                ]
+            },
+            "2025-10-25": {
+                "2D-Subtitulado": [
+                    "14:50",
+                    "19:20",
+                    "21:55"
+                ]
+            },
+            "2025-10-26": {
+                "2D-Subtitulado": [
+                    "14:50",
+                    "19:20",
+                    "21:55"
+                ]
+            },
+            "2025-10-27": {
+                "2D-Subtitulado": [
+                    "14:50",
+                    "19:20",
+                    "21:55"
+                ]
+            },
+            "2025-10-28": {
+                "2D-Subtitulado": [
+                    "14:50",
+                    "19:20",
+                    "21:55"
+                ]
+            },
+            "2025-10-29": {
+                "2D-Subtitulado": [
+                    "14:50",
+                    "19:20",
+                    "21:55"
+                ]
+            }
+        },
+        "imdb_url": "https://www.imdb.com/title/tt10171472/",
+        "imdb_rating": "6.3",
+        "metascore": "62",
+        "imdb_duration": "1h 50m"
+    },
+    {
+        "title": "Los Renacidos",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5023&house_id=3206",
+        "original_title": "LOS RENACIDOS",
+        "poster_url": "https://static.voyalcine.net/Uploads/i5023.jpg",
+        "duration": "85 minutos.",
+        "showing_days": [
+            "2025-10-23",
+            "2025-10-24",
+            "2025-10-25",
+            "2025-10-26",
+            "2025-10-27",
+            "2025-10-28",
+            "2025-10-29"
+        ],
+        "showtimes": {
+            "2025-10-23": {
+                "2D-Castellano": [
+                    "22:10"
+                ]
+            },
+            "2025-10-24": {
+                "2D-Castellano": [
+                    "22:10"
+                ]
+            },
+            "2025-10-25": {
+                "2D-Castellano": [
+                    "22:10"
+                ]
+            },
+            "2025-10-26": {
+                "2D-Castellano": [
+                    "22:10"
+                ]
+            },
+            "2025-10-27": {
+                "2D-Castellano": [
+                    "22:10"
+                ]
+            },
+            "2025-10-28": {
+                "2D-Castellano": [
+                    "22:10"
+                ]
+            },
+            "2025-10-29": {
+                "2D-Castellano": [
+                    "22:10"
+                ]
+            }
+        },
+        "imdb_url": "https://www.imdb.com/title/tt37076958/",
+        "imdb_rating": "N/A",
+        "metascore": "N/A",
+        "imdb_duration": "2025"
+    },
+    {
+        "title": "El Mago De Oz (1939)",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5001&house_id=3206",
+        "original_title": "THE WIZARD OF OZ",
+        "poster_url": "https://static.voyalcine.net/Uploads/i5001.jpg",
+        "duration": "101 minutos.",
+        "showing_days": [
+            "2025-10-21"
+        ],
+        "showtimes": {
+            "2025-10-21": {
+                "2D-Subtitulado": [
+                    "19:55"
+                ]
+            }
+        },
+        "imdb_url": "https://www.imdb.com/title/tt0032138/",
+        "imdb_rating": "8.1",
+        "metascore": "92",
+        "imdb_duration": "1h 42m"
+    },
+    {
+        "title": "Frankie Y Los Monstruos",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5010&house_id=3206",
+        "original_title": "STITCH HEAD",
+        "poster_url": "https://static.voyalcine.net/Uploads/i5010.jpg",
+        "duration": "89 minutos.",
+        "showing_days": [
+            "2025-10-22",
+            "2025-10-23",
+            "2025-10-24",
+            "2025-10-25",
+            "2025-10-26",
+            "2025-10-27",
+            "2025-10-28",
+            "2025-10-29"
+        ],
+        "showtimes": {
+            "2025-10-22": {
+                "2D-Doblada": [
+                    "14:50",
+                    "17:15"
+                ]
+            },
+            "2025-10-23": {
+                "2D-Doblada": [
+                    "17:15"
+                ]
+            },
+            "2025-10-24": {
+                "2D-Doblada": [
+                    "17:15"
+                ]
+            },
+            "2025-10-25": {
+                "2D-Doblada": [
+                    "17:15"
+                ]
+            },
+            "2025-10-26": {
+                "2D-Doblada": [
+                    "17:15"
+                ]
+            },
+            "2025-10-27": {
+                "2D-Doblada": [
+                    "17:15"
+                ]
+            },
+            "2025-10-28": {
+                "2D-Doblada": [
+                    "17:15"
+                ]
+            },
+            "2025-10-29": {
+                "2D-Doblada": [
+                    "17:15"
+                ]
+            }
+        },
+        "imdb_url": "https://www.imdb.com/title/tt26720001/",
+        "imdb_rating": "7.1",
+        "metascore": "N/A",
+        "imdb_duration": "1h 29m"
+    },
+    {
+        "title": "La Princesa Mononoke",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5000&house_id=3206",
+        "original_title": "PRINCESS MONONOKE",
+        "poster_url": "https://static.voyalcine.net/Uploads/i5000.jpg",
+        "duration": "134 minutos.",
+        "showing_days": [
+            "2025-10-21",
+            "2025-10-22"
+        ],
+        "showtimes": {
+            "2025-10-21": {
+                "2D-Subtitulado": [
+                    "19:25"
+                ]
+            },
+            "2025-10-22": {
+                "2D-Subtitulado": [
+                    "19:25"
+                ]
+            }
+        },
+        "imdb_url": "https://www.imdb.com/title/tt0119698/",
+        "imdb_rating": "8.3",
+        "metascore": "78",
+        "imdb_duration": "2h 13m"
+    },
+    {
         "title": "La Tortuga Roja",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4976&house_id=3206",
         "original_title": "RED TURTLE",
         "poster_url": "https://static.voyalcine.net/Uploads/i4976.jpg",
         "duration": "80 minutos.",
         "showing_days": [
-            "2025-10-16",
-            "2025-10-17",
-            "2025-10-18",
-            "2025-10-19",
-            "2025-10-20",
             "2025-10-21",
             "2025-10-22"
         ],
         "showtimes": {
-            "2025-10-16": {
-                "2D-Sin di\u00e1logos": [
-                    "14:00",
-                    "19:50"
-                ]
-            },
-            "2025-10-17": {
-                "2D-Sin di\u00e1logos": [
-                    "14:00",
-                    "19:50"
-                ]
-            },
-            "2025-10-18": {
-                "2D-Sin di\u00e1logos": [
-                    "14:00",
-                    "19:50"
-                ]
-            },
-            "2025-10-19": {
-                "2D-Sin di\u00e1logos": [
-                    "14:00",
-                    "19:50"
-                ]
-            },
-            "2025-10-20": {
-                "2D-Sin di\u00e1logos": [
-                    "14:00",
-                    "19:50"
-                ]
-            },
             "2025-10-21": {
                 "2D-Sin di\u00e1logos": [
-                    "14:00",
                     "19:50"
                 ]
             },
@@ -466,123 +649,25 @@
         "imdb_duration": "1h 20m"
     },
     {
-        "title": "Frankie Y Los Monstruos",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5010&house_id=3206",
-        "original_title": "STITCH HEAD",
-        "poster_url": "https://static.voyalcine.net/Uploads/i5010.jpg",
-        "duration": "89 minutos.",
-        "showing_days": [
-            "2025-10-16",
-            "2025-10-17",
-            "2025-10-18",
-            "2025-10-19",
-            "2025-10-20",
-            "2025-10-21",
-            "2025-10-22"
-        ],
-        "showtimes": {
-            "2025-10-16": {
-                "2D-Doblada": [
-                    "14:50",
-                    "17:15"
-                ]
-            },
-            "2025-10-17": {
-                "2D-Doblada": [
-                    "14:50",
-                    "17:15"
-                ]
-            },
-            "2025-10-18": {
-                "2D-Doblada": [
-                    "14:50",
-                    "17:15"
-                ]
-            },
-            "2025-10-19": {
-                "2D-Doblada": [
-                    "14:50",
-                    "17:15"
-                ]
-            },
-            "2025-10-20": {
-                "2D-Doblada": [
-                    "14:50",
-                    "17:15"
-                ]
-            },
-            "2025-10-21": {
-                "2D-Doblada": [
-                    "14:50",
-                    "17:15"
-                ]
-            },
-            "2025-10-22": {
-                "2D-Doblada": [
-                    "14:50",
-                    "17:15"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt26720001/",
-        "imdb_rating": "7.0",
-        "metascore": "N/A",
-        "imdb_duration": "1h 29m"
-    },
-    {
         "title": "Locamente",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5011&house_id=3206",
         "original_title": "FOLLEMENTE",
         "poster_url": "https://static.voyalcine.net/Uploads/i5011.jpg",
         "duration": "97 minutos.",
         "showing_days": [
-            "2025-10-16",
-            "2025-10-17",
-            "2025-10-18",
-            "2025-10-19",
-            "2025-10-20",
             "2025-10-21",
-            "2025-10-22"
+            "2025-10-22",
+            "2025-10-23",
+            "2025-10-24",
+            "2025-10-25",
+            "2025-10-26",
+            "2025-10-27",
+            "2025-10-28",
+            "2025-10-29"
         ],
         "showtimes": {
-            "2025-10-16": {
-                "2D-Subtitulado": [
-                    "17:15",
-                    "19:40",
-                    "21:55"
-                ]
-            },
-            "2025-10-17": {
-                "2D-Subtitulado": [
-                    "17:15",
-                    "19:40",
-                    "21:55"
-                ]
-            },
-            "2025-10-18": {
-                "2D-Subtitulado": [
-                    "17:15",
-                    "19:40",
-                    "21:55"
-                ]
-            },
-            "2025-10-19": {
-                "2D-Subtitulado": [
-                    "17:15",
-                    "19:40",
-                    "21:55"
-                ]
-            },
-            "2025-10-20": {
-                "2D-Subtitulado": [
-                    "17:15",
-                    "19:40",
-                    "21:55"
-                ]
-            },
             "2025-10-21": {
                 "2D-Subtitulado": [
-                    "17:15",
                     "19:40",
                     "21:55"
                 ]
@@ -592,6 +677,55 @@
                     "17:15",
                     "19:40",
                     "21:55"
+                ]
+            },
+            "2025-10-23": {
+                "2D-Subtitulado": [
+                    "14:00",
+                    "18:00",
+                    "20:10"
+                ]
+            },
+            "2025-10-24": {
+                "2D-Subtitulado": [
+                    "14:00",
+                    "18:00",
+                    "20:10"
+                ]
+            },
+            "2025-10-25": {
+                "2D-Subtitulado": [
+                    "14:00",
+                    "18:00",
+                    "20:10"
+                ]
+            },
+            "2025-10-26": {
+                "2D-Subtitulado": [
+                    "14:00",
+                    "18:00",
+                    "20:10"
+                ]
+            },
+            "2025-10-27": {
+                "2D-Subtitulado": [
+                    "14:00",
+                    "18:00",
+                    "20:10"
+                ]
+            },
+            "2025-10-28": {
+                "2D-Subtitulado": [
+                    "14:00",
+                    "18:00",
+                    "20:10"
+                ]
+            },
+            "2025-10-29": {
+                "2D-Subtitulado": [
+                    "14:00",
+                    "18:00",
+                    "20:10"
                 ]
             }
         },
@@ -607,48 +741,12 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5013.jpg",
         "duration": "110 minutos.",
         "showing_days": [
-            "2025-10-16",
-            "2025-10-17",
-            "2025-10-18",
-            "2025-10-19",
-            "2025-10-20",
             "2025-10-21",
             "2025-10-22"
         ],
         "showtimes": {
-            "2025-10-16": {
-                "2D-Subtitulado": [
-                    "14:15",
-                    "22:00"
-                ]
-            },
-            "2025-10-17": {
-                "2D-Subtitulado": [
-                    "14:15",
-                    "22:00"
-                ]
-            },
-            "2025-10-18": {
-                "2D-Subtitulado": [
-                    "14:15",
-                    "22:00"
-                ]
-            },
-            "2025-10-19": {
-                "2D-Subtitulado": [
-                    "14:15",
-                    "22:00"
-                ]
-            },
-            "2025-10-20": {
-                "2D-Subtitulado": [
-                    "14:15",
-                    "22:00"
-                ]
-            },
             "2025-10-21": {
                 "2D-Subtitulado": [
-                    "14:15",
                     "22:00"
                 ]
             },
@@ -660,30 +758,125 @@
             }
         },
         "imdb_url": "https://www.imdb.com/title/tt33455099/",
-        "imdb_rating": "6.1",
-        "metascore": "79",
+        "imdb_rating": "6.3",
+        "metascore": "82",
         "imdb_duration": "1h 50m"
     },
     {
-        "title": "\u00c1ngelo En El Bosque M\u00e1gico",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4977&house_id=3206",
-        "original_title": "INTO THE WONDERWOODS",
-        "poster_url": "https://static.voyalcine.net/Uploads/i4977.jpg",
-        "duration": "82 minutos.",
+        "title": "Tel\u00e9fono Negro 2",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4960&house_id=3206",
+        "original_title": "THE BLACK PHONE 2",
+        "poster_url": "https://static.voyalcine.net/Uploads/i4960.jpg",
+        "duration": "114 minutos.",
         "showing_days": [
-            "2025-10-15"
+            "2025-10-21",
+            "2025-10-22",
+            "2025-10-23",
+            "2025-10-24",
+            "2025-10-25",
+            "2025-10-26",
+            "2025-10-27",
+            "2025-10-28",
+            "2025-10-29"
         ],
         "showtimes": {
-            "2025-10-15": {
+            "2025-10-21": {
+                "2D-Subtitulado": [
+                    "19:35",
+                    "20:00",
+                    "22:10",
+                    "22:35"
+                ]
+            },
+            "2025-10-22": {
+                "2D-Subtitulado": [
+                    "14:45",
+                    "17:20",
+                    "19:35",
+                    "20:00",
+                    "22:10",
+                    "22:35"
+                ],
                 "2D-Doblada": [
-                    "14:00"
+                    "14:25",
+                    "17:00"
+                ]
+            },
+            "2025-10-23": {
+                "2D-Subtitulado": [
+                    "17:20",
+                    "20:00",
+                    "22:35"
+                ],
+                "2D-Doblada": [
+                    "14:45"
+                ]
+            },
+            "2025-10-24": {
+                "2D-Subtitulado": [
+                    "17:20",
+                    "20:00",
+                    "22:35"
+                ],
+                "2D-Doblada": [
+                    "14:45"
+                ]
+            },
+            "2025-10-25": {
+                "2D-Subtitulado": [
+                    "17:20",
+                    "20:00",
+                    "22:35"
+                ],
+                "2D-Doblada": [
+                    "14:45"
+                ]
+            },
+            "2025-10-26": {
+                "2D-Subtitulado": [
+                    "17:20",
+                    "20:00",
+                    "22:35"
+                ],
+                "2D-Doblada": [
+                    "14:45"
+                ]
+            },
+            "2025-10-27": {
+                "2D-Subtitulado": [
+                    "17:20",
+                    "20:00",
+                    "22:35"
+                ],
+                "2D-Doblada": [
+                    "14:45"
+                ]
+            },
+            "2025-10-28": {
+                "2D-Subtitulado": [
+                    "17:20",
+                    "20:00",
+                    "22:35"
+                ],
+                "2D-Doblada": [
+                    "14:45"
+                ]
+            },
+            "2025-10-29": {
+                "2D-Subtitulado": [
+                    "17:20",
+                    "20:00",
+                    "22:35"
+                ],
+                "2D-Doblada": [
+                    "14:45"
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/title/tt23448260/",
-        "imdb_rating": "6.2",
-        "metascore": "N/A",
-        "imdb_duration": "1h 21m"
+        "imdb_url": "https://www.imdb.com/title/tt29644189/",
+        "imdb_rating": "6.7",
+        "metascore": "59",
+        "imdb_duration": "1h 54m"
     },
     {
         "title": "Cacer\u00eda De Brujas",
@@ -692,62 +885,19 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4971.jpg",
         "duration": "140 minutos.",
         "showing_days": [
-            "2025-10-15",
-            "2025-10-16",
-            "2025-10-17",
-            "2025-10-18",
-            "2025-10-19",
-            "2025-10-20",
             "2025-10-21",
-            "2025-10-22"
+            "2025-10-22",
+            "2025-10-23",
+            "2025-10-24",
+            "2025-10-25",
+            "2025-10-26",
+            "2025-10-27",
+            "2025-10-28",
+            "2025-10-29"
         ],
         "showtimes": {
-            "2025-10-15": {
-                "2D-Subtitulado": [
-                    "16:10",
-                    "19:10",
-                    "22:20"
-                ]
-            },
-            "2025-10-16": {
-                "2D-Subtitulado": [
-                    "14:00",
-                    "16:55",
-                    "22:05"
-                ]
-            },
-            "2025-10-17": {
-                "2D-Subtitulado": [
-                    "14:00",
-                    "16:55",
-                    "22:05"
-                ]
-            },
-            "2025-10-18": {
-                "2D-Subtitulado": [
-                    "14:00",
-                    "16:55",
-                    "22:05"
-                ]
-            },
-            "2025-10-19": {
-                "2D-Subtitulado": [
-                    "14:00",
-                    "16:55",
-                    "22:05"
-                ]
-            },
-            "2025-10-20": {
-                "2D-Subtitulado": [
-                    "14:00",
-                    "16:55",
-                    "22:05"
-                ]
-            },
             "2025-10-21": {
                 "2D-Subtitulado": [
-                    "14:00",
-                    "16:55",
                     "22:05"
                 ]
             },
@@ -757,12 +907,53 @@
                     "16:55",
                     "22:05"
                 ]
+            },
+            "2025-10-23": {
+                "2D-Subtitulado": [
+                    "16:40",
+                    "19:35"
+                ]
+            },
+            "2025-10-24": {
+                "2D-Subtitulado": [
+                    "16:40",
+                    "19:35"
+                ]
+            },
+            "2025-10-25": {
+                "2D-Subtitulado": [
+                    "16:40",
+                    "19:35"
+                ]
+            },
+            "2025-10-26": {
+                "2D-Subtitulado": [
+                    "16:40",
+                    "19:35"
+                ]
+            },
+            "2025-10-27": {
+                "2D-Subtitulado": [
+                    "16:40",
+                    "19:35"
+                ]
+            },
+            "2025-10-28": {
+                "2D-Subtitulado": [
+                    "16:40"
+                ]
+            },
+            "2025-10-29": {
+                "2D-Subtitulado": [
+                    "16:40",
+                    "19:35"
+                ]
             }
         },
         "imdb_url": "https://www.imdb.com/title/tt32159989/",
-        "imdb_rating": "6.1",
-        "metascore": "50",
-        "imdb_duration": "2h 19m"
+        "imdb_rating": "6.3",
+        "metascore": "51",
+        "imdb_duration": "2h 18m"
     },
     {
         "title": "Dora Aventuras M\u00e1gicas En El Reino De Las Sirenas",
@@ -771,52 +962,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4973.jpg",
         "duration": "56 minutos.",
         "showing_days": [
-            "2025-10-15",
-            "2025-10-16",
-            "2025-10-17",
-            "2025-10-18",
-            "2025-10-19",
-            "2025-10-20",
-            "2025-10-21",
             "2025-10-22"
         ],
         "showtimes": {
-            "2025-10-15": {
-                "2D-Doblada": [
-                    "14:25",
-                    "16:25"
-                ]
-            },
-            "2025-10-16": {
-                "2D-Doblada": [
-                    "14:30"
-                ]
-            },
-            "2025-10-17": {
-                "2D-Doblada": [
-                    "14:30"
-                ]
-            },
-            "2025-10-18": {
-                "2D-Doblada": [
-                    "14:30"
-                ]
-            },
-            "2025-10-19": {
-                "2D-Doblada": [
-                    "14:30"
-                ]
-            },
-            "2025-10-20": {
-                "2D-Doblada": [
-                    "14:30"
-                ]
-            },
-            "2025-10-21": {
-                "2D-Doblada": [
-                    "14:30"
-                ]
-            },
             "2025-10-22": {
                 "2D-Doblada": [
                     "14:30"
@@ -824,7 +972,7 @@
             }
         },
         "imdb_url": "https://www.imdb.com/title/tt37671594/",
-        "imdb_rating": "5.6",
+        "imdb_rating": "5.4",
         "metascore": "N/A",
         "imdb_duration": "55m"
     },
@@ -835,54 +983,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4972.jpg",
         "duration": "124 minutos.",
         "showing_days": [
-            "2025-10-15",
-            "2025-10-16",
-            "2025-10-17",
-            "2025-10-18",
-            "2025-10-19",
-            "2025-10-20",
-            "2025-10-21",
             "2025-10-22"
         ],
         "showtimes": {
-            "2025-10-15": {
-                "2D-Subtitulado": [
-                    "14:05",
-                    "16:40",
-                    "19:25",
-                    "22:05"
-                ]
-            },
-            "2025-10-16": {
-                "2D-Subtitulado": [
-                    "16:00"
-                ]
-            },
-            "2025-10-17": {
-                "2D-Subtitulado": [
-                    "16:00"
-                ]
-            },
-            "2025-10-18": {
-                "2D-Subtitulado": [
-                    "16:00"
-                ]
-            },
-            "2025-10-19": {
-                "2D-Subtitulado": [
-                    "16:00"
-                ]
-            },
-            "2025-10-20": {
-                "2D-Subtitulado": [
-                    "16:00"
-                ]
-            },
-            "2025-10-21": {
-                "2D-Subtitulado": [
-                    "16:00"
-                ]
-            },
             "2025-10-22": {
                 "2D-Subtitulado": [
                     "16:00"
@@ -890,73 +993,8 @@
             }
         },
         "imdb_url": "https://www.imdb.com/title/tt31888477/",
-        "imdb_rating": "7.5",
+        "imdb_rating": "7.4",
         "metascore": "66",
-        "imdb_duration": "2h 3m"
-    },
-    {
-        "title": "Espejos N\u00b0 3",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4978&house_id=3206",
-        "original_title": "MIRRORS NRO 3",
-        "poster_url": "https://static.voyalcine.net/Uploads/i4978.jpg",
-        "duration": "86 minutos.",
-        "showing_days": [
-            "2025-10-15"
-        ],
-        "showtimes": {
-            "2025-10-15": {
-                "2D-Subtitulado": [
-                    "14:45",
-                    "18:00"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt32247943/",
-        "imdb_rating": "6.7",
-        "metascore": "77",
-        "imdb_duration": "1h 26m"
-    },
-    {
-        "title": "La Hermanastra Fea",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4975&house_id=3206",
-        "original_title": "THE UGLY STEPSISTER",
-        "poster_url": "https://static.voyalcine.net/Uploads/i4975.jpg",
-        "duration": "110 minutos.",
-        "showing_days": [
-            "2025-10-15"
-        ],
-        "showtimes": {
-            "2025-10-15": {
-                "2D-Subtitulado": [
-                    "22:30"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt29344903/",
-        "imdb_rating": "7.0",
-        "metascore": "70",
-        "imdb_duration": "1h 49m"
-    },
-    {
-        "title": "La M\u00e1quina: The Smashing Machine",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4974&house_id=3206",
-        "original_title": "THE SMASHING MACHINE",
-        "poster_url": "https://static.voyalcine.net/Uploads/i4974.jpg",
-        "duration": "123 minutos.",
-        "showing_days": [
-            "2025-10-15"
-        ],
-        "showtimes": {
-            "2025-10-15": {
-                "2D-Subtitulado": [
-                    "16:55",
-                    "19:45"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt11214558/",
-        "imdb_rating": "6.8",
-        "metascore": "65",
         "imdb_duration": "2h 3m"
     },
     {
@@ -966,120 +1004,24 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4920.jpg",
         "duration": "119 minutos.",
         "showing_days": [
-            "2025-10-15",
-            "2025-10-16",
-            "2025-10-17",
-            "2025-10-18",
-            "2025-10-19",
-            "2025-10-20",
             "2025-10-21",
-            "2025-10-22"
+            "2025-10-22",
+            "2025-10-23",
+            "2025-10-24",
+            "2025-10-25",
+            "2025-10-26",
+            "2025-10-27",
+            "2025-10-28",
+            "2025-10-29"
         ],
         "showtimes": {
-            "2025-10-15": {
-                "2D-Subtitulado": [
-                    "14:10",
-                    "16:45",
-                    "19:40",
-                    "22:15"
-                ],
-                "2D-Doblada": [
-                    "14:30",
-                    "17:05",
-                    "19:20",
-                    "21:55"
-                ],
-                "3D-Subtitulado": [
-                    "20:00",
-                    "22:35"
-                ],
-                "3D-Doblada": [
-                    "14:50",
-                    "17:25"
-                ]
-            },
-            "2025-10-16": {
-                "2D-Subtitulado": [
-                    "17:05",
-                    "19:45",
-                    "22:30"
-                ],
-                "2D-Doblada": [
-                    "16:40",
-                    "19:20"
-                ],
-                "3D-Doblada": [
-                    "14:20"
-                ]
-            },
-            "2025-10-17": {
-                "2D-Subtitulado": [
-                    "17:05",
-                    "19:45",
-                    "22:30"
-                ],
-                "2D-Doblada": [
-                    "16:40",
-                    "19:20"
-                ],
-                "3D-Doblada": [
-                    "14:20"
-                ]
-            },
-            "2025-10-18": {
-                "2D-Subtitulado": [
-                    "17:05",
-                    "19:45",
-                    "22:30"
-                ],
-                "2D-Doblada": [
-                    "16:40",
-                    "19:20"
-                ],
-                "3D-Doblada": [
-                    "14:20"
-                ]
-            },
-            "2025-10-19": {
-                "2D-Subtitulado": [
-                    "17:05",
-                    "19:45",
-                    "22:30"
-                ],
-                "2D-Doblada": [
-                    "16:40",
-                    "19:20"
-                ],
-                "3D-Doblada": [
-                    "14:20"
-                ]
-            },
-            "2025-10-20": {
-                "2D-Subtitulado": [
-                    "17:05",
-                    "19:45",
-                    "22:30"
-                ],
-                "2D-Doblada": [
-                    "16:40",
-                    "19:20"
-                ],
-                "3D-Doblada": [
-                    "14:20"
-                ]
-            },
             "2025-10-21": {
                 "2D-Subtitulado": [
-                    "17:05",
                     "19:45",
                     "22:30"
                 ],
                 "2D-Doblada": [
-                    "16:40",
                     "19:20"
-                ],
-                "3D-Doblada": [
-                    "14:20"
                 ]
             },
             "2025-10-22": {
@@ -1093,6 +1035,76 @@
                 ],
                 "3D-Doblada": [
                     "14:20"
+                ]
+            },
+            "2025-10-23": {
+                "2D-Subtitulado": [
+                    "19:50",
+                    "22:25"
+                ],
+                "2D-Doblada": [
+                    "14:10",
+                    "16:45"
+                ]
+            },
+            "2025-10-24": {
+                "2D-Subtitulado": [
+                    "19:50",
+                    "22:25"
+                ],
+                "2D-Doblada": [
+                    "14:10",
+                    "16:45"
+                ]
+            },
+            "2025-10-25": {
+                "2D-Subtitulado": [
+                    "19:50",
+                    "22:25"
+                ],
+                "2D-Doblada": [
+                    "14:10",
+                    "16:45"
+                ]
+            },
+            "2025-10-26": {
+                "2D-Subtitulado": [
+                    "19:50",
+                    "22:25"
+                ],
+                "2D-Doblada": [
+                    "14:10",
+                    "16:45"
+                ]
+            },
+            "2025-10-27": {
+                "2D-Subtitulado": [
+                    "19:50",
+                    "22:25"
+                ],
+                "2D-Doblada": [
+                    "14:10",
+                    "16:45"
+                ]
+            },
+            "2025-10-28": {
+                "2D-Subtitulado": [
+                    "19:50",
+                    "22:25"
+                ],
+                "2D-Doblada": [
+                    "14:10",
+                    "16:45"
+                ]
+            },
+            "2025-10-29": {
+                "2D-Subtitulado": [
+                    "19:50",
+                    "22:25"
+                ],
+                "2D-Doblada": [
+                    "14:10",
+                    "16:45"
                 ]
             }
         },
@@ -1108,52 +1120,19 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4911.jpg",
         "duration": "109 minutos.",
         "showing_days": [
-            "2025-10-15",
-            "2025-10-16",
-            "2025-10-17",
-            "2025-10-18",
-            "2025-10-19",
-            "2025-10-20",
             "2025-10-21",
-            "2025-10-22"
+            "2025-10-22",
+            "2025-10-23",
+            "2025-10-24",
+            "2025-10-25",
+            "2025-10-26",
+            "2025-10-27",
+            "2025-10-28",
+            "2025-10-29"
         ],
         "showtimes": {
-            "2025-10-15": {
-                "2D-Subtitulado": [
-                    "20:15"
-                ]
-            },
-            "2025-10-16": {
-                "2D-Subtitulado": [
-                    "14:05",
-                    "22:20"
-                ]
-            },
-            "2025-10-17": {
-                "2D-Subtitulado": [
-                    "14:05",
-                    "22:20"
-                ]
-            },
-            "2025-10-18": {
-                "2D-Subtitulado": [
-                    "22:20"
-                ]
-            },
-            "2025-10-19": {
-                "2D-Subtitulado": [
-                    "22:20"
-                ]
-            },
-            "2025-10-20": {
-                "2D-Subtitulado": [
-                    "14:05",
-                    "22:20"
-                ]
-            },
             "2025-10-21": {
                 "2D-Subtitulado": [
-                    "14:05",
                     "22:20"
                 ]
             },
@@ -1162,10 +1141,45 @@
                     "14:05",
                     "22:20"
                 ]
+            },
+            "2025-10-23": {
+                "2D-Subtitulado": [
+                    "22:40"
+                ]
+            },
+            "2025-10-24": {
+                "2D-Subtitulado": [
+                    "22:40"
+                ]
+            },
+            "2025-10-25": {
+                "2D-Subtitulado": [
+                    "22:40"
+                ]
+            },
+            "2025-10-26": {
+                "2D-Subtitulado": [
+                    "22:40"
+                ]
+            },
+            "2025-10-27": {
+                "2D-Subtitulado": [
+                    "22:40"
+                ]
+            },
+            "2025-10-28": {
+                "2D-Subtitulado": [
+                    "22:40"
+                ]
+            },
+            "2025-10-29": {
+                "2D-Subtitulado": [
+                    "22:40"
+                ]
             }
         },
         "imdb_url": "https://www.imdb.com/title/tt10374610/",
-        "imdb_rating": "7.3",
+        "imdb_rating": "7.2",
         "metascore": "71",
         "imdb_duration": "1h 48m"
     },
@@ -1176,60 +1190,60 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4910.jpg",
         "duration": "99 minutos.",
         "showing_days": [
-            "2025-10-15",
-            "2025-10-16",
-            "2025-10-17",
-            "2025-10-18",
-            "2025-10-19",
-            "2025-10-20",
-            "2025-10-21",
-            "2025-10-22"
+            "2025-10-22",
+            "2025-10-23",
+            "2025-10-24",
+            "2025-10-25",
+            "2025-10-26",
+            "2025-10-27",
+            "2025-10-28",
+            "2025-10-29"
         ],
         "showtimes": {
-            "2025-10-15": {
-                "2D-Doblada": [
-                    "14:10"
-                ]
-            },
-            "2025-10-16": {
-                "2D-Doblada": [
-                    "14:40"
-                ]
-            },
-            "2025-10-17": {
-                "2D-Doblada": [
-                    "14:40"
-                ]
-            },
-            "2025-10-18": {
-                "2D-Doblada": [
-                    "14:40"
-                ]
-            },
-            "2025-10-19": {
-                "2D-Doblada": [
-                    "14:40"
-                ]
-            },
-            "2025-10-20": {
-                "2D-Doblada": [
-                    "14:40"
-                ]
-            },
-            "2025-10-21": {
-                "2D-Doblada": [
-                    "14:40"
-                ]
-            },
             "2025-10-22": {
                 "2D-Doblada": [
                     "14:40"
+                ]
+            },
+            "2025-10-23": {
+                "2D-Doblada": [
+                    "14:25"
+                ]
+            },
+            "2025-10-24": {
+                "2D-Doblada": [
+                    "14:25"
+                ]
+            },
+            "2025-10-25": {
+                "2D-Doblada": [
+                    "14:25"
+                ]
+            },
+            "2025-10-26": {
+                "2D-Doblada": [
+                    "14:25"
+                ]
+            },
+            "2025-10-27": {
+                "2D-Doblada": [
+                    "14:25"
+                ]
+            },
+            "2025-10-28": {
+                "2D-Doblada": [
+                    "14:25"
+                ]
+            },
+            "2025-10-29": {
+                "2D-Doblada": [
+                    "14:25"
                 ]
             }
         },
         "imdb_url": "https://www.imdb.com/title/tt32214143/",
         "imdb_rating": "5.7",
-        "metascore": "N/A",
+        "metascore": "46",
         "imdb_duration": "1h 38m"
     },
     {
@@ -1239,72 +1253,19 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4898.jpg",
         "duration": "162 minutos.",
         "showing_days": [
-            "2025-10-15",
-            "2025-10-16",
-            "2025-10-17",
-            "2025-10-18",
-            "2025-10-19",
-            "2025-10-20",
             "2025-10-21",
-            "2025-10-22"
+            "2025-10-22",
+            "2025-10-23",
+            "2025-10-24",
+            "2025-10-25",
+            "2025-10-26",
+            "2025-10-27",
+            "2025-10-28",
+            "2025-10-29"
         ],
         "showtimes": {
-            "2025-10-15": {
-                "2D-Subtitulado": [
-                    "16:00",
-                    "18:50",
-                    "19:15",
-                    "22:10",
-                    "22:35"
-                ]
-            },
-            "2025-10-16": {
-                "2D-Subtitulado": [
-                    "15:55",
-                    "19:15",
-                    "22:15",
-                    "22:40"
-                ]
-            },
-            "2025-10-17": {
-                "2D-Subtitulado": [
-                    "15:55",
-                    "18:50",
-                    "19:15",
-                    "22:15",
-                    "22:40"
-                ]
-            },
-            "2025-10-18": {
-                "2D-Subtitulado": [
-                    "15:55",
-                    "18:50",
-                    "19:15",
-                    "22:15",
-                    "22:40"
-                ]
-            },
-            "2025-10-19": {
-                "2D-Subtitulado": [
-                    "15:55",
-                    "18:50",
-                    "19:15",
-                    "22:15",
-                    "22:40"
-                ]
-            },
-            "2025-10-20": {
-                "2D-Subtitulado": [
-                    "15:55",
-                    "18:50",
-                    "19:15",
-                    "22:15",
-                    "22:40"
-                ]
-            },
             "2025-10-21": {
                 "2D-Subtitulado": [
-                    "15:55",
                     "19:15",
                     "22:15",
                     "22:40"
@@ -1318,10 +1279,59 @@
                     "22:15",
                     "22:40"
                 ]
+            },
+            "2025-10-23": {
+                "2D-Subtitulado": [
+                    "15:50",
+                    "19:10",
+                    "22:30"
+                ]
+            },
+            "2025-10-24": {
+                "2D-Subtitulado": [
+                    "15:50",
+                    "19:10",
+                    "22:30"
+                ]
+            },
+            "2025-10-25": {
+                "2D-Subtitulado": [
+                    "15:50",
+                    "19:10",
+                    "22:30"
+                ]
+            },
+            "2025-10-26": {
+                "2D-Subtitulado": [
+                    "15:50",
+                    "19:10",
+                    "22:30"
+                ]
+            },
+            "2025-10-27": {
+                "2D-Subtitulado": [
+                    "15:50",
+                    "19:10",
+                    "22:30"
+                ]
+            },
+            "2025-10-28": {
+                "2D-Subtitulado": [
+                    "15:50",
+                    "19:10",
+                    "22:30"
+                ]
+            },
+            "2025-10-29": {
+                "2D-Subtitulado": [
+                    "15:50",
+                    "19:10",
+                    "22:30"
+                ]
             }
         },
         "imdb_url": "https://www.imdb.com/title/tt30144839/",
-        "imdb_rating": "8.3",
+        "imdb_rating": "8.2",
         "metascore": "95",
         "imdb_duration": "2h 41m"
     },
@@ -1332,54 +1342,17 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4876.jpg",
         "duration": "108 minutos.",
         "showing_days": [
-            "2025-10-15",
-            "2025-10-16",
-            "2025-10-17",
-            "2025-10-18",
-            "2025-10-19",
-            "2025-10-20",
             "2025-10-21",
-            "2025-10-22"
+            "2025-10-22",
+            "2025-10-23",
+            "2025-10-24",
+            "2025-10-25",
+            "2025-10-26",
+            "2025-10-27",
+            "2025-10-28",
+            "2025-10-29"
         ],
         "showtimes": {
-            "2025-10-15": {
-                "2D-Castellano": [
-                    "14:40",
-                    "17:20",
-                    "19:55",
-                    "22:25"
-                ]
-            },
-            "2025-10-16": {
-                "2D-Castellano": [
-                    "19:30",
-                    "22:25"
-                ]
-            },
-            "2025-10-17": {
-                "2D-Castellano": [
-                    "19:30",
-                    "22:25"
-                ]
-            },
-            "2025-10-18": {
-                "2D-Castellano": [
-                    "19:30",
-                    "22:25"
-                ]
-            },
-            "2025-10-19": {
-                "2D-Castellano": [
-                    "19:30",
-                    "22:25"
-                ]
-            },
-            "2025-10-20": {
-                "2D-Castellano": [
-                    "19:30",
-                    "22:25"
-                ]
-            },
             "2025-10-21": {
                 "2D-Castellano": [
                     "19:30",
@@ -1391,6 +1364,47 @@
                     "19:30",
                     "22:25"
                 ]
+            },
+            "2025-10-23": {
+                "2D-Castellano": [
+                    "14:20"
+                ]
+            },
+            "2025-10-24": {
+                "2D-Castellano": [
+                    "14:20",
+                    "19:30"
+                ]
+            },
+            "2025-10-25": {
+                "2D-Castellano": [
+                    "14:20",
+                    "19:30"
+                ]
+            },
+            "2025-10-26": {
+                "2D-Castellano": [
+                    "14:20",
+                    "19:30"
+                ]
+            },
+            "2025-10-27": {
+                "2D-Castellano": [
+                    "14:20",
+                    "19:30"
+                ]
+            },
+            "2025-10-28": {
+                "2D-Castellano": [
+                    "14:20",
+                    "19:30"
+                ]
+            },
+            "2025-10-29": {
+                "2D-Castellano": [
+                    "14:20",
+                    "19:30"
+                ]
             }
         },
         "imdb_url": "https://www.imdb.com/title/tt37531036/",
@@ -1399,78 +1413,15 @@
         "imdb_duration": "1h 45m"
     },
     {
-        "title": "Demon Slayer: Kimetsu No Yaiba Castillo Infinito",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4766&house_id=3206",
-        "original_title": "DEMON SLAYER: KIMETSU NO YAIBA CASTILLO INFINITO",
-        "poster_url": "https://static.voyalcine.net/Uploads/i4766.jpg",
-        "duration": "155 minutos.",
-        "showing_days": [
-            "2025-10-15"
-        ],
-        "showtimes": {
-            "2025-10-15": {
-                "2D-Doblada": [
-                    "15:30"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt32820897/",
-        "imdb_rating": "8.5",
-        "metascore": "67",
-        "imdb_duration": "2h 35m"
-    },
-    {
         "title": "El Conjuro 4: \u00daltimos Ritos",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4800&house_id=3206",
         "original_title": "THE CONJURING: LAST RITES",
         "poster_url": "https://static.voyalcine.net/Uploads/i4800.jpg",
         "duration": "135 minutos.",
         "showing_days": [
-            "2025-10-15",
-            "2025-10-16",
-            "2025-10-17",
-            "2025-10-18",
-            "2025-10-19",
-            "2025-10-20",
-            "2025-10-21",
             "2025-10-22"
         ],
         "showtimes": {
-            "2025-10-15": {
-                "2D-Subtitulado": [
-                    "22:40"
-                ]
-            },
-            "2025-10-16": {
-                "2D-Subtitulado": [
-                    "16:30"
-                ]
-            },
-            "2025-10-17": {
-                "2D-Subtitulado": [
-                    "16:30"
-                ]
-            },
-            "2025-10-18": {
-                "2D-Subtitulado": [
-                    "19:25"
-                ]
-            },
-            "2025-10-19": {
-                "2D-Subtitulado": [
-                    "19:25"
-                ]
-            },
-            "2025-10-20": {
-                "2D-Subtitulado": [
-                    "16:30"
-                ]
-            },
-            "2025-10-21": {
-                "2D-Subtitulado": [
-                    "16:30"
-                ]
-            },
             "2025-10-22": {
                 "2D-Subtitulado": [
                     "16:30"
