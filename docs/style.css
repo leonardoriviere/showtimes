@@ -121,6 +121,20 @@ div#day-links a:first-of-type {
     color: #222;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    touch-action: pan-y;
+    will-change: transform, opacity;
+    transition: transform 220ms cubic-bezier(.22, .61, .36, 1), opacity 220ms ease;
+}
+
+.movie.movie--swiping {
+    transition: none;
+    cursor: grabbing;
+}
+
+.movie.movie--removing {
+    pointer-events: none;
 }
 
 .movie > div {
@@ -185,32 +199,6 @@ div#day-links a:first-of-type {
     width: 50%;
     flex-shrink: 0;
     max-width: 220px;
-}
-
-.remove-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    border: none;
-    background-color: rgba(255, 255, 255, 0.85);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
-    color: #555;
-    font-size: 20px;
-    line-height: 1;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.remove-button:hover,
-.remove-button:focus {
-    background-color: #f5f5f5;
-    color: #222;
-    outline: none;
 }
 
 .empty-state {
