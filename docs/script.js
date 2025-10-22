@@ -45,6 +45,155 @@ function saveDismissedMovies(movies) {
     }
 }
 
+function setupSwipeToRemove(card, onRemove) {
+    let pointerId = null;
+    let startX = 0;
+    let startY = 0;
+    let currentX = 0;
+    let cardWidth = 0;
+    let trackingPointer = false;
+    let swiping = false;
+
+    const resetCardStyles = () => {
+        card.style.transform = '';
+        card.style.opacity = '';
+    };
+
+    const finalizeRemoval = (direction) => {
+        card.classList.add('movie--removing');
+        const targetOffset = (cardWidth || card.offsetWidth) + 80;
+        requestAnimationFrame(() => {
+            card.style.transform = `translateX(${direction * targetOffset}px)`;
+            card.style.opacity = '0';
+        });
+
+        const handleTransitionEnd = (event) => {
+            if (event.propertyName !== 'transform') {
+                return;
+            }
+            card.removeEventListener('transitionend', handleTransitionEnd);
+            onRemove();
+        };
+
+        card.addEventListener('transitionend', handleTransitionEnd);
+    };
+
+    const stopTracking = () => {
+        if (!trackingPointer) {
+            return;
+        }
+        trackingPointer = false;
+        swiping = false;
+        pointerId = null;
+        currentX = 0;
+        card.classList.remove('movie--swiping');
+        resetCardStyles();
+    };
+
+    const handlePointerDown = (event) => {
+        if (event.pointerType === 'mouse' && event.button !== 0) {
+            return;
+        }
+
+        pointerId = event.pointerId;
+        startX = event.clientX;
+        startY = event.clientY;
+        currentX = 0;
+        cardWidth = card.offsetWidth;
+        trackingPointer = true;
+        swiping = false;
+        card.style.transition = '';
+        if (card.setPointerCapture) {
+            card.setPointerCapture(pointerId);
+        }
+    };
+
+    const handlePointerMove = (event) => {
+        if (!trackingPointer || event.pointerId !== pointerId) {
+            return;
+        }
+
+        const deltaX = event.clientX - startX;
+        const deltaY = event.clientY - startY;
+
+        if (!swiping) {
+            if (Math.abs(deltaX) < 10 || Math.abs(deltaX) < Math.abs(deltaY)) {
+                return;
+            }
+            swiping = true;
+            card.classList.add('movie--swiping');
+        }
+
+        event.preventDefault();
+        currentX = deltaX;
+        const progress = Math.min(1, Math.abs(currentX) / (cardWidth || card.offsetWidth));
+        card.style.transform = `translateX(${currentX}px)`;
+        card.style.opacity = `${1 - progress * 0.3}`;
+    };
+
+    const handlePointerUp = (event) => {
+        if (!trackingPointer || event.pointerId !== pointerId) {
+            return;
+        }
+
+        if (card.releasePointerCapture) {
+            card.releasePointerCapture(pointerId);
+        }
+
+        if (!swiping) {
+            stopTracking();
+            return;
+        }
+
+        const threshold = (cardWidth || card.offsetWidth) * 0.5;
+        const travelled = Math.abs(currentX);
+        const direction = currentX >= 0 ? 1 : -1;
+
+        card.classList.remove('movie--swiping');
+
+        if (travelled > threshold) {
+            finalizeRemoval(direction);
+        } else {
+            resetCardStyles();
+        }
+
+        trackingPointer = false;
+        swiping = false;
+        pointerId = null;
+    };
+
+    const handlePointerCancel = (event) => {
+        if (!trackingPointer || event.pointerId !== pointerId) {
+            return;
+        }
+
+        if (card.releasePointerCapture) {
+            card.releasePointerCapture(pointerId);
+        }
+        stopTracking();
+    };
+
+    const handlePointerLeave = (event) => {
+        if (!trackingPointer || event.pointerId !== pointerId) {
+            return;
+        }
+
+        if (!swiping) {
+            stopTracking();
+            return;
+        }
+
+        handlePointerUp(event);
+    };
+
+    card.addEventListener('pointerdown', handlePointerDown);
+    card.addEventListener('pointermove', handlePointerMove);
+    card.addEventListener('pointerup', handlePointerUp);
+    card.addEventListener('pointercancel', handlePointerCancel);
+    card.addEventListener('pointerleave', handlePointerLeave);
+    card.addEventListener('dragstart', (event) => event.preventDefault());
+}
+
 function dismissMovie(movieId) {
     const dismissed = getDismissedMovies();
     if (!dismissed.includes(movieId)) {
@@ -151,22 +300,9 @@ function displayMoviesByDate(data) {
             movieDiv.setAttribute('data-movie-id', movieId);
             movieDiv.dataset.normalizedTitle = normalizeString(movie.title);
 
-            const removeButton = document.createElement('button');
-            removeButton.type = 'button';
-            removeButton.className = 'remove-button';
-            removeButton.setAttribute('aria-label', 'Remove movie');
-            removeButton.innerHTML = '&times;';
-            removeButton.addEventListener('click', (event) => {
-                event.preventDefault();
-                event.stopPropagation();
-                dismissMovie(movieId);
-                renderApp(getCurrentSelectedDay(), { preserveScrollPosition: true });
-            });
-            movieDiv.appendChild(removeButton);
-
             // First child div
             let firstChildDiv = document.createElement('div');
-
+            
             // Image of the movie
             let img = document.createElement('img');
             img.src = movie.poster_url;
@@ -249,6 +385,11 @@ function displayMoviesByDate(data) {
             });
             movieDiv.appendChild(showtimesDiv);
             movieList.appendChild(movieDiv);
+
+            setupSwipeToRemove(movieDiv, () => {
+                dismissMovie(movieId);
+                renderApp(getCurrentSelectedDay(), { preserveScrollPosition: true });
+            });
         });
 
         if (movieList.children.length > 0) {
