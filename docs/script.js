@@ -27,6 +27,179 @@ function makeMovieId(date, movie) {
     return `${date}|${movie.title}|${movie.href}`;
 }
 
+const TIME_STEP_MINUTES = 30;
+
+function parseTimeToMinutes(time) {
+    if (typeof time !== 'string') {
+        return Number.NaN;
+    }
+
+    const match = time.trim().match(/^(\d{1,2}):(\d{2})$/);
+    if (!match) {
+        return Number.NaN;
+    }
+
+    const hours = Number.parseInt(match[1], 10);
+    const minutes = Number.parseInt(match[2], 10);
+
+    if (Number.isNaN(hours) || Number.isNaN(minutes)) {
+        return Number.NaN;
+    }
+
+    return hours * 60 + minutes;
+}
+
+function formatMinutesToTime(totalMinutes) {
+    const normalizedMinutes = Math.max(0, Number(totalMinutes) || 0);
+    const hours = Math.floor(normalizedMinutes / 60);
+    const minutes = normalizedMinutes % 60;
+
+    return `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}`;
+}
+
+function createTimeRangeFilter({ min, max, step }) {
+    const container = document.createElement('div');
+    container.className = 'time-filter';
+
+    const title = document.createElement('p');
+    title.className = 'time-filter__title';
+    title.textContent = 'Filtrar por horario';
+    container.appendChild(title);
+
+    const labels = document.createElement('div');
+    labels.className = 'time-filter__labels';
+
+    const startLabel = document.createElement('div');
+    startLabel.className = 'time-filter__label';
+    startLabel.innerHTML = '<span>Desde</span><strong></strong>';
+
+    const endLabel = document.createElement('div');
+    endLabel.className = 'time-filter__label';
+    endLabel.innerHTML = '<span>Hasta</span><strong></strong>';
+
+    labels.appendChild(startLabel);
+    labels.appendChild(endLabel);
+    container.appendChild(labels);
+
+    const slider = document.createElement('div');
+    slider.className = 'time-filter__slider';
+    slider.style.setProperty('--range-start', '0%');
+    slider.style.setProperty('--range-end', '100%');
+
+    const lowerInput = document.createElement('input');
+    lowerInput.type = 'range';
+    lowerInput.min = min;
+    lowerInput.max = max;
+    lowerInput.step = step;
+    lowerInput.value = min;
+    lowerInput.setAttribute('aria-label', 'Hora inicial');
+
+    const upperInput = document.createElement('input');
+    upperInput.type = 'range';
+    upperInput.min = min;
+    upperInput.max = max;
+    upperInput.step = step;
+    upperInput.value = max;
+    upperInput.setAttribute('aria-label', 'Hora final');
+
+    if (min === max) {
+        lowerInput.disabled = true;
+        upperInput.disabled = true;
+        container.classList.add('time-filter--disabled');
+    }
+
+    slider.appendChild(lowerInput);
+    slider.appendChild(upperInput);
+    container.appendChild(slider);
+
+    const changeHandlers = [];
+
+    const emitChange = () => {
+        const start = Number(lowerInput.value);
+        const end = Number(upperInput.value);
+        changeHandlers.forEach(handler => handler({ start, end }));
+    };
+
+    const updateSliderVisuals = () => {
+        const start = Number(lowerInput.value);
+        const end = Number(upperInput.value);
+        const range = Math.max(max - min, 1);
+
+        const startRatio = max === min ? 0 : ((start - min) / range) * 100;
+        const endRatio = max === min ? 100 : ((end - min) / range) * 100;
+
+        slider.style.setProperty('--range-start', `${Math.max(0, Math.min(startRatio, 100))}%`);
+        slider.style.setProperty('--range-end', `${Math.max(0, Math.min(endRatio, 100))}%`);
+
+        const formattedStart = formatMinutesToTime(start);
+        const formattedEnd = formatMinutesToTime(end);
+        startLabel.querySelector('strong').textContent = formattedStart;
+        endLabel.querySelector('strong').textContent = formattedEnd;
+        lowerInput.setAttribute('aria-valuetext', formattedStart);
+        upperInput.setAttribute('aria-valuetext', formattedEnd);
+    };
+
+    const handleInput = (event) => {
+        if (lowerInput.disabled || upperInput.disabled) {
+            return;
+        }
+
+        const isLowerHandle = event.target === lowerInput;
+        let start = Number(lowerInput.value);
+        let end = Number(upperInput.value);
+
+        if (isLowerHandle && start > end) {
+            end = start;
+            upperInput.value = end;
+        } else if (!isLowerHandle && end < start) {
+            start = end;
+            lowerInput.value = start;
+        }
+
+        updateSliderVisuals();
+        emitChange();
+    };
+
+    lowerInput.addEventListener('input', handleInput);
+    upperInput.addEventListener('input', handleInput);
+
+    const onChange = (handler) => {
+        if (typeof handler === 'function') {
+            changeHandlers.push(handler);
+        }
+    };
+
+    const getValues = () => ({
+        start: Number(lowerInput.value),
+        end: Number(upperInput.value)
+    });
+
+    const setValues = ({ start, end }) => {
+        if (typeof start === 'number') {
+            lowerInput.value = Math.max(min, Math.min(start, max));
+        }
+        if (typeof end === 'number') {
+            upperInput.value = Math.max(min, Math.min(end, max));
+        }
+        updateSliderVisuals();
+        emitChange();
+    };
+
+    const refresh = () => {
+        updateSliderVisuals();
+    };
+
+    refresh();
+
+    return {
+        element: container,
+        onChange,
+        getValues,
+        setValues,
+        refresh
+    };
+}
+
 function getDismissedMovies() {
     try {
         const stored = sessionStorage.getItem(STORAGE_KEY);
@@ -230,17 +403,28 @@ function displayMoviesByDate(data) {
     container.innerHTML = '';
 
     const availableDates = [];
-    const normalizeString = (value) =>
-        (value || '')
-            .toString()
-            .normalize('NFD')
-            .replace(/[\u0300-\u036f]/g, '')
-            .toLowerCase();
 
     // Iterate over each date in the data
     Object.keys(data).forEach(date => {
         const moviesForDate = data[date];
         if (!moviesForDate || moviesForDate.length === 0) {
+            return;
+        }
+
+        const allShowtimeMinutes = [];
+        moviesForDate.forEach(movie => {
+            const dailyShowtimes = movie.showtimes?.[date] || {};
+            Object.values(dailyShowtimes).forEach(times => {
+                times.forEach(time => {
+                    const minutes = parseTimeToMinutes(time);
+                    if (!Number.isNaN(minutes)) {
+                        allShowtimeMinutes.push(minutes);
+                    }
+                });
+            });
+        });
+
+        if (!allShowtimeMinutes.length) {
             return;
         }
 
@@ -252,43 +436,61 @@ function displayMoviesByDate(data) {
         const filterContainer = document.createElement('div');
         filterContainer.className = 'day-filter';
 
-        const filterId = `filter-${date.replace(/[^a-z0-9]/gi, '-')}`;
-        const filterInput = document.createElement('input');
-        filterInput.type = 'search';
-        filterInput.id = filterId;
-        filterInput.placeholder = 'Filtrar películas';
-        filterInput.autocomplete = 'off';
-        filterInput.spellcheck = false;
-        filterInput.setAttribute('aria-label', 'Filtrar películas');
+        const minTime = Math.min(...allShowtimeMinutes);
+        const maxTime = Math.max(...allShowtimeMinutes);
 
-        filterContainer.appendChild(filterInput);
+        const timeFilter = createTimeRangeFilter({
+            min: minTime,
+            max: maxTime,
+            step: TIME_STEP_MINUTES
+        });
+
+        filterContainer.appendChild(timeFilter.element);
 
         const noResultsMessage = document.createElement('p');
         noResultsMessage.className = 'day-no-results';
-        noResultsMessage.textContent = 'No hay películas que coincidan con tu búsqueda.';
+        noResultsMessage.textContent = 'No hay funciones en el rango seleccionado.';
 
         // Container for movies
         const movieList = document.createElement('div');
         movieList.className = 'movie-list';
 
-        const applyFilter = () => {
-            const query = normalizeString(filterInput.value);
+        const applyTimeFilter = ({ start, end } = timeFilter.getValues()) => {
             let visibleMovies = 0;
 
             movieList.querySelectorAll('.movie').forEach(movieCard => {
-                const title = movieCard.dataset.normalizedTitle || '';
-                if (!query || title.includes(query)) {
-                    movieCard.style.display = '';
+                let movieHasVisibleTimes = false;
+
+                movieCard.querySelectorAll('.format').forEach(formatDiv => {
+                    let formatHasVisibleTimes = false;
+
+                    formatDiv.querySelectorAll('.format__time').forEach(timeLink => {
+                        const minutesValue = Number(timeLink.dataset.minutes);
+                        const isValidTime = !Number.isNaN(minutesValue);
+                        const isVisible = !isValidTime || (minutesValue >= start && minutesValue <= end);
+                        timeLink.style.display = isVisible ? '' : 'none';
+
+                        if (isVisible) {
+                            formatHasVisibleTimes = true;
+                        }
+                    });
+
+                    formatDiv.style.display = formatHasVisibleTimes ? '' : 'none';
+
+                    if (formatHasVisibleTimes) {
+                        movieHasVisibleTimes = true;
+                    }
+                });
+
+                movieCard.style.display = movieHasVisibleTimes ? '' : 'none';
+
+                if (movieHasVisibleTimes) {
                     visibleMovies += 1;
-                } else {
-                    movieCard.style.display = 'none';
                 }
             });
 
             noResultsMessage.style.display = visibleMovies ? 'none' : 'block';
         };
-
-        filterInput.addEventListener('input', applyFilter);
 
         // Iterate over movies for this date
         moviesForDate.forEach(movie => {
@@ -298,7 +500,6 @@ function displayMoviesByDate(data) {
             let movieDiv = document.createElement('div');
             movieDiv.className = 'movie';
             movieDiv.setAttribute('data-movie-id', movieId);
-            movieDiv.dataset.normalizedTitle = normalizeString(movie.title);
 
             // First child div
             let firstChildDiv = document.createElement('div');
@@ -377,6 +578,13 @@ function displayMoviesByDate(data) {
                     timeLink.textContent = time;
                     timeLink.target = "_blank";
                     timeLink.rel = "noopener noreferrer";
+                    timeLink.classList.add('format__time');
+
+                    const timeMinutes = parseTimeToMinutes(time);
+                    if (!Number.isNaN(timeMinutes)) {
+                        timeLink.dataset.minutes = timeMinutes;
+                    }
+
                     timesDiv.appendChild(timeLink);
                 });
 
@@ -399,7 +607,9 @@ function displayMoviesByDate(data) {
             container.appendChild(dateSection);
             availableDates.push(date);
 
-            applyFilter();
+            timeFilter.onChange(applyTimeFilter);
+            timeFilter.refresh();
+            applyTimeFilter();
         }
     });
 
