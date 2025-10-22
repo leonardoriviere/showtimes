@@ -49,7 +49,6 @@ div#movies {
 .day-section {
     display: flex;
     flex-direction: column;
-    margin-bottom: 40px;
 }
 
 .day-filter {
@@ -520,7 +519,4 @@ div#day-links a:first-of-type {
         margin-top: 0;
     }
 
-    .format:not(:last-of-type) {
-        margin-bottom: 0;
-    }
 }
