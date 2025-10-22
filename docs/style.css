@@ -392,8 +392,8 @@ div#day-links a:first-of-type {
 .movie {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 30px;
-    border: 1px solid #eeeeee;
+    margin-bottom: 20px;
+    border: 2px solid #eeeeee;
     border-radius: 12px;
     padding: 18px;
     color: #222;
@@ -425,6 +425,9 @@ div#day-links a:first-of-type {
 }
 
 .showtimes {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
     padding: 0 0 0 12px;
 }
 
@@ -435,19 +438,31 @@ div#day-links a:first-of-type {
 }
 
 .format:not(:last-of-type) {
-    margin-bottom: 6px;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #eeeeee;
+    padding-bottom: 12px;
 }
 
 .format a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 12px;
     width: 50px;
+    margin-bottom: 0;
 }
 
 .format a:not(:last-of-type) {
-    margin-right: 12px;
+    margin-right: 0;
+}
+
+.format > div:last-of-type {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.format:last-of-type:not(:only-of-type) a {
+    margin-bottom: 0;
 }
 
 .movie-info > div:first-of-type {
@@ -489,7 +504,7 @@ div#day-links a:first-of-type {
 
 @media (max-width: 1250px) {
     .movie {
-        padding: 12px;
+        padding: 0;
     }
 
     .movie > div {
@@ -501,11 +516,11 @@ div#day-links a:first-of-type {
     }
 
     .showtimes {
-        padding: 0;
-        margin-top: 18px;
+        padding: 12px;
+        margin-top: 0;
     }
 
     .format:not(:last-of-type) {
-        margin-bottom: 6px;
+        margin-bottom: 0;
     }
 }
