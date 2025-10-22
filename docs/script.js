@@ -28,6 +28,7 @@ function makeMovieId(date, movie) {
 }
 
 const TIME_STEP_MINUTES = 30;
+let timeFilterAccordionId = 0;
 
 function parseTimeToMinutes(time) {
     if (typeof time !== 'string') {
@@ -61,10 +62,29 @@ function createTimeRangeFilter({ min, max, step }) {
     const container = document.createElement('div');
     container.className = 'time-filter';
 
-    const title = document.createElement('p');
-    title.className = 'time-filter__title';
-    title.textContent = 'Filtrar por horario';
-    container.appendChild(title);
+    const contentId = `time-filter-${timeFilterAccordionId += 1}`;
+
+    const summaryButton = document.createElement('button');
+    summaryButton.type = 'button';
+    summaryButton.className = 'time-filter__summary';
+    summaryButton.setAttribute('aria-expanded', 'false');
+    summaryButton.setAttribute('aria-controls', contentId);
+
+    const summaryLabel = document.createElement('span');
+    summaryLabel.className = 'time-filter__summary-label';
+    summaryLabel.textContent = 'Filtrar por Horario';
+    summaryButton.appendChild(summaryLabel);
+
+    const summaryIcon = document.createElement('span');
+    summaryIcon.className = 'time-filter__summary-icon';
+    summaryButton.appendChild(summaryIcon);
+
+    container.appendChild(summaryButton);
+
+    const content = document.createElement('div');
+    content.className = 'time-filter__content';
+    content.id = contentId;
+    content.hidden = true;
 
     const labels = document.createElement('div');
     labels.className = 'time-filter__labels';
@@ -79,7 +99,7 @@ function createTimeRangeFilter({ min, max, step }) {
 
     labels.appendChild(startLabel);
     labels.appendChild(endLabel);
-    container.appendChild(labels);
+    content.appendChild(labels);
 
     const slider = document.createElement('div');
     slider.className = 'time-filter__slider';
@@ -110,7 +130,21 @@ function createTimeRangeFilter({ min, max, step }) {
 
     slider.appendChild(lowerInput);
     slider.appendChild(upperInput);
-    container.appendChild(slider);
+    content.appendChild(slider);
+
+    container.appendChild(content);
+
+    let isOpen = false;
+    const setOpen = (value) => {
+        isOpen = Boolean(value);
+        container.classList.toggle('time-filter--open', isOpen);
+        summaryButton.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+        content.hidden = !isOpen;
+    };
+
+    summaryButton.addEventListener('click', () => {
+        setOpen(!isOpen);
+    });
 
     const changeHandlers = [];
 
@@ -118,6 +152,18 @@ function createTimeRangeFilter({ min, max, step }) {
         const start = Number(lowerInput.value);
         const end = Number(upperInput.value);
         changeHandlers.forEach(handler => handler({ start, end }));
+    };
+
+    const updateSummaryLabel = () => {
+        const start = Number(lowerInput.value);
+        const end = Number(upperInput.value);
+        const coversFullRange = start <= min && end >= max;
+
+        if (min === max || coversFullRange) {
+            summaryLabel.textContent = 'Filtrar por Horario';
+        } else {
+            summaryLabel.textContent = `${formatMinutesToTime(start)} to ${formatMinutesToTime(end)}`;
+        }
     };
 
     const updateSliderVisuals = () => {
@@ -137,6 +183,8 @@ function createTimeRangeFilter({ min, max, step }) {
         endLabel.querySelector('strong').textContent = formattedEnd;
         lowerInput.setAttribute('aria-valuetext', formattedStart);
         upperInput.setAttribute('aria-valuetext', formattedEnd);
+
+        updateSummaryLabel();
     };
 
     const handleInput = (event) => {
