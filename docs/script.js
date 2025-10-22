@@ -72,11 +72,17 @@ function createTimeRangeFilter({ min, max, step }) {
 
     const summaryLabel = document.createElement('span');
     summaryLabel.className = 'time-filter__summary-label';
-    summaryLabel.textContent = 'Filtrar por Horario';
+    const defaultSummaryLabel = 'Filtrar Hora';
+    summaryLabel.textContent = defaultSummaryLabel;
     summaryButton.appendChild(summaryLabel);
 
     const summaryIcon = document.createElement('span');
     summaryIcon.className = 'time-filter__summary-icon';
+    summaryIcon.innerHTML = `
+        <svg class="time-filter__chevron" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+    `;
     summaryButton.appendChild(summaryIcon);
 
     container.appendChild(summaryButton);
@@ -157,12 +163,16 @@ function createTimeRangeFilter({ min, max, step }) {
     const updateSummaryLabel = () => {
         const start = Number(lowerInput.value);
         const end = Number(upperInput.value);
-        const coversFullRange = start <= min && end >= max;
+        const stepValue = Math.max(Number(step) || 0, 0);
+        const tolerance = stepValue ? stepValue / 2 : 0;
+        const isAtMin = Math.abs(start - min) <= tolerance;
+        const isAtMax = Math.abs(end - max) <= tolerance;
+        const coversFullRange = min === max || (isAtMin && isAtMax);
 
-        if (min === max || coversFullRange) {
-            summaryLabel.textContent = 'Filtrar por Horario';
+        if (coversFullRange) {
+            summaryLabel.textContent = defaultSummaryLabel;
         } else {
-            summaryLabel.textContent = `${formatMinutesToTime(start)} to ${formatMinutesToTime(end)}`;
+            summaryLabel.textContent = `${formatMinutesToTime(start)} a ${formatMinutesToTime(end)}`;
         }
     };
 
