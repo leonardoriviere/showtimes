@@ -276,6 +276,21 @@ function saveDismissedMovies(movies) {
     }
 }
 
+function createSwipeIndicatorElement(position) {
+    const indicator = document.createElement('span');
+    indicator.className = `movie__swipe-indicator movie__swipe-indicator--${position}`;
+    indicator.setAttribute('aria-hidden', 'true');
+    indicator.innerHTML = `
+        <span class="movie__swipe-icon">
+            <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true">
+                <path d="M9 3a1 1 0 00-1 1v1H5.5a.5.5 0 000 1H6v12a2 2 0 002 2h8a2 2 0 002-2V6h.5a.5.5 0 000-1H16V4a1 1 0 00-1-1H9zm1 2h4V4h-4v1zm8 1H6v12a1 1 0 001 1h8a1 1 0 001-1V6zM9 8a.5.5 0 01.5.5v7a.5.5 0 01-1 0v-7A.5.5 0 019 8zm3 0a.5.5 0 01.5.5v7a.5.5 0 01-1 0v-7a.5.5 0 01.5-.5zm3 0a.5.5 0 01.5.5v7a.5.5 0 01-1 0v-7a.5.5 0 01.5-.5z" fill="currentColor"/>
+            </svg>
+        </span>
+        <span class="movie__swipe-label">Quitar</span>
+    `;
+    return indicator;
+}
+
 function setupSwipeToRemove(card, onRemove) {
     let pointerId = null;
     let startX = 0;
@@ -284,16 +299,24 @@ function setupSwipeToRemove(card, onRemove) {
     let cardWidth = 0;
     let trackingPointer = false;
     let swiping = false;
+    let lastMoveX = 0;
+    let lastMoveTime = 0;
+    let releaseVelocityX = 0;
 
     const resetCardStyles = () => {
         card.style.transform = '';
         card.style.opacity = '';
+        card.style.removeProperty('transition');
+        card.style.setProperty('--swipe-progress', '0');
+        card.classList.remove('movie--swiping-left', 'movie--swiping-right');
     };
 
     const finalizeRemoval = (direction) => {
+        card.classList.remove('movie--swiping-left', 'movie--swiping-right');
         card.classList.add('movie--removing');
         const targetOffset = (cardWidth || card.offsetWidth) + 80;
         requestAnimationFrame(() => {
+            card.style.removeProperty('transition');
             card.style.transform = `translateX(${direction * targetOffset}px)`;
             card.style.opacity = '0';
         });
@@ -333,7 +356,10 @@ function setupSwipeToRemove(card, onRemove) {
         cardWidth = card.offsetWidth;
         trackingPointer = true;
         swiping = false;
-        card.style.transition = '';
+        lastMoveX = event.clientX;
+        lastMoveTime = event.timeStamp;
+        releaseVelocityX = 0;
+        card.style.transition = 'none';
         if (card.setPointerCapture) {
             card.setPointerCapture(pointerId);
         }
@@ -357,9 +383,24 @@ function setupSwipeToRemove(card, onRemove) {
 
         event.preventDefault();
         currentX = deltaX;
-        const progress = Math.min(1, Math.abs(currentX) / (cardWidth || card.offsetWidth));
+        const effectiveWidth = cardWidth || card.offsetWidth;
+        const removalThreshold = Math.min(
+            Math.max(effectiveWidth * 0.35, 120),
+            effectiveWidth * 0.6
+        );
+        const progress = Math.min(1, Math.abs(currentX) / removalThreshold);
         card.style.transform = `translateX(${currentX}px)`;
-        card.style.opacity = `${1 - progress * 0.3}`;
+        card.style.opacity = `${1 - progress * 0.4}`;
+        card.style.setProperty('--swipe-progress', progress.toFixed(3));
+        card.classList.toggle('movie--swiping-left', currentX < 0);
+        card.classList.toggle('movie--swiping-right', currentX > 0);
+
+        const timeSinceLastMove = event.timeStamp - lastMoveTime;
+        if (timeSinceLastMove > 0) {
+            releaseVelocityX = (event.clientX - lastMoveX) / timeSinceLastMove;
+            lastMoveX = event.clientX;
+            lastMoveTime = event.timeStamp;
+        }
     };
 
     const handlePointerUp = (event) => {
@@ -376,13 +417,17 @@ function setupSwipeToRemove(card, onRemove) {
             return;
         }
 
-        const threshold = (cardWidth || card.offsetWidth) * 0.5;
+        const effectiveWidth = cardWidth || card.offsetWidth;
+        const threshold = Math.min(
+            Math.max(effectiveWidth * 0.35, 120),
+            effectiveWidth * 0.6
+        );
         const travelled = Math.abs(currentX);
         const direction = currentX >= 0 ? 1 : -1;
 
         card.classList.remove('movie--swiping');
 
-        if (travelled > threshold) {
+        if (travelled > threshold || Math.abs(releaseVelocityX) > 0.65) {
             finalizeRemoval(direction);
         } else {
             resetCardStyles();
@@ -559,9 +604,14 @@ function displayMoviesByDate(data) {
             movieDiv.className = 'movie';
             movieDiv.setAttribute('data-movie-id', movieId);
 
+            const leftIndicator = createSwipeIndicatorElement('left');
+            const rightIndicator = createSwipeIndicatorElement('right');
+            movieDiv.appendChild(leftIndicator);
+            movieDiv.appendChild(rightIndicator);
+
             // First child div
             let firstChildDiv = document.createElement('div');
-            
+
             // Image of the movie
             let img = document.createElement('img');
             img.src = movie.poster_url;

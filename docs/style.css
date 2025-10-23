@@ -402,6 +402,7 @@ div#day-links a:first-of-type {
     touch-action: pan-y;
     will-change: transform, opacity;
     transition: transform 220ms cubic-bezier(.22, .61, .36, 1), opacity 220ms ease;
+    --swipe-progress: 0;
 }
 
 .movie.movie--swiping {
@@ -411,6 +412,62 @@ div#day-links a:first-of-type {
 
 .movie.movie--removing {
     pointer-events: none;
+}
+
+.movie__swipe-indicator {
+    position: absolute;
+    top: 8px;
+    bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0 18px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    pointer-events: none;
+    opacity: 0;
+    transform: scale(0.85);
+    transition: opacity 120ms ease, transform 180ms ease;
+    background: linear-gradient(135deg, #f04f4f 0%, #d93535 100%);
+    color: #fff;
+    box-shadow: 0 8px 20px rgba(217, 53, 53, 0.25);
+    z-index: 2;
+}
+
+.movie__swipe-indicator--left {
+    left: 12px;
+    justify-content: flex-start;
+}
+
+.movie__swipe-indicator--right {
+    right: 12px;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+}
+
+.movie__swipe-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.movie__swipe-icon svg {
+    width: 22px;
+    height: 22px;
+}
+
+.movie__swipe-label {
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 1;
+}
+
+.movie.movie--swiping-left .movie__swipe-indicator--left,
+.movie.movie--swiping-right .movie__swipe-indicator--right {
+    opacity: calc(0.2 + var(--swipe-progress) * 0.8);
+    transform: scale(calc(0.9 + var(--swipe-progress) * 0.1));
 }
 
 .movie > div {
