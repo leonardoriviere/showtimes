@@ -276,21 +276,6 @@ function saveDismissedMovies(movies) {
     }
 }
 
-function createSwipeIndicatorElement(position) {
-    const indicator = document.createElement('span');
-    indicator.className = `movie__swipe-indicator movie__swipe-indicator--${position}`;
-    indicator.setAttribute('aria-hidden', 'true');
-    indicator.innerHTML = `
-        <span class="movie__swipe-icon">
-            <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true">
-                <path d="M9 3a1 1 0 00-1 1v1H5.5a.5.5 0 000 1H6v12a2 2 0 002 2h8a2 2 0 002-2V6h.5a.5.5 0 000-1H16V4a1 1 0 00-1-1H9zm1 2h4V4h-4v1zm8 1H6v12a1 1 0 001 1h8a1 1 0 001-1V6zM9 8a.5.5 0 01.5.5v7a.5.5 0 01-1 0v-7A.5.5 0 019 8zm3 0a.5.5 0 01.5.5v7a.5.5 0 01-1 0v-7a.5.5 0 01.5-.5zm3 0a.5.5 0 01.5.5v7a.5.5 0 01-1 0v-7a.5.5 0 01.5-.5z" fill="currentColor"/>
-            </svg>
-        </span>
-        <span class="movie__swipe-label">Quitar</span>
-    `;
-    return indicator;
-}
-
 function setupSwipeToRemove(card, onRemove) {
     let pointerId = null;
     let startX = 0;
@@ -605,11 +590,6 @@ function displayMoviesByDate(data) {
             let movieDiv = document.createElement('div');
             movieDiv.className = 'movie';
             movieDiv.setAttribute('data-movie-id', movieId);
-
-            const leftIndicator = createSwipeIndicatorElement('left');
-            const rightIndicator = createSwipeIndicatorElement('right');
-            movieDiv.appendChild(leftIndicator);
-            movieDiv.appendChild(rightIndicator);
 
             // First child div
             let firstChildDiv = document.createElement('div');
