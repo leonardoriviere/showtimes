@@ -308,6 +308,7 @@ function setupSwipeToRemove(card, onRemove) {
         card.style.opacity = '';
         card.style.removeProperty('transition');
         card.style.setProperty('--swipe-progress', '0');
+        card.style.setProperty('--swipe-translate', '0px');
         card.classList.remove('movie--swiping-left', 'movie--swiping-right');
     };
 
@@ -392,6 +393,7 @@ function setupSwipeToRemove(card, onRemove) {
         card.style.transform = `translateX(${currentX}px)`;
         card.style.opacity = `${1 - progress * 0.4}`;
         card.style.setProperty('--swipe-progress', progress.toFixed(3));
+        card.style.setProperty('--swipe-translate', `${currentX}px`);
         card.classList.toggle('movie--swiping-left', currentX < 0);
         card.classList.toggle('movie--swiping-right', currentX > 0);
 
