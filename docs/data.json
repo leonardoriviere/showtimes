@@ -171,21 +171,42 @@
         "imdb_duration": "1h 30m"
     },
     {
+        "title": "The Doors: When You're Strange",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5060&house_id=3206",
+        "original_title": "THE DOORS: WHEN YOU\u2019RE STRANGE",
+        "poster_url": "https://static.voyalcine.net/Uploads/i5060.jpg",
+        "duration": "96 minutos.",
+        "showing_days": [
+            "2025-12-04",
+            "2025-12-06"
+        ],
+        "showtimes": {
+            "2025-12-04": {
+                "2D-Subtitulado": [
+                    "20:00"
+                ]
+            },
+            "2025-12-06": {
+                "2D-Subtitulado": [
+                    "15:00"
+                ]
+            }
+        },
+        "imdb_url": "https://www.imdb.com/title/tt38781663/",
+        "imdb_rating": "N/A",
+        "metascore": "N/A",
+        "imdb_duration": "1h 36m"
+    },
+    {
         "title": "Depeche Mode: M",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4881&house_id=3206",
         "original_title": "DEPECHE MODE: M",
         "poster_url": "https://static.voyalcine.net/Uploads/i4881.jpg",
         "duration": "100 minutos.",
         "showing_days": [
-            "2025-10-28",
             "2025-10-30"
         ],
         "showtimes": {
-            "2025-10-28": {
-                "2D-Subtitulado": [
-                    "20:00"
-                ]
-            },
             "2025-10-30": {
                 "2D-Subtitulado": [
                     "20:00"
@@ -256,10 +277,10 @@
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/title/tt29544253/",
-        "imdb_rating": "6.0",
+        "imdb_url": "https://www.imdb.com/title/tt0477347/",
+        "imdb_rating": "N/A",
         "metascore": "N/A",
-        "imdb_duration": "1h 31m"
+        "imdb_duration": "1h 48m"
     },
     {
         "title": "Cuando El Cielo Se Equivoca",
@@ -521,7 +542,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5020.jpg",
         "duration": "116 minutos.",
         "showing_days": [
-            "2025-10-28",
             "2025-10-29",
             "2025-10-30",
             "2025-10-31",
@@ -532,12 +552,6 @@
             "2025-11-05"
         ],
         "showtimes": {
-            "2025-10-28": {
-                "2D-Subtitulado": [
-                    "19:25",
-                    "22:00"
-                ]
-            },
             "2025-10-29": {
                 "2D-Subtitulado": [
                     "14:15",
@@ -615,7 +629,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4963.jpg",
         "duration": "100 minutos.",
         "showing_days": [
-            "2025-10-28",
             "2025-10-29",
             "2025-10-30",
             "2025-10-31",
@@ -626,12 +639,6 @@
             "2025-11-05"
         ],
         "showtimes": {
-            "2025-10-28": {
-                "2D-Subtitulado": [
-                    "19:45",
-                    "22:05"
-                ]
-            },
             "2025-10-29": {
                 "2D-Subtitulado": [
                     "15:05",
@@ -701,7 +708,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5022.jpg",
         "duration": "111 minutos.",
         "showing_days": [
-            "2025-10-28",
             "2025-10-29",
             "2025-10-30",
             "2025-10-31",
@@ -712,12 +718,6 @@
             "2025-11-05"
         ],
         "showtimes": {
-            "2025-10-28": {
-                "2D-Subtitulado": [
-                    "19:20",
-                    "21:55"
-                ]
-            },
             "2025-10-29": {
                 "2D-Subtitulado": [
                     "14:50",
@@ -776,7 +776,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5021.jpg",
         "duration": "72 minutos.",
         "showing_days": [
-            "2025-10-28",
             "2025-10-29",
             "2025-10-30",
             "2025-10-31",
@@ -787,11 +786,6 @@
             "2025-11-05"
         ],
         "showtimes": {
-            "2025-10-28": {
-                "2D-Subtitulado": [
-                    "22:20"
-                ]
-            },
             "2025-10-29": {
                 "2D-Subtitulado": [
                     "14:05",
@@ -847,15 +841,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5023.jpg",
         "duration": "85 minutos.",
         "showing_days": [
-            "2025-10-28",
             "2025-10-29"
         ],
         "showtimes": {
-            "2025-10-28": {
-                "2D-Castellano": [
-                    "22:10"
-                ]
-            },
             "2025-10-29": {
                 "2D-Castellano": [
                     "22:10"
@@ -937,7 +925,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5019.jpg",
         "duration": "119 minutos.",
         "showing_days": [
-            "2025-10-28",
             "2025-10-29",
             "2025-10-30",
             "2025-10-31",
@@ -948,12 +935,6 @@
             "2025-11-05"
         ],
         "showtimes": {
-            "2025-10-28": {
-                "2D-Subtitulado": [
-                    "19:40",
-                    "22:15"
-                ]
-            },
             "2025-10-29": {
                 "2D-Subtitulado": [
                     "14:30",
@@ -1080,7 +1061,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5011.jpg",
         "duration": "97 minutos.",
         "showing_days": [
-            "2025-10-28",
             "2025-10-29",
             "2025-10-30",
             "2025-10-31",
@@ -1091,11 +1071,6 @@
             "2025-11-05"
         ],
         "showtimes": {
-            "2025-10-28": {
-                "2D-Subtitulado": [
-                    "20:10"
-                ]
-            },
             "2025-10-29": {
                 "2D-Subtitulado": [
                     "14:00",
@@ -1151,7 +1126,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4960.jpg",
         "duration": "114 minutos.",
         "showing_days": [
-            "2025-10-28",
             "2025-10-29",
             "2025-10-30",
             "2025-10-31",
@@ -1162,12 +1136,6 @@
             "2025-11-05"
         ],
         "showtimes": {
-            "2025-10-28": {
-                "2D-Subtitulado": [
-                    "20:00",
-                    "22:35"
-                ]
-            },
             "2025-10-29": {
                 "2D-Subtitulado": [
                     "17:20",
@@ -1325,7 +1293,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4920.jpg",
         "duration": "119 minutos.",
         "showing_days": [
-            "2025-10-28",
             "2025-10-29",
             "2025-10-30",
             "2025-10-31",
@@ -1336,12 +1303,6 @@
             "2025-11-05"
         ],
         "showtimes": {
-            "2025-10-28": {
-                "2D-Subtitulado": [
-                    "19:50",
-                    "22:25"
-                ]
-            },
             "2025-10-29": {
                 "2D-Subtitulado": [
                     "19:50",
@@ -1421,7 +1382,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4911.jpg",
         "duration": "109 minutos.",
         "showing_days": [
-            "2025-10-28",
             "2025-10-29",
             "2025-10-30",
             "2025-10-31",
@@ -1432,11 +1392,6 @@
             "2025-11-05"
         ],
         "showtimes": {
-            "2025-10-28": {
-                "2D-Subtitulado": [
-                    "22:40"
-                ]
-            },
             "2025-10-29": {
                 "2D-Subtitulado": [
                     "22:40"
@@ -1511,7 +1466,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4898.jpg",
         "duration": "162 minutos.",
         "showing_days": [
-            "2025-10-28",
             "2025-10-29",
             "2025-10-30",
             "2025-10-31",
@@ -1522,12 +1476,6 @@
             "2025-11-05"
         ],
         "showtimes": {
-            "2025-10-28": {
-                "2D-Subtitulado": [
-                    "19:10",
-                    "22:30"
-                ]
-            },
             "2025-10-29": {
                 "2D-Subtitulado": [
                     "15:50",
@@ -1597,7 +1545,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4876.jpg",
         "duration": "108 minutos.",
         "showing_days": [
-            "2025-10-28",
             "2025-10-29",
             "2025-10-30",
             "2025-10-31",
@@ -1608,11 +1555,6 @@
             "2025-11-05"
         ],
         "showtimes": {
-            "2025-10-28": {
-                "2D-Castellano": [
-                    "19:30"
-                ]
-            },
             "2025-10-29": {
                 "2D-Castellano": [
                     "14:20",
