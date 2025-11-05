@@ -629,18 +629,23 @@ function displayMoviesByDate(data) {
 
             let movieLinks = document.createElement('div');
 
-            if (movie.imdb_url.startsWith('https://www.imdb.com/title/tt')) {
+            const imdbUrl = movie.imdb_url;
+            if (typeof imdbUrl === 'string' && imdbUrl.startsWith('https://www.imdb.com/')) {
                 let imdbLink = document.createElement('a');
-                imdbLink.href = movie.imdb_url;
+                imdbLink.href = imdbUrl;
                 imdbLink.target = "_blank";
                 imdbLink.rel = "noopener noreferrer";
 
-                if (movie.imdb_rating !== 'N/A' && movie.metascore !== 'N/A') {
-                    imdbLink.textContent = 'IMDb ' + movie.imdb_rating + ' / ' + movie.metascore;
-                } else if (movie.imdb_rating !== 'N/A') {
-                    imdbLink.textContent = 'IMDb ' + movie.imdb_rating;
+                if (imdbUrl.startsWith('https://www.imdb.com/title/tt')) {
+                    if (movie.imdb_rating !== 'N/A' && movie.metascore !== 'N/A') {
+                        imdbLink.textContent = 'IMDb ' + movie.imdb_rating + ' / ' + movie.metascore;
+                    } else if (movie.imdb_rating !== 'N/A') {
+                        imdbLink.textContent = 'IMDb ' + movie.imdb_rating;
+                    } else {
+                        imdbLink.textContent = 'IMDb';
+                    }
                 } else {
-                    imdbLink.textContent = 'IMDb';
+                    imdbLink.textContent = 'Buscar en IMDb';
                 }
 
                 movieLinks.appendChild(imdbLink);

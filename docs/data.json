@@ -130,7 +130,7 @@
                 ]
             }
         },
-        "imdb_url": "IMDb URL not found",
+        "imdb_url": "https://www.imdb.com/find/?q=PREDATOR+BADLANDS",
         "imdb_rating": "N/A",
         "metascore": "N/A",
         "imdb_duration": "N/A"
@@ -169,7 +169,7 @@
                 ]
             }
         },
-        "imdb_url": "IMDb URL not found",
+        "imdb_url": "https://www.imdb.com/find/?q=POMPOKO",
         "imdb_rating": "N/A",
         "metascore": "N/A",
         "imdb_duration": "N/A"
@@ -196,7 +196,7 @@
                 ]
             }
         },
-        "imdb_url": "IMDb URL not found",
+        "imdb_url": "https://www.imdb.com/find/?q=MONSTA+X+%3A+CONNECT+X+IN+CINEMAS",
         "imdb_rating": "N/A",
         "metascore": "N/A",
         "imdb_duration": "N/A"
@@ -204,7 +204,7 @@
     {
         "title": "The Doors: When You're Strange",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5060&house_id=3206",
-        "original_title": "THE DOORS: WHEN YOU\u2019RE STRANGE",
+        "original_title": "THE DOORS: WHEN YOU’RE STRANGE",
         "poster_url": "https://static.voyalcine.net/Uploads/i5060.jpg",
         "duration": "96 minutos.",
         "showing_days": [
@@ -223,7 +223,7 @@
                 ]
             }
         },
-        "imdb_url": "IMDb URL not found",
+        "imdb_url": "https://www.imdb.com/find/?q=THE+DOORS%3A+WHEN+YOU%E2%80%99RE+STRANGE",
         "imdb_rating": "N/A",
         "metascore": "N/A",
         "imdb_duration": "N/A"
@@ -250,7 +250,7 @@
                 ]
             }
         },
-        "imdb_url": "IMDb URL not found",
+        "imdb_url": "https://www.imdb.com/find/?q=REBBECA%3A+Becky+G",
         "imdb_rating": "N/A",
         "metascore": "N/A",
         "imdb_duration": "N/A"
@@ -277,13 +277,13 @@
                 ]
             }
         },
-        "imdb_url": "IMDb URL not found",
+        "imdb_url": "https://www.imdb.com/find/?q=j-hope+Tour+%27HOPE+ON+THE+STAGE%27+THE+MOVIE",
         "imdb_rating": "N/A",
         "metascore": "N/A",
         "imdb_duration": "N/A"
     },
     {
-        "title": "M\u00e1tate, Amor",
+        "title": "Mátate, Amor",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5089&house_id=3206",
         "original_title": "DIE MY LOVE",
         "poster_url": "https://static.voyalcine.net/Uploads/i5089.jpg",
@@ -355,7 +355,7 @@
                 ]
             }
         },
-        "imdb_url": "IMDb URL not found",
+        "imdb_url": "https://www.imdb.com/find/?q=DIE+MY+LOVE",
         "imdb_rating": "N/A",
         "metascore": "N/A",
         "imdb_duration": "N/A"
@@ -419,13 +419,13 @@
                 ]
             }
         },
-        "imdb_url": "IMDb URL not found",
+        "imdb_url": "https://www.imdb.com/find/?q=PAW+PATROL+-+HOLIDAY+SPECIAL",
         "imdb_rating": "N/A",
         "metascore": "N/A",
         "imdb_duration": "N/A"
     },
     {
-        "title": "Un Buen Ladr\u00f3n",
+        "title": "Un Buen Ladrón",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5091&house_id=3206",
         "original_title": "ROOFMAN",
         "poster_url": "https://static.voyalcine.net/Uploads/i5091.jpg",
@@ -497,13 +497,13 @@
                 ]
             }
         },
-        "imdb_url": "IMDb URL not found",
+        "imdb_url": "https://www.imdb.com/find/?q=ROOFMAN",
         "imdb_rating": "N/A",
         "metascore": "N/A",
         "imdb_duration": "N/A"
     },
     {
-        "title": "Dollhouse: Mu\u00f1eca Maldita",
+        "title": "Dollhouse: Muñeca Maldita",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5092&house_id=3206",
         "original_title": "DOLLHOUSE",
         "poster_url": "https://static.voyalcine.net/Uploads/i5092.jpg",
@@ -561,7 +561,7 @@
                 ]
             }
         },
-        "imdb_url": "IMDb URL not found",
+        "imdb_url": "https://www.imdb.com/find/?q=DOLLHOUSE",
         "imdb_rating": "N/A",
         "metascore": "N/A",
         "imdb_duration": "N/A"
@@ -625,7 +625,7 @@
                 ]
             }
         },
-        "imdb_url": "IMDb URL not found",
+        "imdb_url": "https://www.imdb.com/find/?q=LA+HERIDA",
         "imdb_rating": "N/A",
         "metascore": "N/A",
         "imdb_duration": "N/A"
@@ -697,13 +697,13 @@
                 ]
             }
         },
-        "imdb_url": "IMDb URL not found",
+        "imdb_url": "https://www.imdb.com/find/?q=GOOD+FORTUN",
         "imdb_rating": "N/A",
         "metascore": "N/A",
         "imdb_duration": "N/A"
     },
     {
-        "title": "El Cad\u00e1ver De La Novia",
+        "title": "El Cadáver De La Novia",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5043&house_id=3206",
         "original_title": "CORPSE BRIDE",
         "poster_url": "https://static.voyalcine.net/Uploads/i5043.jpg",
@@ -763,7 +763,7 @@
                 ]
             }
         },
-        "imdb_url": "IMDb URL not found",
+        "imdb_url": "https://www.imdb.com/find/?q=CORPSE+BRIDE",
         "imdb_rating": "N/A",
         "metascore": "N/A",
         "imdb_duration": "N/A"
@@ -784,7 +784,7 @@
                 ]
             }
         },
-        "imdb_url": "IMDb URL not found",
+        "imdb_url": "https://www.imdb.com/find/?q=A+LEGEND",
         "imdb_rating": "N/A",
         "metascore": "N/A",
         "imdb_duration": "N/A"
@@ -805,7 +805,7 @@
                 ]
             }
         },
-        "imdb_url": "IMDb URL not found",
+        "imdb_url": "https://www.imdb.com/find/?q=EL+RITUAL+DEL+LIBRO+ROJO%3A+LA+PUERTA+DEL+INFIERNO",
         "imdb_rating": "N/A",
         "metascore": "N/A",
         "imdb_duration": "N/A"
@@ -827,7 +827,7 @@
                 ]
             }
         },
-        "imdb_url": "IMDb URL not found",
+        "imdb_url": "https://www.imdb.com/find/?q=UNE+PART+MANQUANTE",
         "imdb_rating": "N/A",
         "metascore": "N/A",
         "imdb_duration": "N/A"
@@ -898,13 +898,13 @@
                 ]
             }
         },
-        "imdb_url": "IMDb URL not found",
+        "imdb_url": "https://www.imdb.com/find/?q=NIGHT+AT+THE+ZOOPOCALYPSE",
         "imdb_rating": "N/A",
         "metascore": "N/A",
         "imdb_duration": "N/A"
     },
     {
-        "title": "A Pesar De T\u00ed",
+        "title": "A Pesar De Tí",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5020&house_id=3206",
         "original_title": "REGRETTING YOU",
         "poster_url": "https://static.voyalcine.net/Uploads/i5020.jpg",
@@ -971,13 +971,13 @@
                 ]
             }
         },
-        "imdb_url": "IMDb URL not found",
+        "imdb_url": "https://www.imdb.com/find/?q=REGRETTING+YOU",
         "imdb_rating": "N/A",
         "metascore": "N/A",
         "imdb_duration": "N/A"
     },
     {
-        "title": "Chainsaw Man - La Pel\u00edcula: Arco De Reze",
+        "title": "Chainsaw Man - La Película: Arco De Reze",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4963&house_id=3206",
         "original_title": "CHAINSAW MAN - THE MOVIE: REZE ARC",
         "poster_url": "https://static.voyalcine.net/Uploads/i4963.jpg",
@@ -1043,13 +1043,13 @@
                 ]
             }
         },
-        "imdb_url": "IMDb URL not found",
+        "imdb_url": "https://www.imdb.com/find/?q=CHAINSAW+MAN+-+THE+MOVIE%3A+REZE+ARC",
         "imdb_rating": "N/A",
         "metascore": "N/A",
         "imdb_duration": "N/A"
     },
     {
-        "title": "El Padre Del A\u00f1o",
+        "title": "El Padre Del Año",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5022&house_id=3206",
         "original_title": "GOODRICH",
         "poster_url": "https://static.voyalcine.net/Uploads/i5022.jpg",
@@ -1065,7 +1065,7 @@
                 ]
             }
         },
-        "imdb_url": "IMDb URL not found",
+        "imdb_url": "https://www.imdb.com/find/?q=GOODRICH",
         "imdb_rating": "N/A",
         "metascore": "N/A",
         "imdb_duration": "N/A"
@@ -1086,7 +1086,7 @@
                 ]
             }
         },
-        "imdb_url": "IMDb URL not found",
+        "imdb_url": "https://www.imdb.com/find/?q=GOOD+BOY",
         "imdb_rating": "N/A",
         "metascore": "N/A",
         "imdb_duration": "N/A"
@@ -1107,13 +1107,13 @@
                 ]
             }
         },
-        "imdb_url": "IMDb URL not found",
+        "imdb_url": "https://www.imdb.com/find/?q=ParaNorman+%28Remastered%29",
         "imdb_rating": "N/A",
         "metascore": "N/A",
         "imdb_duration": "N/A"
     },
     {
-        "title": "Springsteen: M\u00fasica De Ninguna Parte",
+        "title": "Springsteen: Música De Ninguna Parte",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5019&house_id=3206",
         "original_title": "SPRINGSTEEN: DELIVER ME FROM NOWHERE",
         "poster_url": "https://static.voyalcine.net/Uploads/i5019.jpg",
@@ -1170,7 +1170,7 @@
                 ]
             }
         },
-        "imdb_url": "IMDb URL not found",
+        "imdb_url": "https://www.imdb.com/find/?q=SPRINGSTEEN%3A+DELIVER+ME+FROM+NOWHERE",
         "imdb_rating": "N/A",
         "metascore": "N/A",
         "imdb_duration": "N/A"
@@ -1234,7 +1234,7 @@
                 ]
             }
         },
-        "imdb_url": "IMDb URL not found",
+        "imdb_url": "https://www.imdb.com/find/?q=STITCH+HEAD",
         "imdb_rating": "N/A",
         "metascore": "N/A",
         "imdb_duration": "N/A"
@@ -1255,13 +1255,13 @@
                 ]
             }
         },
-        "imdb_url": "IMDb URL not found",
+        "imdb_url": "https://www.imdb.com/find/?q=FOLLEMENTE",
         "imdb_rating": "N/A",
         "metascore": "N/A",
         "imdb_duration": "N/A"
     },
     {
-        "title": "Tel\u00e9fono Negro 2",
+        "title": "Teléfono Negro 2",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4960&house_id=3206",
         "original_title": "THE BLACK PHONE 2",
         "poster_url": "https://static.voyalcine.net/Uploads/i4960.jpg",
@@ -1351,13 +1351,13 @@
                 ]
             }
         },
-        "imdb_url": "IMDb URL not found",
+        "imdb_url": "https://www.imdb.com/find/?q=THE+BLACK+PHONE+2",
         "imdb_rating": "N/A",
         "metascore": "N/A",
         "imdb_duration": "N/A"
     },
     {
-        "title": "Cacer\u00eda De Brujas",
+        "title": "Cacería De Brujas",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4971&house_id=3206",
         "original_title": "AFTER THE HUNT",
         "poster_url": "https://static.voyalcine.net/Uploads/i4971.jpg",
@@ -1414,7 +1414,7 @@
                 ]
             }
         },
-        "imdb_url": "IMDb URL not found",
+        "imdb_url": "https://www.imdb.com/find/?q=AFTER+THE+HUNT",
         "imdb_rating": "N/A",
         "metascore": "N/A",
         "imdb_duration": "N/A"
@@ -1438,7 +1438,7 @@
                 ]
             }
         },
-        "imdb_url": "IMDb URL not found",
+        "imdb_url": "https://www.imdb.com/find/?q=TRON+ARES",
         "imdb_rating": "N/A",
         "metascore": "N/A",
         "imdb_duration": "N/A"
@@ -1459,7 +1459,7 @@
                 ]
             }
         },
-        "imdb_url": "IMDb URL not found",
+        "imdb_url": "https://www.imdb.com/find/?q=THE+LONG+WALK",
         "imdb_rating": "N/A",
         "metascore": "N/A",
         "imdb_duration": "N/A"
@@ -1538,13 +1538,13 @@
                 ]
             }
         },
-        "imdb_url": "IMDb URL not found",
+        "imdb_url": "https://www.imdb.com/find/?q=ONE+BATTLE+AFTER+ANOTHER",
         "imdb_rating": "N/A",
         "metascore": "N/A",
         "imdb_duration": "N/A"
     },
     {
-        "title": "Bel\u00e9n",
+        "title": "Belén",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=4876&house_id=3206",
         "original_title": "BELEN",
         "poster_url": "https://static.voyalcine.net/Uploads/i4876.jpg",
@@ -1559,7 +1559,7 @@
                 ]
             }
         },
-        "imdb_url": "IMDb URL not found",
+        "imdb_url": "https://www.imdb.com/find/?q=BELEN",
         "imdb_rating": "N/A",
         "metascore": "N/A",
         "imdb_duration": "N/A"
