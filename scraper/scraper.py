@@ -4,7 +4,8 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from imdb import IMDb
+from imdb import IMDb, IMDbError
+from urllib.parse import quote_plus
 import json
 import os
 from pathlib import Path
@@ -160,9 +161,28 @@ class MovieScraper:
 
         return movie_info
 
+    @staticmethod
+    def _build_imdb_search_url(original_title: str) -> str:
+        query = original_title.strip()
+        if not query:
+            return "IMDb URL not found"
+
+        return "https://www.imdb.com/find/?q=" + quote_plus(query)
+
     def get_imdb_url(self, original_title):
         ia = IMDb()
-        search_results = ia.search_movie(original_title)
+        try:
+            search_results = ia.search_movie(original_title)
+        except IMDbError as exc:
+            self.logger.warning(
+                "IMDb search failed for '%s': %s", original_title, exc
+            )
+            return self._build_imdb_search_url(original_title)
+        except Exception as exc:  # pragma: no cover - defensive logging
+            self.logger.error(
+                "Unexpected error searching IMDb for '%s': %s", original_title, exc
+            )
+            return self._build_imdb_search_url(original_title)
 
         if search_results:
             first_result = search_results[0]  # Assuming the first result is the correct movie
@@ -170,11 +190,17 @@ class MovieScraper:
             imdb_url = f"https://www.imdb.com/title/tt{movie_id}/"
             return imdb_url
         else:
-            return "IMDb URL not found"
+            return self._build_imdb_search_url(original_title)
 
     def scrape_imdb_info(self, imdb_url, showcase_duration):
         if not imdb_url.startswith('https://www.imdb.com/title/tt'):
-            self.logger.error(f"Invalid IMDb URL: {imdb_url}")
+            if imdb_url.startswith('https://www.imdb.com/find/?q='):
+                self.logger.info(
+                    "Skipping IMDb details scraping for search URL generated from '%s'",
+                    imdb_url,
+                )
+            else:
+                self.logger.error(f"Invalid IMDb URL: {imdb_url}")
             return {'imdb_rating': 'N/A', 'metascore': 'N/A', 'imdb_duration': 'N/A'}
         self.driver.get(imdb_url)
         imdb_info = {'imdb_rating': 'N/A', 'metascore': 'N/A', 'imdb_duration': 'N/A'}
