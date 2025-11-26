@@ -1,173 +1,5 @@
 [
     {
-        "title": "Zootopia 2",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5156&house_id=3206",
-        "original_title": "ZOOTOPIA 2",
-        "poster_url": "https://static.voyalcine.net/Uploads/i5156.jpg",
-        "duration": "108 minutos.",
-        "showing_days": [
-            "2025-11-27",
-            "2025-11-28",
-            "2025-11-29",
-            "2025-11-30",
-            "2025-12-01",
-            "2025-12-02",
-            "2025-12-03"
-        ],
-        "showtimes": {
-            "2025-11-27": {
-                "2D-Subtitulado": [
-                    "21:55"
-                ],
-                "2D-Doblada": [
-                    "14:25",
-                    "14:45",
-                    "15:05",
-                    "17:05",
-                    "17:25",
-                    "17:45",
-                    "19:35",
-                    "19:55",
-                    "20:15"
-                ],
-                "3D-Doblada": [
-                    "14:05",
-                    "16:45",
-                    "19:15"
-                ]
-            },
-            "2025-11-28": {
-                "2D-Subtitulado": [
-                    "21:55"
-                ],
-                "2D-Doblada": [
-                    "14:25",
-                    "14:45",
-                    "15:05",
-                    "17:05",
-                    "17:25",
-                    "17:45",
-                    "19:35",
-                    "19:55",
-                    "20:15"
-                ],
-                "3D-Doblada": [
-                    "14:05",
-                    "16:45",
-                    "19:15"
-                ]
-            },
-            "2025-11-29": {
-                "2D-Subtitulado": [
-                    "21:55"
-                ],
-                "2D-Doblada": [
-                    "14:25",
-                    "14:45",
-                    "15:05",
-                    "17:05",
-                    "17:25",
-                    "17:45",
-                    "19:35",
-                    "19:55",
-                    "20:15"
-                ],
-                "3D-Doblada": [
-                    "14:05",
-                    "16:45",
-                    "19:15"
-                ]
-            },
-            "2025-11-30": {
-                "2D-Subtitulado": [
-                    "21:55"
-                ],
-                "2D-Doblada": [
-                    "14:25",
-                    "14:45",
-                    "15:05",
-                    "17:05",
-                    "17:25",
-                    "17:45",
-                    "19:35",
-                    "19:55",
-                    "20:15"
-                ],
-                "3D-Doblada": [
-                    "14:05",
-                    "16:45",
-                    "19:15"
-                ]
-            },
-            "2025-12-01": {
-                "2D-Subtitulado": [
-                    "21:55"
-                ],
-                "2D-Doblada": [
-                    "14:25",
-                    "14:45",
-                    "15:05",
-                    "17:05",
-                    "17:25",
-                    "17:45",
-                    "19:35",
-                    "19:55",
-                    "20:15"
-                ],
-                "3D-Doblada": [
-                    "14:05",
-                    "16:45",
-                    "19:15"
-                ]
-            },
-            "2025-12-02": {
-                "2D-Subtitulado": [
-                    "21:55"
-                ],
-                "2D-Doblada": [
-                    "14:25",
-                    "14:45",
-                    "15:05",
-                    "17:05",
-                    "17:25",
-                    "17:45",
-                    "19:35",
-                    "20:15"
-                ],
-                "3D-Doblada": [
-                    "14:05",
-                    "16:45",
-                    "19:15"
-                ]
-            },
-            "2025-12-03": {
-                "2D-Subtitulado": [
-                    "21:55"
-                ],
-                "2D-Doblada": [
-                    "14:25",
-                    "14:45",
-                    "15:05",
-                    "17:05",
-                    "17:25",
-                    "17:45",
-                    "19:35",
-                    "19:55",
-                    "20:15"
-                ],
-                "3D-Doblada": [
-                    "14:05",
-                    "16:45",
-                    "19:15"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/find/?q=ZOOTOPIA+2",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "N/A"
-    },
-    {
         "title": "MONSTA X : Connect X In Cinemas",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5087&house_id=3206",
         "original_title": "MONSTA X : CONNECT X IN CINEMAS",
@@ -364,6 +196,174 @@
             }
         },
         "imdb_url": "https://www.imdb.com/find/?q=THE+CURE%3A+THE+SHOW+OF+A+LOST+WORLD",
+        "imdb_rating": "N/A",
+        "metascore": "N/A",
+        "imdb_duration": "N/A"
+    },
+    {
+        "title": "Zootopia 2",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5156&house_id=3206",
+        "original_title": "ZOOTOPIA 2",
+        "poster_url": "https://static.voyalcine.net/Uploads/i5156.jpg",
+        "duration": "108 minutos.",
+        "showing_days": [
+            "2025-11-27",
+            "2025-11-28",
+            "2025-11-29",
+            "2025-11-30",
+            "2025-12-01",
+            "2025-12-02",
+            "2025-12-03"
+        ],
+        "showtimes": {
+            "2025-11-27": {
+                "2D-Subtitulado": [
+                    "21:55"
+                ],
+                "2D-Doblada": [
+                    "14:25",
+                    "14:45",
+                    "15:05",
+                    "17:05",
+                    "17:25",
+                    "17:45",
+                    "19:35",
+                    "19:55",
+                    "20:15"
+                ],
+                "3D-Doblada": [
+                    "14:05",
+                    "16:45",
+                    "19:15"
+                ]
+            },
+            "2025-11-28": {
+                "2D-Subtitulado": [
+                    "21:55"
+                ],
+                "2D-Doblada": [
+                    "14:25",
+                    "14:45",
+                    "15:05",
+                    "17:05",
+                    "17:25",
+                    "17:45",
+                    "19:35",
+                    "19:55",
+                    "20:15"
+                ],
+                "3D-Doblada": [
+                    "14:05",
+                    "16:45",
+                    "19:15"
+                ]
+            },
+            "2025-11-29": {
+                "2D-Subtitulado": [
+                    "21:55"
+                ],
+                "2D-Doblada": [
+                    "14:25",
+                    "14:45",
+                    "15:05",
+                    "17:05",
+                    "17:25",
+                    "17:45",
+                    "19:35",
+                    "19:55",
+                    "20:15"
+                ],
+                "3D-Doblada": [
+                    "14:05",
+                    "16:45",
+                    "19:15"
+                ]
+            },
+            "2025-11-30": {
+                "2D-Subtitulado": [
+                    "21:55"
+                ],
+                "2D-Doblada": [
+                    "14:25",
+                    "14:45",
+                    "15:05",
+                    "17:05",
+                    "17:25",
+                    "17:45",
+                    "19:35",
+                    "19:55",
+                    "20:15"
+                ],
+                "3D-Doblada": [
+                    "14:05",
+                    "16:45",
+                    "19:15"
+                ]
+            },
+            "2025-12-01": {
+                "2D-Subtitulado": [
+                    "21:55"
+                ],
+                "2D-Doblada": [
+                    "14:25",
+                    "14:45",
+                    "15:05",
+                    "17:05",
+                    "17:25",
+                    "17:45",
+                    "19:35",
+                    "19:55",
+                    "20:15"
+                ],
+                "3D-Doblada": [
+                    "14:05",
+                    "16:45",
+                    "19:15"
+                ]
+            },
+            "2025-12-02": {
+                "2D-Subtitulado": [
+                    "21:55"
+                ],
+                "2D-Doblada": [
+                    "14:25",
+                    "14:45",
+                    "15:05",
+                    "17:05",
+                    "17:25",
+                    "17:45",
+                    "19:35",
+                    "20:15"
+                ],
+                "3D-Doblada": [
+                    "14:05",
+                    "16:45",
+                    "19:15"
+                ]
+            },
+            "2025-12-03": {
+                "2D-Subtitulado": [
+                    "21:55"
+                ],
+                "2D-Doblada": [
+                    "14:25",
+                    "14:45",
+                    "15:05",
+                    "17:05",
+                    "17:25",
+                    "17:45",
+                    "19:35",
+                    "19:55",
+                    "20:15"
+                ],
+                "3D-Doblada": [
+                    "14:05",
+                    "16:45",
+                    "19:15"
+                ]
+            }
+        },
+        "imdb_url": "https://www.imdb.com/find/?q=ZOOTOPIA+2",
         "imdb_rating": "N/A",
         "metascore": "N/A",
         "imdb_duration": "N/A"
@@ -581,7 +581,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5155.jpg",
         "duration": "90 minutos.",
         "showing_days": [
-            "2025-11-25",
             "2025-11-26",
             "2025-11-27",
             "2025-11-28",
@@ -592,13 +591,6 @@
             "2025-12-03"
         ],
         "showtimes": {
-            "2025-11-25": {
-                "2D-Subtitulado": [
-                    "18:05",
-                    "20:15",
-                    "22:20"
-                ]
-            },
             "2025-11-26": {
                 "2D-Subtitulado": [
                     "14:20",
@@ -662,15 +654,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5182.jpg",
         "duration": "80 minutos.",
         "showing_days": [
-            "2025-11-25",
             "2025-11-26"
         ],
         "showtimes": {
-            "2025-11-25": {
-                "2D-Doblada": [
-                    "22:30"
-                ]
-            },
             "2025-11-26": {
                 "2D-Doblada": [
                     "22:30"
@@ -689,7 +675,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5181.jpg",
         "duration": "108 minutos.",
         "showing_days": [
-            "2025-11-25",
             "2025-11-26",
             "2025-11-27",
             "2025-11-28",
@@ -700,11 +685,6 @@
             "2025-12-03"
         ],
         "showtimes": {
-            "2025-11-25": {
-                "2D-Doblada": [
-                    "22:30"
-                ]
-            },
             "2025-11-26": {
                 "2D-Doblada": [
                     "14:40",
@@ -759,7 +739,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5108.jpg",
         "duration": "138 minutos.",
         "showing_days": [
-            "2025-11-25",
             "2025-11-26",
             "2025-11-27",
             "2025-11-28",
@@ -770,25 +749,6 @@
             "2025-12-03"
         ],
         "showtimes": {
-            "2025-11-25": {
-                "2D-Subtitulado": [
-                    "19:30",
-                    "19:45",
-                    "20:05",
-                    "21:25",
-                    "22:05",
-                    "22:40"
-                ],
-                "2D-Doblada": [
-                    "18:30"
-                ],
-                "3D-Subtitulado": [
-                    "22:25"
-                ],
-                "3D-Doblada": [
-                    "19:10"
-                ]
-            },
             "2025-11-26": {
                 "2D-Subtitulado": [
                     "14:15",
@@ -969,15 +929,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5107.jpg",
         "duration": "154 minutos.",
         "showing_days": [
-            "2025-11-25",
             "2025-11-26"
         ],
         "showtimes": {
-            "2025-11-25": {
-                "2D-Subtitulado": [
-                    "19:15"
-                ]
-            },
             "2025-11-26": {
                 "2D-Subtitulado": [
                     "19:15"
@@ -999,7 +953,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5131.jpg",
         "duration": "112 minutos.",
         "showing_days": [
-            "2025-11-25",
             "2025-11-26",
             "2025-11-27",
             "2025-11-28",
@@ -1010,12 +963,6 @@
             "2025-12-03"
         ],
         "showtimes": {
-            "2025-11-25": {
-                "2D-Subtitulado": [
-                    "19:40",
-                    "22:15"
-                ]
-            },
             "2025-11-26": {
                 "2D-Subtitulado": [
                     "14:30",
@@ -1149,7 +1096,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5049.jpg",
         "duration": "106 minutos.",
         "showing_days": [
-            "2025-11-25",
             "2025-11-26",
             "2025-11-27",
             "2025-11-28",
@@ -1160,11 +1106,6 @@
             "2025-12-03"
         ],
         "showtimes": {
-            "2025-11-25": {
-                "2D-Subtitulado": [
-                    "22:35"
-                ]
-            },
             "2025-11-26": {
                 "2D-Subtitulado": [
                     "22:35"
@@ -1221,7 +1162,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5089.jpg",
         "duration": "118 minutos.",
         "showing_days": [
-            "2025-11-25",
             "2025-11-26",
             "2025-11-27",
             "2025-11-28",
@@ -1231,11 +1171,6 @@
             "2025-12-02"
         ],
         "showtimes": {
-            "2025-11-25": {
-                "2D-Subtitulado": [
-                    "19:50"
-                ]
-            },
             "2025-11-26": {
                 "2D-Subtitulado": [
                     "17:15",
@@ -1327,7 +1262,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i4898.jpg",
         "duration": "162 minutos.",
         "showing_days": [
-            "2025-11-25",
             "2025-11-26",
             "2025-11-27",
             "2025-11-28",
@@ -1338,11 +1272,6 @@
             "2025-12-03"
         ],
         "showtimes": {
-            "2025-11-25": {
-                "2D-Subtitulado": [
-                    "19:05"
-                ]
-            },
             "2025-11-26": {
                 "2D-Subtitulado": [
                     "19:05"
