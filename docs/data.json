@@ -544,21 +544,42 @@
         "imdb_duration": "N/A"
     },
     {
+        "title": "Megadeth: Behind The Mask",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5236&house_id=3206",
+        "original_title": "MEGADETH: BEHIND THE MASK",
+        "poster_url": "https://static.voyalcine.net/Uploads/i5236.jpg",
+        "duration": "108 minutos.",
+        "showing_days": [
+            "2026-01-22",
+            "2026-01-24"
+        ],
+        "showtimes": {
+            "2026-01-22": {
+                "2D-Subtitulado": [
+                    "22:00"
+                ]
+            },
+            "2026-01-24": {
+                "2D-Subtitulado": [
+                    "22:00"
+                ]
+            }
+        },
+        "imdb_url": "https://www.imdb.com/find/?q=MEGADETH%3A+BEHIND+THE+MASK",
+        "imdb_rating": "N/A",
+        "metascore": "N/A",
+        "imdb_duration": "N/A"
+    },
+    {
         "title": "Beso De Tres",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5218&house_id=3206",
         "original_title": "THE THREESOME",
         "poster_url": "https://static.voyalcine.net/Uploads/i5218.jpg",
         "duration": "111 minutos.",
         "showing_days": [
-            "2025-12-09",
             "2025-12-10"
         ],
         "showtimes": {
-            "2025-12-09": {
-                "2D-Subtitulado": [
-                    "22:30"
-                ]
-            },
             "2025-12-10": {
                 "2D-Subtitulado": [
                     "15:15",
@@ -578,7 +599,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5175.jpg",
         "duration": "104 minutos.",
         "showing_days": [
-            "2025-12-09",
             "2025-12-10",
             "2025-12-11",
             "2025-12-12",
@@ -588,18 +608,6 @@
             "2025-12-16"
         ],
         "showtimes": {
-            "2025-12-09": {
-                "2D-Subtitulado": [
-                    "19:50",
-                    "20:10",
-                    "22:15",
-                    "22:40"
-                ],
-                "2D-Doblada": [
-                    "19:30",
-                    "21:55"
-                ]
-            },
             "2025-12-10": {
                 "2D-Subtitulado": [
                     "14:40",
@@ -726,7 +734,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5222.jpg",
         "duration": "103 minutos.",
         "showing_days": [
-            "2025-12-09",
             "2025-12-10",
             "2025-12-11",
             "2025-12-12",
@@ -736,11 +743,6 @@
             "2025-12-16"
         ],
         "showtimes": {
-            "2025-12-09": {
-                "2D-Subtitulado": [
-                    "22:05"
-                ]
-            },
             "2025-12-10": {
                 "2D-Subtitulado": [
                     "17:10",
@@ -795,7 +797,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5156.jpg",
         "duration": "108 minutos.",
         "showing_days": [
-            "2025-12-09",
             "2025-12-10",
             "2025-12-11",
             "2025-12-12",
@@ -805,17 +806,6 @@
             "2025-12-16"
         ],
         "showtimes": {
-            "2025-12-09": {
-                "2D-Doblada": [
-                    "19:00",
-                    "19:40",
-                    "20:00",
-                    "21:50"
-                ],
-                "3D-Doblada": [
-                    "19:20"
-                ]
-            },
             "2025-12-10": {
                 "2D-Doblada": [
                     "14:00",
@@ -965,7 +955,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5108.jpg",
         "duration": "138 minutos.",
         "showing_days": [
-            "2025-12-09",
             "2025-12-10",
             "2025-12-11",
             "2025-12-12",
@@ -975,14 +964,6 @@
             "2025-12-16"
         ],
         "showtimes": {
-            "2025-12-09": {
-                "2D-Subtitulado": [
-                    "19:05",
-                    "19:45",
-                    "21:30",
-                    "22:00"
-                ]
-            },
             "2025-12-10": {
                 "2D-Subtitulado": [
                     "13:55",
@@ -1069,7 +1050,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5131.jpg",
         "duration": "112 minutos.",
         "showing_days": [
-            "2025-12-09",
             "2025-12-10",
             "2025-12-11",
             "2025-12-12",
@@ -1079,12 +1059,6 @@
             "2025-12-16"
         ],
         "showtimes": {
-            "2025-12-09": {
-                "2D-Subtitulado": [
-                    "19:35",
-                    "22:20"
-                ]
-            },
             "2025-12-10": {
                 "2D-Subtitulado": [
                     "14:30",
@@ -1135,7 +1109,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5089.jpg",
         "duration": "118 minutos.",
         "showing_days": [
-            "2025-12-09",
             "2025-12-10",
             "2025-12-12",
             "2025-12-13",
@@ -1143,11 +1116,6 @@
             "2025-12-16"
         ],
         "showtimes": {
-            "2025-12-09": {
-                "2D-Subtitulado": [
-                    "22:25"
-                ]
-            },
             "2025-12-10": {
                 "2D-Subtitulado": [
                     "22:25"
