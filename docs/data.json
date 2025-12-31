@@ -27,82 +27,6 @@
         "imdb_duration": "N/A"
     },
     {
-        "title": "La Empleada",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5252&house_id=3206",
-        "original_title": "THE HOUSEMAID",
-        "poster_url": "https://static.voyalcine.net/Uploads/i5252b.jpg",
-        "duration": "131 minutos.",
-        "showing_days": [
-            "2026-01-01",
-            "2026-01-02",
-            "2026-01-03",
-            "2026-01-04",
-            "2026-01-05",
-            "2026-01-06",
-            "2026-01-07"
-        ],
-        "showtimes": {
-            "2026-01-01": {
-                "2D-Subtitulado": [
-                    "19:35",
-                    "22:30"
-                ]
-            },
-            "2026-01-02": {
-                "2D-Subtitulado": [
-                    "14:05",
-                    "17:05",
-                    "19:35",
-                    "22:30"
-                ]
-            },
-            "2026-01-03": {
-                "2D-Subtitulado": [
-                    "14:05",
-                    "17:05",
-                    "19:35",
-                    "22:30"
-                ]
-            },
-            "2026-01-04": {
-                "2D-Subtitulado": [
-                    "14:05",
-                    "17:05",
-                    "19:35",
-                    "22:30"
-                ]
-            },
-            "2026-01-05": {
-                "2D-Subtitulado": [
-                    "14:05",
-                    "17:05",
-                    "19:35",
-                    "22:30"
-                ]
-            },
-            "2026-01-06": {
-                "2D-Subtitulado": [
-                    "14:05",
-                    "17:05",
-                    "19:35",
-                    "22:30"
-                ]
-            },
-            "2026-01-07": {
-                "2D-Subtitulado": [
-                    "14:05",
-                    "17:05",
-                    "19:35",
-                    "22:30"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/find/?q=THE+HOUSEMAID",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "N/A"
-    },
-    {
         "title": "Bob Esponja: En Busca De Los Pantalones Cuadrados",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5263&house_id=3206",
         "original_title": "The SpongeBob Movie: Search for SquarePants",
@@ -274,13 +198,12 @@
         "imdb_duration": "N/A"
     },
     {
-        "title": "Anaconda",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5255&house_id=3206",
-        "original_title": "ANACONDA",
-        "poster_url": "https://static.voyalcine.net/Uploads/i5255.jpg",
-        "duration": "99 minutos.",
+        "title": "La Empleada",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5252&house_id=3206",
+        "original_title": "THE HOUSEMAID",
+        "poster_url": "https://static.voyalcine.net/Uploads/i5252b.jpg",
+        "duration": "131 minutos.",
         "showing_days": [
-            "2025-12-30",
             "2026-01-01",
             "2026-01-02",
             "2026-01-03",
@@ -290,13 +213,82 @@
             "2026-01-07"
         ],
         "showtimes": {
-            "2025-12-30": {
+            "2026-01-01": {
                 "2D-Subtitulado": [
                     "19:35",
-                    "22:10",
-                    "22:35"
+                    "22:30"
                 ]
             },
+            "2026-01-02": {
+                "2D-Subtitulado": [
+                    "14:05",
+                    "17:05",
+                    "19:35",
+                    "22:30"
+                ]
+            },
+            "2026-01-03": {
+                "2D-Subtitulado": [
+                    "14:05",
+                    "17:05",
+                    "19:35",
+                    "22:30"
+                ]
+            },
+            "2026-01-04": {
+                "2D-Subtitulado": [
+                    "14:05",
+                    "17:05",
+                    "19:35",
+                    "22:30"
+                ]
+            },
+            "2026-01-05": {
+                "2D-Subtitulado": [
+                    "14:05",
+                    "17:05",
+                    "19:35",
+                    "22:30"
+                ]
+            },
+            "2026-01-06": {
+                "2D-Subtitulado": [
+                    "14:05",
+                    "17:05",
+                    "19:35",
+                    "22:30"
+                ]
+            },
+            "2026-01-07": {
+                "2D-Subtitulado": [
+                    "14:05",
+                    "17:05",
+                    "19:35",
+                    "22:30"
+                ]
+            }
+        },
+        "imdb_url": "https://www.imdb.com/find/?q=THE+HOUSEMAID",
+        "imdb_rating": "N/A",
+        "metascore": "N/A",
+        "imdb_duration": "N/A"
+    },
+    {
+        "title": "Anaconda",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5255&house_id=3206",
+        "original_title": "ANACONDA",
+        "poster_url": "https://static.voyalcine.net/Uploads/i5255.jpg",
+        "duration": "99 minutos.",
+        "showing_days": [
+            "2026-01-01",
+            "2026-01-02",
+            "2026-01-03",
+            "2026-01-04",
+            "2026-01-05",
+            "2026-01-06",
+            "2026-01-07"
+        ],
+        "showtimes": {
             "2026-01-01": {
                 "2D-Subtitulado": [
                     "22:10"
@@ -363,7 +355,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5256.jpg",
         "duration": "133 minutos.",
         "showing_days": [
-            "2025-12-30",
             "2026-01-01",
             "2026-01-02",
             "2026-01-03",
@@ -373,11 +364,6 @@
             "2026-01-07"
         ],
         "showtimes": {
-            "2025-12-30": {
-                "2D-Subtitulado": [
-                    "19:20"
-                ]
-            },
             "2026-01-01": {
                 "2D-Subtitulado": [
                     "19:25"
@@ -432,7 +418,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5206.jpg",
         "duration": "197 minutos.",
         "showing_days": [
-            "2025-12-30",
             "2026-01-01",
             "2026-01-02",
             "2026-01-03",
@@ -442,26 +427,6 @@
             "2026-01-07"
         ],
         "showtimes": {
-            "2025-12-30": {
-                "2D-Subtitulado": [
-                    "18:05",
-                    "22:00"
-                ],
-                "3D-HFR Doblada": [
-                    "21:40"
-                ],
-                "3D-HFR Subtitulada": [
-                    "18:25",
-                    "22:20"
-                ],
-                "2D-HFR Doblada": [
-                    "21:20"
-                ],
-                "2D-HFR Subtitulada": [
-                    "18:45",
-                    "21:30"
-                ]
-            },
             "2026-01-01": {
                 "3D-HFR Subtitulada": [
                     "20:00"
@@ -608,7 +573,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5237.jpg",
         "duration": "118 minutos.",
         "showing_days": [
-            "2025-12-30",
             "2026-01-01",
             "2026-01-02",
             "2026-01-03",
@@ -618,12 +582,6 @@
             "2026-01-07"
         ],
         "showtimes": {
-            "2025-12-30": {
-                "2D-Subtitulado": [
-                    "19:50",
-                    "22:30"
-                ]
-            },
             "2026-01-01": {
                 "2D-Subtitulado": [
                     "22:35"
@@ -672,7 +630,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5175.jpg",
         "duration": "104 minutos.",
         "showing_days": [
-            "2025-12-30",
             "2026-01-01",
             "2026-01-02",
             "2026-01-03",
@@ -682,11 +639,6 @@
             "2026-01-07"
         ],
         "showtimes": {
-            "2025-12-30": {
-                "2D-Doblada": [
-                    "22:15"
-                ]
-            },
             "2026-01-01": {
                 "2D-Doblada": [
                     "18:50"
@@ -735,7 +687,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5156.jpg",
         "duration": "108 minutos.",
         "showing_days": [
-            "2025-12-30",
             "2026-01-01",
             "2026-01-02",
             "2026-01-03",
@@ -745,13 +696,6 @@
             "2026-01-07"
         ],
         "showtimes": {
-            "2025-12-30": {
-                "2D-Doblada": [
-                    "19:00",
-                    "19:30",
-                    "21:55"
-                ]
-            },
             "2026-01-01": {
                 "2D-Doblada": [
                     "19:30",
