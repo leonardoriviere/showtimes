@@ -81,6 +81,33 @@
         "imdb_duration": "N/A"
     },
     {
+        "title": "Twenty One Pilots: More Than We Ever Imagined",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5302&house_id=3206",
+        "original_title": "Twenty One Pilots: More Than We Ever Imagined",
+        "poster_url": "https://static.voyalcine.net/Uploads/i5302.jpg",
+        "duration": "119 minutos.",
+        "showing_days": [
+            "2026-02-26",
+            "2026-02-28"
+        ],
+        "showtimes": {
+            "2026-02-26": {
+                "2D-Subtitulado": [
+                    "19:55"
+                ]
+            },
+            "2026-02-28": {
+                "2D-Subtitulado": [
+                    "22:35"
+                ]
+            }
+        },
+        "imdb_url": "https://www.imdb.com/find/?q=Twenty+One+Pilots%3A+More+Than+We+Ever+Imagined",
+        "imdb_rating": "N/A",
+        "metascore": "N/A",
+        "imdb_duration": "N/A"
+    },
+    {
         "title": "Exterminio: El Templo De Los Huesos",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5303&house_id=3206",
         "original_title": "28 YEARS LATER THE BONE TEMPLE",
@@ -450,48 +477,15 @@
         "imdb_duration": "N/A"
     },
     {
-        "title": "Twenty One Pilots: More Than We Ever Imagined",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5302&house_id=3206",
-        "original_title": "Twenty One Pilots: More Than We Ever Imagined",
-        "poster_url": "https://static.voyalcine.net/Uploads/i5302.jpg",
-        "duration": "119 minutos.",
-        "showing_days": [
-            "2026-02-26",
-            "2026-02-28"
-        ],
-        "showtimes": {
-            "2026-02-26": {
-                "2D-Subtitulado": [
-                    "19:55"
-                ]
-            },
-            "2026-02-28": {
-                "2D-Subtitulado": [
-                    "22:35"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/find/?q=Twenty+One+Pilots%3A+More+Than+We+Ever+Imagined",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "N/A"
-    },
-    {
         "title": "El Beso De La Mujer Ara\u00f1a",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5285&house_id=3206",
         "original_title": "KISS OF THE SPIDER WOMAN",
         "poster_url": "https://static.voyalcine.net/Uploads/i5285.jpg",
         "duration": "128 minutos.",
         "showing_days": [
-            "2026-01-13",
             "2026-01-14"
         ],
         "showtimes": {
-            "2026-01-13": {
-                "2D-Subtitulado": [
-                    "22:00"
-                ]
-            },
             "2026-01-14": {
                 "2D-Subtitulado": [
                     "16:50",
@@ -511,7 +505,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5283.jpg",
         "duration": "110 minutos.",
         "showing_days": [
-            "2026-01-13",
             "2026-01-14",
             "2026-01-15",
             "2026-01-16",
@@ -522,12 +515,6 @@
             "2026-01-21"
         ],
         "showtimes": {
-            "2026-01-13": {
-                "2D-Subtitulado": [
-                    "19:50",
-                    "22:15"
-                ]
-            },
             "2026-01-14": {
                 "2D-Subtitulado": [
                     "14:30",
@@ -625,16 +612,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5264.jpg",
         "duration": "95 minutos.",
         "showing_days": [
-            "2026-01-13",
             "2026-01-14"
         ],
         "showtimes": {
-            "2026-01-13": {
-                "2D-Subtitulado": [
-                    "19:40",
-                    "22:20"
-                ]
-            },
             "2026-01-14": {
                 "2D-Subtitulado": [
                     "19:40",
@@ -657,7 +637,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5284.jpg",
         "duration": "132 minutos.",
         "showing_days": [
-            "2026-01-13",
             "2026-01-14",
             "2026-01-15",
             "2026-01-16",
@@ -668,12 +647,6 @@
             "2026-01-21"
         ],
         "showtimes": {
-            "2026-01-13": {
-                "2D-Subtitulado": [
-                    "19:45",
-                    "22:35"
-                ]
-            },
             "2026-01-14": {
                 "2D-Subtitulado": [
                     "14:05",
@@ -730,7 +703,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5263b.jpg",
         "duration": "95 minutos.",
         "showing_days": [
-            "2026-01-13",
             "2026-01-14",
             "2026-01-15",
             "2026-01-16",
@@ -741,11 +713,6 @@
             "2026-01-21"
         ],
         "showtimes": {
-            "2026-01-13": {
-                "2D-Doblada": [
-                    "19:20"
-                ]
-            },
             "2026-01-14": {
                 "2D-Doblada": [
                     "14:35",
@@ -829,7 +796,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5252b.jpg",
         "duration": "131 minutos.",
         "showing_days": [
-            "2026-01-13",
             "2026-01-14",
             "2026-01-15",
             "2026-01-16",
@@ -840,12 +806,6 @@
             "2026-01-21"
         ],
         "showtimes": {
-            "2026-01-13": {
-                "2D-Subtitulado": [
-                    "19:30",
-                    "22:25"
-                ]
-            },
             "2026-01-14": {
                 "2D-Subtitulado": [
                     "14:00",
@@ -916,7 +876,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5256.jpg",
         "duration": "133 minutos.",
         "showing_days": [
-            "2026-01-13",
             "2026-01-14",
             "2026-01-15",
             "2026-01-16",
@@ -927,11 +886,6 @@
             "2026-01-21"
         ],
         "showtimes": {
-            "2026-01-13": {
-                "2D-Subtitulado": [
-                    "19:25"
-                ]
-            },
             "2026-01-14": {
                 "2D-Subtitulado": [
                     "16:35",
@@ -993,7 +947,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5206.jpg",
         "duration": "197 minutos.",
         "showing_days": [
-            "2026-01-13",
             "2026-01-14",
             "2026-01-15",
             "2026-01-16",
@@ -1004,19 +957,6 @@
             "2026-01-21"
         ],
         "showtimes": {
-            "2026-01-13": {
-                "3D-HFR Subtitulada": [
-                    "18:35",
-                    "22:30"
-                ],
-                "2D-HFR Doblada": [
-                    "21:50"
-                ],
-                "2D-HFR Subtitulada": [
-                    "18:15",
-                    "22:10"
-                ]
-            },
             "2026-01-14": {
                 "3D-HFR Doblada": [
                     "14:00",
@@ -1161,7 +1101,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5237.jpg",
         "duration": "118 minutos.",
         "showing_days": [
-            "2026-01-13",
             "2026-01-15",
             "2026-01-16",
             "2026-01-17",
@@ -1169,11 +1108,6 @@
             "2026-01-20"
         ],
         "showtimes": {
-            "2026-01-13": {
-                "2D-Subtitulado": [
-                    "21:45"
-                ]
-            },
             "2026-01-15": {
                 "2D-Subtitulado": [
                     "21:45"
@@ -1212,7 +1146,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5156.jpg",
         "duration": "108 minutos.",
         "showing_days": [
-            "2026-01-13",
             "2026-01-14",
             "2026-01-15",
             "2026-01-16",
@@ -1223,12 +1156,6 @@
             "2026-01-21"
         ],
         "showtimes": {
-            "2026-01-13": {
-                "2D-Doblada": [
-                    "19:15",
-                    "21:40"
-                ]
-            },
             "2026-01-14": {
                 "2D-Doblada": [
                     "14:15",
