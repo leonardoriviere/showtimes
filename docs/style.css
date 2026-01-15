@@ -539,3 +539,76 @@ div#day-links a:first-of-type {
     }
 
 }
+
+/* Special Shows styles */
+.showtimes--special {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 12px;
+}
+
+.special-day-card {
+    background: #f8f9fa;
+    border: 1px solid #eee;
+    border-radius: 16px;
+    padding: 12px;
+    min-width: 120px;
+    flex-shrink: 0;
+}
+
+.special-day-card__header {
+    font-weight: 700;
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.special-day-card__times {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.special-day-card__format {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.special-day-card__format-label {
+    font-size: 12px;
+    font-weight: 600;
+    color: #666;
+}
+
+.special-day-card__format-times {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.special-day-card__format-times a {
+    padding: 8px 10px;
+    font-size: 14px;
+    min-width: auto;
+    width: auto;
+}
+
+.movie--special > div:first-of-type {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #eee;
+}
+
+.movie--special .showtimes--special {
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .special-day-card {
+        min-width: calc(50% - 32px);
+    }
+}

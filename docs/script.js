@@ -20,8 +20,56 @@ function reorganizeDataByDate(movies) {
 }
 
 const STORAGE_KEY = 'dismissedMovies';
+const SPECIAL_SHOWS_MAX_DAYS = 7;
 
 let organizedDataCache = {};
+let specialShowsCache = [];
+
+// Identify special shows: limited days OR non-consecutive days, first day >= tomorrow
+function identifySpecialShows(movies) {
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    const tomorrow = new Date(today);
+    tomorrow.setDate(tomorrow.getDate() + 1);
+    const milisecInMinute = 60000;
+    
+    return movies.filter(movie => {
+        const showingDays = movie.showing_days || [];
+        if (showingDays.length === 0 || showingDays.length >= SPECIAL_SHOWS_MAX_DAYS) {
+            return false;
+        }
+        
+        const sortedDays = [...showingDays].sort();
+        
+        // First day must be tomorrow or later
+        const firstDay = new Date(sortedDays[0]);
+        const localFirstDay = new Date(firstDay.getTime() + firstDay.getTimezoneOffset() * milisecInMinute);
+        localFirstDay.setHours(0, 0, 0, 0);
+        if (localFirstDay < tomorrow) {
+            return false;
+        }
+        
+        // Special if: <= 4 days OR days are not consecutive
+        if (showingDays.length <= 4) {
+            return true;
+        }
+        
+        // Check if days are consecutive (if more than 4 days)
+        const dates = sortedDays.map(d => {
+            const utc = new Date(d);
+            return new Date(utc.getTime() + utc.getTimezoneOffset() * milisecInMinute);
+        });
+        const isConsecutive = dates.every((date, i) => {
+            if (i === 0) return true;
+            const prevDate = dates[i - 1];
+            const diffDays = (date - prevDate) / (1000 * 60 * 60 * 24);
+            return diffDays === 1;
+        });
+        
+        // Non-consecutive days = special event
+        return !isConsecutive;
+    });
+}
 
 function makeMovieId(date, movie) {
     return `${date}|${movie.title}|${movie.href}`;
@@ -29,6 +77,26 @@ function makeMovieId(date, movie) {
 
 const TIME_STEP_MINUTES = 30;
 let timeFilterAccordionId = 0;
+
+// Unicode-aware title case that handles accented characters
+function toTitleCase(str) {
+    return str.toLowerCase().replace(/(?:^|\s)\S/g, function(char) {
+        return char.toUpperCase();
+    });
+}
+
+function convertDuration(duration) {
+    const minutes = parseInt(duration.split(' ')[0]);
+    const hours = Math.floor(minutes / 60);
+    const remainingMinutes = minutes % 60;
+    if (hours > 0 && remainingMinutes > 0) {
+        return `${hours}h ${remainingMinutes}min`;
+    } else if (hours > 0) {
+        return `${hours}h`;
+    } else {
+        return `${remainingMinutes}min`;
+    }
+}
 
 function parseTimeToMinutes(time) {
     if (typeof time !== 'string') {
@@ -517,27 +585,9 @@ function displayMoviesByDate(data) {
 
             let infoDiv = document.createElement('div');
 
-            function toTitleCase(str) {
-                // Unicode-aware title case that handles accented characters
-                return str.toLowerCase().replace(/(?:^|\s)\S/g, function(char) {
-                    return char.toUpperCase();
-                });
-            }
-
             let movieTitle = document.createElement('h1');
             movieTitle.textContent = toTitleCase(movie.title);
             infoDiv.appendChild(movieTitle);
-
-            function convertDuration(duration) {
-              // Extract the duration in minutes
-              const minutes = parseInt(duration.split(' ')[0]);
-
-              // Calculate hours and remaining minutes
-              const hours = Math.floor(minutes / 60);
-              const remainingMinutes = minutes % 60;
-
-              return `${hours}h ${remainingMinutes}min`;
-            }
 
             let duration = document.createElement('div');
             duration.textContent = convertDuration(movie.duration);
@@ -657,11 +707,162 @@ function displayMoviesByDate(data) {
         }
     });
 
-    if (!availableDates.length) {
+    if (!availableDates.length && !specialShowsCache.length) {
         const emptyState = document.createElement('p');
         emptyState.className = 'empty-state';
         emptyState.textContent = 'No movies to show right now. Refresh the page to restore the list.';
         container.appendChild(emptyState);
+    }
+
+    // Create Special Shows section
+    if (specialShowsCache.length > 0) {
+        const specialSection = document.createElement('div');
+        specialSection.setAttribute('value', 'special-shows');
+        specialSection.className = 'day-section';
+        specialSection.style.display = 'none';
+
+        const specialMovieList = document.createElement('div');
+        specialMovieList.className = 'movie-list';
+
+        specialShowsCache.forEach(movie => {
+            const movieDiv = document.createElement('div');
+            movieDiv.className = 'movie movie--special';
+
+            // First child div (poster + info)
+            const firstChildDiv = document.createElement('div');
+
+            const img = document.createElement('img');
+            img.src = movie.poster_url;
+            img.alt = movie.title;
+            img.loading = 'lazy';
+            firstChildDiv.appendChild(img);
+
+            const infoDiv = document.createElement('div');
+
+            const title = document.createElement('h1');
+            title.textContent = toTitleCase(movie.title);
+            infoDiv.appendChild(title);
+
+            const duration = document.createElement('div');
+            duration.textContent = convertDuration(movie.duration);
+            infoDiv.appendChild(duration);
+
+            const movieLinks = document.createElement('div');
+            const imdbUrl = movie.imdb_url;
+            if (typeof imdbUrl === 'string' && imdbUrl.startsWith('https://www.imdb.com/')) {
+                const imdbLink = document.createElement('a');
+                const titleMatch = imdbUrl.match(/\/title\/(tt\d+)/);
+                if (titleMatch) {
+                    const imdbId = titleMatch[1];
+                    const appUrl = `imdb:///title/${imdbId}/`;
+                    imdbLink.href = appUrl;
+                    imdbLink.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        imdbLink.blur();
+                        let appOpened = false;
+                        const onBlur = () => { appOpened = true; };
+                        window.addEventListener('blur', onBlur);
+                        window.location.href = appUrl;
+                        setTimeout(() => {
+                            window.removeEventListener('blur', onBlur);
+                            if (!appOpened && document.visibilityState !== 'hidden') {
+                                window.open(imdbUrl, '_blank');
+                            }
+                        }, 1000);
+                    });
+                } else {
+                    imdbLink.href = imdbUrl;
+                    imdbLink.target = "_blank";
+                    imdbLink.rel = "noopener noreferrer";
+                    imdbLink.addEventListener('click', () => imdbLink.blur());
+                }
+
+                if (imdbUrl.startsWith('https://www.imdb.com/title/tt')) {
+                    if (movie.imdb_rating !== 'N/A' && movie.metascore !== 'N/A') {
+                        imdbLink.textContent = 'IMDb ' + movie.imdb_rating + ' / ' + movie.metascore;
+                    } else if (movie.imdb_rating !== 'N/A') {
+                        imdbLink.textContent = 'IMDb ' + movie.imdb_rating;
+                    } else {
+                        imdbLink.textContent = 'IMDb';
+                    }
+                } else {
+                    imdbLink.textContent = 'Buscar en IMDb';
+                }
+                movieLinks.appendChild(imdbLink);
+            }
+            infoDiv.appendChild(movieLinks);
+            infoDiv.className = 'movie-info';
+
+            firstChildDiv.appendChild(infoDiv);
+            movieDiv.appendChild(firstChildDiv);
+
+            // Second child div - Showtimes grouped by day in squircles
+            const showtimesDiv = document.createElement('div');
+            showtimesDiv.className = 'showtimes showtimes--special';
+
+            const sortedDays = [...movie.showing_days].sort();
+            sortedDays.forEach(day => {
+                const dayShowtimes = movie.showtimes[day];
+                if (!dayShowtimes) return;
+
+                const daySquircle = document.createElement('div');
+                daySquircle.className = 'special-day-card';
+
+                // Day header
+                const utcDate = new Date(day);
+                const milisecInMinute = 60000;
+                const localDate = new Date(utcDate.getTime() + utcDate.getTimezoneOffset() * milisecInMinute);
+                
+                function removeAccents(str) {
+                    return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+                }
+                const dayPart = removeAccents(localDate.toLocaleDateString('es-ES', { weekday: 'short' }));
+                const datePart = localDate.toLocaleDateString('es-ES', { day: 'numeric', month: 'numeric' });
+                const dayLabel = `${dayPart.charAt(0).toUpperCase() + dayPart.slice(1)} ${datePart}`;
+
+                const dayHeader = document.createElement('div');
+                dayHeader.className = 'special-day-card__header';
+                dayHeader.textContent = dayLabel;
+                daySquircle.appendChild(dayHeader);
+
+                // Times for this day
+                const timesContainer = document.createElement('div');
+                timesContainer.className = 'special-day-card__times';
+
+                Object.entries(dayShowtimes).forEach(([format, times]) => {
+                    const formatDiv = document.createElement('div');
+                    formatDiv.className = 'special-day-card__format';
+
+                    const formatLabel = document.createElement('div');
+                    formatLabel.className = 'special-day-card__format-label';
+                    formatLabel.textContent = format;
+                    formatDiv.appendChild(formatLabel);
+
+                    const formatTimes = document.createElement('div');
+                    formatTimes.className = 'special-day-card__format-times';
+                    times.forEach(time => {
+                        const timeLink = document.createElement('a');
+                        timeLink.href = movie.href;
+                        timeLink.textContent = time;
+                        timeLink.target = "_blank";
+                        timeLink.rel = "noopener noreferrer";
+                        timeLink.addEventListener('click', () => timeLink.blur());
+                        formatTimes.appendChild(timeLink);
+                    });
+                    formatDiv.appendChild(formatTimes);
+                    timesContainer.appendChild(formatDiv);
+                });
+
+                daySquircle.appendChild(timesContainer);
+                showtimesDiv.appendChild(daySquircle);
+            });
+
+            movieDiv.appendChild(showtimesDiv);
+            specialMovieList.appendChild(movieDiv);
+        });
+
+        specialSection.appendChild(specialMovieList);
+        container.appendChild(specialSection);
     }
 
     return availableDates;
@@ -778,6 +979,26 @@ function createDayLinks(data, preferredDay, orderedDates, options = {}) {
         linksContainer.appendChild(separator);
     }
 
+    // Add Special Shows button if there are any
+    if (specialShowsCache.length > 0) {
+        addSeparator();
+        
+        const specialLink = document.createElement('a');
+        specialLink.href = '#';
+        specialLink.setAttribute('data-special', 'true');
+        specialLink.textContent = 'Funciones Especiales';
+        
+        specialLink.addEventListener('click', (event) => {
+            event.preventDefault();
+            showSpecialShows();
+            const links = linksContainer.querySelectorAll('a');
+            links.forEach(link => link.classList.remove('selected'));
+            event.target.classList.add('selected');
+        });
+        
+        linksContainer.appendChild(specialLink);
+    }
+
     if (dayToSelect) {
         dayToSelect.classList.add('selected');
         showMoviesForDay(dayToSelect.getAttribute('data-day'), { preserveScrollPosition });
@@ -816,11 +1037,31 @@ function showMoviesForDay(selectedDay, options = {}) {
     }, 100);
 }
 
+function showSpecialShows() {
+    // Hide all day sections, show special shows section
+    const allDays = document.querySelectorAll('#movies > div');
+    allDays.forEach(daySection => {
+        if (daySection.getAttribute('value') === 'special-shows') {
+            daySection.style.display = 'block';
+        } else {
+            daySection.style.display = 'none';
+        }
+    });
+
+    const moviesContainer = document.querySelector('#movies');
+    moviesContainer.style.overflow = 'hidden';
+    moviesContainer.scrollTop = 0;
+    setTimeout(() => {
+        moviesContainer.style.overflow = 'auto';
+    }, 100);
+}
+
 // Assuming `organizedData` is your data object from the previous example
 fetch('data.json')
   .then(response => response.json())
   .then(data => {
     organizedDataCache = reorganizeDataByDate(data);
+    specialShowsCache = identifySpecialShows(data);
     renderApp();
   })
   .catch(error => console.error('Error loading the movie data:', error));
