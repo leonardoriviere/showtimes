@@ -439,16 +439,15 @@ function displayMoviesByDate(data) {
         const filterContainer = document.createElement('div');
         filterContainer.className = 'day-filter';
 
-        const minTime = Math.min(...allShowtimeMinutes);
-        const maxTime = Math.max(...allShowtimeMinutes);
-        
-        // Round min down and max up to step multiples so slider reaches extremes
-        const roundedMin = Math.floor(minTime / TIME_STEP_MINUTES) * TIME_STEP_MINUTES;
-        const roundedMax = Math.ceil(maxTime / TIME_STEP_MINUTES) * TIME_STEP_MINUTES;
+        // Round min down and max up to step boundaries so slider covers all showtimes
+        const rawMin = Math.min(...allShowtimeMinutes);
+        const rawMax = Math.max(...allShowtimeMinutes);
+        const minTime = Math.floor(rawMin / TIME_STEP_MINUTES) * TIME_STEP_MINUTES;
+        const maxTime = Math.ceil(rawMax / TIME_STEP_MINUTES) * TIME_STEP_MINUTES;
 
         const timeFilter = createTimeRangeFilter({
-            min: roundedMin,
-            max: roundedMax,
+            min: minTime,
+            max: maxTime,
             step: TIME_STEP_MINUTES
         });
 
@@ -551,23 +550,31 @@ function displayMoviesByDate(data) {
             if (typeof imdbUrl === 'string' && imdbUrl.startsWith('https://www.imdb.com/')) {
                 let imdbLink = document.createElement('a');
                 
-                // Try to open IMDb app on mobile, fallback to web only if app didn't open
+                // Try to open IMDb app on mobile, fallback to web only if app not installed
                 const titleMatch = imdbUrl.match(/\/title\/(tt\d+)/);
                 if (titleMatch) {
                     const imdbId = titleMatch[1];
-                    imdbLink.href = `imdb:///title/${imdbId}/`;
+                    const appUrl = `imdb:///title/${imdbId}/`;
+                    
+                    imdbLink.href = appUrl;
                     imdbLink.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        
+                        // Track if page loses focus (app opened successfully)
                         let appOpened = false;
                         const onBlur = () => { appOpened = true; };
-                        window.addEventListener('blur', onBlur, { once: true });
+                        window.addEventListener('blur', onBlur);
                         
-                        // Fallback: only open web if app didn't open (page still visible)
+                        // Try to open the app
+                        window.location.href = appUrl;
+                        
+                        // Only fallback to web if app didn't open
                         setTimeout(() => {
                             window.removeEventListener('blur', onBlur);
-                            if (!appOpened && !document.hidden) {
-                                window.location.href = imdbUrl;
+                            if (!appOpened && document.visibilityState !== 'hidden') {
+                                window.open(imdbUrl, '_blank');
                             }
-                        }, 800);
+                        }, 1000);
                     });
                 } else {
                     imdbLink.href = imdbUrl;
