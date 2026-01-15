@@ -441,10 +441,14 @@ function displayMoviesByDate(data) {
 
         const minTime = Math.min(...allShowtimeMinutes);
         const maxTime = Math.max(...allShowtimeMinutes);
+        
+        // Round min down and max up to step multiples so slider reaches extremes
+        const roundedMin = Math.floor(minTime / TIME_STEP_MINUTES) * TIME_STEP_MINUTES;
+        const roundedMax = Math.ceil(maxTime / TIME_STEP_MINUTES) * TIME_STEP_MINUTES;
 
         const timeFilter = createTimeRangeFilter({
-            min: minTime,
-            max: maxTime,
+            min: roundedMin,
+            max: roundedMax,
             step: TIME_STEP_MINUTES
         });
 
@@ -547,16 +551,23 @@ function displayMoviesByDate(data) {
             if (typeof imdbUrl === 'string' && imdbUrl.startsWith('https://www.imdb.com/')) {
                 let imdbLink = document.createElement('a');
                 
-                // Try to open IMDb app on mobile, fallback to web
+                // Try to open IMDb app on mobile, fallback to web only if app didn't open
                 const titleMatch = imdbUrl.match(/\/title\/(tt\d+)/);
                 if (titleMatch) {
                     const imdbId = titleMatch[1];
                     imdbLink.href = `imdb:///title/${imdbId}/`;
                     imdbLink.addEventListener('click', (e) => {
-                        // Fallback: if app doesn't open, open web version after delay
+                        let appOpened = false;
+                        const onBlur = () => { appOpened = true; };
+                        window.addEventListener('blur', onBlur, { once: true });
+                        
+                        // Fallback: only open web if app didn't open (page still visible)
                         setTimeout(() => {
-                            window.open(imdbUrl, '_blank');
-                        }, 500);
+                            window.removeEventListener('blur', onBlur);
+                            if (!appOpened && !document.hidden) {
+                                window.location.href = imdbUrl;
+                            }
+                        }, 800);
                     });
                 } else {
                     imdbLink.href = imdbUrl;
