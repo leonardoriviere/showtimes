@@ -846,3 +846,10 @@ window.addEventListener('resize', () => {
 
 // Call the function initially on page load
 window.addEventListener('load', setFullHeightVariable);
+
+// iOS Safari fix: blur links after touch to prevent persistent focus state
+document.addEventListener('touchend', (e) => {
+    if (e.target.tagName === 'A') {
+        e.target.blur();
+    }
+}, { passive: true });
