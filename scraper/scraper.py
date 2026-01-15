@@ -131,9 +131,10 @@ class MovieScraper:
         titles = []
         for box in movie_boxes:
             try:
-                title_elem = box.find_element(By.CSS_SELECTOR, '.afiche-pelicula .titulo')
+                title_elem = box.find_element(By.CSS_SELECTOR, '.titulo-pelicula h2 a')
                 title = normalize_movie_title(title_elem.text.strip())
-                titles.append(title)
+                if title:
+                    titles.append(title)
             except Exception:
                 continue
         return sorted(titles)
