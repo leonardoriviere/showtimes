@@ -21,10 +21,10 @@
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/find/?q=MEGADETH%3A+BEHIND+THE+MASK",
+        "imdb_url": "https://www.imdb.com/title/tt39109723/",
         "imdb_rating": "N/A",
         "metascore": "N/A",
-        "imdb_duration": "N/A"
+        "imdb_duration": "1h 48m"
     },
     {
         "title": "Stray Kids: The Dominate Experience",
@@ -54,10 +54,10 @@
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/find/?q=Stray+Kids%3A+The+dominATE+Experience",
+        "imdb_url": "https://www.imdb.com/title/tt39216314/",
         "imdb_rating": "N/A",
         "metascore": "N/A",
-        "imdb_duration": "N/A"
+        "imdb_duration": "2h 26m"
     },
     {
         "title": "Chase Atlantic: Lost In Heaven",
@@ -75,10 +75,10 @@
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/find/?q=CHASE+ATLANTIC%3A+LOST+IN+HEAVEN",
+        "imdb_url": "https://www.imdb.com/title/tt39313510/",
         "imdb_rating": "N/A",
         "metascore": "N/A",
-        "imdb_duration": "N/A"
+        "imdb_duration": "1h 41m"
     },
     {
         "title": "Twenty One Pilots: More Than We Ever Imagined",
@@ -102,10 +102,10 @@
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/find/?q=Twenty+One+Pilots%3A+More+Than+We+Ever+Imagined",
+        "imdb_url": "https://www.imdb.com/title/tt39315536/",
         "imdb_rating": "N/A",
         "metascore": "N/A",
-        "imdb_duration": "N/A"
+        "imdb_duration": "1h 59m"
     },
     {
         "title": "Exterminio: El Templo De Los Huesos",
@@ -125,7 +125,6 @@
         "showtimes": {
             "2026-01-15": {
                 "2D-Subtitulado": [
-                    "14:35",
                     "17:05",
                     "19:35",
                     "22:35"
@@ -180,81 +179,10 @@
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/find/?q=28+YEARS+LATER+THE+BONE+TEMPLE",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "N/A"
-    },
-    {
-        "title": "Marty Supremo",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5304&house_id=3206",
-        "original_title": "MARTY SUPREME",
-        "poster_url": "https://static.voyalcine.net/Uploads/i5304.jpg",
-        "duration": "149 minutos.",
-        "showing_days": [
-            "2026-01-15",
-            "2026-01-16",
-            "2026-01-17",
-            "2026-01-18",
-            "2026-01-19",
-            "2026-01-20",
-            "2026-01-21"
-        ],
-        "showtimes": {
-            "2026-01-15": {
-                "2D-Subtitulado": [
-                    "16:15",
-                    "19:25",
-                    "22:05"
-                ]
-            },
-            "2026-01-16": {
-                "2D-Subtitulado": [
-                    "16:15",
-                    "19:25",
-                    "22:05"
-                ]
-            },
-            "2026-01-17": {
-                "2D-Subtitulado": [
-                    "16:15",
-                    "19:25",
-                    "22:05"
-                ]
-            },
-            "2026-01-18": {
-                "2D-Subtitulado": [
-                    "16:15",
-                    "19:25",
-                    "22:05"
-                ]
-            },
-            "2026-01-19": {
-                "2D-Subtitulado": [
-                    "16:15",
-                    "19:25",
-                    "22:05"
-                ]
-            },
-            "2026-01-20": {
-                "2D-Subtitulado": [
-                    "16:15",
-                    "19:25",
-                    "22:05"
-                ]
-            },
-            "2026-01-21": {
-                "2D-Subtitulado": [
-                    "16:15",
-                    "19:25",
-                    "22:05"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/find/?q=MARTY+SUPREME",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "N/A"
+        "imdb_url": "https://www.imdb.com/title/tt32141377/",
+        "imdb_rating": "7.7",
+        "metascore": "80",
+        "imdb_duration": "1h 49m"
     },
     {
         "title": "La Virgen De La Tosquera",
@@ -274,7 +202,6 @@
         "showtimes": {
             "2026-01-15": {
                 "2D-Castellano": [
-                    "14:00",
                     "20:00"
                 ]
             },
@@ -315,10 +242,10 @@
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/find/?q=LA+VIRGEN+DE+LA+TOSQUERA",
-        "imdb_rating": "N/A",
+        "imdb_url": "https://www.imdb.com/title/tt15460036/",
+        "imdb_rating": "6.7",
         "metascore": "N/A",
-        "imdb_duration": "N/A"
+        "imdb_duration": "1h 33m"
     },
     {
         "title": "Tom Y Jerry: La Br\u00fajula M\u00e1gica",
@@ -338,7 +265,6 @@
         "showtimes": {
             "2026-01-15": {
                 "2D-Doblada": [
-                    "14:25",
                     "16:55",
                     "19:20"
                 ]
@@ -386,10 +312,10 @@
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/find/?q=TOM+%26+JERRY%3A+FORBIDDEN+COMPASS",
-        "imdb_rating": "N/A",
+        "imdb_url": "https://www.imdb.com/title/tt37185884/",
+        "imdb_rating": "3.9",
         "metascore": "N/A",
-        "imdb_duration": "N/A"
+        "imdb_duration": "1h 44m"
     },
     {
         "title": "La \u00danica Opci\u00f3n",
@@ -409,7 +335,6 @@
         "showtimes": {
             "2026-01-15": {
                 "2D-Subtitulado": [
-                    "14:50",
                     "22:15"
                 ]
             },
@@ -450,10 +375,10 @@
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/find/?q=NO+OTHER+CHOICE",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "N/A"
+        "imdb_url": "https://www.imdb.com/title/tt1527793/",
+        "imdb_rating": "7.6",
+        "metascore": "85",
+        "imdb_duration": "2h 19m"
     },
     {
         "title": "Sin Aliento",
@@ -471,32 +396,10 @@
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/find/?q=A+BOUT+DE+SOUFFLE",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "N/A"
-    },
-    {
-        "title": "El Beso De La Mujer Ara\u00f1a",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5285&house_id=3206",
-        "original_title": "KISS OF THE SPIDER WOMAN",
-        "poster_url": "https://static.voyalcine.net/Uploads/i5285.jpg",
-        "duration": "128 minutos.",
-        "showing_days": [
-            "2026-01-14"
-        ],
-        "showtimes": {
-            "2026-01-14": {
-                "2D-Subtitulado": [
-                    "16:50",
-                    "22:00"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/find/?q=KISS+OF+THE+SPIDER+WOMAN",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "N/A"
+        "imdb_url": "https://www.imdb.com/title/tt0053472/",
+        "imdb_rating": "7.7",
+        "metascore": "96",
+        "imdb_duration": "1h 30m"
     },
     {
         "title": "Familia En Renta",
@@ -505,7 +408,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5283.jpg",
         "duration": "110 minutos.",
         "showing_days": [
-            "2026-01-14",
             "2026-01-15",
             "2026-01-16",
             "2026-01-17",
@@ -515,14 +417,6 @@
             "2026-01-21"
         ],
         "showtimes": {
-            "2026-01-14": {
-                "2D-Subtitulado": [
-                    "14:30",
-                    "17:15",
-                    "19:50",
-                    "22:15"
-                ]
-            },
             "2026-01-15": {
                 "2D-Subtitulado": [
                     "17:00",
@@ -573,10 +467,10 @@
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/find/?q=RENTAL+FAMILY",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "N/A"
+        "imdb_url": "https://www.imdb.com/title/tt14142060/",
+        "imdb_rating": "7.8",
+        "metascore": "65",
+        "imdb_duration": "1h 50m"
     },
     {
         "title": "Paprika",
@@ -585,50 +479,19 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5287.jpg",
         "duration": "90 minutos.",
         "showing_days": [
-            "2026-01-14",
             "2026-01-19"
         ],
         "showtimes": {
-            "2026-01-14": {
-                "2D-Subtitulado": [
-                    "21:45"
-                ]
-            },
             "2026-01-19": {
                 "2D-Subtitulado": [
                     "21:45"
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/find/?q=PAPRIKA",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "N/A"
-    },
-    {
-        "title": "Primate",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5264&house_id=3206",
-        "original_title": "Primate",
-        "poster_url": "https://static.voyalcine.net/Uploads/i5264.jpg",
-        "duration": "95 minutos.",
-        "showing_days": [
-            "2026-01-14"
-        ],
-        "showtimes": {
-            "2026-01-14": {
-                "2D-Subtitulado": [
-                    "19:40",
-                    "22:20"
-                ],
-                "2D-Doblada": [
-                    "14:10"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/find/?q=Primate",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "N/A"
+        "imdb_url": "https://www.imdb.com/title/tt0851578/",
+        "imdb_rating": "7.7",
+        "metascore": "81",
+        "imdb_duration": "1h 30m"
     },
     {
         "title": "Song Sung Blue: Sue\u00f1o Inquebrantable",
@@ -637,8 +500,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5284.jpg",
         "duration": "132 minutos.",
         "showing_days": [
-            "2026-01-14",
-            "2026-01-15",
             "2026-01-16",
             "2026-01-17",
             "2026-01-18",
@@ -647,19 +508,6 @@
             "2026-01-21"
         ],
         "showtimes": {
-            "2026-01-14": {
-                "2D-Subtitulado": [
-                    "14:05",
-                    "16:55",
-                    "19:45",
-                    "22:35"
-                ]
-            },
-            "2026-01-15": {
-                "2D-Subtitulado": [
-                    "14:55"
-                ]
-            },
             "2026-01-16": {
                 "2D-Subtitulado": [
                     "14:55"
@@ -691,10 +539,10 @@
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/find/?q=SONG+SUNG+BLUE",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "N/A"
+        "imdb_url": "https://www.imdb.com/title/tt30343021/",
+        "imdb_rating": "7.5",
+        "metascore": "61",
+        "imdb_duration": "2h 12m"
     },
     {
         "title": "Bob Esponja: En Busca De Los Pantalones Cuadrados",
@@ -703,7 +551,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5263b.jpg",
         "duration": "95 minutos.",
         "showing_days": [
-            "2026-01-14",
             "2026-01-15",
             "2026-01-16",
             "2026-01-17",
@@ -713,16 +560,8 @@
             "2026-01-21"
         ],
         "showtimes": {
-            "2026-01-14": {
-                "2D-Doblada": [
-                    "14:35",
-                    "17:00",
-                    "19:20"
-                ]
-            },
             "2026-01-15": {
                 "2D-Doblada": [
-                    "14:15",
                     "17:45"
                 ]
             },
@@ -763,31 +602,10 @@
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/find/?q=The+SpongeBob+Movie%3A+Search+for+SquarePants",
+        "imdb_url": "https://www.imdb.com/title/tt23572848/",
         "imdb_rating": "N/A",
         "metascore": "N/A",
-        "imdb_duration": "N/A"
-    },
-    {
-        "title": "Nouvelle Vague",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5274&house_id=3206",
-        "original_title": "NOUVELLE VAGUE",
-        "poster_url": "https://static.voyalcine.net/Uploads/i5274.jpg",
-        "duration": "106 minutos.",
-        "showing_days": [
-            "2026-01-14"
-        ],
-        "showtimes": {
-            "2026-01-14": {
-                "2D-Subtitulado": [
-                    "14:25"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/find/?q=NOUVELLE+VAGUE",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "N/A"
+        "imdb_duration": "1h 28m"
     },
     {
         "title": "La Empleada",
@@ -796,7 +614,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5252b.jpg",
         "duration": "131 minutos.",
         "showing_days": [
-            "2026-01-14",
             "2026-01-15",
             "2026-01-16",
             "2026-01-17",
@@ -806,14 +623,6 @@
             "2026-01-21"
         ],
         "showtimes": {
-            "2026-01-14": {
-                "2D-Subtitulado": [
-                    "14:00",
-                    "16:45",
-                    "19:30",
-                    "22:25"
-                ]
-            },
             "2026-01-15": {
                 "2D-Subtitulado": [
                     "16:45",
@@ -864,10 +673,10 @@
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/find/?q=THE+HOUSEMAID",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "N/A"
+        "imdb_url": "https://www.imdb.com/title/tt27543632/",
+        "imdb_rating": "7.0",
+        "metascore": "65",
+        "imdb_duration": "2h 11m"
     },
     {
         "title": "Valor Sentimental",
@@ -876,7 +685,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5256.jpg",
         "duration": "133 minutos.",
         "showing_days": [
-            "2026-01-14",
             "2026-01-15",
             "2026-01-16",
             "2026-01-17",
@@ -886,15 +694,8 @@
             "2026-01-21"
         ],
         "showtimes": {
-            "2026-01-14": {
-                "2D-Subtitulado": [
-                    "16:35",
-                    "19:25"
-                ]
-            },
             "2026-01-15": {
                 "2D-Subtitulado": [
-                    "14:05",
                     "21:50"
                 ]
             },
@@ -935,10 +736,10 @@
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/find/?q=SENTIMENTAL+VALUE",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "N/A"
+        "imdb_url": "https://www.imdb.com/title/tt27714581/",
+        "imdb_rating": "7.9",
+        "metascore": "86",
+        "imdb_duration": "2h 13m"
     },
     {
         "title": "Avatar: Fuego Y Cenizas",
@@ -947,7 +748,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5206.jpg",
         "duration": "197 minutos.",
         "showing_days": [
-            "2026-01-14",
             "2026-01-15",
             "2026-01-16",
             "2026-01-17",
@@ -957,37 +757,16 @@
             "2026-01-21"
         ],
         "showtimes": {
-            "2026-01-14": {
-                "3D-HFR Doblada": [
-                    "14:00",
-                    "17:55"
-                ],
-                "3D-HFR Subtitulada": [
-                    "14:40",
-                    "18:35",
-                    "22:30"
-                ],
-                "2D-HFR Doblada": [
-                    "21:50"
-                ],
-                "2D-HFR Subtitulada": [
-                    "14:20",
-                    "18:15",
-                    "22:10"
-                ]
-            },
             "2026-01-15": {
                 "3D-HFR Doblada": [
                     "17:55",
                     "21:55"
                 ],
                 "3D-HFR Subtitulada": [
-                    "14:40",
                     "18:35",
                     "22:30"
                 ],
                 "2D-HFR Subtitulada": [
-                    "14:20",
                     "18:15",
                     "22:10"
                 ]
@@ -1089,10 +868,10 @@
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/find/?q=AVATAR%3A+FIRE+AND+ASH",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "N/A"
+        "imdb_url": "https://www.imdb.com/title/tt1757678/",
+        "imdb_rating": "7.4",
+        "metascore": "61",
+        "imdb_duration": "3h 17m"
     },
     {
         "title": "Bugonia",
@@ -1134,10 +913,10 @@
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/find/?q=BUGONIA",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "N/A"
+        "imdb_url": "https://www.imdb.com/title/tt12300742/",
+        "imdb_rating": "7.4",
+        "metascore": "72",
+        "imdb_duration": "1h 58m"
     },
     {
         "title": "Zootopia 2",
@@ -1146,7 +925,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5156.jpg",
         "duration": "108 minutos.",
         "showing_days": [
-            "2026-01-14",
             "2026-01-15",
             "2026-01-16",
             "2026-01-17",
@@ -1156,17 +934,8 @@
             "2026-01-21"
         ],
         "showtimes": {
-            "2026-01-14": {
-                "2D-Doblada": [
-                    "14:15",
-                    "16:40",
-                    "19:15",
-                    "21:40"
-                ]
-            },
             "2026-01-15": {
                 "2D-Doblada": [
-                    "14:10",
                     "16:40",
                     "19:15"
                 ]
@@ -1214,9 +983,96 @@
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/find/?q=ZOOTOPIA+2",
+        "imdb_url": "https://www.imdb.com/title/tt26443597/",
+        "imdb_rating": "7.5",
+        "metascore": "73",
+        "imdb_duration": "1h 48m"
+    },
+    {
+        "title": "El Se\u00f1or De Los Anillos: El Retorno Del Rey",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5334&house_id=3206",
+        "original_title": "THE LORD OF THE RINGS: THE RETURN OF THE KING",
+        "poster_url": "https://static.voyalcine.net/Uploads/i5334.jpg",
+        "duration": "252 minutos.",
+        "showing_days": [
+            "2026-01-24",
+            "2026-01-27"
+        ],
+        "showtimes": {
+            "2026-01-24": {
+                "2D-Subtitulado": [
+                    "21:50"
+                ]
+            },
+            "2026-01-27": {
+                "2D-Subtitulado": [
+                    "21:50"
+                ]
+            }
+        },
+        "imdb_url": "https://www.imdb.com/title/tt0167260/",
         "imdb_rating": "N/A",
         "metascore": "N/A",
-        "imdb_duration": "N/A"
+        "imdb_duration": "3h 21m"
+    },
+    {
+        "title": "El Se\u00f1or De Los Anillos: Las Dos Torres",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5333&house_id=3206",
+        "original_title": "THE LORD OF THE RINGS: THE TWO TOWERS",
+        "poster_url": "https://static.voyalcine.net/Uploads/i5333.jpg",
+        "duration": "224 minutos.",
+        "showing_days": [
+            "2026-01-23",
+            "2026-01-26"
+        ],
+        "showtimes": {
+            "2026-01-23": {
+                "2D-Subtitulado": [
+                    "21:50"
+                ]
+            },
+            "2026-01-26": {
+                "2D-Subtitulado": [
+                    "21:50"
+                ]
+            }
+        },
+        "imdb_url": "https://www.imdb.com/title/tt0167261/",
+        "imdb_rating": "N/A",
+        "metascore": "N/A",
+        "imdb_duration": "2h 59m"
+    },
+    {
+        "title": "El Se\u00f1or De Los Anillos: La Comunidad Del Anillo",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5328&house_id=3206",
+        "original_title": "LORD OF THE RINGS: FELLOWSHIO OF THE RING",
+        "poster_url": "https://static.voyalcine.net/Uploads/i5328.jpg",
+        "duration": "208 minutos.",
+        "showing_days": [
+            "2026-01-22",
+            "2026-01-25",
+            "2026-01-28"
+        ],
+        "showtimes": {
+            "2026-01-22": {
+                "2D-Subtitulado": [
+                    "21:50"
+                ]
+            },
+            "2026-01-25": {
+                "2D-Subtitulado": [
+                    "21:50"
+                ]
+            },
+            "2026-01-28": {
+                "2D-Subtitulado": [
+                    "21:50"
+                ]
+            }
+        },
+        "imdb_url": "https://www.imdb.com/title/tt0120737/",
+        "imdb_rating": "N/A",
+        "metascore": "N/A",
+        "imdb_duration": "2h 58m"
     }
 ]
