@@ -546,9 +546,23 @@ function displayMoviesByDate(data) {
             const imdbUrl = movie.imdb_url;
             if (typeof imdbUrl === 'string' && imdbUrl.startsWith('https://www.imdb.com/')) {
                 let imdbLink = document.createElement('a');
-                imdbLink.href = imdbUrl;
-                imdbLink.target = "_blank";
-                imdbLink.rel = "noopener noreferrer";
+                
+                // Try to open IMDb app on mobile, fallback to web
+                const titleMatch = imdbUrl.match(/\/title\/(tt\d+)/);
+                if (titleMatch) {
+                    const imdbId = titleMatch[1];
+                    imdbLink.href = `imdb:///title/${imdbId}/`;
+                    imdbLink.addEventListener('click', (e) => {
+                        // Fallback: if app doesn't open, open web version after delay
+                        setTimeout(() => {
+                            window.open(imdbUrl, '_blank');
+                        }, 500);
+                    });
+                } else {
+                    imdbLink.href = imdbUrl;
+                    imdbLink.target = "_blank";
+                    imdbLink.rel = "noopener noreferrer";
+                }
 
                 if (imdbUrl.startsWith('https://www.imdb.com/title/tt')) {
                     if (movie.imdb_rating !== 'N/A' && movie.metascore !== 'N/A') {

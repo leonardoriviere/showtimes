@@ -240,8 +240,8 @@ class MovieScraper:
                 self.logger.warning("Could not parse duration: %s", e)
                 duration_diff = 999  # Force mismatch
             
-            # Accept if durations are within 5 minutes (accounts for credits, etc.)
-            if duration_diff <= 5:
+            # Accept if durations are within 10 minutes (accounts for credits, regional cuts, etc.)
+            if duration_diff <= 10:
                 self._scrape_ratings(imdb_info)
             else:
                 self.logger.warning(
