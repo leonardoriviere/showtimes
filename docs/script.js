@@ -277,184 +277,97 @@ function saveDismissedMovies(movies) {
 }
 
 function setupSwipeToRemove(card, onRemove) {
-    let pointerId = null;
+    const SWIPE_THRESHOLD = 80; // pixels needed to trigger removal
+    const VELOCITY_THRESHOLD = 0.4; // px/ms for fast swipes
+    
     let startX = 0;
     let startY = 0;
     let currentX = 0;
-    let cardWidth = 0;
-    let trackingPointer = false;
-    let swiping = false;
-    let lastMoveX = 0;
-    let lastMoveTime = 0;
-    let releaseVelocityX = 0;
+    let isSwiping = false;
+    let startTime = 0;
 
-    const resetCardStyles = () => {
+    const resetCard = () => {
         card.style.transform = '';
         card.style.opacity = '';
-        card.style.removeProperty('transition');
-        card.style.setProperty('--swipe-progress', '0');
-        card.style.setProperty('--swipe-translate', '0px');
-        card.classList.remove('movie--swiping-left', 'movie--swiping-right');
+        card.style.transition = 'transform 0.2s ease, opacity 0.2s ease';
+        card.classList.remove('movie--swiping', 'movie--swiping-left', 'movie--swiping-right');
     };
 
-    const finalizeRemoval = (direction) => {
-        card.classList.remove('movie--swiping-left', 'movie--swiping-right');
+    const removeCard = (direction) => {
         card.classList.add('movie--removing');
-        const targetOffset = (cardWidth || card.offsetWidth) + 80;
-        requestAnimationFrame(() => {
-            card.style.removeProperty('transition');
-            card.style.transform = `translateX(${direction * targetOffset}px)`;
-            card.style.opacity = '0';
-        });
-
-        const handleTransitionEnd = (event) => {
-            if (event.propertyName !== 'transform') {
-                return;
-            }
-            card.removeEventListener('transitionend', handleTransitionEnd);
-            onRemove();
-        };
-
-        card.addEventListener('transitionend', handleTransitionEnd);
+        const offset = card.offsetWidth + 100;
+        card.style.transition = 'transform 0.25s ease, opacity 0.25s ease';
+        card.style.transform = `translateX(${direction * offset}px)`;
+        card.style.opacity = '0';
+        
+        setTimeout(() => onRemove(), 250);
     };
 
-    const stopTracking = () => {
-        if (!trackingPointer) {
-            return;
-        }
-        trackingPointer = false;
-        swiping = false;
-        pointerId = null;
+    const onTouchStart = (e) => {
+        const touch = e.touches[0];
+        startX = touch.clientX;
+        startY = touch.clientY;
         currentX = 0;
-        card.classList.remove('movie--swiping');
-        resetCardStyles();
-    };
-
-    const handlePointerDown = (event) => {
-        if (event.pointerType === 'mouse' && event.button !== 0) {
-            return;
-        }
-
-        pointerId = event.pointerId;
-        startX = event.clientX;
-        startY = event.clientY;
-        currentX = 0;
-        cardWidth = card.offsetWidth;
-        trackingPointer = true;
-        swiping = false;
-        lastMoveX = event.clientX;
-        lastMoveTime = event.timeStamp;
-        releaseVelocityX = 0;
+        isSwiping = false;
+        startTime = Date.now();
         card.style.transition = 'none';
-        if (card.setPointerCapture) {
-            card.setPointerCapture(pointerId);
-        }
     };
 
-    const handlePointerMove = (event) => {
-        if (!trackingPointer || event.pointerId !== pointerId) {
-            return;
-        }
+    const onTouchMove = (e) => {
+        if (!startX) return;
+        
+        const touch = e.touches[0];
+        const deltaX = touch.clientX - startX;
+        const deltaY = touch.clientY - startY;
 
-        const deltaX = event.clientX - startX;
-        const deltaY = event.clientY - startY;
-
-        if (!swiping) {
-            if (Math.abs(deltaX) < 10 || Math.abs(deltaX) < Math.abs(deltaY)) {
+        // Only start swiping if horizontal movement > vertical
+        if (!isSwiping && Math.abs(deltaX) > 10) {
+            if (Math.abs(deltaX) > Math.abs(deltaY)) {
+                isSwiping = true;
+                card.classList.add('movie--swiping');
+            } else {
+                startX = 0; // Cancel - user is scrolling vertically
                 return;
             }
-            swiping = true;
-            card.classList.add('movie--swiping');
         }
 
-        event.preventDefault();
+        if (!isSwiping) return;
+        
+        e.preventDefault();
         currentX = deltaX;
-        const effectiveWidth = cardWidth || card.offsetWidth;
-        const removalThreshold = Math.min(
-            Math.max(effectiveWidth * 0.35, 120),
-            effectiveWidth * 0.6
-        );
-        const progress = Math.min(1, Math.abs(currentX) / removalThreshold);
+        
+        const progress = Math.min(1, Math.abs(currentX) / (SWIPE_THRESHOLD * 2));
         card.style.transform = `translateX(${currentX}px)`;
-        card.style.opacity = `${1 - progress * 0.4}`;
-        card.style.setProperty('--swipe-progress', progress.toFixed(3));
-        card.style.setProperty('--swipe-translate', `${currentX}px`);
+        card.style.opacity = `${1 - progress * 0.5}`;
         card.classList.toggle('movie--swiping-left', currentX < 0);
         card.classList.toggle('movie--swiping-right', currentX > 0);
-
-        const timeSinceLastMove = event.timeStamp - lastMoveTime;
-        if (timeSinceLastMove > 0) {
-            releaseVelocityX = (event.clientX - lastMoveX) / timeSinceLastMove;
-            lastMoveX = event.clientX;
-            lastMoveTime = event.timeStamp;
-        }
     };
 
-    const handlePointerUp = (event) => {
-        if (!trackingPointer || event.pointerId !== pointerId) {
+    const onTouchEnd = () => {
+        if (!isSwiping) {
+            startX = 0;
             return;
         }
 
-        if (card.releasePointerCapture) {
-            card.releasePointerCapture(pointerId);
-        }
+        const elapsed = Date.now() - startTime;
+        const velocity = Math.abs(currentX) / elapsed;
+        const direction = currentX > 0 ? 1 : -1;
 
-        if (!swiping) {
-            stopTracking();
-            return;
-        }
-
-        const effectiveWidth = cardWidth || card.offsetWidth;
-        const threshold = Math.min(
-            Math.max(effectiveWidth * 0.35, 120),
-            effectiveWidth * 0.6
-        );
-        const travelled = Math.abs(currentX);
-        const direction = currentX >= 0 ? 1 : -1;
-
-        card.classList.remove('movie--swiping');
-
-        if (travelled > threshold || Math.abs(releaseVelocityX) > 0.65) {
-            finalizeRemoval(direction);
+        // Remove if: swiped far enough OR swiped fast enough
+        if (Math.abs(currentX) > SWIPE_THRESHOLD || velocity > VELOCITY_THRESHOLD) {
+            removeCard(direction);
         } else {
-            resetCardStyles();
+            resetCard();
         }
 
-        trackingPointer = false;
-        swiping = false;
-        pointerId = null;
+        startX = 0;
+        isSwiping = false;
     };
 
-    const handlePointerCancel = (event) => {
-        if (!trackingPointer || event.pointerId !== pointerId) {
-            return;
-        }
-
-        if (card.releasePointerCapture) {
-            card.releasePointerCapture(pointerId);
-        }
-        stopTracking();
-    };
-
-    const handlePointerLeave = (event) => {
-        if (!trackingPointer || event.pointerId !== pointerId) {
-            return;
-        }
-
-        if (!swiping) {
-            stopTracking();
-            return;
-        }
-
-        handlePointerUp(event);
-    };
-
-    card.addEventListener('pointerdown', handlePointerDown);
-    card.addEventListener('pointermove', handlePointerMove);
-    card.addEventListener('pointerup', handlePointerUp);
-    card.addEventListener('pointercancel', handlePointerCancel);
-    card.addEventListener('pointerleave', handlePointerLeave);
-    card.addEventListener('dragstart', (event) => event.preventDefault());
+    card.addEventListener('touchstart', onTouchStart, { passive: true });
+    card.addEventListener('touchmove', onTouchMove, { passive: false });
+    card.addEventListener('touchend', onTouchEnd);
+    card.addEventListener('touchcancel', () => { resetCard(); startX = 0; isSwiping = false; });
 }
 
 function dismissMovie(movieId) {
@@ -602,8 +515,9 @@ function displayMoviesByDate(data) {
             let infoDiv = document.createElement('div');
 
             function toTitleCase(str) {
-                return str.replace(/\w\S*/g, function(txt) {
-                    return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+                // Unicode-aware title case that handles accented characters
+                return str.toLowerCase().replace(/(?:^|\s)\S/g, function(char) {
+                    return char.toUpperCase();
                 });
             }
 

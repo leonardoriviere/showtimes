@@ -199,59 +199,79 @@ class MovieScraper:
         return search_url
 
     def scrape_imdb_info(self, imdb_url, showcase_duration):
+        """Scrape IMDb rating and metascore for a movie.
+        
+        Duration validation: accepts if within 5 minutes tolerance.
+        This helps match movies where Showcase/IMDb have slight duration differences.
+        """
         if not imdb_url.startswith('https://www.imdb.com/title/tt'):
             if imdb_url.startswith('https://www.imdb.com/find/?q='):
-                self.logger.info(
-                    "Skipping IMDb details scraping for search URL generated from '%s'",
-                    imdb_url,
-                )
+                self.logger.info("Skipping IMDb scraping for search URL: %s", imdb_url)
             else:
-                self.logger.error(f"Invalid IMDb URL: {imdb_url}")
+                self.logger.error("Invalid IMDb URL: %s", imdb_url)
             return {'imdb_rating': 'N/A', 'metascore': 'N/A', 'imdb_duration': 'N/A'}
+        
         self.driver.get(imdb_url)
         imdb_info = {'imdb_rating': 'N/A', 'metascore': 'N/A', 'imdb_duration': 'N/A'}
 
         try:
-            # Wait explicitly for the element to load
             WebDriverWait(self.driver, 10).until(
                 EC.presence_of_element_located((By.CSS_SELECTOR, '[data-testid="hero__pageTitle"]'))
             )
-            # Try finding the IMDb duration
+            
+            # Get IMDb duration
             try:
                 imdb_duration_str = self.driver.find_element(
-                    By.CSS_SELECTOR, '[data-testid="hero__pageTitle"] ~ ul[role="presentation"] > li:last-of-type'
+                    By.CSS_SELECTOR, 
+                    '[data-testid="hero__pageTitle"] ~ ul[role="presentation"] > li:last-of-type'
                 ).text
             except Exception:
-                self.logger.error(f"IMDb Duration Element Not Found for URL: {imdb_url}")
+                self.logger.warning("Duration not found for: %s", imdb_url)
                 return imdb_info
 
-            imdb_duration_minutes = convert_imdb_duration_to_minutes(imdb_duration_str)
-
-            # Convert Showcase duration to minutes for comparison
-            showcase_duration_minutes = convert_showcase_duration_to_minutes(showcase_duration)
-
-            # If durations are within two minutes of each other, proceed to scrape ratings
-            if abs(imdb_duration_minutes - showcase_duration_minutes) <= 2:
-                # Existing code to scrape ratings if condition is met
-                try:
-                    imdb_rating = self.driver.find_element(By.CSS_SELECTOR,
-                                                           'div[data-testid="hero-rating-bar__aggregate-rating__score'
-                                                           '"] > span:first-of-type').get_attribute('innerHTML')
-                    imdb_info['imdb_rating'] = imdb_rating
-                except Exception:
-                    pass  # IMDb rating remains "N/A" if not found
-
-                try:
-                    metascore = self.driver.find_element(By.CSS_SELECTOR, 'span.metacritic-score-box').text
-                    imdb_info['metascore'] = metascore
-                except Exception:
-                    pass  # Metascore remains "N/A" if not found
-
-            imdb_info['imdb_duration'] = imdb_duration_str  # Keep the original IMDb duration string for reference
+            imdb_info['imdb_duration'] = imdb_duration_str
+            
+            # Parse durations for comparison
+            try:
+                imdb_minutes = convert_imdb_duration_to_minutes(imdb_duration_str)
+                showcase_minutes = convert_showcase_duration_to_minutes(showcase_duration)
+                duration_diff = abs(imdb_minutes - showcase_minutes)
+            except (ValueError, AttributeError) as e:
+                self.logger.warning("Could not parse duration: %s", e)
+                duration_diff = 999  # Force mismatch
+            
+            # Accept if durations are within 5 minutes (accounts for credits, etc.)
+            if duration_diff <= 5:
+                self._scrape_ratings(imdb_info)
+            else:
+                self.logger.warning(
+                    "Duration mismatch: IMDb=%s (%dm) vs Showcase=%s (%dm), diff=%dm - skipping ratings",
+                    imdb_duration_str, imdb_minutes, showcase_duration, showcase_minutes, duration_diff
+                )
+                
         except Exception as e:
-            self.logger.error(f"Error scraping IMDb info: {e}")
+            self.logger.error("Error scraping IMDb info: %s", e)
 
         return imdb_info
+    
+    def _scrape_ratings(self, imdb_info):
+        """Extract IMDb rating and Metascore from current page."""
+        try:
+            rating_element = self.driver.find_element(
+                By.CSS_SELECTOR,
+                'div[data-testid="hero-rating-bar__aggregate-rating__score"] > span:first-of-type'
+            )
+            imdb_info['imdb_rating'] = rating_element.get_attribute('innerHTML')
+        except Exception:
+            pass
+        
+        try:
+            metascore_element = self.driver.find_element(
+                By.CSS_SELECTOR, 'span.metacritic-score-box'
+            )
+            imdb_info['metascore'] = metascore_element.text
+        except Exception:
+            pass
 
     def extract_showtimes(self):
         showtimes = {}
