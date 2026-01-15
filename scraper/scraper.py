@@ -113,7 +113,7 @@ class MovieScraper:
 
     def scrape_movie_data(self, base_url):
         self.driver.get(base_url)
-        WebDriverWait(self.driver, 4).until(
+        WebDriverWait(self.driver, 15).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, '#cartelera_cine_40212 > .boxfilm > .afiche-pelicula > a'))
         )
         movies_links = self.driver.find_elements(By.CSS_SELECTOR, '#cartelera_cine_40212 > .boxfilm > '
@@ -123,7 +123,7 @@ class MovieScraper:
 
     def scrape_movie_details(self, href):
         self.driver.get(href)
-        WebDriverWait(self.driver, 4).until(
+        WebDriverWait(self.driver, 15).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, '.op_format'))
         )
         title = self.driver.find_element(By.CSS_SELECTOR, '.movie-info-box .name > strong').text
