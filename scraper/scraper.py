@@ -125,19 +125,20 @@ class MovieScraper:
         """Light scraping: only extract movie titles from the main page."""
         self.driver.get(base_url)
         WebDriverWait(self.driver, 15).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, '#cartelera_cine_40212 > .boxfilm'))
+            EC.presence_of_element_located((By.CSS_SELECTOR, '#cartelera_cine_40212 > .boxfilm > .afiche-pelicula > a'))
         )
+        # Use same selector as scrape_movie_data, then get sibling title element
         movie_boxes = self.driver.find_elements(By.CSS_SELECTOR, '#cartelera_cine_40212 > .boxfilm')
         titles = []
         for box in movie_boxes:
             try:
-                title_elem = box.find_element(By.CSS_SELECTOR, '.titulo-pelicula h2 a')
+                title_elem = box.find_element(By.CSS_SELECTOR, '.titulo-pelicula h2')
                 title = normalize_movie_title(title_elem.text.strip())
                 if title:
                     titles.append(title)
             except Exception:
                 continue
-        return sorted(titles)
+        return sorted(set(titles))  # Use set to deduplicate
 
     def scrape_movie_details(self, href):
         self.driver.get(href)
