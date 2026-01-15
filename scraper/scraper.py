@@ -4,14 +4,13 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from imdb import IMDb, IMDbError
 from urllib.parse import quote_plus
 import json
-import os
+import sys
 from pathlib import Path
 import logging
 import argparse
-from datetime import datetime
+import time
 import re
 import unicodedata
 
@@ -90,8 +89,8 @@ class MovieScraper:
 
         chrome_options = webdriver.ChromeOptions()
         chrome_options.add_argument(
-            'user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36')
-        chrome_options.add_argument("--headless")  # Run headless
+            'user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36')
+        chrome_options.add_argument("--headless=new")  # Run headless (modern flag)
         chrome_options.add_argument("--disable-gpu")  # Disable GPU acceleration (for headless)
         chrome_options.add_argument("--no-sandbox")  # Bypass OS security model
         chrome_options.add_argument("--disable-dev-shm-usage")  # Overcome limited resource problems
@@ -169,28 +168,35 @@ class MovieScraper:
 
         return "https://www.imdb.com/find/?q=" + quote_plus(query)
 
-    def get_imdb_url(self, original_title):
-        ia = IMDb()
-        try:
-            search_results = ia.search_movie(original_title)
-        except IMDbError as exc:
-            self.logger.warning(
-                "IMDb search failed for '%s': %s", original_title, exc
-            )
-            return self._build_imdb_search_url(original_title)
-        except Exception as exc:  # pragma: no cover - defensive logging
-            self.logger.error(
-                "Unexpected error searching IMDb for '%s': %s", original_title, exc
-            )
-            return self._build_imdb_search_url(original_title)
+    def get_imdb_url(self, original_title, max_retries=2):
+        search_url = self._build_imdb_search_url(original_title)
+        if search_url == "IMDb URL not found":
+            return search_url
 
-        if search_results:
-            first_result = search_results[0]  # Assuming the first result is the correct movie
-            movie_id = first_result.movieID
-            imdb_url = f"https://www.imdb.com/title/tt{movie_id}/"
-            return imdb_url
-        else:
-            return self._build_imdb_search_url(original_title)
+        for attempt in range(max_retries):
+            try:
+                self.driver.get(search_url)
+                WebDriverWait(self.driver, 10).until(
+                    EC.presence_of_element_located((By.CSS_SELECTOR, '[data-testid="find-results-section-title"]'))
+                )
+                first_result = self.driver.find_element(
+                    By.CSS_SELECTOR,
+                    '[data-testid="find-results-section-title"] .ipc-metadata-list-summary-item a'
+                )
+                href = first_result.get_attribute('href')
+                if href and '/title/tt' in href:
+                    match = re.search(r'/title/(tt\d+)', href)
+                    if match:
+                        return f"https://www.imdb.com/title/{match.group(1)}/"
+                return search_url
+            except Exception as exc:
+                self.logger.warning(
+                    "IMDb search attempt %d/%d failed for '%s': %s",
+                    attempt + 1, max_retries, original_title, exc
+                )
+                if attempt < max_retries - 1:
+                    time.sleep(2)  # Wait before retry
+        return search_url
 
     def scrape_imdb_info(self, imdb_url, showcase_duration):
         if not imdb_url.startswith('https://www.imdb.com/title/tt'):
@@ -299,11 +305,15 @@ if __name__ == "__main__":
     parser.add_argument('--chromedriver-path', type=str, help='Path to the ChromeDriver executable')
     args = parser.parse_args()
 
-    # Configure logging
-    logging.basicConfig(level=logging.INFO,
-                        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-                        filename='scraper.log',
-                        filemode='a')
+    # Configure logging to both file and stdout (useful for CI)
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+        handlers=[
+            logging.FileHandler('scraper.log', mode='a'),
+            logging.StreamHandler(sys.stdout)
+        ]
+    )
 
     scraper = MovieScraper(chromedriver_path=args.chromedriver_path)
     base_url = 'https://www.todoshowcase.com/'
