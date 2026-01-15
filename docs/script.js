@@ -559,6 +559,7 @@ function displayMoviesByDate(data) {
                     imdbLink.href = appUrl;
                     imdbLink.addEventListener('click', (e) => {
                         e.preventDefault();
+                        imdbLink.blur(); // Remove focus immediately
                         
                         // Track if page loses focus (app opened successfully)
                         let appOpened = false;
@@ -580,6 +581,7 @@ function displayMoviesByDate(data) {
                     imdbLink.href = imdbUrl;
                     imdbLink.target = "_blank";
                     imdbLink.rel = "noopener noreferrer";
+                    imdbLink.addEventListener('click', () => imdbLink.blur());
                 }
 
                 if (imdbUrl.startsWith('https://www.imdb.com/title/tt')) {
@@ -620,6 +622,7 @@ function displayMoviesByDate(data) {
                     timeLink.target = "_blank";
                     timeLink.rel = "noopener noreferrer";
                     timeLink.classList.add('format__time');
+                    timeLink.addEventListener('click', () => timeLink.blur());
 
                     const timeMinutes = parseTimeToMinutes(time);
                     if (!Number.isNaN(timeMinutes)) {
