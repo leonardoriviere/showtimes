@@ -18,8 +18,10 @@ a {
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
-a:hover {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+@media (hover: hover) {
+    a:hover {
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    }
 }
 
 a:focus,
@@ -81,10 +83,16 @@ div#movies {
     transition: box-shadow 220ms cubic-bezier(.25, .8, .25, 1), transform 220ms cubic-bezier(.25, .8, .25, 1);
 }
 
-.time-filter:hover,
 .time-filter.time-filter--open {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     transform: translateY(-1px);
+}
+
+@media (hover: hover) {
+    .time-filter:hover {
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+        transform: translateY(-1px);
+    }
 }
 
 .time-filter__summary {
