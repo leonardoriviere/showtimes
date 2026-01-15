@@ -320,12 +320,19 @@ if __name__ == "__main__":
     movie_hrefs = scraper.scrape_movie_data(base_url)
 
     all_movies_details = []  # List to store details of all movies
+    logger = logging.getLogger(__name__)
 
     # Loop through all movie URLs and scrape their details
-    for href in movie_hrefs:
-        movie_details = scraper.scrape_movie_details(href)
-        all_movies_details.append(movie_details)  # Append movie details regardless of showtimes
-        print(movie_details)  # Print details of each movie
+    for idx, href in enumerate(movie_hrefs, 1):
+        try:
+            logger.info(f"Scraping movie {idx}/{len(movie_hrefs)}: {href}")
+            movie_details = scraper.scrape_movie_details(href)
+            all_movies_details.append(movie_details)
+            print(movie_details)
+        except Exception as e:
+            logger.error(f"Failed to scrape movie {href}: {e}")
+            continue  # Skip this movie and continue with the next
 
     scraper.save_data_to_json(all_movies_details)
     scraper.close()
+    logger.info(f"Scraping completed. {len(all_movies_details)}/{len(movie_hrefs)} movies scraped successfully.")
