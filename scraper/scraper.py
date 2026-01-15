@@ -121,6 +121,23 @@ class MovieScraper:
         movie_hrefs = [link.get_attribute('href') for link in movies_links]
         return movie_hrefs
 
+    def scrape_movie_titles_only(self, base_url):
+        """Light scraping: only extract movie titles from the main page."""
+        self.driver.get(base_url)
+        WebDriverWait(self.driver, 15).until(
+            EC.presence_of_element_located((By.CSS_SELECTOR, '#cartelera_cine_40212 > .boxfilm'))
+        )
+        movie_boxes = self.driver.find_elements(By.CSS_SELECTOR, '#cartelera_cine_40212 > .boxfilm')
+        titles = []
+        for box in movie_boxes:
+            try:
+                title_elem = box.find_element(By.CSS_SELECTOR, '.afiche-pelicula .titulo')
+                title = normalize_movie_title(title_elem.text.strip())
+                titles.append(title)
+            except Exception:
+                continue
+        return sorted(titles)
+
     def scrape_movie_details(self, href):
         self.driver.get(href)
         WebDriverWait(self.driver, 15).until(
@@ -318,11 +335,74 @@ class MovieScraper:
         with open(json_path, 'w') as jsonfile:
             json.dump(data, jsonfile, indent=4)
 
+    @staticmethod
+    def get_existing_titles():
+        """Load existing movie titles from data.json."""
+        base_dir = Path(__file__).resolve().parent
+        json_path = base_dir / ".." / "docs" / "data.json"
+        
+        if not json_path.exists():
+            return []
+        
+        try:
+            with open(json_path, 'r') as f:
+                data = json.load(f)
+            return sorted([movie.get('title', '') for movie in data])
+        except (json.JSONDecodeError, KeyError):
+            return []
+
+
+def run_heavy_scraping(scraper, base_url, logger):
+    """Run full scraping: titles, details, showtimes, and IMDb data."""
+    movie_hrefs = scraper.scrape_movie_data(base_url)
+    all_movies_details = []
+
+    for idx, href in enumerate(movie_hrefs, 1):
+        try:
+            logger.info(f"Scraping movie {idx}/{len(movie_hrefs)}: {href}")
+            movie_details = scraper.scrape_movie_details(href)
+            all_movies_details.append(movie_details)
+            print(movie_details)
+        except Exception as e:
+            logger.error(f"Failed to scrape movie {href}: {e}")
+            continue
+
+    scraper.save_data_to_json(all_movies_details)
+    logger.info(f"Scraping completed. {len(all_movies_details)}/{len(movie_hrefs)} movies scraped successfully.")
+    return True
+
+
+def run_light_scraping(scraper, base_url, logger):
+    """Light scraping: check if movie titles have changed. Returns True if heavy scraping is needed."""
+    logger.info("Running light scraping - checking for title changes...")
+    
+    current_titles = scraper.scrape_movie_titles_only(base_url)
+    existing_titles = MovieScraper.get_existing_titles()
+    
+    logger.info(f"Current titles ({len(current_titles)}): {current_titles}")
+    logger.info(f"Existing titles ({len(existing_titles)}): {existing_titles}")
+    
+    if current_titles != existing_titles:
+        added = set(current_titles) - set(existing_titles)
+        removed = set(existing_titles) - set(current_titles)
+        
+        if added:
+            logger.info(f"New movies detected: {added}")
+        if removed:
+            logger.info(f"Movies removed: {removed}")
+        
+        logger.info("Changes detected! Heavy scraping needed.")
+        return True
+    else:
+        logger.info("No changes detected. Skipping heavy scraping.")
+        return False
+
 
 if __name__ == "__main__":
     # Argument parser setup
     parser = argparse.ArgumentParser(description='Scrape movie showtimes.')
     parser.add_argument('--chromedriver-path', type=str, help='Path to the ChromeDriver executable')
+    parser.add_argument('--light', action='store_true', help='Run light scraping (titles only). Triggers heavy scraping if changes detected.')
     args = parser.parse_args()
 
     # Configure logging to both file and stdout (useful for CI)
@@ -335,24 +415,16 @@ if __name__ == "__main__":
         ]
     )
 
+    logger = logging.getLogger(__name__)
     scraper = MovieScraper(chromedriver_path=args.chromedriver_path)
     base_url = 'https://www.todoshowcase.com/'
-    movie_hrefs = scraper.scrape_movie_data(base_url)
 
-    all_movies_details = []  # List to store details of all movies
-    logger = logging.getLogger(__name__)
-
-    # Loop through all movie URLs and scrape their details
-    for idx, href in enumerate(movie_hrefs, 1):
-        try:
-            logger.info(f"Scraping movie {idx}/{len(movie_hrefs)}: {href}")
-            movie_details = scraper.scrape_movie_details(href)
-            all_movies_details.append(movie_details)
-            print(movie_details)
-        except Exception as e:
-            logger.error(f"Failed to scrape movie {href}: {e}")
-            continue  # Skip this movie and continue with the next
-
-    scraper.save_data_to_json(all_movies_details)
-    scraper.close()
-    logger.info(f"Scraping completed. {len(all_movies_details)}/{len(movie_hrefs)} movies scraped successfully.")
+    try:
+        if args.light:
+            needs_heavy = run_light_scraping(scraper, base_url, logger)
+            if needs_heavy:
+                run_heavy_scraping(scraper, base_url, logger)
+        else:
+            run_heavy_scraping(scraper, base_url, logger)
+    finally:
+        scraper.close()

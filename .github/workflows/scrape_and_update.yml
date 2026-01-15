@@ -2,9 +2,19 @@ name: Scrape and Update Data
 
 on:
   workflow_dispatch:  # Allows triggering manually as well
+    inputs:
+      mode:
+        description: 'Scraping mode'
+        required: false
+        default: 'heavy'
+        type: choice
+        options:
+          - heavy
+          - light
   schedule:
-    - cron: '0 21 * * 2'  # Tuesdays at 21:00 UTC (6 PM Argentina time)
-    - cron: '30 14 * * 3' # Wednesdays at 14:30 UTC (11:30 AM Argentina time)
+    - cron: '0 21 * * 2'  # Tuesdays at 21:00 UTC (6 PM Argentina time) - Heavy
+    - cron: '30 14 * * 3' # Wednesdays at 14:30 UTC (11:30 AM Argentina time) - Heavy
+    - cron: '0 13 * * *'  # Daily at 13:00 UTC (10 AM Argentina time) - Light
 
 jobs:
   scrape_and_update:
@@ -35,9 +45,28 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r scraper/requirements.txt
 
+      - name: Determine scraping mode
+        id: mode
+        run: |
+          # Check if this is a manual trigger with a specific mode
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "mode=${{ github.event.inputs.mode }}" >> $GITHUB_OUTPUT
+          # Check if this is a scheduled run at 13:00 UTC (daily light check)
+          elif [ "${{ github.event.schedule }}" = "0 13 * * *" ]; then
+            echo "mode=light" >> $GITHUB_OUTPUT
+          else
+            echo "mode=heavy" >> $GITHUB_OUTPUT
+          fi
+
       - name: Run Scraper
         run: |
-          python scraper/scraper.py --chromedriver-path "/usr/local/bin/chromedriver"
+          if [ "${{ steps.mode.outputs.mode }}" = "light" ]; then
+            echo "Running light scraping..."
+            python scraper/scraper.py --chromedriver-path "/usr/local/bin/chromedriver" --light
+          else
+            echo "Running heavy scraping..."
+            python scraper/scraper.py --chromedriver-path "/usr/local/bin/chromedriver"
+          fi
 
       - name: Commit and Push Changes
         env:
