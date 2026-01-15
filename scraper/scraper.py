@@ -121,24 +121,10 @@ class MovieScraper:
         movie_hrefs = [link.get_attribute('href') for link in movies_links]
         return movie_hrefs
 
-    def scrape_movie_titles_only(self, base_url):
-        """Light scraping: only extract movie titles from the main page."""
-        self.driver.get(base_url)
-        WebDriverWait(self.driver, 15).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, '#cartelera_cine_40212 > .boxfilm > .afiche-pelicula > a'))
-        )
-        # Use same selector as scrape_movie_data, then get sibling title element
-        movie_boxes = self.driver.find_elements(By.CSS_SELECTOR, '#cartelera_cine_40212 > .boxfilm')
-        titles = []
-        for box in movie_boxes:
-            try:
-                title_elem = box.find_element(By.CSS_SELECTOR, '.titulo-pelicula h2')
-                title = normalize_movie_title(title_elem.text.strip())
-                if title:
-                    titles.append(title)
-            except Exception:
-                continue
-        return sorted(set(titles))  # Use set to deduplicate
+    def scrape_movie_hrefs_only(self, base_url):
+        """Light scraping: only extract movie hrefs from the main page (fast check)."""
+        # Reuse exact same logic as scrape_movie_data for reliability
+        return sorted(self.scrape_movie_data(base_url))
 
     def scrape_movie_details(self, href):
         self.driver.get(href)
@@ -338,8 +324,8 @@ class MovieScraper:
             json.dump(data, jsonfile, indent=4)
 
     @staticmethod
-    def get_existing_titles():
-        """Load existing movie titles from data.json."""
+    def get_existing_hrefs():
+        """Load existing movie hrefs from data.json."""
         base_dir = Path(__file__).resolve().parent
         json_path = base_dir / ".." / "docs" / "data.json"
         
@@ -349,7 +335,7 @@ class MovieScraper:
         try:
             with open(json_path, 'r') as f:
                 data = json.load(f)
-            return sorted([movie.get('title', '') for movie in data])
+            return sorted([movie.get('href', '') for movie in data])
         except (json.JSONDecodeError, KeyError):
             return []
 
@@ -375,23 +361,23 @@ def run_heavy_scraping(scraper, base_url, logger):
 
 
 def run_light_scraping(scraper, base_url, logger):
-    """Light scraping: check if movie titles have changed. Returns True if heavy scraping is needed."""
-    logger.info("Running light scraping - checking for title changes...")
+    """Light scraping: check if movie hrefs have changed. Returns True if heavy scraping is needed."""
+    logger.info("Running light scraping - checking for changes...")
     
-    current_titles = scraper.scrape_movie_titles_only(base_url)
-    existing_titles = MovieScraper.get_existing_titles()
+    current_hrefs = scraper.scrape_movie_hrefs_only(base_url)
+    existing_hrefs = MovieScraper.get_existing_hrefs()
     
-    logger.info(f"Current titles ({len(current_titles)}): {current_titles}")
-    logger.info(f"Existing titles ({len(existing_titles)}): {existing_titles}")
+    logger.info(f"Current movies: {len(current_hrefs)}")
+    logger.info(f"Existing movies: {len(existing_hrefs)}")
     
-    if current_titles != existing_titles:
-        added = set(current_titles) - set(existing_titles)
-        removed = set(existing_titles) - set(current_titles)
+    if current_hrefs != existing_hrefs:
+        added = set(current_hrefs) - set(existing_hrefs)
+        removed = set(existing_hrefs) - set(current_hrefs)
         
         if added:
-            logger.info(f"New movies detected: {added}")
+            logger.info(f"New movies detected: {len(added)} new")
         if removed:
-            logger.info(f"Movies removed: {removed}")
+            logger.info(f"Movies removed: {len(removed)} removed")
         
         logger.info("Changes detected! Heavy scraping needed.")
         return True
