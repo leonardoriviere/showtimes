@@ -18,6 +18,11 @@ import unicodedata
 WORD_PATTERN = re.compile(r"([^\W\d_]+(?:['’][^\W\d_]+)*)", re.UNICODE)
 
 
+# Retry configuration
+MAX_RETRIES = 3
+RETRY_DELAY_SECONDS = 5
+CONSECUTIVE_FAILURES_BEFORE_RESTART = 3
+
 def _strip_accents(text: str) -> str:
     """Remove diacritics from a piece of text."""
     normalized = unicodedata.normalize("NFKD", text)
@@ -84,32 +89,48 @@ def convert_imdb_duration_to_minutes(duration_str):
 
 class MovieScraper:
     def __init__(self, chromedriver_path=None):
-        # Configure logging
         self.logger = logging.getLogger(__name__)
+        self.chromedriver_path = chromedriver_path
+        self.consecutive_failures = 0
+        self._init_driver()
 
+    def _get_chrome_options(self):
         chrome_options = webdriver.ChromeOptions()
         chrome_options.add_argument(
             'user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36')
-        chrome_options.add_argument("--headless=new")  # Run headless (modern flag)
-        chrome_options.add_argument("--disable-gpu")  # Disable GPU acceleration (for headless)
-        chrome_options.add_argument("--no-sandbox")  # Bypass OS security model
-        chrome_options.add_argument("--disable-dev-shm-usage")  # Overcome limited resource problems
+        chrome_options.add_argument("--headless=new")
+        chrome_options.add_argument("--disable-gpu")
+        chrome_options.add_argument("--no-sandbox")
+        chrome_options.add_argument("--disable-dev-shm-usage")
+        return chrome_options
 
-        # Initialize WebDriver
+    def _init_driver(self):
+        """Initialize or reinitialize the WebDriver."""
         try:
             self.logger.info("Initializing WebDriver...")
-            if chromedriver_path:
-                self.logger.info(f"Using ChromeDriver from path: {chromedriver_path}")
-                service = Service(executable_path=chromedriver_path)
+            if self.chromedriver_path:
+                self.logger.info(f"Using ChromeDriver from path: {self.chromedriver_path}")
+                service = Service(executable_path=self.chromedriver_path)
             else:
                 self.logger.info("Using ChromeDriver managed by ChromeDriverManager.")
                 service = Service(ChromeDriverManager().install())
-            self.driver = webdriver.Chrome(service=service, options=chrome_options)
-            self.driver.set_page_load_timeout(600000)
+            self.driver = webdriver.Chrome(service=service, options=self._get_chrome_options())
+            self.driver.set_page_load_timeout(60)
             self.logger.info("WebDriver initialized successfully.")
         except Exception as e:
             self.logger.error(f"Error initializing WebDriver: {e}")
             raise
+
+    def _restart_driver(self):
+        """Restart the WebDriver after consecutive failures."""
+        self.logger.warning("Restarting WebDriver due to consecutive failures...")
+        try:
+            self.driver.quit()
+        except Exception:
+            pass
+        time.sleep(RETRY_DELAY_SECONDS)
+        self._init_driver()
+        self.consecutive_failures = 0
 
     def scrape_movie_data(self, base_url):
         self.driver.get(base_url)
@@ -125,6 +146,29 @@ class MovieScraper:
         """Light scraping: only extract movie hrefs from the main page (fast check)."""
         # Reuse exact same logic as scrape_movie_data for reliability
         return sorted(self.scrape_movie_data(base_url))
+
+    def scrape_movie_details_with_retry(self, href):
+        """Scrape movie details with retry logic and driver restart on consecutive failures."""
+        last_error = None
+        
+        for attempt in range(MAX_RETRIES):
+            try:
+                result = self.scrape_movie_details(href)
+                self.consecutive_failures = 0  # Reset on success
+                return result
+            except Exception as e:
+                last_error = e
+                self.consecutive_failures += 1
+                self.logger.warning(f"Attempt {attempt + 1}/{MAX_RETRIES} failed for {href}: {e}")
+                
+                # Restart driver if too many consecutive failures
+                if self.consecutive_failures >= CONSECUTIVE_FAILURES_BEFORE_RESTART:
+                    self._restart_driver()
+                elif attempt < MAX_RETRIES - 1:
+                    time.sleep(RETRY_DELAY_SECONDS)
+        
+        # All retries failed
+        raise last_error
 
     def scrape_movie_details(self, href):
         self.driver.get(href)
@@ -350,7 +394,7 @@ def run_heavy_scraping(scraper, base_url, logger):
     for idx, href in enumerate(movie_hrefs, 1):
         try:
             logger.info(f"Scraping movie {idx}/{len(movie_hrefs)}: {href}")
-            movie_details = scraper.scrape_movie_details(href)
+            movie_details = scraper.scrape_movie_details_with_retry(href)
             all_movies_details.append(movie_details)
             print(movie_details)
         except Exception as e:
