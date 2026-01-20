@@ -340,6 +340,8 @@ class MovieScraper:
             return []
 
 
+MIN_SUCCESS_RATE = 0.5  # Don't save if less than 50% of movies scraped successfully
+
 def run_heavy_scraping(scraper, base_url, logger):
     """Run full scraping: titles, details, showtimes, and IMDb data."""
     movie_hrefs = scraper.scrape_movie_data(base_url)
@@ -355,8 +357,15 @@ def run_heavy_scraping(scraper, base_url, logger):
             logger.error(f"Failed to scrape movie {href}: {e}")
             continue
 
+    success_rate = len(all_movies_details) / len(movie_hrefs) if movie_hrefs else 0
+    logger.info(f"Scraping completed. {len(all_movies_details)}/{len(movie_hrefs)} movies scraped successfully ({success_rate:.0%}).")
+    
+    if success_rate < MIN_SUCCESS_RATE:
+        logger.error(f"ABORTING SAVE: Success rate {success_rate:.0%} is below minimum {MIN_SUCCESS_RATE:.0%}. Data.json NOT updated to prevent data loss.")
+        return False
+    
     scraper.save_data_to_json(all_movies_details)
-    logger.info(f"Scraping completed. {len(all_movies_details)}/{len(movie_hrefs)} movies scraped successfully.")
+    logger.info("Data saved successfully.")
     return True
 
 
