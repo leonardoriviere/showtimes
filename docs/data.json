@@ -21,88 +21,10 @@
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/title/tt39109723/",
+        "imdb_url": "https://www.imdb.com/find/?q=MEGADETH%3A+BEHIND+THE+MASK",
         "imdb_rating": "N/A",
         "metascore": "N/A",
-        "imdb_duration": "1h 48m"
-    },
-    {
-        "title": "Sin Piedad",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5323&house_id=3206",
-        "original_title": "MERCY",
-        "poster_url": "https://static.voyalcine.net/Uploads/i5323.jpg",
-        "duration": "100 minutos.",
-        "showing_days": [
-            "2026-01-22",
-            "2026-01-23",
-            "2026-01-24",
-            "2026-01-25",
-            "2026-01-26",
-            "2026-01-27",
-            "2026-01-28"
-        ],
-        "showtimes": {
-            "2026-01-22": {
-                "2D-Subtitulado": [
-                    "15:00",
-                    "17:25",
-                    "19:50",
-                    "22:10"
-                ]
-            },
-            "2026-01-23": {
-                "2D-Subtitulado": [
-                    "15:00",
-                    "17:25",
-                    "19:50",
-                    "22:10"
-                ]
-            },
-            "2026-01-24": {
-                "2D-Subtitulado": [
-                    "15:00",
-                    "17:25",
-                    "19:50",
-                    "22:10"
-                ]
-            },
-            "2026-01-25": {
-                "2D-Subtitulado": [
-                    "15:00",
-                    "17:25",
-                    "19:50",
-                    "22:10"
-                ]
-            },
-            "2026-01-26": {
-                "2D-Subtitulado": [
-                    "15:00",
-                    "17:25",
-                    "19:50",
-                    "22:10"
-                ]
-            },
-            "2026-01-27": {
-                "2D-Subtitulado": [
-                    "15:00",
-                    "17:25",
-                    "19:50",
-                    "22:10"
-                ]
-            },
-            "2026-01-28": {
-                "2D-Subtitulado": [
-                    "15:00",
-                    "17:25",
-                    "19:50",
-                    "22:10"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt31050594/",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "1h 40m"
+        "imdb_duration": "N/A"
     },
     {
         "title": "Stray Kids: The Dominate Experience",
@@ -337,7 +259,7 @@
             }
         },
         "imdb_url": "https://www.imdb.com/title/tt35956182/",
-        "imdb_rating": "7.0",
+        "imdb_rating": "6.9",
         "metascore": "N/A",
         "imdb_duration": "1h 29m"
     },
@@ -412,7 +334,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5303.jpg",
         "duration": "109 minutos.",
         "showing_days": [
-            "2026-01-20",
             "2026-01-21",
             "2026-01-22",
             "2026-01-23",
@@ -423,12 +344,6 @@
             "2026-01-28"
         ],
         "showtimes": {
-            "2026-01-20": {
-                "2D-Subtitulado": [
-                    "19:35",
-                    "22:35"
-                ]
-            },
             "2026-01-21": {
                 "2D-Subtitulado": [
                     "14:35",
@@ -492,7 +407,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5307.jpg",
         "duration": "139 minutos.",
         "showing_days": [
-            "2026-01-20",
             "2026-01-21",
             "2026-01-22",
             "2026-01-23",
@@ -503,11 +417,6 @@
             "2026-01-28"
         ],
         "showtimes": {
-            "2026-01-20": {
-                "2D-Subtitulado": [
-                    "22:15"
-                ]
-            },
             "2026-01-21": {
                 "2D-Subtitulado": [
                     "14:50",
@@ -562,7 +471,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5305.jpg",
         "duration": "95 minutos.",
         "showing_days": [
-            "2026-01-20",
             "2026-01-21",
             "2026-01-22",
             "2026-01-23",
@@ -573,12 +481,6 @@
             "2026-01-28"
         ],
         "showtimes": {
-            "2026-01-20": {
-                "2D-Castellano": [
-                    "20:00",
-                    "22:30"
-                ]
-            },
             "2026-01-21": {
                 "2D-Castellano": [
                     "14:00",
@@ -647,7 +549,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5304.jpg",
         "duration": "149 minutos.",
         "showing_days": [
-            "2026-01-20",
             "2026-01-21",
             "2026-01-22",
             "2026-01-23",
@@ -658,14 +559,6 @@
             "2026-01-28"
         ],
         "showtimes": {
-            "2026-01-20": {
-                "2D-Subtitulado": [
-                    "18:30",
-                    "19:25",
-                    "21:40",
-                    "22:30"
-                ]
-            },
             "2026-01-21": {
                 "2D-Subtitulado": [
                     "16:15",
@@ -744,7 +637,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5306.jpg",
         "duration": "103 minutos.",
         "showing_days": [
-            "2026-01-20",
             "2026-01-21",
             "2026-01-22",
             "2026-01-23",
@@ -755,11 +647,6 @@
             "2026-01-28"
         ],
         "showtimes": {
-            "2026-01-20": {
-                "2D-Doblada": [
-                    "19:20"
-                ]
-            },
             "2026-01-21": {
                 "2D-Doblada": [
                     "14:25",
@@ -822,7 +709,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5283.jpg",
         "duration": "110 minutos.",
         "showing_days": [
-            "2026-01-20",
             "2026-01-21",
             "2026-01-22",
             "2026-01-23",
@@ -833,12 +719,6 @@
             "2026-01-28"
         ],
         "showtimes": {
-            "2026-01-20": {
-                "2D-Subtitulado": [
-                    "19:30",
-                    "22:00"
-                ]
-            },
             "2026-01-21": {
                 "2D-Subtitulado": [
                     "17:00",
@@ -1014,7 +894,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5252b.jpg",
         "duration": "131 minutos.",
         "showing_days": [
-            "2026-01-20",
             "2026-01-21",
             "2026-01-22",
             "2026-01-23",
@@ -1025,12 +904,6 @@
             "2026-01-28"
         ],
         "showtimes": {
-            "2026-01-20": {
-                "2D-Subtitulado": [
-                    "19:40",
-                    "22:25"
-                ]
-            },
             "2026-01-21": {
                 "2D-Subtitulado": [
                     "16:45",
@@ -1100,7 +973,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5256.jpg",
         "duration": "133 minutos.",
         "showing_days": [
-            "2026-01-20",
             "2026-01-21",
             "2026-01-22",
             "2026-01-23",
@@ -1111,11 +983,6 @@
             "2026-01-28"
         ],
         "showtimes": {
-            "2026-01-20": {
-                "2D-Subtitulado": [
-                    "21:50"
-                ]
-            },
             "2026-01-21": {
                 "2D-Subtitulado": [
                     "14:05",
@@ -1170,7 +1037,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5206.jpg",
         "duration": "197 minutos.",
         "showing_days": [
-            "2026-01-20",
             "2026-01-21",
             "2026-01-22",
             "2026-01-23",
@@ -1181,15 +1047,6 @@
             "2026-01-28"
         ],
         "showtimes": {
-            "2026-01-20": {
-                "3D-HFR Subtitulada": [
-                    "18:35"
-                ],
-                "2D-HFR Subtitulada": [
-                    "18:15",
-                    "22:10"
-                ]
-            },
             "2026-01-21": {
                 "3D-HFR Doblada": [
                     "14:40"
@@ -1320,34 +1177,12 @@
         "imdb_duration": "3h 17m"
     },
     {
-        "title": "Bugonia",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5237&house_id=3206",
-        "original_title": "BUGONIA",
-        "poster_url": "https://static.voyalcine.net/Uploads/i5237.jpg",
-        "duration": "118 minutos.",
-        "showing_days": [
-            "2026-01-20"
-        ],
-        "showtimes": {
-            "2026-01-20": {
-                "2D-Subtitulado": [
-                    "21:45"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt12300742/",
-        "imdb_rating": "7.4",
-        "metascore": "72",
-        "imdb_duration": "1h 58m"
-    },
-    {
         "title": "Zootopia 2",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5156&house_id=3206",
         "original_title": "ZOOTOPIA 2",
         "poster_url": "https://static.voyalcine.net/Uploads/i5156.jpg",
         "duration": "108 minutos.",
         "showing_days": [
-            "2026-01-20",
             "2026-01-21",
             "2026-01-22",
             "2026-01-23",
@@ -1358,11 +1193,6 @@
             "2026-01-28"
         ],
         "showtimes": {
-            "2026-01-20": {
-                "2D-Doblada": [
-                    "19:15"
-                ]
-            },
             "2026-01-21": {
                 "2D-Doblada": [
                     "14:10",
