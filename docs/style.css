@@ -545,11 +545,10 @@ div#day-links a:first-of-type {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 12px;
-    padding: 12px;
+    padding-top: 12px;
 }
 
 .special-day-card {
-    background: #f8f9fa;
     border: 1px solid #eee;
     border-radius: 16px;
     padding: 12px;
@@ -559,7 +558,6 @@ div#day-links a:first-of-type {
 
 .special-day-card__header {
     font-weight: 700;
-    font-size: 15px;
     color: #333;
     margin-bottom: 10px;
     padding-bottom: 8px;
@@ -579,9 +577,9 @@ div#day-links a:first-of-type {
 }
 
 .special-day-card__format-label {
-    font-size: 12px;
     font-weight: 600;
     color: #666;
+    margin-bottom: 3px;
 }
 
 .special-day-card__format-times {
@@ -600,11 +598,16 @@ div#day-links a:first-of-type {
 .movie--special > div:first-of-type {
     width: 100%;
     border-right: none;
-    border-bottom: 1px solid #eee;
 }
 
 .movie--special .showtimes--special {
     width: 100%;
+}
+
+@media (max-width: 1250px) {
+    .showtimes--special {
+        padding: 12px;
+    }
 }
 
 @media (max-width: 600px) {
