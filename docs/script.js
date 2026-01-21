@@ -326,6 +326,94 @@ function createTimeRangeFilter({ min, max, step }) {
     };
 }
 
+function createFilterPopovers(timeFilter, specialShows) {
+    const chevronSvg = `<svg class="filter-button__chevron" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
+    </svg>`;
+
+    // Time Filter Button
+    const timeFilterButton = document.createElement('button');
+    timeFilterButton.type = 'button';
+    timeFilterButton.className = 'filter-button';
+    timeFilterButton.innerHTML = `<span>Filtrar Hora</span>${chevronSvg}`;
+
+    // Specials Button
+    const specialsButton = document.createElement('button');
+    specialsButton.type = 'button';
+    specialsButton.className = 'filter-button';
+    specialsButton.innerHTML = `<span>Especiales</span>${chevronSvg}`;
+
+    // Time Filter Popover
+    const timePopover = document.createElement('div');
+    timePopover.className = 'filter-popover';
+    const timePopoverContent = document.createElement('div');
+    timePopoverContent.className = 'filter-popover__content';
+    // Get the content from the time filter (labels and slider)
+    const timeFilterContent = timeFilter.element.querySelector('.time-filter__content');
+    if (timeFilterContent) {
+        timeFilterContent.hidden = false;
+        timePopoverContent.appendChild(timeFilterContent);
+    }
+    timePopover.appendChild(timePopoverContent);
+
+    // Specials Popover
+    const specialsPopover = document.createElement('div');
+    specialsPopover.className = 'filter-popover';
+    const specialsPopoverContent = document.createElement('div');
+    specialsPopoverContent.className = 'filter-popover__content';
+    
+    if (specialShows && specialShows.length > 0) {
+        const specialsList = document.createElement('div');
+        specialsList.className = 'specials-list';
+        specialShows.forEach(movie => {
+            const item = document.createElement('div');
+            item.className = 'specials-list__item';
+            item.textContent = movie.title;
+            specialsList.appendChild(item);
+        });
+        specialsPopoverContent.appendChild(specialsList);
+    } else {
+        const emptyMessage = document.createElement('div');
+        emptyMessage.className = 'specials-list__empty';
+        emptyMessage.textContent = 'No hay funciones especiales';
+        specialsPopoverContent.appendChild(emptyMessage);
+    }
+    specialsPopover.appendChild(specialsPopoverContent);
+
+    // Backdrop for closing popovers
+    const backdrop = document.createElement('div');
+    backdrop.className = 'filter-popover-backdrop';
+
+    let activePopover = null;
+
+    const closeAll = () => {
+        timePopover.classList.remove('filter-popover--open');
+        specialsPopover.classList.remove('filter-popover--open');
+        timeFilterButton.classList.remove('filter-button--active');
+        specialsButton.classList.remove('filter-button--active');
+        backdrop.classList.remove('filter-popover-backdrop--open');
+        activePopover = null;
+    };
+
+    const togglePopover = (popover, button) => {
+        if (activePopover === popover) {
+            closeAll();
+        } else {
+            closeAll();
+            popover.classList.add('filter-popover--open');
+            button.classList.add('filter-button--active');
+            backdrop.classList.add('filter-popover-backdrop--open');
+            activePopover = popover;
+        }
+    };
+
+    timeFilterButton.addEventListener('click', () => togglePopover(timePopover, timeFilterButton));
+    specialsButton.addEventListener('click', () => togglePopover(specialsPopover, specialsButton));
+    backdrop.addEventListener('click', closeAll);
+
+    return { timeFilterButton, specialsButton, timePopover, specialsPopover, backdrop };
+}
+
 function getDismissedMovies() {
     try {
         const stored = sessionStorage.getItem(STORAGE_KEY);
@@ -519,7 +607,15 @@ function displayMoviesByDate(data) {
             step: TIME_STEP_MINUTES
         });
 
-        filterContainer.appendChild(timeFilter.element);
+        // Create popover system
+        const { timeFilterButton, specialsButton, timePopover, specialsPopover, backdrop } = 
+            createFilterPopovers(timeFilter, specialShowsCache);
+
+        filterContainer.appendChild(timeFilterButton);
+        filterContainer.appendChild(specialsButton);
+        filterContainer.appendChild(timePopover);
+        filterContainer.appendChild(specialsPopover);
+        filterContainer.appendChild(backdrop);
 
         const noResultsMessage = document.createElement('p');
         noResultsMessage.className = 'day-no-results';

@@ -67,9 +67,116 @@ div#movies {
 
 .day-filter {
     display: flex;
-    flex-direction: column;
-    gap: 12px;
+    flex-direction: row;
+    gap: 8px;
     margin-bottom: 20px;
+    position: relative;
+}
+
+.filter-button {
+    flex: 1;
+    appearance: none;
+    background: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    justify-content: center;
+    gap: 6px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1;
+    color: #333;
+    font-weight: 700;
+    position: relative;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    border: 1px solid #eee;
+    display: inline-flex;
+    align-items: center;
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.filter-button:active {
+    background: #f3f4f6;
+}
+
+.filter-button--active {
+    background: #f3f4f6;
+    border-color: #d1d5db;
+}
+
+.filter-button__chevron {
+    width: 16px;
+    height: 16px;
+    transition: transform 200ms ease;
+}
+
+.filter-button--active .filter-button__chevron {
+    transform: rotate(180deg);
+}
+
+.filter-popover {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin-top: 8px;
+    background: #fff;
+    border: 2px solid #eee;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    z-index: 100;
+    display: none;
+}
+
+.filter-popover--open {
+    display: block;
+}
+
+.filter-popover__content {
+    padding: 16px;
+}
+
+.filter-popover__content .time-filter__content {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 0;
+    background: transparent;
+}
+
+.filter-popover-backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: 99;
+    display: none;
+}
+
+.filter-popover-backdrop--open {
+    display: block;
+}
+
+.specials-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+.specials-list__item {
+    padding: 10px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #374151;
+    font-weight: bold;
+}
+
+.specials-list__empty {
+    padding: 16px;
+    text-align: center;
+    color: #9ca3af;
+    font-size: 14px;
 }
 
 .time-filter {
@@ -152,7 +259,6 @@ div#movies {
     flex-direction: column;
     gap: 14px;
     padding: 16px 20px 20px;
-    border-top: 1px solid #eeeeee;
     background: #ffffff;
 }
 
@@ -545,12 +651,12 @@ div#day-links a:first-of-type {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 12px;
-    padding-top: 12px;
+    padding: 12px 0 0 0;
 }
 
 .special-day-card {
     border: 1px solid #eee;
-    border-radius: 16px;
+    border-radius: 6px;
     padding: 12px;
     min-width: 120px;
     flex-shrink: 0;
@@ -586,13 +692,6 @@ div#day-links a:first-of-type {
     display: flex;
     flex-wrap: wrap;
     gap: 6px;
-}
-
-.special-day-card__format-times a {
-    padding: 8px 10px;
-    font-size: 14px;
-    min-width: auto;
-    width: auto;
 }
 
 .movie--special > div:first-of-type {
