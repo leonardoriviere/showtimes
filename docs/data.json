@@ -133,6 +133,98 @@
         "imdb_duration": "1h 59m"
     },
     {
+        "title": "Scream 7",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5409&house_id=3206",
+        "original_title": "SCREAM 7",
+        "poster_url": "https://static.voyalcine.net/Uploads/i5409.jpg",
+        "duration": "115 minutos.",
+        "showing_days": [
+            "2026-02-26",
+            "2026-02-27",
+            "2026-02-28",
+            "2026-03-01",
+            "2026-03-02",
+            "2026-03-03",
+            "2026-03-04"
+        ],
+        "showtimes": {
+            "2026-02-26": {
+                "2D-Subtitulado": [
+                    "17:05",
+                    "19:40",
+                    "22:20"
+                ],
+                "2D-Doblada": [
+                    "14:30"
+                ]
+            },
+            "2026-02-27": {
+                "2D-Subtitulado": [
+                    "17:05",
+                    "19:40",
+                    "22:20"
+                ],
+                "2D-Doblada": [
+                    "14:30"
+                ]
+            },
+            "2026-02-28": {
+                "2D-Subtitulado": [
+                    "17:05",
+                    "19:40",
+                    "22:20"
+                ],
+                "2D-Doblada": [
+                    "14:30"
+                ]
+            },
+            "2026-03-01": {
+                "2D-Subtitulado": [
+                    "17:05",
+                    "19:40",
+                    "22:20"
+                ],
+                "2D-Doblada": [
+                    "14:30"
+                ]
+            },
+            "2026-03-02": {
+                "2D-Subtitulado": [
+                    "17:05",
+                    "19:40",
+                    "22:20"
+                ],
+                "2D-Doblada": [
+                    "14:30"
+                ]
+            },
+            "2026-03-03": {
+                "2D-Subtitulado": [
+                    "17:05",
+                    "19:40",
+                    "22:20"
+                ],
+                "2D-Doblada": [
+                    "14:30"
+                ]
+            },
+            "2026-03-04": {
+                "2D-Subtitulado": [
+                    "17:05",
+                    "19:40",
+                    "22:20"
+                ],
+                "2D-Doblada": [
+                    "14:30"
+                ]
+            }
+        },
+        "imdb_url": "https://www.imdb.com/title/tt27047903/",
+        "imdb_rating": "N/A",
+        "metascore": "N/A",
+        "imdb_duration": "1h 54m"
+    },
+    {
         "title": "AURORA: What Happened To The Earth?",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5338&house_id=3206",
         "original_title": "AURORA: What Happened To The Earth?",
@@ -175,73 +267,82 @@
         "imdb_duration": "2h 3m"
     },
     {
-        "title": "Stray Kids: The Dominate Experience",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5298&house_id=3206",
-        "original_title": "Stray Kids: The dominATE Experience",
-        "poster_url": "https://static.voyalcine.net/Uploads/i5298.jpg",
-        "duration": "146 minutos.",
+        "title": "A\u00fan Es De Noche En Caracas",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5389&house_id=3206",
+        "original_title": "A\u00daN ES DE NOCHE EN CARACAS",
+        "poster_url": "https://static.voyalcine.net/Uploads/i5389.jpg",
+        "duration": "97 minutos.",
         "showing_days": [
-            "2026-02-09",
-            "2026-02-10",
-            "2026-02-11"
+            "2026-02-10"
         ],
         "showtimes": {
-            "2026-02-09": {
-                "2D-Subtitulado": [
-                    "16:15"
-                ]
-            },
             "2026-02-10": {
-                "2D-Subtitulado": [
-                    "16:15"
-                ]
-            },
-            "2026-02-11": {
-                "2D-Subtitulado": [
-                    "16:15"
+                "2D-Castellano": [
+                    "19:50"
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/title/tt39216314/",
-        "imdb_rating": "8.4",
+        "imdb_url": "https://www.imdb.com/title/tt37656135/",
+        "imdb_rating": "6.5",
         "metascore": "N/A",
-        "imdb_duration": "2h 26m"
+        "imdb_duration": "1h 37m"
     },
     {
-        "title": "S\u00f3lo Necesitas Matar",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5358&house_id=3206",
-        "original_title": "ALL YOU NEED IS KILL",
-        "poster_url": "https://static.voyalcine.net/Uploads/i5358.jpg",
-        "duration": "85 minutos.",
+        "title": "Bring Me The Horizon - L.I.V.E. In S\u00e3o Paulo",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5410&house_id=3206",
+        "original_title": "BRING ME THE HORIZON - L.I.V.E. IN S\u00c3O PAULO",
+        "poster_url": "https://static.voyalcine.net/Uploads/i5410.jpg",
+        "duration": "114 minutos.",
         "showing_days": [
-            "2026-02-09",
+            "2026-03-25",
+            "2026-03-28"
+        ],
+        "showtimes": {
+            "2026-03-25": {
+                "2D-Subtitulado": [
+                    "22:00"
+                ]
+            },
+            "2026-03-28": {
+                "2D-Subtitulado": [
+                    "16:30"
+                ]
+            }
+        },
+        "imdb_url": "https://www.imdb.com/title/tt39634490/",
+        "imdb_rating": "N/A",
+        "metascore": "N/A",
+        "imdb_duration": "1h 54m"
+    },
+    {
+        "title": "Arco",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5395&house_id=3206",
+        "original_title": "ARCO",
+        "poster_url": "https://static.voyalcine.net/Uploads/i5395.jpg",
+        "duration": "88 minutos.",
+        "showing_days": [
             "2026-02-10",
             "2026-02-11"
         ],
         "showtimes": {
-            "2026-02-09": {
-                "2D-Subtitulado": [
-                    "14:45",
-                    "20:20"
-                ]
-            },
             "2026-02-10": {
-                "2D-Subtitulado": [
-                    "14:45",
-                    "20:20"
+                "2D-Doblada": [
+                    "18:15"
                 ]
             },
             "2026-02-11": {
                 "2D-Subtitulado": [
-                    "14:45",
-                    "20:20"
+                    "20:00"
+                ],
+                "2D-Doblada": [
+                    "18:15"
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/title/tt36148135/",
-        "imdb_rating": "6.8",
-        "metascore": "65",
-        "imdb_duration": "1h 26m"
+        "imdb_url": "https://www.imdb.com/title/tt14883538/",
+        "imdb_rating": "7.5",
+        "metascore": "73",
+        "imdb_duration": "1h 28m"
     },
     {
         "title": "Hamnet",
@@ -250,19 +351,10 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5392.jpg",
         "duration": "126 minutos.",
         "showing_days": [
-            "2026-02-09",
             "2026-02-10",
             "2026-02-11"
         ],
         "showtimes": {
-            "2026-02-09": {
-                "2D-Subtitulado": [
-                    "16:45",
-                    "19:30",
-                    "22:05",
-                    "22:30"
-                ]
-            },
             "2026-02-10": {
                 "2D-Subtitulado": [
                     "16:45",
@@ -286,64 +378,60 @@
         "imdb_duration": "2h 5m"
     },
     {
-        "title": "Arco",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5395&house_id=3206",
-        "original_title": "ARCO",
-        "poster_url": "https://static.voyalcine.net/Uploads/i5395.jpg",
-        "duration": "88 minutos.",
+        "title": "S\u00f3lo Necesitas Matar",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5358&house_id=3206",
+        "original_title": "ALL YOU NEED IS KILL",
+        "poster_url": "https://static.voyalcine.net/Uploads/i5358.jpg",
+        "duration": "85 minutos.",
         "showing_days": [
-            "2026-02-09",
             "2026-02-10",
             "2026-02-11"
         ],
         "showtimes": {
-            "2026-02-09": {
-                "2D-Subtitulado": [
-                    "20:00"
-                ],
-                "2D-Doblada": [
-                    "18:15"
-                ]
-            },
             "2026-02-10": {
-                "2D-Doblada": [
-                    "18:15"
+                "2D-Subtitulado": [
+                    "14:45",
+                    "20:20"
                 ]
             },
             "2026-02-11": {
                 "2D-Subtitulado": [
-                    "20:00"
-                ],
-                "2D-Doblada": [
-                    "18:15"
+                    "14:45",
+                    "20:20"
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/title/tt14883538/",
-        "imdb_rating": "7.5",
-        "metascore": "73",
-        "imdb_duration": "1h 28m"
+        "imdb_url": "https://www.imdb.com/title/tt36148135/",
+        "imdb_rating": "6.8",
+        "metascore": "65",
+        "imdb_duration": "1h 26m"
     },
     {
-        "title": "A\u00fan Es De Noche En Caracas",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5389&house_id=3206",
-        "original_title": "A\u00daN ES DE NOCHE EN CARACAS",
-        "poster_url": "https://static.voyalcine.net/Uploads/i5389.jpg",
-        "duration": "97 minutos.",
+        "title": "Stray Kids: The Dominate Experience",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5298&house_id=3206",
+        "original_title": "Stray Kids: The dominATE Experience",
+        "poster_url": "https://static.voyalcine.net/Uploads/i5298.jpg",
+        "duration": "146 minutos.",
         "showing_days": [
-            "2026-02-10"
+            "2026-02-10",
+            "2026-02-11"
         ],
         "showtimes": {
             "2026-02-10": {
-                "2D-Castellano": [
-                    "19:50"
+                "2D-Subtitulado": [
+                    "16:15"
+                ]
+            },
+            "2026-02-11": {
+                "2D-Subtitulado": [
+                    "16:15"
                 ]
             }
         },
-        "imdb_url": "https://www.imdb.com/title/tt37656135/",
-        "imdb_rating": "6.4",
+        "imdb_url": "https://www.imdb.com/title/tt39216314/",
+        "imdb_rating": "8.5",
         "metascore": "N/A",
-        "imdb_duration": "1h 37m"
+        "imdb_duration": "2h 26m"
     },
     {
         "title": "El D\u00eda Del Fin Del Mundo: Migraci\u00f3n",
@@ -352,19 +440,10 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5393.jpg",
         "duration": "98 minutos.",
         "showing_days": [
-            "2026-02-09",
             "2026-02-10",
             "2026-02-11"
         ],
         "showtimes": {
-            "2026-02-09": {
-                "2D-Subtitulado": [
-                    "15:05",
-                    "17:20",
-                    "19:45",
-                    "22:00"
-                ]
-            },
             "2026-02-10": {
                 "2D-Subtitulado": [
                     "15:05",
@@ -394,19 +473,10 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5360.jpg",
         "duration": "113 minutos.",
         "showing_days": [
-            "2026-02-09",
             "2026-02-10",
             "2026-02-11"
         ],
         "showtimes": {
-            "2026-02-09": {
-                "2D-Subtitulado": [
-                    "14:30",
-                    "17:15",
-                    "19:55",
-                    "22:25"
-                ]
-            },
             "2026-02-10": {
                 "2D-Subtitulado": [
                     "14:30",
@@ -436,16 +506,10 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5361.jpg",
         "duration": "98 minutos.",
         "showing_days": [
-            "2026-02-09",
             "2026-02-10",
             "2026-02-11"
         ],
         "showtimes": {
-            "2026-02-09": {
-                "2D-Subtitulado": [
-                    "15:20"
-                ]
-            },
             "2026-02-10": {
                 "2D-Subtitulado": [
                     "15:20"
@@ -469,16 +533,10 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5363.jpg",
         "duration": "97 minutos.",
         "showing_days": [
-            "2026-02-09",
             "2026-02-10",
             "2026-02-11"
         ],
         "showtimes": {
-            "2026-02-09": {
-                "2D-Doblada": [
-                    "14:00"
-                ]
-            },
             "2026-02-10": {
                 "2D-Doblada": [
                     "14:00"
@@ -502,16 +560,10 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5362.jpg",
         "duration": "115 minutos.",
         "showing_days": [
-            "2026-02-09",
             "2026-02-10",
             "2026-02-11"
         ],
         "showtimes": {
-            "2026-02-09": {
-                "2D-Castellano": [
-                    "22:25"
-                ]
-            },
             "2026-02-10": {
                 "2D-Castellano": [
                     "22:25"
@@ -535,16 +587,10 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5341.jpg",
         "duration": "106 minutos.",
         "showing_days": [
-            "2026-02-09",
             "2026-02-10",
             "2026-02-11"
         ],
         "showtimes": {
-            "2026-02-09": {
-                "2D-Subtitulado": [
-                    "22:35"
-                ]
-            },
             "2026-02-10": {
                 "2D-Subtitulado": [
                     "22:35"
@@ -568,16 +614,10 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5307.jpg",
         "duration": "139 minutos.",
         "showing_days": [
-            "2026-02-09",
             "2026-02-10",
             "2026-02-11"
         ],
         "showtimes": {
-            "2026-02-09": {
-                "2D-Subtitulado": [
-                    "15:00"
-                ]
-            },
             "2026-02-10": {
                 "2D-Subtitulado": [
                     "15:00"
@@ -601,16 +641,10 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5305.jpg",
         "duration": "95 minutos.",
         "showing_days": [
-            "2026-02-09",
             "2026-02-10",
             "2026-02-11"
         ],
         "showtimes": {
-            "2026-02-09": {
-                "2D-Castellano": [
-                    "19:50"
-                ]
-            },
             "2026-02-10": {
                 "2D-Castellano": [
                     "19:50"
@@ -634,18 +668,10 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5304.jpg",
         "duration": "149 minutos.",
         "showing_days": [
-            "2026-02-09",
             "2026-02-10",
             "2026-02-11"
         ],
         "showtimes": {
-            "2026-02-09": {
-                "2D-Subtitulado": [
-                    "16:00",
-                    "19:05",
-                    "22:10"
-                ]
-            },
             "2026-02-10": {
                 "2D-Subtitulado": [
                     "16:00",
@@ -673,16 +699,10 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5283.jpg",
         "duration": "110 minutos.",
         "showing_days": [
-            "2026-02-09",
             "2026-02-10",
             "2026-02-11"
         ],
         "showtimes": {
-            "2026-02-09": {
-                "2D-Subtitulado": [
-                    "17:30"
-                ]
-            },
             "2026-02-10": {
                 "2D-Subtitulado": [
                     "17:30"
@@ -706,17 +726,10 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5263b.jpg",
         "duration": "95 minutos.",
         "showing_days": [
-            "2026-02-09",
             "2026-02-10",
             "2026-02-11"
         ],
         "showtimes": {
-            "2026-02-09": {
-                "2D-Doblada": [
-                    "14:25",
-                    "16:40"
-                ]
-            },
             "2026-02-10": {
                 "2D-Doblada": [
                     "14:25",
@@ -742,17 +755,10 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5252b.jpg",
         "duration": "131 minutos.",
         "showing_days": [
-            "2026-02-09",
             "2026-02-10",
             "2026-02-11"
         ],
         "showtimes": {
-            "2026-02-09": {
-                "2D-Subtitulado": [
-                    "19:25",
-                    "22:20"
-                ]
-            },
             "2026-02-10": {
                 "2D-Subtitulado": [
                     "19:25",
@@ -767,7 +773,7 @@
             }
         },
         "imdb_url": "https://www.imdb.com/title/tt27543632/",
-        "imdb_rating": "6.9",
+        "imdb_rating": "6.8",
         "metascore": "65",
         "imdb_duration": "2h 11m"
     },
@@ -778,16 +784,10 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5256.jpg",
         "duration": "133 minutos.",
         "showing_days": [
-            "2026-02-09",
             "2026-02-10",
             "2026-02-11"
         ],
         "showtimes": {
-            "2026-02-09": {
-                "2D-Subtitulado": [
-                    "19:15"
-                ]
-            },
             "2026-02-10": {
                 "2D-Subtitulado": [
                     "19:15"
@@ -811,22 +811,10 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5206.jpg",
         "duration": "197 minutos.",
         "showing_days": [
-            "2026-02-09",
             "2026-02-10",
             "2026-02-11"
         ],
         "showtimes": {
-            "2026-02-09": {
-                "3D-HFR Doblada": [
-                    "14:50"
-                ],
-                "3D-HFR Subtitulada": [
-                    "18:45"
-                ],
-                "2D-HFR Doblada": [
-                    "22:35"
-                ]
-            },
             "2026-02-10": {
                 "3D-HFR Doblada": [
                     "14:50"
@@ -862,17 +850,10 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5156.jpg",
         "duration": "108 minutos.",
         "showing_days": [
-            "2026-02-09",
             "2026-02-10",
             "2026-02-11"
         ],
         "showtimes": {
-            "2026-02-09": {
-                "2D-Doblada": [
-                    "14:20",
-                    "16:50"
-                ]
-            },
             "2026-02-10": {
                 "2D-Doblada": [
                     "14:20",
@@ -932,26 +913,5 @@
         "imdb_rating": "N/A",
         "metascore": "N/A",
         "imdb_duration": "2h 59m"
-    },
-    {
-        "title": "El Se\u00f1or De Los Anillos: La Comunidad Del Anillo VER EXT",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5328&house_id=3206",
-        "original_title": "LORD OF THE RINGS: FELLOWSHIO OF THE RING",
-        "poster_url": "https://static.voyalcine.net/Uploads/i5328.jpg",
-        "duration": "208 minutos.",
-        "showing_days": [
-            "2026-02-09"
-        ],
-        "showtimes": {
-            "2026-02-09": {
-                "2D-Subtitulado": [
-                    "22:15"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt0120737/",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "2h 58m"
     }
 ]
