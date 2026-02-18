@@ -1,26 +1,5 @@
 [
     {
-        "title": "Chase Atlantic: Lost In Heaven",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5321&house_id=3206",
-        "original_title": "CHASE ATLANTIC: LOST IN HEAVEN",
-        "poster_url": "https://static.voyalcine.net/Uploads/i5321.jpg",
-        "duration": "100 minutos.",
-        "showing_days": [
-            "2026-02-18"
-        ],
-        "showtimes": {
-            "2026-02-18": {
-                "2D-Subtitulado": [
-                    "22:00"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt39313510/",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "1h 41m"
-    },
-    {
         "title": "Twenty One Pilots: More Than We Ever Imagined",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5302&house_id=3206",
         "original_title": "Twenty One Pilots: More Than We Ever Imagined",
@@ -196,7 +175,7 @@
         },
         "imdb_url": "https://www.imdb.com/title/tt35003538/",
         "imdb_rating": "8.2",
-        "metascore": "88",
+        "metascore": "87",
         "imdb_duration": "1h 30m"
     },
     {
@@ -261,6 +240,27 @@
         "imdb_rating": "N/A",
         "metascore": "N/A",
         "imdb_duration": "1h 25m"
+    },
+    {
+        "title": "Chase Atlantic: Lost In Heaven",
+        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5321&house_id=3206",
+        "original_title": "CHASE ATLANTIC: LOST IN HEAVEN",
+        "poster_url": "https://static.voyalcine.net/Uploads/i5321.jpg",
+        "duration": "100 minutos.",
+        "showing_days": [
+            "2026-02-18"
+        ],
+        "showtimes": {
+            "2026-02-18": {
+                "2D-Subtitulado": [
+                    "22:00"
+                ]
+            }
+        },
+        "imdb_url": "https://www.imdb.com/title/tt39313510/",
+        "imdb_rating": "N/A",
+        "metascore": "N/A",
+        "imdb_duration": "1h 41m"
     },
     {
         "title": "El Descenso",
@@ -668,15 +668,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5412.jpg",
         "duration": "140 minutos.",
         "showing_days": [
-            "2026-02-17",
             "2026-02-18"
         ],
         "showtimes": {
-            "2026-02-17": {
-                "2D-Subtitulado": [
-                    "22:30"
-                ]
-            },
             "2026-02-18": {
                 "2D-Subtitulado": [
                     "14:15",
@@ -696,7 +690,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5359.jpg",
         "duration": "136 minutos.",
         "showing_days": [
-            "2026-02-17",
             "2026-02-18",
             "2026-02-19",
             "2026-02-20",
@@ -707,15 +700,6 @@
             "2026-02-25"
         ],
         "showtimes": {
-            "2026-02-17": {
-                "2D-Subtitulado": [
-                    "19:25",
-                    "19:45",
-                    "21:35",
-                    "22:20",
-                    "22:40"
-                ]
-            },
             "2026-02-18": {
                 "2D-Subtitulado": [
                     "14:00",
@@ -808,7 +792,7 @@
         },
         "imdb_url": "https://www.imdb.com/title/tt32897959/",
         "imdb_rating": "6.3",
-        "metascore": "56",
+        "metascore": "55",
         "imdb_duration": "2h 16m"
     },
     {
@@ -818,7 +802,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5411.jpg",
         "duration": "100 minutos.",
         "showing_days": [
-            "2026-02-17",
             "2026-02-18",
             "2026-02-19",
             "2026-02-20",
@@ -829,12 +812,6 @@
             "2026-02-25"
         ],
         "showtimes": {
-            "2026-02-17": {
-                "2D-Doblada": [
-                    "19:15",
-                    "21:55"
-                ]
-            },
             "2026-02-18": {
                 "2D-Doblada": [
                     "14:30",
@@ -908,15 +885,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5415.jpg",
         "duration": "115 minutos.",
         "showing_days": [
-            "2026-02-17",
             "2026-02-18"
         ],
         "showtimes": {
-            "2026-02-17": {
-                "2D-Castellano": [
-                    "20:00"
-                ]
-            },
             "2026-02-18": {
                 "2D-Castellano": [
                     "20:00"
@@ -956,7 +927,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5392.jpg",
         "duration": "126 minutos.",
         "showing_days": [
-            "2026-02-17",
             "2026-02-18",
             "2026-02-19",
             "2026-02-20",
@@ -967,12 +937,6 @@
             "2026-02-25"
         ],
         "showtimes": {
-            "2026-02-17": {
-                "2D-Subtitulado": [
-                    "19:30",
-                    "22:10"
-                ]
-            },
             "2026-02-18": {
                 "2D-Subtitulado": [
                     "16:45",
@@ -1070,15 +1034,9 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5393.jpg",
         "duration": "98 minutos.",
         "showing_days": [
-            "2026-02-17",
             "2026-02-18"
         ],
         "showtimes": {
-            "2026-02-17": {
-                "2D-Subtitulado": [
-                    "22:35"
-                ]
-            },
             "2026-02-18": {
                 "2D-Subtitulado": [
                     "22:35"
@@ -1097,7 +1055,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5360.jpg",
         "duration": "113 minutos.",
         "showing_days": [
-            "2026-02-17",
             "2026-02-18",
             "2026-02-19",
             "2026-02-20",
@@ -1108,12 +1065,6 @@
             "2026-02-25"
         ],
         "showtimes": {
-            "2026-02-17": {
-                "2D-Subtitulado": [
-                    "19:55",
-                    "22:25"
-                ]
-            },
             "2026-02-18": {
                 "2D-Subtitulado": [
                     "14:00",
@@ -1197,7 +1148,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5305.jpg",
         "duration": "95 minutos.",
         "showing_days": [
-            "2026-02-17",
             "2026-02-19",
             "2026-02-20",
             "2026-02-21",
@@ -1207,11 +1157,6 @@
             "2026-02-25"
         ],
         "showtimes": {
-            "2026-02-17": {
-                "2D-Castellano": [
-                    "19:40"
-                ]
-            },
             "2026-02-19": {
                 "2D-Castellano": [
                     "22:25"
@@ -1260,7 +1205,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5304.jpg",
         "duration": "149 minutos.",
         "showing_days": [
-            "2026-02-17",
             "2026-02-18",
             "2026-02-19",
             "2026-02-20",
@@ -1271,12 +1215,6 @@
             "2026-02-25"
         ],
         "showtimes": {
-            "2026-02-17": {
-                "2D-Subtitulado": [
-                    "19:10",
-                    "22:15"
-                ]
-            },
             "2026-02-18": {
                 "2D-Subtitulado": [
                     "16:05",
@@ -1367,7 +1305,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5252b.jpg",
         "duration": "131 minutos.",
         "showing_days": [
-            "2026-02-17",
             "2026-02-18",
             "2026-02-19",
             "2026-02-20",
@@ -1378,12 +1315,6 @@
             "2026-02-25"
         ],
         "showtimes": {
-            "2026-02-17": {
-                "2D-Subtitulado": [
-                    "19:20",
-                    "22:05"
-                ]
-            },
             "2026-02-18": {
                 "2D-Subtitulado": [
                     "19:20",
@@ -1508,7 +1439,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5206.jpg",
         "duration": "197 minutos.",
         "showing_days": [
-            "2026-02-17",
             "2026-02-18",
             "2026-02-19",
             "2026-02-20",
@@ -1519,11 +1449,6 @@
             "2026-02-25"
         ],
         "showtimes": {
-            "2026-02-17": {
-                "3D-HFR Subtitulada": [
-                    "18:45"
-                ]
-            },
             "2026-02-18": {
                 "3D-HFR Subtitulada": [
                     "18:45"
