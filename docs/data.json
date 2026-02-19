@@ -174,8 +174,8 @@
             }
         },
         "imdb_url": "https://www.imdb.com/title/tt35003538/",
-        "imdb_rating": "8.2",
-        "metascore": "87",
+        "imdb_rating": "8.5",
+        "metascore": "85",
         "imdb_duration": "1h 30m"
     },
     {
@@ -219,48 +219,6 @@
         "imdb_rating": "N/A",
         "metascore": "N/A",
         "imdb_duration": "2h 3m"
-    },
-    {
-        "title": "The Rose: Regresa A M\u00ed",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5416&house_id=3206",
-        "original_title": "THE ROSE: COME BACK TO ME",
-        "poster_url": "https://static.voyalcine.net/Uploads/i5416.jpg",
-        "duration": "97 minutos.",
-        "showing_days": [
-            "2026-02-18"
-        ],
-        "showtimes": {
-            "2026-02-18": {
-                "2D-Subtitulado": [
-                    "19:40"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt36589890/",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "1h 25m"
-    },
-    {
-        "title": "Chase Atlantic: Lost In Heaven",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5321&house_id=3206",
-        "original_title": "CHASE ATLANTIC: LOST IN HEAVEN",
-        "poster_url": "https://static.voyalcine.net/Uploads/i5321.jpg",
-        "duration": "100 minutos.",
-        "showing_days": [
-            "2026-02-18"
-        ],
-        "showtimes": {
-            "2026-02-18": {
-                "2D-Subtitulado": [
-                    "22:00"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt39313510/",
-        "imdb_rating": "N/A",
-        "metascore": "N/A",
-        "imdb_duration": "1h 41m"
     },
     {
         "title": "El Descenso",
@@ -662,35 +620,12 @@
         "imdb_duration": "2h 10m"
     },
     {
-        "title": "Caminos Del Crimen",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5412&house_id=3206",
-        "original_title": "CRIME 101",
-        "poster_url": "https://static.voyalcine.net/Uploads/i5412.jpg",
-        "duration": "140 minutos.",
-        "showing_days": [
-            "2026-02-18"
-        ],
-        "showtimes": {
-            "2026-02-18": {
-                "2D-Subtitulado": [
-                    "14:15",
-                    "22:30"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt32430579/",
-        "imdb_rating": "7.2",
-        "metascore": "68",
-        "imdb_duration": "2h 19m"
-    },
-    {
         "title": "Cumbres Borrascosas",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5359&house_id=3206",
         "original_title": "WUTHERING HEIGHTS",
         "poster_url": "https://static.voyalcine.net/Uploads/i5359.jpg",
         "duration": "136 minutos.",
         "showing_days": [
-            "2026-02-18",
             "2026-02-19",
             "2026-02-20",
             "2026-02-21",
@@ -700,18 +635,6 @@
             "2026-02-25"
         ],
         "showtimes": {
-            "2026-02-18": {
-                "2D-Subtitulado": [
-                    "14:00",
-                    "16:30",
-                    "16:50",
-                    "19:25",
-                    "19:45",
-                    "21:35",
-                    "22:20",
-                    "22:40"
-                ]
-            },
             "2026-02-19": {
                 "2D-Subtitulado": [
                     "14:00",
@@ -802,7 +725,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5411.jpg",
         "duration": "100 minutos.",
         "showing_days": [
-            "2026-02-18",
             "2026-02-19",
             "2026-02-20",
             "2026-02-21",
@@ -812,17 +734,6 @@
             "2026-02-25"
         ],
         "showtimes": {
-            "2026-02-18": {
-                "2D-Doblada": [
-                    "14:30",
-                    "16:25",
-                    "17:00",
-                    "19:15"
-                ],
-                "3D-Doblada": [
-                    "14:10"
-                ]
-            },
             "2026-02-19": {
                 "2D-Doblada": [
                     "14:30",
@@ -874,51 +785,9 @@
             }
         },
         "imdb_url": "https://www.imdb.com/title/tt27613895/",
-        "imdb_rating": "7.0",
+        "imdb_rating": "6.9",
         "metascore": "60",
         "imdb_duration": "1h 40m"
-    },
-    {
-        "title": "Romer\u00eda",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5415&house_id=3206",
-        "original_title": "ROMER\u00cdA",
-        "poster_url": "https://static.voyalcine.net/Uploads/i5415.jpg",
-        "duration": "115 minutos.",
-        "showing_days": [
-            "2026-02-18"
-        ],
-        "showtimes": {
-            "2026-02-18": {
-                "2D-Castellano": [
-                    "20:00"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt32538648/",
-        "imdb_rating": "6.9",
-        "metascore": "74",
-        "imdb_duration": "1h 54m"
-    },
-    {
-        "title": "Arco",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5395&house_id=3206",
-        "original_title": "ARCO",
-        "poster_url": "https://static.voyalcine.net/Uploads/i5395.jpg",
-        "duration": "88 minutos.",
-        "showing_days": [
-            "2026-02-18"
-        ],
-        "showtimes": {
-            "2026-02-18": {
-                "2D-Doblada": [
-                    "13:55"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt14883538/",
-        "imdb_rating": "7.5",
-        "metascore": "73",
-        "imdb_duration": "1h 28m"
     },
     {
         "title": "Hamnet",
@@ -927,7 +796,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5392.jpg",
         "duration": "126 minutos.",
         "showing_days": [
-            "2026-02-18",
             "2026-02-19",
             "2026-02-20",
             "2026-02-21",
@@ -937,13 +805,6 @@
             "2026-02-25"
         ],
         "showtimes": {
-            "2026-02-18": {
-                "2D-Subtitulado": [
-                    "16:45",
-                    "19:30",
-                    "22:10"
-                ]
-            },
             "2026-02-19": {
                 "2D-Subtitulado": [
                     "14:20",
@@ -1007,55 +868,12 @@
         "imdb_duration": "2h 5m"
     },
     {
-        "title": "Stray Kids: The Dominate Experience",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5298&house_id=3206",
-        "original_title": "Stray Kids: The dominATE Experience",
-        "poster_url": "https://static.voyalcine.net/Uploads/i5298.jpg",
-        "duration": "146 minutos.",
-        "showing_days": [
-            "2026-02-18"
-        ],
-        "showtimes": {
-            "2026-02-18": {
-                "2D-Subtitulado": [
-                    "16:30"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt39216314/",
-        "imdb_rating": "8.4",
-        "metascore": "N/A",
-        "imdb_duration": "2h 26m"
-    },
-    {
-        "title": "El D\u00eda Del Fin Del Mundo: Migraci\u00f3n",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5393&house_id=3206",
-        "original_title": "GREENLAND 2: MIGRATION",
-        "poster_url": "https://static.voyalcine.net/Uploads/i5393.jpg",
-        "duration": "98 minutos.",
-        "showing_days": [
-            "2026-02-18"
-        ],
-        "showtimes": {
-            "2026-02-18": {
-                "2D-Subtitulado": [
-                    "22:35"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt14850054/",
-        "imdb_rating": "5.3",
-        "metascore": "49",
-        "imdb_duration": "1h 38m"
-    },
-    {
         "title": "\u00a1Ayuda!",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5360&house_id=3206",
         "original_title": "SEND HELP",
         "poster_url": "https://static.voyalcine.net/Uploads/i5360.jpg",
         "duration": "113 minutos.",
         "showing_days": [
-            "2026-02-18",
             "2026-02-19",
             "2026-02-20",
             "2026-02-21",
@@ -1065,13 +883,6 @@
             "2026-02-25"
         ],
         "showtimes": {
-            "2026-02-18": {
-                "2D-Subtitulado": [
-                    "14:00",
-                    "19:55",
-                    "22:25"
-                ]
-            },
             "2026-02-19": {
                 "2D-Subtitulado": [
                     "14:05",
@@ -1119,27 +930,6 @@
         "imdb_rating": "7.2",
         "metascore": "75",
         "imdb_duration": "1h 53m"
-    },
-    {
-        "title": "El Gran Premio A Toda Velocidad",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5363&house_id=3206",
-        "original_title": "GRAND PRIX OF EUROPE",
-        "poster_url": "https://static.voyalcine.net/Uploads/i5363.jpg",
-        "duration": "97 minutos.",
-        "showing_days": [
-            "2026-02-18"
-        ],
-        "showtimes": {
-            "2026-02-18": {
-                "2D-Doblada": [
-                    "14:25"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt32897929/",
-        "imdb_rating": "5.8",
-        "metascore": "N/A",
-        "imdb_duration": "1h 38m"
     },
     {
         "title": "La Virgen De La Tosquera",
@@ -1205,7 +995,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5304.jpg",
         "duration": "149 minutos.",
         "showing_days": [
-            "2026-02-18",
             "2026-02-19",
             "2026-02-20",
             "2026-02-21",
@@ -1215,13 +1004,6 @@
             "2026-02-25"
         ],
         "showtimes": {
-            "2026-02-18": {
-                "2D-Subtitulado": [
-                    "16:05",
-                    "19:10",
-                    "22:15"
-                ]
-            },
             "2026-02-19": {
                 "2D-Subtitulado": [
                     "16:15",
@@ -1278,34 +1060,12 @@
         "imdb_duration": "2h 29m"
     },
     {
-        "title": "Familia En Renta",
-        "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5283&house_id=3206",
-        "original_title": "RENTAL FAMILY",
-        "poster_url": "https://static.voyalcine.net/Uploads/i5283.jpg",
-        "duration": "110 minutos.",
-        "showing_days": [
-            "2026-02-18"
-        ],
-        "showtimes": {
-            "2026-02-18": {
-                "2D-Subtitulado": [
-                    "14:05"
-                ]
-            }
-        },
-        "imdb_url": "https://www.imdb.com/title/tt14142060/",
-        "imdb_rating": "7.6",
-        "metascore": "64",
-        "imdb_duration": "1h 49m"
-    },
-    {
         "title": "La Empleada",
         "href": "https://entradas.todoshowcase.com/showcase/pelicula?filmid=5252&house_id=3206",
         "original_title": "THE HOUSEMAID",
         "poster_url": "https://static.voyalcine.net/Uploads/i5252b.jpg",
         "duration": "131 minutos.",
         "showing_days": [
-            "2026-02-18",
             "2026-02-19",
             "2026-02-20",
             "2026-02-21",
@@ -1315,12 +1075,6 @@
             "2026-02-25"
         ],
         "showtimes": {
-            "2026-02-18": {
-                "2D-Subtitulado": [
-                    "19:20",
-                    "22:05"
-                ]
-            },
             "2026-02-19": {
                 "2D-Subtitulado": [
                     "16:40",
@@ -1376,7 +1130,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5256.jpg",
         "duration": "133 minutos.",
         "showing_days": [
-            "2026-02-18",
             "2026-02-19",
             "2026-02-20",
             "2026-02-21",
@@ -1386,11 +1139,6 @@
             "2026-02-25"
         ],
         "showtimes": {
-            "2026-02-18": {
-                "2D-Subtitulado": [
-                    "17:10"
-                ]
-            },
             "2026-02-19": {
                 "2D-Subtitulado": [
                     "22:15"
@@ -1439,7 +1187,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5206.jpg",
         "duration": "197 minutos.",
         "showing_days": [
-            "2026-02-18",
             "2026-02-19",
             "2026-02-20",
             "2026-02-21",
@@ -1449,14 +1196,6 @@
             "2026-02-25"
         ],
         "showtimes": {
-            "2026-02-18": {
-                "3D-HFR Subtitulada": [
-                    "18:45"
-                ],
-                "2D-HFR Doblada": [
-                    "16:00"
-                ]
-            },
             "2026-02-19": {
                 "3D-HFR Subtitulada": [
                     "18:30"
@@ -1526,7 +1265,6 @@
         "poster_url": "https://static.voyalcine.net/Uploads/i5156.jpg",
         "duration": "108 minutos.",
         "showing_days": [
-            "2026-02-18",
             "2026-02-19",
             "2026-02-20",
             "2026-02-21",
@@ -1536,12 +1274,6 @@
             "2026-02-25"
         ],
         "showtimes": {
-            "2026-02-18": {
-                "2D-Doblada": [
-                    "14:20",
-                    "16:55"
-                ]
-            },
             "2026-02-19": {
                 "2D-Doblada": [
                     "14:00",
