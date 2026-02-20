@@ -215,7 +215,7 @@ class MovieScraper:
         if not query:
             return "IMDb URL not found"
 
-        return "https://www.imdb.com/find/?q=" + quote_plus(query)
+        return "https://www.imdb.com/find/?q=" + quote_plus(query) + "&s=tt&ttype=ft"
 
     def get_imdb_url(self, original_title, max_retries=2):
         search_url = self._build_imdb_search_url(original_title)
@@ -228,15 +228,35 @@ class MovieScraper:
                 WebDriverWait(self.driver, 10).until(
                     EC.presence_of_element_located((By.CSS_SELECTOR, '[data-testid="find-results-section-title"]'))
                 )
-                first_result = self.driver.find_element(
-                    By.CSS_SELECTOR,
-                    '[data-testid="find-results-section-title"] .ipc-metadata-list-summary-item a'
-                )
-                href = first_result.get_attribute('href')
-                if href and '/title/tt' in href:
-                    match = re.search(r'/title/(tt\d+)', href)
+
+                item_selector = '[data-testid="find-results-section-title"] .ipc-metadata-list-summary-item'
+                results = self.driver.find_elements(By.CSS_SELECTOR, item_selector)
+
+                fallback_href = None
+                query_lower = original_title.strip().lower()
+
+                for result in results:
+                    try:
+                        link = result.find_element(By.CSS_SELECTOR, 'a[href*="/title/tt"]')
+                        href = link.get_attribute('href')
+                        if not href or '/title/tt' not in href:
+                            continue
+
+                        if fallback_href is None:
+                            fallback_href = href
+
+                        title_el = result.find_element(By.CSS_SELECTOR, 'h3')
+                        if title_el.text.strip().lower() == query_lower:
+                            fallback_href = href
+                            break
+                    except Exception:
+                        continue
+
+                if fallback_href:
+                    match = re.search(r'/title/(tt\d+)', fallback_href)
                     if match:
                         return f"https://www.imdb.com/title/{match.group(1)}/"
+
                 return search_url
             except Exception as exc:
                 self.logger.warning(

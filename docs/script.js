@@ -78,10 +78,12 @@ function makeMovieId(date, movie) {
 const TIME_STEP_MINUTES = 30;
 let timeFilterAccordionId = 0;
 
-// Unicode-aware title case that handles accented characters
+// Unicode-aware title case that handles accented characters and leading symbols (¿, ¡, etc.)
 function toTitleCase(str) {
-    return str.toLowerCase().replace(/(?:^|\s)\S/g, function(char) {
-        return char.toUpperCase();
+    return str.toLowerCase().replace(/\S+/g, function(word) {
+        return word.replace(/\p{L}/u, function(char) {
+            return char.toUpperCase();
+        });
     });
 }
 
