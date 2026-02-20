@@ -186,6 +186,13 @@ class MovieScraper:
 
         showtimes_by_format = self.extract_showtimes()
 
+        # Extract director from side info box
+        director = ''
+        for li in self.driver.find_elements(By.CSS_SELECTOR, '.movie-side-info-box ul > li'):
+            if 'Director:' in li.text:
+                director = li.text.replace('Director:', '').strip()
+                break
+
         movie_info = {
             'title': title,
             'href': href,
@@ -196,8 +203,8 @@ class MovieScraper:
             'showtimes': showtimes_by_format
         }
 
-        # Fetch the IMDb URL using the original title
-        imdb_url = self.get_imdb_url(original_title)
+        # Fetch the IMDb URL using the original title and director for disambiguation
+        imdb_url = self.get_imdb_url(original_title, director=director)
         # Fetch additional IMDb information (rating and votes)
         imdb_info = self.scrape_imdb_info(imdb_url, movie_info['duration'])
 
@@ -217,7 +224,31 @@ class MovieScraper:
 
         return "https://www.imdb.com/find/?q=" + quote_plus(query) + "&s=tt&ttype=ft"
 
-    def get_imdb_url(self, original_title, max_retries=2):
+    def _extract_imdb_id_url(self, href):
+        """Extract a clean IMDb title URL from a raw href."""
+        match = re.search(r'/title/(tt\d+)', href)
+        if match:
+            return f"https://www.imdb.com/title/{match.group(1)}/"
+        return None
+
+    def _verify_imdb_director(self, imdb_url, director):
+        """Visit an IMDb title page and check if the director matches."""
+        try:
+            self.driver.get(imdb_url)
+            WebDriverWait(self.driver, 10).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, '[data-testid="hero__pageTitle"]'))
+            )
+            # The principal credits section lists Director, Writer, Stars
+            credits_text = self.driver.find_element(By.CSS_SELECTOR, 'main').text
+            # Compare using the director's last name to handle minor differences
+            director_parts = director.strip().split()
+            last_name = director_parts[-1] if director_parts else ''
+            return last_name.lower() in credits_text.lower() if last_name else False
+        except Exception as exc:
+            self.logger.warning("Director verification failed for %s: %s", imdb_url, exc)
+            return False
+
+    def get_imdb_url(self, original_title, director='', max_retries=2):
         search_url = self._build_imdb_search_url(original_title)
         if search_url == "IMDb URL not found":
             return search_url
@@ -233,6 +264,7 @@ class MovieScraper:
                 results = self.driver.find_elements(By.CSS_SELECTOR, item_selector)
 
                 fallback_href = None
+                exact_matches = []
                 query_lower = original_title.strip().lower()
 
                 for result in results:
@@ -247,15 +279,37 @@ class MovieScraper:
 
                         title_el = result.find_element(By.CSS_SELECTOR, 'h3')
                         if title_el.text.strip().lower() == query_lower:
-                            fallback_href = href
-                            break
+                            exact_matches.append(href)
                     except Exception:
                         continue
 
+                # Single exact match or no director to verify: use first exact match
+                if exact_matches and (len(exact_matches) == 1 or not director):
+                    url = self._extract_imdb_id_url(exact_matches[0])
+                    if url:
+                        return url
+
+                # Multiple exact matches with director: verify each candidate
+                if len(exact_matches) > 1 and director:
+                    self.logger.info(
+                        "Multiple exact matches for '%s', verifying director '%s'",
+                        original_title, director
+                    )
+                    for href in exact_matches:
+                        candidate_url = self._extract_imdb_id_url(href)
+                        if candidate_url and self._verify_imdb_director(candidate_url, director):
+                            self.logger.info("Director match found: %s", candidate_url)
+                            return candidate_url
+                    # No director match — fall back to first exact match
+                    url = self._extract_imdb_id_url(exact_matches[0])
+                    if url:
+                        return url
+
+                # No exact match — use first result
                 if fallback_href:
-                    match = re.search(r'/title/(tt\d+)', fallback_href)
-                    if match:
-                        return f"https://www.imdb.com/title/{match.group(1)}/"
+                    url = self._extract_imdb_id_url(fallback_href)
+                    if url:
+                        return url
 
                 return search_url
             except Exception as exc:
